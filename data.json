@@ -128,6 +128,60 @@
           ]
         },
         {
+          "id": "duraklama-donemi-padisahlar",
+          "baslik": "Duraklama Dönemi: Padişahlar",
+          "mod": "havuz",
+          "ust": [
+            { "id": "p13", "metin": "IV. Mehmet" },
+            { "id": "p14", "metin": "II. Osman" },
+            { "id": "p15", "metin": "III. Murat" },
+            { "id": "p16", "metin": "III. Mehmet" },
+            { "id": "p17", "metin": "I. Ahmet" },
+            { "id": "p18", "metin": "IV. Murat" },
+            { "id": "p19", "metin": "II. Mustafa" }
+          ],
+          "havuz": [
+            { "id": "i83", "ustId": "p13", "metin": "Tarhuncu Ahmet Paşa'ya ilk denk bütçeyi hazırlattı" },
+            { "id": "i84", "ustId": "p13", "metin": "Lehistan ile yapılan barış antlaşmasıyla Batı'da en geniş sınırlara ulaşıldı" },
+            { "id": "i85", "ustId": "p13", "metin": "Vak'a-i Vakvakiye Olayı yaşandı" },
+            { "id": "i86", "ustId": "p13", "metin": "Venedik'ten Girit, Avusturya'dan Uyvar Kalesi alındı" },
+            { "id": "i87", "ustId": "p13", "metin": "Tarhuncu Ahmet Paşa, Köprülü Mehmet Paşa, Köprülü Fazıl Ahmet Paşa ve Merzifonlu Kara Mustafa Paşa döneminde sadrazamlık yapmıştır" },
+            { "id": "i88", "ustId": "p13", "metin": "En genç padişahtır" },
+            { "id": "i89", "ustId": "p13", "metin": "İkinci Viyana Kuşatması gerçekleştirilmiştir" },
+
+            { "id": "i90", "ustId": "p14", "metin": "Hotin Seferi'nde yeniçerilerin isteksizliğini gördü" },
+            { "id": "i91", "ustId": "p14", "metin": "İlk yenilik yapan padişahtır" },
+            { "id": "i92", "ustId": "p14", "metin": "Yeniçeriler tarafından öldürülen ilk padişahtır" },
+            { "id": "i93", "ustId": "p14", "metin": "Saray dışında evlilik yapan ilk padişahtır" },
+            { "id": "i94", "ustId": "p14", "metin": "Yeniçeri Ocağı'nı kapatmayı düşünen ilk padişahtır" },
+            { "id": "i95", "ustId": "p14", "metin": "Farisi mahlasıyla şiir yazmıştır" },
+
+            { "id": "i96", "ustId": "p15", "metin": "Yükselme Dönemi'nin son, Duraklama Dönemi'nin ilk padişahıdır" },
+            { "id": "i97", "ustId": "p15", "metin": "Yeniçeri Ocağı'na dışarıdan alımlar başladı" },
+            { "id": "i98", "ustId": "p15", "metin": "İstanbul'da nüfus sayımı yaptırdı" },
+            { "id": "i99", "ustId": "p15", "metin": "Devalüasyon yapılarak paranın değeri düşürüldü" },
+            { "id": "i100", "ustId": "p15", "metin": "İran ile Ferhat Paşa Antlaşması yapıldı" },
+
+            { "id": "i101", "ustId": "p16", "metin": "Kanuni döneminde alınamayan Eğri Kalesi'ni aldı" },
+            { "id": "i102", "ustId": "p16", "metin": "Sancağa çıkıp padişah olan son hükümdardır" },
+            { "id": "i103", "ustId": "p16", "metin": "Sadeddin Efendi hocalığını yapmıştır" },
+            { "id": "i104", "ustId": "p16", "metin": "Haçova Meydan Savaşı ile Avusturya'yı yenmiştir" },
+            { "id": "i105", "ustId": "p16", "metin": "Kafes Sistemi'ni getirerek şehzadelerin sancağa çıkmasını yasaklamıştır" },
+
+            { "id": "i106", "ustId": "p17", "metin": "Ekber ve Erşed Sistemi'ni getirdi" },
+            { "id": "i107", "ustId": "p17", "metin": "Sancağa çıkmadan hükümdar olan ilk padişahtır" },
+            { "id": "i108", "ustId": "p17", "metin": "İran ile Nasuh Paşa Antlaşması, Avusturya ile Zitvatorok Antlaşması yapıldı" },
+            { "id": "i109", "ustId": "p17", "metin": "Bahti mahlasını kullanmıştır" },
+
+            { "id": "i110", "ustId": "p18", "metin": "Koçi Bey ve Kâtip Çelebi'ye risale hazırlattı" },
+            { "id": "i111", "ustId": "p18", "metin": "Bağdat Fatihi'dir" },
+            { "id": "i112", "ustId": "p18", "metin": "Revan Köşkü, Bağdat Köşkü ve Üsküdar Çinili Camii'ni yaptırmıştır" },
+            { "id": "i113", "ustId": "p18", "metin": "Hezarfen Ahmet Çelebi ve Lagari Hasan Çelebi uçuşlarını bu dönemde gerçekleştirmiştir" },
+
+            { "id": "i114", "ustId": "p19", "metin": "Venedik, Avusturya ve Lehistan ile Karlofça Antlaşması; Rusya ile 1700 İstanbul Antlaşması yapıldı" }
+          ]
+        },
+        {
           "id": "antlasmalar",
           "baslik": "Antlaşmalar ve Sonuçları",
           "mod": "liste",
