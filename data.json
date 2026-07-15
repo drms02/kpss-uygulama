@@ -2166,6 +2166,344 @@
               "metin": "Psödomaki"
             }
           ]
+        },
+        {
+          "id": "daglar",
+          "baslik": "Dağlar",
+          "mod": "harita",
+          "gorsel": "haritalar/turkiye-anahat.svg",
+          "noktalar": [
+            {
+              "id": "d1",
+              "x": 10.79,
+              "y": 1.62,
+              "metin": "Yıldız Dağları (Istranca)"
+            },
+            {
+              "id": "d2",
+              "x": 11.15,
+              "y": 15.46,
+              "metin": "Koru Dağı"
+            },
+            {
+              "id": "d3",
+              "x": 21.89,
+              "y": 23.96,
+              "metin": "Samanlı Dağları"
+            },
+            {
+              "id": "d4",
+              "x": 29.19,
+              "y": 38.0,
+              "metin": "Sündiken Dağları"
+            },
+            {
+              "id": "d5",
+              "x": 30.32,
+              "y": 53.63,
+              "metin": "Sultan Dağları"
+            },
+            {
+              "id": "d6",
+              "x": 19.62,
+              "y": 70.36,
+              "metin": "Akdağ"
+            },
+            {
+              "id": "d7",
+              "x": 24.74,
+              "y": 84.1,
+              "metin": "Beydağları"
+            },
+            {
+              "id": "d8",
+              "x": 25.6,
+              "y": 64.09,
+              "metin": "Barla Dağı"
+            },
+            {
+              "id": "d9",
+              "x": 32.65,
+              "y": 77.47,
+              "metin": "Geyik Dağı"
+            },
+            {
+              "id": "d10",
+              "x": 45.93,
+              "y": 78.8,
+              "metin": "Bolkar Dağları"
+            },
+            {
+              "id": "d11",
+              "x": 50.07,
+              "y": 67.59,
+              "metin": "Aladağlar"
+            },
+            {
+              "id": "d12",
+              "x": 56.29,
+              "y": 72.53,
+              "metin": "Tahtalı Dağları"
+            },
+            {
+              "id": "d13",
+              "x": 57.84,
+              "y": 61.99,
+              "metin": "Binboğa Dağları"
+            },
+            {
+              "id": "d14",
+              "x": 65.22,
+              "y": 59.02,
+              "metin": "Malatya Dağları"
+            },
+            {
+              "id": "d15",
+              "x": 80.17,
+              "y": 50.28,
+              "metin": "Mastar Dağı"
+            },
+            {
+              "id": "d16",
+              "x": 78.76,
+              "y": 64.89,
+              "metin": "Sason Dağı"
+            },
+            {
+              "id": "d17",
+              "x": 93.71,
+              "y": 71.33,
+              "metin": "Hakkari Dağları (Cilo-Sat)"
+            },
+            {
+              "id": "d18",
+              "x": 41.82,
+              "y": 4.62,
+              "metin": "Küre Dağları (İsfendiyar)"
+            },
+            {
+              "id": "d19",
+              "x": 29.83,
+              "y": 18.13,
+              "metin": "Bolu Dağları"
+            },
+            {
+              "id": "d20",
+              "x": 42.0,
+              "y": 18.46,
+              "metin": "Ilgaz Dağları"
+            },
+            {
+              "id": "d21",
+              "x": 35.89,
+              "y": 23.98,
+              "metin": "Köroğlu Dağları"
+            },
+            {
+              "id": "d22",
+              "x": 54.4,
+              "y": 30.62,
+              "metin": "Hınzır Dağı"
+            },
+            {
+              "id": "d23",
+              "x": 55.9,
+              "y": 16.02,
+              "metin": "Canik Dağları"
+            },
+            {
+              "id": "d24",
+              "x": 59.96,
+              "y": 39.06,
+              "metin": "Tecer Dağları"
+            },
+            {
+              "id": "d25",
+              "x": 61.81,
+              "y": 24.56,
+              "metin": "Giresun Dağları"
+            },
+            {
+              "id": "d26",
+              "x": 68.05,
+              "y": 20.98,
+              "metin": "Zigana Dağları"
+            },
+            {
+              "id": "d27",
+              "x": 73.85,
+              "y": 19.06,
+              "metin": "Soğanlı Dağları"
+            },
+            {
+              "id": "d28",
+              "x": 78.25,
+              "y": 14.31,
+              "metin": "Rize Dağları"
+            },
+            {
+              "id": "d29",
+              "x": 80.67,
+              "y": 20.79,
+              "metin": "Kaçkar Dağları"
+            },
+            {
+              "id": "d30",
+              "x": 68.22,
+              "y": 36.8,
+              "metin": "Çimen Dağı"
+            },
+            {
+              "id": "d31",
+              "x": 75.29,
+              "y": 31.77,
+              "metin": "Kop Dağı"
+            },
+            {
+              "id": "d32",
+              "x": 73.44,
+              "y": 43.74,
+              "metin": "Mercan Dağları"
+            },
+            {
+              "id": "d33",
+              "x": 80.83,
+              "y": 31.21,
+              "metin": "Mescit Dağları"
+            },
+            {
+              "id": "d34",
+              "x": 85.17,
+              "y": 15.23,
+              "metin": "Yalnızçam Dağları"
+            },
+            {
+              "id": "d35",
+              "x": 88.42,
+              "y": 24.74,
+              "metin": "Allahuekber Dağları"
+            },
+            {
+              "id": "d36",
+              "x": 18.79,
+              "y": 53.59,
+              "metin": "Kula (Volkanik Arazi)"
+            },
+            {
+              "id": "d37",
+              "x": 40.16,
+              "y": 73.06,
+              "metin": "Karadağ (Karaman)"
+            },
+            {
+              "id": "d38",
+              "x": 39.58,
+              "y": 58.76,
+              "metin": "Karacadağ (Konya)"
+            },
+            {
+              "id": "d39",
+              "x": 36.94,
+              "y": 66.09,
+              "metin": "Meke"
+            },
+            {
+              "id": "d40",
+              "x": 43.6,
+              "y": 65.87,
+              "metin": "Hasan Dağı"
+            },
+            {
+              "id": "d41",
+              "x": 46.11,
+              "y": 57.21,
+              "metin": "Melendiz Dağı"
+            },
+            {
+              "id": "d42",
+              "x": 52.43,
+              "y": 53.58,
+              "metin": "Erciyes Dağı"
+            },
+            {
+              "id": "d43",
+              "x": 72.49,
+              "y": 69.43,
+              "metin": "Karacadağ (Diyarbakır)"
+            },
+            {
+              "id": "d44",
+              "x": 85.19,
+              "y": 57.78,
+              "metin": "Nemrut Dağı"
+            },
+            {
+              "id": "d45",
+              "x": 86.81,
+              "y": 45.13,
+              "metin": "Süphan Dağı"
+            },
+            {
+              "id": "d46",
+              "x": 92.86,
+              "y": 46.88,
+              "metin": "Tendürek Dağı"
+            },
+            {
+              "id": "d47",
+              "x": 95.41,
+              "y": 32.7,
+              "metin": "Büyük Ağrı Dağı"
+            },
+            {
+              "id": "d48",
+              "x": 96.03,
+              "y": 40.49,
+              "metin": "Küçük Ağrı Dağı"
+            },
+            {
+              "id": "d49",
+              "x": 5.46,
+              "y": 33.88,
+              "metin": "Kaz Dağı (İda)"
+            },
+            {
+              "id": "d50",
+              "x": 10.91,
+              "y": 36.09,
+              "metin": "Madra Dağı"
+            },
+            {
+              "id": "d51",
+              "x": 8.22,
+              "y": 48.28,
+              "metin": "Yunt Dağı"
+            },
+            {
+              "id": "d52",
+              "x": 12.7,
+              "y": 59.26,
+              "metin": "Boz Dağ"
+            },
+            {
+              "id": "d53",
+              "x": 11.89,
+              "y": 70.22,
+              "metin": "Aydın Dağları"
+            },
+            {
+              "id": "d54",
+              "x": 15.85,
+              "y": 81.12,
+              "metin": "Menteşe Dağları"
+            },
+            {
+              "id": "d55",
+              "x": 55.16,
+              "y": 86.65,
+              "metin": "Amanos Dağları (Nur Dağları)"
+            }
+          ]
         }
       ]
     },
