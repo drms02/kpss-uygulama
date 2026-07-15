@@ -854,6 +854,12 @@
   veriYukle();
 
   if('serviceWorker' in navigator){
+    let yenilendi = false;
+    navigator.serviceWorker.addEventListener('controllerchange', () => {
+      if(yenilendi) return;
+      yenilendi = true;
+      window.location.reload();
+    });
     window.addEventListener('load', () => {
       navigator.serviceWorker.register('sw.js').catch(() => {});
     });

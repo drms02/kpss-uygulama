@@ -1,4 +1,4 @@
-const ONBELLEK = 'kpss-tarih-v1';
+const ONBELLEK = 'kpss-tarih-v2';
 const KABUK = ['./', './index.html', './manifest.json', './ikonlar/icon-192.png', './ikonlar/icon-512.png'];
 
 self.addEventListener('install', (e) => {
@@ -16,15 +16,16 @@ self.addEventListener('activate', (e) => {
 self.addEventListener('fetch', (e) => {
   if (e.request.method !== 'GET') return;
 
-  if (e.request.url.includes('data.json')) {
-    // veri her zaman ağdan taze çekilsin, sadece ağ yoksa önbellekten dönsün
-    e.respondWith(
-      fetch(e.request).catch(() => caches.match(e.request))
-    );
-    return;
-  }
-
+  // Her şey her zaman ağdan taze çekilsin (index.html dahil); sadece
+  // ağ yoksa (çevrimdışıyken) önbellekten dönsün. Böylece yeni bir
+  // değişiklik push'landığında bir sonraki açılışta hemen görünür.
   e.respondWith(
-    caches.match(e.request).then((yanit) => yanit || fetch(e.request))
+    fetch(e.request)
+      .then((yanit) => {
+        const kopya = yanit.clone();
+        caches.open(ONBELLEK).then((c) => c.put(e.request, kopya));
+        return yanit;
+      })
+      .catch(() => caches.match(e.request))
   );
 });
