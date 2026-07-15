@@ -182,6 +182,57 @@
           ]
         },
         {
+          "id": "gerileme-donemi-padisahlar",
+          "baslik": "Gerileme Dönemi: Padişahlar",
+          "mod": "havuz",
+          "ust": [
+            { "id": "p20", "metin": "III. Selim" },
+            { "id": "p21", "metin": "III. Ahmet" },
+            { "id": "p22", "metin": "I. Abdülhamit" },
+            { "id": "p23", "metin": "II. Mustafa" },
+            { "id": "p24", "metin": "I. Mahmut" },
+            { "id": "p25", "metin": "III. Mustafa" }
+          ],
+          "havuz": [
+            { "id": "i115", "ustId": "p20", "metin": "Nizam-ı Cedit ıslahatlarını gerçekleştiren padişahtır" },
+            { "id": "i116", "ustId": "p20", "metin": "İrad-ı Cedit Hazinesi kurulmuştur" },
+            { "id": "i117", "ustId": "p20", "metin": "İlk devlet matbaası Matbaa-i Âmire açılmıştır" },
+            { "id": "i118", "ustId": "p20", "metin": "İlk defa kalıcı elçilikler açılmıştır" },
+            { "id": "i119", "ustId": "p20", "metin": "Mühendishane-i Berri Hümayun açılmıştır" },
+            { "id": "i120", "ustId": "p20", "metin": "Kabakçı Mustafa İsyanı ile tahttan indirilmiştir" },
+            { "id": "i121", "ustId": "p20", "metin": "Viyana'ya elçi olarak gönderilen Ebubekir Ratib Efendi'nin Avrupa'da gördüklerini yazdığı 500 sayfalık Sefaretname'sini sunduğu padişahtır" },
+            { "id": "i122", "ustId": "p20", "metin": "Meşveret Meclisi (danışma kurulu) oluşturulmuştur" },
+            { "id": "i123", "ustId": "p20", "metin": "Yıldız Sarayı'nı yaptıran padişahtır" },
+
+            { "id": "i124", "ustId": "p21", "metin": "Lale Devri'nin padişahıdır" },
+            { "id": "i125", "ustId": "p21", "metin": "İlk defa geçici elçilikler açılmıştır" },
+            { "id": "i126", "ustId": "p21", "metin": "Islahatlarda ilk defa Batı örnek alınmıştır" },
+            { "id": "i127", "ustId": "p21", "metin": "İlk defa matbaa getirilmiştir" },
+            { "id": "i128", "ustId": "p21", "metin": "Tulumbacılar Ocağı kurulmuştur" },
+            { "id": "i129", "ustId": "p21", "metin": "Patrona Halil İsyanı ile tahttan indirilmiştir" },
+            { "id": "i130", "ustId": "p21", "metin": "Prut ve Pasarofça Antlaşmaları imzalanmıştır" },
+
+            { "id": "i131", "ustId": "p22", "metin": "İstihkam Okulu açılmıştır" },
+            { "id": "i132", "ustId": "p22", "metin": "Cülus bahşişi verme geleneği kaldırılmıştır" },
+            { "id": "i133", "ustId": "p22", "metin": "Yabancı uzmanların Müslüman olma şartı kaldırılmıştır" },
+            { "id": "i134", "ustId": "p22", "metin": "Halifelik ilk defa siyasi güç olarak kullanılmıştır" },
+            { "id": "i135", "ustId": "p22", "metin": "Küçük Kaynarca Antlaşması imzalanmıştır" },
+            { "id": "i136", "ustId": "p22", "metin": "Mühendishane-i Bahri Hümayun açılmıştır" },
+            { "id": "i137", "ustId": "p22", "metin": "İlk kez yeniçeri sayımı yapılarak ulufe alım satımı yasaklanmıştır" },
+
+            { "id": "i138", "ustId": "p23", "metin": "Edirne Vakası ile tahttan indirilmiştir" },
+            { "id": "i139", "ustId": "p23", "metin": "Ordunun başında sefere çıkan son padişahtır" },
+            { "id": "i140", "ustId": "p23", "metin": "Duraklama Dönemi'nin son, Gerileme Dönemi'nin ilk padişahıdır" },
+            { "id": "i141", "ustId": "p23", "metin": "Hat sanatıyla uğraşan ve eserleri günümüze ulaşan ilk padişahtır" },
+
+            { "id": "i142", "ustId": "p24", "metin": "Askeri alanda Batı ilk defa örnek alınmıştır" },
+            { "id": "i143", "ustId": "p24", "metin": "Hendesehane açılmıştır" },
+
+            { "id": "i144", "ustId": "p25", "metin": "Esham sistemi uygulanmıştır" },
+            { "id": "i145", "ustId": "p25", "metin": "Sürat Topçuları Ocağı açılmıştır" }
+          ]
+        },
+        {
           "id": "antlasmalar",
           "baslik": "Antlaşmalar ve Sonuçları",
           "mod": "liste",
