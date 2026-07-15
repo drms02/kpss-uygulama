@@ -362,11 +362,32 @@
         {
           "id": "devlet-teskilati",
           "baslik": "Devlet Teşkilatı Sınıflandırması",
-          "mod": "liste",
-          "pairs": [
-            { "left": "Seyfiye", "right": "Padişahın kılıç ve güç temsilcisidir; yönetim ve askeriye işlerinden sorumlu sınıftır" },
-            { "left": "Kalemiye", "right": "Devletin yazışma, maliye ve dış ilişkilerini yürüten bürokrasi sınıfıdır" },
-            { "left": "İlmiye", "right": "Din, hukuk ve eğitim işlerine bakan; medrese eğitimi almış sınıftır" }
+          "mod": "havuz",
+          "ust": [
+            { "id": "p39", "metin": "Seyfiye" },
+            { "id": "p40", "metin": "Kalemiye" },
+            { "id": "p41", "metin": "İlmiye" }
+          ],
+          "havuz": [
+            { "id": "i230", "ustId": "p39", "metin": "Veziriazam (Sadrazam)" },
+            { "id": "i231", "ustId": "p39", "metin": "Vezirler (Kubbealtı Vezirleri)" },
+            { "id": "i232", "ustId": "p39", "metin": "Yeniçeri Ağası" },
+            { "id": "i233", "ustId": "p39", "metin": "Kaptan-ı Derya" },
+            { "id": "i234", "ustId": "p39", "metin": "Beylerbeyi" },
+            { "id": "i235", "ustId": "p39", "metin": "Sancakbeyi" },
+            { "id": "i236", "ustId": "p39", "metin": "Subaşı" },
+            { "id": "i237", "ustId": "p39", "metin": "Tımarlı Sipahiler" },
+
+            { "id": "i238", "ustId": "p40", "metin": "Defterdar" },
+            { "id": "i239", "ustId": "p40", "metin": "Nişancı" },
+            { "id": "i240", "ustId": "p40", "metin": "Reisülküttap" },
+            { "id": "i241", "ustId": "p40", "metin": "Kâtipler ve Eminler" },
+
+            { "id": "i242", "ustId": "p41", "metin": "Şeyhülislam (Müftü)" },
+            { "id": "i243", "ustId": "p41", "metin": "Kazasker (Kadıasker)" },
+            { "id": "i244", "ustId": "p41", "metin": "Kadı" },
+            { "id": "i245", "ustId": "p41", "metin": "Müderris" },
+            { "id": "i246", "ustId": "p41", "metin": "Naib" }
           ]
         },
         {
