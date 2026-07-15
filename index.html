@@ -163,6 +163,8 @@
   }
   .bitis-karti h2{ font-family:'Cinzel', serif; font-size:22px; color:var(--altin-parlak); margin:0 0 8px; letter-spacing:0.5px;}
   .bitis-karti p{ color: var(--fildisi-soluk); font-size:14px; }
+  .hata-ozeti{ color: var(--altin-parlak); margin-top:10px; line-height:1.6; }
+  .hata-ozeti strong{ color: var(--fildisi); }
   .yeniden-btn{
     margin-top:14px; padding:10px 24px; background:transparent; color:var(--altin);
     border:1px solid var(--altin); font-family:'IBM Plex Mono', monospace;
@@ -341,14 +343,18 @@
   // Doğru eşleşen alt kart havuzdan düşer, yerine havuzdan
   // yeni bir kart gelir. Üsttekiler oturum boyunca değişmez.
 
-  let hUst = [], hHavuzKalan = [], hGorunen = [], hToplam = 0, hTamamlanan = 0, hDeneme = 0;
+  let hUst = [], hTumMaddeler = [], hHavuzKalan = [], hGorunen = [];
+  let hAsamaToplam = 0, hAsamaTamamlanan = 0, hDeneme = 0, hDogruSayisi = 0;
+  let hFaz = 'ilk', hHataliIdSet = new Set();
   let hSeciliUst = null, hSeciliMadde = null, hKilitli = false;
 
   function havuzOyunuKur(bolum){
     hUst = bolum.ust;
+    hTumMaddeler = bolum.havuz;
     hHavuzKalan = karistir(bolum.havuz);
-    hToplam = bolum.havuz.length;
-    hTamamlanan = 0; hDeneme = 0;
+    hAsamaToplam = bolum.havuz.length; hAsamaTamamlanan = 0;
+    hDeneme = 0; hDogruSayisi = 0;
+    hFaz = 'ilk'; hHataliIdSet = new Set();
     hSeciliUst = null; hSeciliMadde = null; hKilitli = false;
 
     hGorunen = hHavuzKalan.splice(0, hUst.length);
@@ -365,12 +371,12 @@
         <div class="kart-izgara" id="hUstIzgara"></div>
       </div>
       <div class="havuz-blok">
-        <div class="havuz-etiket">Havuzdan gelen maddeler</div>
+        <div class="havuz-etiket" id="hAltEtiket">Havuzdan gelen maddeler</div>
         <div class="kart-izgara" id="hAltIzgara"></div>
       </div>
       <div class="bitis-karti" id="hBitis" style="display:none;">
         <h2>Fasıl tamamlandı</h2>
-        <p id="hBitisDetay"></p>
+        <div id="hBitisDetay"></div>
         <button class="yeniden-btn" onclick="havuzOyunuKur(bolumBul(aktifDersId, aktifBolumId))">Baştan başla</button>
       </div>
     `;
@@ -436,7 +442,8 @@
         ustEl.classList.remove('secili');
         maddeEl.classList.remove('secili');
         maddeEl.classList.add('cikiyor');
-        hTamamlanan++;
+        hDogruSayisi++;
+        hAsamaTamamlanan++;
         muhurGoster();
         setTimeout(() => {
           hGorunen = hGorunen.filter(o => o.id !== hSeciliMadde.ogr.id);
@@ -446,31 +453,63 @@
           hAltIzgaraCiz();
           hSeciliUst = null; hSeciliMadde = null; hKilitli = false;
           hDurumGuncelle();
-          if(hTamamlanan === hToplam) hTamamlandi();
+          if(hAsamaTamamlanan === hAsamaToplam) hFazBitti();
         }, 260);
       } else {
+        hHataliIdSet.add(hSeciliMadde.ogr.id);
         ustEl.classList.add('yanlis-titre');
         maddeEl.classList.add('yanlis-titre');
         setTimeout(() => {
           ustEl.classList.remove('secili','yanlis-titre');
           maddeEl.classList.remove('secili','yanlis-titre');
           hSeciliUst = null; hSeciliMadde = null; hKilitli = false;
+          hDurumGuncelle();
         }, 380);
       }
     }, dogruMu ? 200 : 420);
   }
 
   function hDurumGuncelle(){
-    document.getElementById('hSkorMetni').textContent = `${hTamamlanan} / ${hToplam} tamamlandı`;
-    document.getElementById('hDenemeMetni').textContent = `${hDeneme} deneme`;
-    const yuzde = hToplam ? Math.round((hTamamlanan / hToplam) * 100) : 0;
+    const yanlisSayisi = hDeneme - hDogruSayisi;
+    const fazEtiketi = hFaz === 'tekrar' ? 'Tekrar turu — ' : '';
+    document.getElementById('hSkorMetni').textContent = `${fazEtiketi}${hAsamaTamamlanan} / ${hAsamaToplam} tamamlandı`;
+    document.getElementById('hDenemeMetni').textContent = `✓ ${hDogruSayisi}   ✗ ${yanlisSayisi}`;
+    const yuzde = hAsamaToplam ? Math.round((hAsamaTamamlanan / hAsamaToplam) * 100) : 0;
     document.getElementById('hIlerleme').style.width = yuzde + '%';
   }
 
+  // İlk tur bitince yanlış yapılan maddeler varsa bir tekrar turu başlatır;
+  // hiç yoksa ya da tekrar turu da bitmişse faslı tamamlanmış sayar.
+  function hFazBitti(){
+    if(hFaz === 'ilk' && hHataliIdSet.size > 0){
+      hFaz = 'tekrar';
+      const tekrarListesi = karistir(hTumMaddeler.filter(o => hHataliIdSet.has(o.id)));
+      hHavuzKalan = [...tekrarListesi];
+      hAsamaToplam = tekrarListesi.length; hAsamaTamamlanan = 0;
+      hGorunen = hHavuzKalan.splice(0, hUst.length);
+      const etiket = document.getElementById('hAltEtiket');
+      if(etiket) etiket.textContent = 'Yanlış yaptıkların — tekrar turu';
+      hAltIzgaraCiz();
+      hDurumGuncelle();
+    } else {
+      hTamamlandi();
+    }
+  }
+
   function hTamamlandi(){
-    const isabet = hDeneme ? Math.round((hToplam / hDeneme) * 100) : 100;
-    document.getElementById('hBitisDetay').textContent =
-      `Havuzdaki ${hToplam} maddenin tamamını ${hDeneme} denemede eşleştirdin — isabet oranı %${isabet}.`;
+    const yanlisSayisi = hDeneme - hDogruSayisi;
+    const isabet = hDeneme ? Math.round((hDogruSayisi / hDeneme) * 100) : 100;
+    let detay = `<p>${hTumMaddeler.length} maddenin tamamını ${hDeneme} denemede eşleştirdin — ${hDogruSayisi} doğru, ${yanlisSayisi} yanlış (isabet %${isabet}).</p>`;
+
+    if(hHataliIdSet.size > 0){
+      const hataliUstIdler = new Set(hTumMaddeler.filter(o => hHataliIdSet.has(o.id)).map(o => o.ustId));
+      const hataliPadisahlar = hUst.filter(u => hataliUstIdler.has(u.id)).map(u => u.metin);
+      detay += `<p class="hata-ozeti">Şurada hata yaptın: <strong>${hataliPadisahlar.join(', ')}</strong>. Tekrar çalışmanı öneririm.</p>`;
+    } else {
+      detay += `<p class="hata-ozeti">Hiç hata yapmadan tamamladın, tebrikler!</p>`;
+    }
+
+    document.getElementById('hBitisDetay').innerHTML = detay;
     document.getElementById('hBitis').style.display = 'block';
   }
 
