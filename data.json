@@ -191,7 +191,11 @@
             { "id": "p22", "metin": "I. Abdülhamit" },
             { "id": "p23", "metin": "II. Mustafa" },
             { "id": "p24", "metin": "I. Mahmut" },
-            { "id": "p25", "metin": "III. Mustafa" }
+            { "id": "p25", "metin": "III. Mustafa" },
+            { "id": "p26", "metin": "II. Mahmut" },
+            { "id": "p27", "metin": "Abdülmecit" },
+            { "id": "p28", "metin": "Abdülaziz" },
+            { "id": "p29", "metin": "II. Abdülhamit" }
           ],
           "havuz": [
             { "id": "i115", "ustId": "p20", "metin": "Nizam-ı Cedit ıslahatlarını gerçekleştiren padişahtır" },
@@ -229,7 +233,45 @@
             { "id": "i143", "ustId": "p24", "metin": "Hendesehane açılmıştır" },
 
             { "id": "i144", "ustId": "p25", "metin": "Esham sistemi uygulanmıştır" },
-            { "id": "i145", "ustId": "p25", "metin": "Sürat Topçuları Ocağı açılmıştır" }
+            { "id": "i145", "ustId": "p25", "metin": "Sürat Topçuları Ocağı açılmıştır" },
+
+            { "id": "i146", "ustId": "p26", "metin": "Ayanlarla Sened-i İttifak yapıldı" },
+            { "id": "i147", "ustId": "p26", "metin": "Yeniçeri Ocağı kapatıldı" },
+            { "id": "i148", "ustId": "p26", "metin": "İlk resmi gazete Takvim-i Vekayi çıkarıldı" },
+            { "id": "i149", "ustId": "p26", "metin": "İlk defa Avrupa'ya öğrenci gönderildi" },
+            { "id": "i150", "ustId": "p26", "metin": "Sekban-ı Cedit, Eşkinci Ocağı, Asakir-i Mansure-i Muhammediye, Redif Birlikleri kuruldu" },
+            { "id": "i151", "ustId": "p26", "metin": "İlk yurt içi seyahatine çıktı" },
+            { "id": "i152", "ustId": "p26", "metin": "Tıbbiye, Harbiye, Mekteb-i Maarif-i Adliye, Mekteb-i Ulûm-i Edebiye Mektepleri açıldı" },
+            { "id": "i153", "ustId": "p26", "metin": "İlk defa genel nüfus sayımı yapıldı" },
+            { "id": "i154", "ustId": "p26", "metin": "Tımar ve müsadere usulleri kaldırıldı" },
+            { "id": "i155", "ustId": "p26", "metin": "Memurlara ceket, fes ve pantolon giyme zorunluluğu getirildi" },
+            { "id": "i156", "ustId": "p26", "metin": "İlk pasaport uygulaması olan mürur tezkeresi uygulanmıştır" },
+
+            { "id": "i157", "ustId": "p27", "metin": "Tanzimat ve Islahat Fermanları yayınlandı" },
+            { "id": "i158", "ustId": "p27", "metin": "İlk kağıt para (Kaime) basıldı" },
+            { "id": "i159", "ustId": "p27", "metin": "İlk banka olan Bank-ı Dersaadet açıldı" },
+            { "id": "i160", "ustId": "p27", "metin": "İlk defa dış borç alındı (İngiltere)" },
+            { "id": "i161", "ustId": "p27", "metin": "Dolmabahçe Sarayı yapıldı" },
+            { "id": "i162", "ustId": "p27", "metin": "1851'de ilk anonim vapurculuk şirketi olan Şirket-i Hayriye kurulmuştur" },
+            { "id": "i163", "ustId": "p27", "metin": "Yabancı sermaye destekli ilk banka olan Bank-ı Osmani İngilizler tarafından açılmıştır" },
+            { "id": "i164", "ustId": "p27", "metin": "İlk kez belediye teşkilatı kurulmuştur" },
+            { "id": "i165", "ustId": "p27", "metin": "Meclis-i Ali-i Tanzimat kurulmuştur" },
+
+            { "id": "i166", "ustId": "p28", "metin": "İlk yurt dışı seyahatine çıkan padişahtır" },
+            { "id": "i167", "ustId": "p28", "metin": "Osmanlı donanması dünyanın en büyük ikinci donanması oldu" },
+            { "id": "i168", "ustId": "p28", "metin": "İlk metro, ilk tramvay hatları yapıldı" },
+            { "id": "i169", "ustId": "p28", "metin": "Şura-yı Devlet, Divan-ı Ahkâm-ı Adliye ve Divan-ı Muhasebat açıldı" },
+            { "id": "i170", "ustId": "p28", "metin": "Çırağan ve Beylerbeyi Sarayları yaptırıldı" },
+            { "id": "i171", "ustId": "p28", "metin": "Yenilik taraftarları tarafından tahttan indirilen ilk padişahtır" },
+            { "id": "i172", "ustId": "p28", "metin": "İlk posta pulu basılmıştır" },
+
+            { "id": "i173", "ustId": "p29", "metin": "Birinci ve İkinci Meşrutiyet ilan edildi" },
+            { "id": "i174", "ustId": "p29", "metin": "Ziraat, Baytar, Polis, Aşiret, Gümrük Mektepleri açıldı" },
+            { "id": "i175", "ustId": "p29", "metin": "Sanayi-i Nefise Mektebi açıldı" },
+            { "id": "i176", "ustId": "p29", "metin": "En çok okul açan padişahtır" },
+            { "id": "i177", "ustId": "p29", "metin": "Meclis kararıyla tahttan indirilen padişahtır" },
+            { "id": "i178", "ustId": "p29", "metin": "Devletin ilk kez rejimi değişmiştir" },
+            { "id": "i179", "ustId": "p29", "metin": "Muharrem Kararnamesi ile Duyun-u Umumiye İdaresi kurulmuştur" }
           ]
         },
         {
