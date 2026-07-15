@@ -291,7 +291,7 @@
     kap.className = 'kapi-listesi';
     ders.bolumler.forEach(bolum => {
       let dolu, detay;
-      if(bolum.mod === 'havuz'){
+      if(bolum.mod === 'havuz' || bolum.mod === 'cift-havuz'){
         dolu = bolum.ust.length > 0 && bolum.havuz.length > 0;
         detay = dolu ? `${bolum.ust.length} sabit · ${bolum.havuz.length} madde` : 'veri bekleniyor';
       } else {
@@ -317,6 +317,7 @@
     geriLinkiCiz('Bölümlere dön', () => bolumSecimineGit(dersId));
 
     if(bolum.mod === 'havuz') havuzOyunuKur(bolum);
+    else if(bolum.mod === 'cift-havuz') ciftHavuzOyunuKur(bolum);
     else listeOyunuKur(bolum);
   }
 
@@ -536,6 +537,219 @@
 
     document.getElementById('hBitisDetay').innerHTML = detay;
     document.getElementById('hBitis').style.display = 'block';
+  }
+
+  // ================= ÇİFT HAVUZ MODU =================
+  // Hem üstte hem altta aynı anda sadece birkaç kart görünür, ikisi de
+  // birlikte döner. Bir üst öğenin (örn. yazarın) TÜM alt öğeleri (eserleri)
+  // eşleşince o öğe üstten düşer, kuyruktaki yeni öğe onun yerine gelir —
+  // yeni öğenin alt maddeleri de havuza katılır.
+
+  const C_UST_GORUNEN = 5, C_ALT_GORUNEN = 6;
+
+  let cUstTumUst = [], cTumHavuz = [], cUstKuyruk = [], cKaynakHavuz = [];
+  let cUstAktif = [], cAltKuyruk = [], cAltGorunen = [], cKalan = new Map();
+  let cAsamaToplam = 0, cAsamaTamamlanan = 0, cDeneme = 0, cDogruSayisi = 0;
+  let cFaz = 'ilk', cHataliIdSet = new Set();
+  let cSeciliUst = null, cSeciliMadde = null, cKilitli = false;
+
+  function ciftHavuzOyunuKur(bolum){
+    cUstTumUst = bolum.ust;
+    cTumHavuz = bolum.havuz;
+    cAsamaToplam = bolum.havuz.length; cAsamaTamamlanan = 0;
+    cDeneme = 0; cDogruSayisi = 0;
+    cFaz = 'ilk'; cHataliIdSet = new Set();
+    cSeciliUst = null; cSeciliMadde = null; cKilitli = false;
+
+    cTurBaslat(karistir(cUstTumUst), cTumHavuz);
+
+    const kap = document.createElement('div');
+    kap.innerHTML = `
+      <div class="durum-cubugu">
+        <span id="cSkorMetni"></span>
+        <div class="ilerleme-arka"><div class="ilerleme-on" id="cIlerleme" style="width:0%"></div></div>
+        <span id="cDenemeMetni"></span>
+      </div>
+      <div class="havuz-blok">
+        <div class="havuz-etiket" id="cUstEtiket">${bolum.ustEtiket || 'Sabit liste'}</div>
+        <div class="kart-izgara" id="cUstIzgara"></div>
+      </div>
+      <div class="havuz-blok">
+        <div class="havuz-etiket" id="cAltEtiket">${bolum.altEtiket || 'Havuzdan gelen maddeler'}</div>
+        <div class="kart-izgara" id="cAltIzgara"></div>
+      </div>
+      <div class="bitis-karti" id="cBitis" style="display:none;">
+        <h2>Fasıl tamamlandı</h2>
+        <div id="cBitisDetay"></div>
+        <button class="yeniden-btn" onclick="ciftHavuzOyunuKur(bolumBul(aktifDersId, aktifBolumId))">Baştan başla</button>
+      </div>
+    `;
+    icerigiDegistir(kap);
+
+    cUstIzgaraCiz();
+    cAltIzgaraCiz();
+    cDurumGuncelle();
+  }
+
+  // Verilen üst sırasından ve kaynak havuzdan yeni bir tur başlatır.
+  function cTurBaslat(ustSirasi, kaynakHavuz){
+    cUstKuyruk = ustSirasi;
+    cKaynakHavuz = kaynakHavuz;
+    cUstAktif = []; cAltKuyruk = []; cKalan = new Map();
+    cSonrakiUstEkle(C_UST_GORUNEN);
+    cAltGorunen = cAltKuyruk.splice(0, C_ALT_GORUNEN);
+  }
+
+  // Kuyruktan en fazla `adet` üst öğe alıp aktif listeye ekler,
+  // eserlerini alt kuyruğa katar.
+  function cSonrakiUstEkle(adet){
+    for(let i = 0; i < adet && cUstKuyruk.length > 0; i++){
+      const u = cUstKuyruk.shift();
+      cUstAktif.push(u);
+      const eserleri = karistir(cKaynakHavuz.filter(o => o.ustId === u.id));
+      cKalan.set(u.id, eserleri.length);
+      cAltKuyruk.push(...eserleri);
+    }
+  }
+
+  function cUstIzgaraCiz(){
+    const kap = document.getElementById('cUstIzgara');
+    kap.innerHTML = '';
+    cUstAktif.forEach(o => {
+      const el = document.createElement('div');
+      el.className = 'kart';
+      el.textContent = o.metin;
+      el.dataset.id = o.id;
+      el.onclick = () => cUstSecildi(el, o.id);
+      kap.appendChild(el);
+      kartMetnineSigdir(el);
+    });
+  }
+
+  function cAltIzgaraCiz(){
+    const kap = document.getElementById('cAltIzgara');
+    kap.innerHTML = '';
+    cAltGorunen.forEach(o => {
+      const el = document.createElement('div');
+      el.className = 'kart';
+      el.textContent = o.metin;
+      el.dataset.id = o.id;
+      el.dataset.ustId = o.ustId;
+      el.onclick = () => cMaddeSecildi(el, o);
+      kap.appendChild(el);
+      kartMetnineSigdir(el);
+    });
+  }
+
+  function cUstSecildi(el, ustId){
+    if(cKilitli) return;
+    if(cSeciliUst) cSeciliUst.el.classList.remove('secili');
+    cSeciliUst = { el, id: ustId };
+    el.classList.add('secili');
+    cKontrolEt();
+  }
+
+  function cMaddeSecildi(el, ogr){
+    if(cKilitli || el.classList.contains('cikiyor')) return;
+    if(cSeciliMadde) cSeciliMadde.el.classList.remove('secili');
+    cSeciliMadde = { el, ogr };
+    el.classList.add('secili');
+    cKontrolEt();
+  }
+
+  function cKontrolEt(){
+    if(!cSeciliUst || !cSeciliMadde) return;
+    cDeneme++;
+    cKilitli = true;
+    const dogruMu = cSeciliUst.id === cSeciliMadde.ogr.ustId;
+    const ustEl = cSeciliUst.el, maddeEl = cSeciliMadde.el;
+
+    setTimeout(() => {
+      if(dogruMu){
+        ustEl.classList.remove('secili');
+        maddeEl.classList.remove('secili');
+        maddeEl.classList.add('cikiyor');
+        cDogruSayisi++;
+        cAsamaTamamlanan++;
+        muhurGoster();
+
+        const ustId = cSeciliUst.id;
+        setTimeout(() => {
+          cAltGorunen = cAltGorunen.filter(o => o.id !== cSeciliMadde.ogr.id);
+          cKalan.set(ustId, cKalan.get(ustId) - 1);
+
+          if(cKalan.get(ustId) === 0){
+            cUstAktif = cUstAktif.filter(u => u.id !== ustId);
+            cKalan.delete(ustId);
+            cSonrakiUstEkle(1);
+            cUstIzgaraCiz();
+          }
+          while(cAltGorunen.length < C_ALT_GORUNEN && cAltKuyruk.length > 0){
+            cAltGorunen.push(cAltKuyruk.shift());
+          }
+          cAltIzgaraCiz();
+
+          cSeciliUst = null; cSeciliMadde = null; cKilitli = false;
+          cDurumGuncelle();
+          if(cAsamaTamamlanan === cAsamaToplam) cFazBitti();
+        }, 260);
+      } else {
+        cHataliIdSet.add(cSeciliMadde.ogr.id);
+        ustEl.classList.add('yanlis-titre');
+        maddeEl.classList.add('yanlis-titre');
+        setTimeout(() => {
+          ustEl.classList.remove('secili','yanlis-titre');
+          maddeEl.classList.remove('secili','yanlis-titre');
+          cSeciliUst = null; cSeciliMadde = null; cKilitli = false;
+          cDurumGuncelle();
+        }, 380);
+      }
+    }, dogruMu ? 200 : 420);
+  }
+
+  function cDurumGuncelle(){
+    const yanlisSayisi = cDeneme - cDogruSayisi;
+    const fazEtiketi = cFaz === 'tekrar' ? 'Tekrar turu — ' : '';
+    document.getElementById('cSkorMetni').textContent = `${fazEtiketi}${cAsamaTamamlanan} / ${cAsamaToplam} tamamlandı`;
+    document.getElementById('cDenemeMetni').textContent = `✓ ${cDogruSayisi}   ✗ ${yanlisSayisi}`;
+    const yuzde = cAsamaToplam ? Math.round((cAsamaTamamlanan / cAsamaToplam) * 100) : 0;
+    document.getElementById('cIlerleme').style.width = yuzde + '%';
+  }
+
+  function cFazBitti(){
+    if(cFaz === 'ilk' && cHataliIdSet.size > 0){
+      cFaz = 'tekrar';
+      const hataliUstIdler = new Set(cTumHavuz.filter(o => cHataliIdSet.has(o.id)).map(o => o.ustId));
+      const tekrarUstSirasi = karistir(cUstTumUst.filter(u => hataliUstIdler.has(u.id)));
+      const tekrarHavuz = cTumHavuz.filter(o => cHataliIdSet.has(o.id));
+      cAsamaToplam = tekrarHavuz.length; cAsamaTamamlanan = 0;
+      cTurBaslat(tekrarUstSirasi, tekrarHavuz);
+
+      const altEtiket = document.getElementById('cAltEtiket');
+      if(altEtiket) altEtiket.textContent = 'Yanlış yaptıkların — tekrar turu';
+      cUstIzgaraCiz();
+      cAltIzgaraCiz();
+      cDurumGuncelle();
+    } else {
+      cTamamlandi();
+    }
+  }
+
+  function cTamamlandi(){
+    const yanlisSayisi = cDeneme - cDogruSayisi;
+    const isabet = cDeneme ? Math.round((cDogruSayisi / cDeneme) * 100) : 100;
+    let detay = `<p>${cTumHavuz.length} maddenin tamamını ${cDeneme} denemede eşleştirdin — ${cDogruSayisi} doğru, ${yanlisSayisi} yanlış (isabet %${isabet}).</p>`;
+
+    if(cHataliIdSet.size > 0){
+      const hataliUstIdler = new Set(cTumHavuz.filter(o => cHataliIdSet.has(o.id)).map(o => o.ustId));
+      const hataliIsimler = cUstTumUst.filter(u => hataliUstIdler.has(u.id)).map(u => u.metin);
+      detay += `<p class="hata-ozeti">Şurada hata yaptın: <strong>${hataliIsimler.join(', ')}</strong>. Tekrar çalışmanı öneririm.</p>`;
+    } else {
+      detay += `<p class="hata-ozeti">Hiç hata yapmadan tamamladın, tebrikler!</p>`;
+    }
+
+    document.getElementById('cBitisDetay').innerHTML = detay;
+    document.getElementById('cBitis').style.display = 'block';
   }
 
   // ================= LİSTE MODU =================
