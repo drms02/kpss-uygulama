@@ -4,6 +4,16 @@
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
 <title>KPSS Tarih — Sicil Defteri</title>
+
+<link rel="manifest" href="manifest.json">
+<meta name="theme-color" content="#12141c">
+<link rel="icon" href="ikonlar/icon-192.png">
+<link rel="apple-touch-icon" href="ikonlar/apple-touch-icon.png">
+<meta name="mobile-web-app-capable" content="yes">
+<meta name="apple-mobile-web-app-capable" content="yes">
+<meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
+<meta name="apple-mobile-web-app-title" content="KPSS Tarih">
+
 <style>
   @import url('https://fonts.googleapis.com/css2?family=Cinzel:wght@500;600&family=Noto+Serif:ital,wght@0,400;0,600;1,400&family=IBM+Plex+Mono:wght@500&display=swap');
 
@@ -628,6 +638,12 @@
   }
 
   veriYukle();
+
+  if('serviceWorker' in navigator){
+    window.addEventListener('load', () => {
+      navigator.serviceWorker.register('sw.js').catch(() => {});
+    });
+  }
 </script>
 </body>
 </html>
