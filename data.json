@@ -2796,6 +2796,30 @@
        "metin": "Ardahan Platosu"
       }
      ]
+    },
+    {
+     "id": "ovalar",
+     "baslik": "Ovalar",
+     "mod": "harita",
+     "gorsel": "haritalar/turkiye-anahat.svg",
+     "noktalar": [
+      { "id": "ov1", "x": 57.95, "y": 17.27, "metin": "Çarşamba Ovası" },
+      { "id": "ov2", "x": 52.28, "y": 9.65, "metin": "Bafra Ovası" },
+      { "id": "ov3", "x": 26.87, "y": 18.6, "metin": "Karasu Ovası" },
+      { "id": "ov4", "x": 5.19, "y": 16.23, "metin": "Meriç Ovası" },
+      { "id": "ov5", "x": 8.72, "y": 39.52, "metin": "Bakırçay Ovası" },
+      { "id": "ov6", "x": 8.97, "y": 51.78, "metin": "Gediz Ovası" },
+      { "id": "ov7", "x": 10.08, "y": 64.03, "metin": "Küçükmenderes Ovası" },
+      { "id": "ov8", "x": 10.73, "y": 76.29, "metin": "Büyükmenderes Ovası" },
+      { "id": "ov9", "x": 42.87, "y": 88.06, "metin": "Silifke Ovası" },
+      { "id": "ov10", "x": 50.03, "y": 83.81, "metin": "Çukurova" },
+      { "id": "ov11", "x": 50.93, "y": 48.38, "metin": "Kayseri Ovası" },
+      { "id": "ov12", "x": 51.08, "y": 63.38, "metin": "Develi Ovası" },
+      { "id": "ov13", "x": 80.1, "y": 35.76, "metin": "Erzurum Ovası" },
+      { "id": "ov14", "x": 87.3, "y": 17.59, "metin": "Ardahan Ovası" },
+      { "id": "ov15", "x": 95.21, "y": 42.88, "metin": "Çaldıran Ovası" },
+      { "id": "ov16", "x": 90.73, "y": 53.87, "metin": "Muradiye Ovası" }
+     ]
     }
    ]
   },
