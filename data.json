@@ -12,7 +12,20 @@
   },
   "antlasmalar": {
     "baslik": "Antlaşma · Sonuç",
-    "pairs": []
+    "pairs": [
+      { "left": "Karlofça Antlaşması (1699)", "right": "Osmanlı'nın toprak kaybettiği ilk antlaşma; Macaristan Avusturya'ya bırakıldı" },
+      { "left": "Küçük Kaynarca Antlaşması (1774)", "right": "Kırım bağımsız oldu; Rusya, Osmanlı'daki Ortodoksların koruyuculuğunu üstlendi" },
+      { "left": "Kütahya Antlaşması (1833)", "right": "Mehmed Ali Paşa'ya Suriye ve Adana verildi (Mısır Meselesi)" },
+      { "left": "Paris Antlaşması (1856)", "right": "Osmanlı, Kırım Savaşı sonrası Avrupa devletler hukuku içine alındı" },
+      { "left": "Ayastefanos Antlaşması (1878)", "right": "Büyük Bulgaristan kuruldu (93 Harbi sonrası)" },
+      { "left": "Berlin Antlaşması (1878)", "right": "Ayastefanos'u revize etti, Bulgaristan'ın sınırlarını küçülttü" },
+      { "left": "Mondros Ateşkes Antlaşması (1918)", "right": "I. Dünya Savaşı'nda Osmanlı'nın fiilen sonu, işgallerin önü açıldı" },
+      { "left": "Sevr Antlaşması (1920)", "right": "Osmanlı'yı parçalayan antlaşma; TBMM tarafından tanınmadı, hiç yürürlüğe girmedi" },
+      { "left": "Gümrü Antlaşması (1920)", "right": "TBMM'nin imzaladığı ilk antlaşma; Ermenistan'la doğu sınırını belirledi" },
+      { "left": "Moskova Antlaşması (1921)", "right": "Sovyet Rusya, TBMM Hükümetini tanıyan ilk Avrupalı devlet oldu" },
+      { "left": "Kars Antlaşması (1921)", "right": "Türkiye'nin bugünkü doğu sınırını kesinleştirdi" },
+      { "left": "Lozan Antlaşması (1923)", "right": "Türkiye'nin bağımsızlığının uluslararası alanda tanındığı antlaşma" }
+    ]
   },
   "eser-yazar": {
     "baslik": "Eser · Yazar",
