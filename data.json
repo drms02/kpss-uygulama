@@ -302,6 +302,24 @@
           ]
         },
         {
+          "id": "antlasmalar-2",
+          "baslik": "Antlaşmalar ve Sonuçları II",
+          "mod": "liste",
+          "pairs": [
+            { "left": "Prut Antlaşması (1711)", "right": "Ruslardan Azak Kalesi geri alındı; Rusya'nın İstanbul'da daimi elçi bulundurma hakkı engellendi" },
+            { "left": "Pasarofça Antlaşması (1718)", "right": "Avrupa'nın üstünlüğü kabul edildi; ilk defa Batı örnek alınarak Lale Devri ıslahatları başladı" },
+            { "left": "İstanbul Antlaşması (1724)", "right": "Osmanlı ile Rusya arasındaki ilk ittifak antlaşması; İran'a karşı yapıldı" },
+            { "left": "Ahmet Paşa Antlaşması (1732)", "right": "Osmanlı-İran Savaşı'nı bitirdi; sınır, ticaret ve hac-elçi düzenlemeleri yapıldı" },
+            { "left": "Belgrad Antlaşması (1739)", "right": "Karadeniz'deki Türk egemenliğini son defa onaylayan, Osmanlı'nın imzaladığı son kazançlı antlaşma" },
+            { "left": "Kerden Antlaşması (1746)", "right": "2. Kasr-ı Şirin Antlaşması olarak da bilinir" },
+            { "left": "Aynalıkavak Tenkihnamesi (1779)", "right": "Rus yanlısı Şahin Giray'ın Kırım Hanı olarak tanındığı antlaşma" },
+            { "left": "Ziştovi Antlaşması (1791)", "right": "Avusturya ile yapıldı; imzalanmasında Fransız İhtilali etkili oldu" },
+            { "left": "Yaş Antlaşması (1792)", "right": "Kırım Rusya'ya bağlandı" },
+            { "left": "Trablusgarp Antlaşması (1795)", "right": "Cezayir Beylerbeyi Hasan Paşa ile ABD arasında yapıldı; ABD'nin ilk defa yabancı bir devlete vergi ödemeyi kabul ettiği antlaşma" },
+            { "left": "El Ariş Antlaşması (1801)", "right": "Fransa'dan Mısır geri alındı; Osmanlı ilk defa denge siyaseti uyguladı" }
+          ]
+        },
+        {
           "id": "eser-yazar",
           "baslik": "Eser - Yazar Eşleştirmesi",
           "mod": "liste",
