@@ -305,6 +305,37 @@
           ]
         },
         {
+          "id": "askeri-teskilat",
+          "baslik": "Askeri Teşkilat: Eyalet ve Kapıkulu Askerleri",
+          "mod": "havuz",
+          "ust": [
+            { "id": "p32", "metin": "Eyalet Askerleri (Tımar sistemi)" },
+            { "id": "p33", "metin": "Kapıkulu Askerleri (Devşirme sistemi)" }
+          ],
+          "havuz": [
+            { "id": "i190", "ustId": "p32", "metin": "Akıncılar — Keşif birliği" },
+            { "id": "i191", "ustId": "p32", "metin": "Azaplar — İlk hücumu karşılayan öncü birlik" },
+            { "id": "i192", "ustId": "p32", "metin": "Yaya ve Müsellemler — Köprü tamiri ve yol yapımıyla görevlendirilir" },
+            { "id": "i193", "ustId": "p32", "metin": "Yörükler — Siper kazma, kale tamiri ve yol açma işleriyle görevlendirilir" },
+            { "id": "i194", "ustId": "p32", "metin": "Deliler — Sınır birlikleri; korkusuz akıncı askerler" },
+            { "id": "i195", "ustId": "p32", "metin": "Beşliler — Sınırdaki kaleleri koruyanlar" },
+            { "id": "i196", "ustId": "p32", "metin": "Gönüllüler — Sınırdaki şehir ve kasabaları koruyanlar" },
+            { "id": "i197", "ustId": "p32", "metin": "Cebelü — Sahib-i arz denilen tımar sahiplerinin beslemek zorunda olduğu askerler" },
+
+            { "id": "i198", "ustId": "p33", "metin": "Kapıkulu Piyadeleri — Yaya askerler" },
+            { "id": "i199", "ustId": "p33", "metin": "Acemi Oğlanlar Ocağı — Devşirmelerin ilk eğitildiği ocak" },
+            { "id": "i200", "ustId": "p33", "metin": "Yeniçeriler — Padişahı koruyan yaya askerler" },
+            { "id": "i201", "ustId": "p33", "metin": "Cebeciler — Silahlardan sorumlu" },
+            { "id": "i202", "ustId": "p33", "metin": "Humbaracılar — Havan topu yapan birlik" },
+            { "id": "i203", "ustId": "p33", "metin": "Bostancılar — Sarayın güvenliğini sağlayanlar" },
+            { "id": "i204", "ustId": "p33", "metin": "Kapıkulu Süvarileri — Atlı asker grubu" },
+            { "id": "i205", "ustId": "p33", "metin": "Silahtar ve Sipahiler — Savaş sırasında padişahın otağını koruyanlar" },
+            { "id": "i206", "ustId": "p33", "metin": "Sağ ve Sol Ulufeciler — Saltanat sancağını koruyanlar" },
+            { "id": "i207", "ustId": "p33", "metin": "Sağ ve Sol Garipler — Ordunun ağırlıklarını ve hazineyi koruyanlar" },
+            { "id": "i208", "ustId": "p33", "metin": "Pençik — Savaşta esir alınan her beş çocuktan birinin devlete ayrılması usulü" }
+          ]
+        },
+        {
           "id": "antlasmalar",
           "baslik": "Antlaşmalar ve Sonuçları",
           "mod": "liste",
