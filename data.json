@@ -364,6 +364,45 @@
           "baslik": "Devlet Teşkilatı Sınıflandırması",
           "mod": "liste",
           "pairs": []
+        },
+        {
+          "id": "20-yuzyil-osmanli",
+          "baslik": "20. Yüzyılda Osmanlı: Genelgeler ve Kongreler",
+          "mod": "havuz",
+          "ust": [
+            { "id": "p34", "metin": "Sivas Kongresi" },
+            { "id": "p35", "metin": "Erzurum Kongresi" },
+            { "id": "p36", "metin": "Amasya Genelgesi" },
+            { "id": "p37", "metin": "Havza Genelgesi" },
+            { "id": "p38", "metin": "Samsun Raporu" }
+          ],
+          "havuz": [
+            { "id": "i209", "ustId": "p34", "metin": "Temsil Heyeti'nin düzenlediği ilk (genel) kongredir" },
+            { "id": "i210", "ustId": "p34", "metin": "Temsil Heyeti'nin tüm yurdu kapsayacak hale getirilmesi kararlaştırılmıştır" },
+            { "id": "i211", "ustId": "p34", "metin": "Temsil Heyeti, hükümet gibi yürütmeyle ilgili karar alarak Batı Anadolu Kuvâ-yı Milliye birliklerinin başına Ali Fuat Paşa'yı atamıştır" },
+            { "id": "i212", "ustId": "p34", "metin": "Manda ve himaye kesin olarak reddedilmiştir" },
+            { "id": "i213", "ustId": "p34", "metin": "Milli cemiyetler, Anadolu ve Rumeli Müdafaa-i Hukuk Cemiyeti adı altında birleştirilmiştir" },
+            { "id": "i214", "ustId": "p34", "metin": "Elazığ (Harput) Valisi Ali Galip'in engellemeye çalıştığı kongredir" },
+            { "id": "i215", "ustId": "p34", "metin": "Sonrasında Damat Ferit Paşa hükümeti istifa etmiştir" },
+
+            { "id": "i216", "ustId": "p35", "metin": "Doğuyu kapsayan Temsil Heyeti'nin kurulmasını sağlamıştır" },
+            { "id": "i217", "ustId": "p35", "metin": "İlk kez milli sınırlardan (Misak-ı Milli'den) bahsedilmiştir" },
+            { "id": "i218", "ustId": "p35", "metin": "İlk kez manda ve himaye reddedilmiştir" },
+            { "id": "i219", "ustId": "p35", "metin": "İlk kez yeni bir hükümet kurulmasından söz edilmiştir" },
+            { "id": "i220", "ustId": "p35", "metin": "Trabzon Muhafaza-i Hukuk-u Milliye ve Doğu Anadolu Müdafaa-i Hukuk Cemiyetleri tarafından düzenlenmiştir" },
+
+            { "id": "i221", "ustId": "p36", "metin": "İlk kez Temsil Heyeti'nin kurulmasından söz edilmiştir" },
+            { "id": "i222", "ustId": "p36", "metin": "Milli egemenliğe dayalı yeni bir Türk devletinin kurulması yolunda atılan ilk adımdır" },
+            { "id": "i223", "ustId": "p36", "metin": "Milli mücadelenin ilk ihtilal beyannamesi olarak kabul edilir" },
+            { "id": "i224", "ustId": "p36", "metin": "Milli mücadelenin amacı, gerekçesi ve yöntemi belirlenmiştir" },
+            { "id": "i225", "ustId": "p36", "metin": "Sonrasında Mustafa Kemal, askerlik görevinden istifa etmiştir" },
+
+            { "id": "i226", "ustId": "p37", "metin": "Mustafa Kemal ilk kez halktan işgallere karşı protesto mitingleri düzenlemelerini istemiştir" },
+            { "id": "i227", "ustId": "p37", "metin": "Sonrasında Mustafa Kemal, İstanbul hükümeti tarafından ilk defa İstanbul'a geri çağrılmıştır" },
+
+            { "id": "i228", "ustId": "p38", "metin": "Mustafa Kemal, ilk defa görevi dışına çıkmıştır" },
+            { "id": "i229", "ustId": "p38", "metin": "Mustafa Kemal, İzmir'in işgaline ilk kez tepki göstermiştir" }
+          ]
         }
       ]
     },
