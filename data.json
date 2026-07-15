@@ -1,2833 +1,3227 @@
 {
- "dersler": [
-  {
-   "id": "tarih",
-   "baslik": "Tarih",
-   "aktif": true,
-   "bolumler": [
+  "dersler": [
     {
-     "id": "padisah-islahat",
-     "baslik": "Kuruluş Dönemi: Padişahlar",
-     "mod": "havuz",
-     "ust": [
-      {
-       "id": "p1",
-       "metin": "Osman Bey"
-      },
-      {
-       "id": "p2",
-       "metin": "Orhan Bey"
-      },
-      {
-       "id": "p3",
-       "metin": "I. Murat"
-      },
-      {
-       "id": "p4",
-       "metin": "Yıldırım Bayezid"
-      },
-      {
-       "id": "p5",
-       "metin": "I. Mehmet (Çelebi)"
-      },
-      {
-       "id": "p6",
-       "metin": "II. Murat"
-      }
-     ],
-     "havuz": [
-      {
-       "id": "i1",
-       "ustId": "p1",
-       "metin": "Koyunhisar (Bafeus) Savaşı — ilk Osmanlı-Bizans savaşı"
-      },
-      {
-       "id": "i2",
-       "ustId": "p1",
-       "metin": "İlk kadı atandı: Dursun Fakih"
-      },
-      {
-       "id": "i3",
-       "ustId": "p1",
-       "metin": "İlk vergi alındı: bac-ı bazar (pazar) vergisi"
-      },
-      {
-       "id": "i4",
-       "ustId": "p1",
-       "metin": "Dinboz Savaşı"
-      },
-      {
-       "id": "i5",
-       "ustId": "p1",
-       "metin": "Bursa Kuşatması başlatıldı"
-      },
-      {
-       "id": "i6",
-       "ustId": "p2",
-       "metin": "Bursa başkent yapıldı"
-      },
-      {
-       "id": "i7",
-       "ustId": "p2",
-       "metin": "Palekanon (Maltepe) Savaşı — Bizans ile yapıldı"
-      },
-      {
-       "id": "i8",
-       "ustId": "p2",
-       "metin": "İlk alınan beylik: Karesioğulları"
-      },
-      {
-       "id": "i9",
-       "ustId": "p2",
-       "metin": "Rumeli'de ilk toprak: Çimpe Kalesi"
-      },
-      {
-       "id": "i10",
-       "ustId": "p2",
-       "metin": "İlk 'sultan' unvanı kullanıldı"
-      },
-      {
-       "id": "i11",
-       "ustId": "p2",
-       "metin": "İlk iskân siyaseti uygulandı"
-      },
-      {
-       "id": "i12",
-       "ustId": "p2",
-       "metin": "İlk ticari ayrıcalık verildi (Cenevizlilere)"
-      },
-      {
-       "id": "i13",
-       "ustId": "p2",
-       "metin": "Beylikten devlete geçiş sağlandı (örgütlenme)"
-      },
-      {
-       "id": "i14",
-       "ustId": "p2",
-       "metin": "İlk vezir atandı: Alaeddin Paşa"
-      },
-      {
-       "id": "i15",
-       "ustId": "p2",
-       "metin": "İlk düzenli ordu kuruldu: yaya ve müsellemler"
-      },
-      {
-       "id": "i16",
-       "ustId": "p2",
-       "metin": "İlk donanma kuruldu (Karamürsel)"
-      },
-      {
-       "id": "i17",
-       "ustId": "p2",
-       "metin": "İlk saray yapıldı: Bey Sarayı"
-      },
-      {
-       "id": "i18",
-       "ustId": "p2",
-       "metin": "İlk medrese açıldı: İznik Medresesi"
-      },
-      {
-       "id": "i19",
-       "ustId": "p2",
-       "metin": "İlk cami yapıldı: Hacı Özbek Camii"
-      },
-      {
-       "id": "i20",
-       "ustId": "p2",
-       "metin": "İlk Divan-ı Hümayun toplandı"
-      },
-      {
-       "id": "i21",
-       "ustId": "p2",
-       "metin": "İlk gümüş akçe bastırıldı"
-      },
-      {
-       "id": "i22",
-       "ustId": "p2",
-       "metin": "İlk müderris atandı: Davud-i Kayseri"
-      },
-      {
-       "id": "i23",
-       "ustId": "p3",
-       "metin": "Sazlıdere Savaşı — Bizans ile yapıldı"
-      },
-      {
-       "id": "i24",
-       "ustId": "p3",
-       "metin": "Sırpsındığı Savaşı — Haçlılarla yapılan ilk savaş"
-      },
-      {
-       "id": "i25",
-       "ustId": "p3",
-       "metin": "Ploşnik Bozgunu yaşandı"
-      },
-      {
-       "id": "i26",
-       "ustId": "p3",
-       "metin": "Çirmen Savaşı — Haçlılar ile yapıldı"
-      },
-      {
-       "id": "i27",
-       "ustId": "p3",
-       "metin": "I. Kosova Savaşı — ilk top atışı, ilk şehit padişah, ay-yıldızlı bayrağın oluşumu"
-      },
-      {
-       "id": "i28",
-       "ustId": "p3",
-       "metin": "Germiyanoğulları'ndan çeyiz yoluyla toprak alındı"
-      },
-      {
-       "id": "i29",
-       "ustId": "p3",
-       "metin": "Hamitoğulları'ndan para karşılığı toprak alındı"
-      },
-      {
-       "id": "i30",
-       "ustId": "p3",
-       "metin": "İlk Yeniçeri Ocağı kuruldu"
-      },
-      {
-       "id": "i31",
-       "ustId": "p3",
-       "metin": "İlk Acemi Oğlanlar Ocağı kuruldu (Gelibolu)"
-      },
-      {
-       "id": "i32",
-       "ustId": "p3",
-       "metin": "Rumeli Beylerbeyliği kuruldu (merkez: Manastır)"
-      },
-      {
-       "id": "i33",
-       "ustId": "p3",
-       "metin": "Edirne başkent yapıldı"
-      },
-      {
-       "id": "i34",
-       "ustId": "p3",
-       "metin": "Kazaskerlik, subaşılık, defterdarlık makamları oluşturuldu"
-      },
-      {
-       "id": "i35",
-       "ustId": "p3",
-       "metin": "Veraset sisteminde ilk değişiklik yapıldı"
-      },
-      {
-       "id": "i36",
-       "ustId": "p3",
-       "metin": "Pençik sistemi getirildi (öneren: Rüstem Paşa)"
-      },
-      {
-       "id": "i37",
-       "ustId": "p3",
-       "metin": "Kapıkulu Ocağı kuruldu (öneren: Çandarlı Halil Paşa)"
-      },
-      {
-       "id": "i38",
-       "ustId": "p4",
-       "metin": "Anadolu Hisarı (Güzelce Hisar) yaptırıldı"
-      },
-      {
-       "id": "i39",
-       "ustId": "p4",
-       "metin": "İlk İstanbul Kuşatması yapıldı"
-      },
-      {
-       "id": "i40",
-       "ustId": "p4",
-       "metin": "Niğbolu Savaşı sonrası 'Anadolu Sultanı' unvanını aldı"
-      },
-      {
-       "id": "i41",
-       "ustId": "p4",
-       "metin": "Anadolu Türk siyasi birliği yeniden kuruldu"
-      },
-      {
-       "id": "i42",
-       "ustId": "p4",
-       "metin": "İlk darüşşifa açıldı (Bursa)"
-      },
-      {
-       "id": "i43",
-       "ustId": "p4",
-       "metin": "Anadolu Beylerbeyliği kuruldu (merkez: Kütahya)"
-      },
-      {
-       "id": "i44",
-       "ustId": "p4",
-       "metin": "Ankara Savaşı sonrası Fetret Devri başladı"
-      },
-      {
-       "id": "i45",
-       "ustId": "p5",
-       "metin": "Fetret Devri'ni sona erdirdi"
-      },
-      {
-       "id": "i46",
-       "ustId": "p5",
-       "metin": "Düzmece Mustafa'nın isyanıyla uğraştı"
-      },
-      {
-       "id": "i47",
-       "ustId": "p6",
-       "metin": "Düzmece Mustafa İsyanı'nı bastırdı"
-      },
-      {
-       "id": "i48",
-       "ustId": "p6",
-       "metin": "Küçük Mustafa İsyanı'nı bastırdı"
-      },
-      {
-       "id": "i49",
-       "ustId": "p6",
-       "metin": "Edirne-Segedin Antlaşması — Haçlılarla yapılan ilk antlaşma"
-      },
-      {
-       "id": "i50",
-       "ustId": "p6",
-       "metin": "Varna Savaşı yapıldı"
-      },
-      {
-       "id": "i51",
-       "ustId": "p6",
-       "metin": "II. Kosova Savaşı — Balkanların Türk yurdu olduğu kesinleşti"
-      },
-      {
-       "id": "i52",
-       "ustId": "p6",
-       "metin": "İlk şair padişah oldu"
-      },
-      {
-       "id": "i53",
-       "ustId": "p6",
-       "metin": "İlk Enderun Mektebi açıldı"
-      }
-     ]
+      "id": "tarih",
+      "baslik": "Tarih",
+      "aktif": true,
+      "bolumler": [
+        {
+          "id": "padisah-islahat",
+          "baslik": "Kuruluş Dönemi: Padişahlar",
+          "mod": "havuz",
+          "ust": [
+            {
+              "id": "p1",
+              "metin": "Osman Bey"
+            },
+            {
+              "id": "p2",
+              "metin": "Orhan Bey"
+            },
+            {
+              "id": "p3",
+              "metin": "I. Murat"
+            },
+            {
+              "id": "p4",
+              "metin": "Yıldırım Bayezid"
+            },
+            {
+              "id": "p5",
+              "metin": "I. Mehmet (Çelebi)"
+            },
+            {
+              "id": "p6",
+              "metin": "II. Murat"
+            }
+          ],
+          "havuz": [
+            {
+              "id": "i1",
+              "ustId": "p1",
+              "metin": "Koyunhisar (Bafeus) Savaşı — ilk Osmanlı-Bizans savaşı"
+            },
+            {
+              "id": "i2",
+              "ustId": "p1",
+              "metin": "İlk kadı atandı: Dursun Fakih"
+            },
+            {
+              "id": "i3",
+              "ustId": "p1",
+              "metin": "İlk vergi alındı: bac-ı bazar (pazar) vergisi"
+            },
+            {
+              "id": "i4",
+              "ustId": "p1",
+              "metin": "Dinboz Savaşı"
+            },
+            {
+              "id": "i5",
+              "ustId": "p1",
+              "metin": "Bursa Kuşatması başlatıldı"
+            },
+            {
+              "id": "i6",
+              "ustId": "p2",
+              "metin": "Bursa başkent yapıldı"
+            },
+            {
+              "id": "i7",
+              "ustId": "p2",
+              "metin": "Palekanon (Maltepe) Savaşı — Bizans ile yapıldı"
+            },
+            {
+              "id": "i8",
+              "ustId": "p2",
+              "metin": "İlk alınan beylik: Karesioğulları"
+            },
+            {
+              "id": "i9",
+              "ustId": "p2",
+              "metin": "Rumeli'de ilk toprak: Çimpe Kalesi"
+            },
+            {
+              "id": "i10",
+              "ustId": "p2",
+              "metin": "İlk 'sultan' unvanı kullanıldı"
+            },
+            {
+              "id": "i11",
+              "ustId": "p2",
+              "metin": "İlk iskân siyaseti uygulandı"
+            },
+            {
+              "id": "i12",
+              "ustId": "p2",
+              "metin": "İlk ticari ayrıcalık verildi (Cenevizlilere)"
+            },
+            {
+              "id": "i13",
+              "ustId": "p2",
+              "metin": "Beylikten devlete geçiş sağlandı (örgütlenme)"
+            },
+            {
+              "id": "i14",
+              "ustId": "p2",
+              "metin": "İlk vezir atandı: Alaeddin Paşa"
+            },
+            {
+              "id": "i15",
+              "ustId": "p2",
+              "metin": "İlk düzenli ordu kuruldu: yaya ve müsellemler"
+            },
+            {
+              "id": "i16",
+              "ustId": "p2",
+              "metin": "İlk donanma kuruldu (Karamürsel)"
+            },
+            {
+              "id": "i17",
+              "ustId": "p2",
+              "metin": "İlk saray yapıldı: Bey Sarayı"
+            },
+            {
+              "id": "i18",
+              "ustId": "p2",
+              "metin": "İlk medrese açıldı: İznik Medresesi"
+            },
+            {
+              "id": "i19",
+              "ustId": "p2",
+              "metin": "İlk cami yapıldı: Hacı Özbek Camii"
+            },
+            {
+              "id": "i20",
+              "ustId": "p2",
+              "metin": "İlk Divan-ı Hümayun toplandı"
+            },
+            {
+              "id": "i21",
+              "ustId": "p2",
+              "metin": "İlk gümüş akçe bastırıldı"
+            },
+            {
+              "id": "i22",
+              "ustId": "p2",
+              "metin": "İlk müderris atandı: Davud-i Kayseri"
+            },
+            {
+              "id": "i23",
+              "ustId": "p3",
+              "metin": "Sazlıdere Savaşı — Bizans ile yapıldı"
+            },
+            {
+              "id": "i24",
+              "ustId": "p3",
+              "metin": "Sırpsındığı Savaşı — Haçlılarla yapılan ilk savaş"
+            },
+            {
+              "id": "i25",
+              "ustId": "p3",
+              "metin": "Ploşnik Bozgunu yaşandı"
+            },
+            {
+              "id": "i26",
+              "ustId": "p3",
+              "metin": "Çirmen Savaşı — Haçlılar ile yapıldı"
+            },
+            {
+              "id": "i27",
+              "ustId": "p3",
+              "metin": "I. Kosova Savaşı — ilk top atışı, ilk şehit padişah, ay-yıldızlı bayrağın oluşumu"
+            },
+            {
+              "id": "i28",
+              "ustId": "p3",
+              "metin": "Germiyanoğulları'ndan çeyiz yoluyla toprak alındı"
+            },
+            {
+              "id": "i29",
+              "ustId": "p3",
+              "metin": "Hamitoğulları'ndan para karşılığı toprak alındı"
+            },
+            {
+              "id": "i30",
+              "ustId": "p3",
+              "metin": "İlk Yeniçeri Ocağı kuruldu"
+            },
+            {
+              "id": "i31",
+              "ustId": "p3",
+              "metin": "İlk Acemi Oğlanlar Ocağı kuruldu (Gelibolu)"
+            },
+            {
+              "id": "i32",
+              "ustId": "p3",
+              "metin": "Rumeli Beylerbeyliği kuruldu (merkez: Manastır)"
+            },
+            {
+              "id": "i33",
+              "ustId": "p3",
+              "metin": "Edirne başkent yapıldı"
+            },
+            {
+              "id": "i34",
+              "ustId": "p3",
+              "metin": "Kazaskerlik, subaşılık, defterdarlık makamları oluşturuldu"
+            },
+            {
+              "id": "i35",
+              "ustId": "p3",
+              "metin": "Veraset sisteminde ilk değişiklik yapıldı"
+            },
+            {
+              "id": "i36",
+              "ustId": "p3",
+              "metin": "Pençik sistemi getirildi (öneren: Rüstem Paşa)"
+            },
+            {
+              "id": "i37",
+              "ustId": "p3",
+              "metin": "Kapıkulu Ocağı kuruldu (öneren: Çandarlı Halil Paşa)"
+            },
+            {
+              "id": "i38",
+              "ustId": "p4",
+              "metin": "Anadolu Hisarı (Güzelce Hisar) yaptırıldı"
+            },
+            {
+              "id": "i39",
+              "ustId": "p4",
+              "metin": "İlk İstanbul Kuşatması yapıldı"
+            },
+            {
+              "id": "i40",
+              "ustId": "p4",
+              "metin": "Niğbolu Savaşı sonrası 'Anadolu Sultanı' unvanını aldı"
+            },
+            {
+              "id": "i41",
+              "ustId": "p4",
+              "metin": "Anadolu Türk siyasi birliği yeniden kuruldu"
+            },
+            {
+              "id": "i42",
+              "ustId": "p4",
+              "metin": "İlk darüşşifa açıldı (Bursa)"
+            },
+            {
+              "id": "i43",
+              "ustId": "p4",
+              "metin": "Anadolu Beylerbeyliği kuruldu (merkez: Kütahya)"
+            },
+            {
+              "id": "i44",
+              "ustId": "p4",
+              "metin": "Ankara Savaşı sonrası Fetret Devri başladı"
+            },
+            {
+              "id": "i45",
+              "ustId": "p5",
+              "metin": "Fetret Devri'ni sona erdirdi"
+            },
+            {
+              "id": "i46",
+              "ustId": "p5",
+              "metin": "Düzmece Mustafa'nın isyanıyla uğraştı"
+            },
+            {
+              "id": "i47",
+              "ustId": "p6",
+              "metin": "Düzmece Mustafa İsyanı'nı bastırdı"
+            },
+            {
+              "id": "i48",
+              "ustId": "p6",
+              "metin": "Küçük Mustafa İsyanı'nı bastırdı"
+            },
+            {
+              "id": "i49",
+              "ustId": "p6",
+              "metin": "Edirne-Segedin Antlaşması — Haçlılarla yapılan ilk antlaşma"
+            },
+            {
+              "id": "i50",
+              "ustId": "p6",
+              "metin": "Varna Savaşı yapıldı"
+            },
+            {
+              "id": "i51",
+              "ustId": "p6",
+              "metin": "II. Kosova Savaşı — Balkanların Türk yurdu olduğu kesinleşti"
+            },
+            {
+              "id": "i52",
+              "ustId": "p6",
+              "metin": "İlk şair padişah oldu"
+            },
+            {
+              "id": "i53",
+              "ustId": "p6",
+              "metin": "İlk Enderun Mektebi açıldı"
+            }
+          ]
+        },
+        {
+          "id": "yukselme-donemi-padisahlar",
+          "baslik": "Yükselme Dönemi: Padişahlar",
+          "mod": "havuz",
+          "ust": [
+            {
+              "id": "p7",
+              "metin": "Fatih Sultan Mehmet"
+            },
+            {
+              "id": "p8",
+              "metin": "II. Bayezid"
+            },
+            {
+              "id": "p9",
+              "metin": "Yavuz Sultan Selim"
+            },
+            {
+              "id": "p10",
+              "metin": "Sokullu Dönemi — II. Selim"
+            },
+            {
+              "id": "p11",
+              "metin": "Kanuni Sultan Süleyman"
+            },
+            {
+              "id": "p12",
+              "metin": "Sokullu Dönemi — III. Murat"
+            }
+          ],
+          "havuz": [
+            {
+              "id": "i54",
+              "ustId": "p7",
+              "metin": "Kırım alınarak Karadeniz Türk gölü olmuştur"
+            },
+            {
+              "id": "i55",
+              "ustId": "p7",
+              "metin": "\"Kayser-i Rum\" ve \"Sultanü'l-Berreyn ve'l-Bahreyn\" unvanlarını kullanmıştır"
+            },
+            {
+              "id": "i56",
+              "ustId": "p7",
+              "metin": "Kanunname-i Ali Osman hazırlanmıştır"
+            },
+            {
+              "id": "i57",
+              "ustId": "p7",
+              "metin": "Balkanlarda Sırbistan, Arnavutluk, Eflak-Boğdan, Bosna-Hersek, Mora Despotluğu ele geçirilmiştir"
+            },
+            {
+              "id": "i58",
+              "ustId": "p7",
+              "metin": "Osmanlı Devleti'ni Cihanşümul (dünya) devlet haline getirmiştir"
+            },
+            {
+              "id": "i59",
+              "ustId": "p7",
+              "metin": "Sabuncuoğlu Şerefeddin'in \"Cerrahiyyetü'l-Haniyye\" adlı eserini sunduğu padişah"
+            },
+            {
+              "id": "i60",
+              "ustId": "p7",
+              "metin": "Gedik Ahmet Paşa tarafından Otranto Seferi düzenlenmiştir"
+            },
+            {
+              "id": "i61",
+              "ustId": "p8",
+              "metin": "Cem Sultan ve Şahkulu isyanları yaşanmıştır"
+            },
+            {
+              "id": "i62",
+              "ustId": "p8",
+              "metin": "Yükselme Dönemi içinde Duraklama Dönemi özelliği taşıyan, \"Küçük Kıyamet\" olarak adlandırılan İstanbul depremi yaşanmıştır"
+            },
+            {
+              "id": "i63",
+              "ustId": "p9",
+              "metin": "Turnadağ Savaşı ile Dulkadiroğlu Beyliği'ne son verilmiştir"
+            },
+            {
+              "id": "i64",
+              "ustId": "p9",
+              "metin": "Mercidabık ve Ridaniye Savaşları ile Memlüklere son verilerek Suriye, Filistin, Irak, Hicaz ve Mısır ele geçirilmiştir"
+            },
+            {
+              "id": "i65",
+              "ustId": "p9",
+              "metin": "Çaldıran Savaşı ile Şah İsmail yenilgiye uğratılmıştır"
+            },
+            {
+              "id": "i66",
+              "ustId": "p9",
+              "metin": "İlk Osmanlı halifesi olmuştur"
+            },
+            {
+              "id": "i67",
+              "ustId": "p9",
+              "metin": "\"Benim altınla doldurduğum hazineyi torunlarımdan her kim doldurabilirse kendi mührüyle mühürlesin\" diyen padişah; Hazine-i Hümayun'da daima onun mührü kullanılmıştır"
+            },
+            {
+              "id": "i68",
+              "ustId": "p9",
+              "metin": "İdris-i Bitlisi Osmanlı hizmetinde görev yapmaya başlamıştır"
+            },
+            {
+              "id": "i69",
+              "ustId": "p10",
+              "metin": "Kıbrıs alınmış, bu durum İnebahtı Deniz Savaşı'na neden olmuştur"
+            },
+            {
+              "id": "i70",
+              "ustId": "p10",
+              "metin": "Şehzadelerin sancağa çıkmasını sadece Manisa ile sınırlandıran padişah"
+            },
+            {
+              "id": "i71",
+              "ustId": "p10",
+              "metin": "Sokullu, Don-Volga Kanal Projesi'ni sunmuştur"
+            },
+            {
+              "id": "i72",
+              "ustId": "p10",
+              "metin": "Sumatra Seferi ile Endonezya'daki Açe Sultanlığı'na Portekizlilere karşı yardım gönderilmiştir"
+            },
+            {
+              "id": "i73",
+              "ustId": "p11",
+              "metin": "Avrupa'da \"Büyük Türk\" olarak bilinen padişah"
+            },
+            {
+              "id": "i74",
+              "ustId": "p11",
+              "metin": "Mısır'da Canberdi Gazali ve Ahmet Paşa isyanları çıkmıştır"
+            },
+            {
+              "id": "i75",
+              "ustId": "p11",
+              "metin": "Hint Deniz Seferleri düzenlemiştir"
+            },
+            {
+              "id": "i76",
+              "ustId": "p11",
+              "metin": "İspanya ile Cerbe Deniz Savaşı yapılmıştır"
+            },
+            {
+              "id": "i77",
+              "ustId": "p11",
+              "metin": "Seydi Ali Reis'in \"Mir'atü'l-Memalik\" adlı eserini sunduğu padişah"
+            },
+            {
+              "id": "i78",
+              "ustId": "p11",
+              "metin": "Preveze Deniz Savaşı ile Akdeniz Türk gölü olmuştur"
+            },
+            {
+              "id": "i79",
+              "ustId": "p11",
+              "metin": "Zigetvar Seferi düzenlenmiştir"
+            },
+            {
+              "id": "i80",
+              "ustId": "p11",
+              "metin": "İran ile yapılan ilk antlaşma olan Amasya Antlaşması yapılmıştır"
+            },
+            {
+              "id": "i81",
+              "ustId": "p11",
+              "metin": "ABD Meclisi'nde portresi bulunan ünlü kanun koyucular arasında yer alan tek Osmanlı padişahı"
+            },
+            {
+              "id": "i82",
+              "ustId": "p12",
+              "metin": "Portekiz ile Vadi'üs-Seyl Savaşı yapılmıştır"
+            }
+          ]
+        },
+        {
+          "id": "duraklama-donemi-padisahlar",
+          "baslik": "Duraklama Dönemi: Padişahlar",
+          "mod": "havuz",
+          "ust": [
+            {
+              "id": "p13",
+              "metin": "IV. Mehmet"
+            },
+            {
+              "id": "p14",
+              "metin": "II. Osman"
+            },
+            {
+              "id": "p15",
+              "metin": "III. Murat"
+            },
+            {
+              "id": "p16",
+              "metin": "III. Mehmet"
+            },
+            {
+              "id": "p17",
+              "metin": "I. Ahmet"
+            },
+            {
+              "id": "p18",
+              "metin": "IV. Murat"
+            },
+            {
+              "id": "p19",
+              "metin": "II. Mustafa"
+            }
+          ],
+          "havuz": [
+            {
+              "id": "i83",
+              "ustId": "p13",
+              "metin": "Tarhuncu Ahmet Paşa'ya ilk denk bütçeyi hazırlattı"
+            },
+            {
+              "id": "i84",
+              "ustId": "p13",
+              "metin": "Lehistan ile yapılan barış antlaşmasıyla Batı'da en geniş sınırlara ulaşıldı"
+            },
+            {
+              "id": "i85",
+              "ustId": "p13",
+              "metin": "Vak'a-i Vakvakiye Olayı yaşandı"
+            },
+            {
+              "id": "i86",
+              "ustId": "p13",
+              "metin": "Venedik'ten Girit, Avusturya'dan Uyvar Kalesi alındı"
+            },
+            {
+              "id": "i87",
+              "ustId": "p13",
+              "metin": "Tarhuncu Ahmet Paşa, Köprülü Mehmet Paşa, Köprülü Fazıl Ahmet Paşa ve Merzifonlu Kara Mustafa Paşa döneminde sadrazamlık yapmıştır"
+            },
+            {
+              "id": "i88",
+              "ustId": "p13",
+              "metin": "En genç padişahtır"
+            },
+            {
+              "id": "i89",
+              "ustId": "p13",
+              "metin": "İkinci Viyana Kuşatması gerçekleştirilmiştir"
+            },
+            {
+              "id": "i90",
+              "ustId": "p14",
+              "metin": "Hotin Seferi'nde yeniçerilerin isteksizliğini gördü"
+            },
+            {
+              "id": "i91",
+              "ustId": "p14",
+              "metin": "İlk yenilik yapan padişahtır"
+            },
+            {
+              "id": "i92",
+              "ustId": "p14",
+              "metin": "Yeniçeriler tarafından öldürülen ilk padişahtır"
+            },
+            {
+              "id": "i93",
+              "ustId": "p14",
+              "metin": "Saray dışında evlilik yapan ilk padişahtır"
+            },
+            {
+              "id": "i94",
+              "ustId": "p14",
+              "metin": "Yeniçeri Ocağı'nı kapatmayı düşünen ilk padişahtır"
+            },
+            {
+              "id": "i95",
+              "ustId": "p14",
+              "metin": "Farisi mahlasıyla şiir yazmıştır"
+            },
+            {
+              "id": "i96",
+              "ustId": "p15",
+              "metin": "Yükselme Dönemi'nin son, Duraklama Dönemi'nin ilk padişahıdır"
+            },
+            {
+              "id": "i97",
+              "ustId": "p15",
+              "metin": "Yeniçeri Ocağı'na dışarıdan alımlar başladı"
+            },
+            {
+              "id": "i98",
+              "ustId": "p15",
+              "metin": "İstanbul'da nüfus sayımı yaptırdı"
+            },
+            {
+              "id": "i99",
+              "ustId": "p15",
+              "metin": "Devalüasyon yapılarak paranın değeri düşürüldü"
+            },
+            {
+              "id": "i100",
+              "ustId": "p15",
+              "metin": "İran ile Ferhat Paşa Antlaşması yapıldı"
+            },
+            {
+              "id": "i101",
+              "ustId": "p16",
+              "metin": "Kanuni döneminde alınamayan Eğri Kalesi'ni aldı"
+            },
+            {
+              "id": "i102",
+              "ustId": "p16",
+              "metin": "Sancağa çıkıp padişah olan son hükümdardır"
+            },
+            {
+              "id": "i103",
+              "ustId": "p16",
+              "metin": "Sadeddin Efendi hocalığını yapmıştır"
+            },
+            {
+              "id": "i104",
+              "ustId": "p16",
+              "metin": "Haçova Meydan Savaşı ile Avusturya'yı yenmiştir"
+            },
+            {
+              "id": "i105",
+              "ustId": "p16",
+              "metin": "Kafes Sistemi'ni getirerek şehzadelerin sancağa çıkmasını yasaklamıştır"
+            },
+            {
+              "id": "i106",
+              "ustId": "p17",
+              "metin": "Ekber ve Erşed Sistemi'ni getirdi"
+            },
+            {
+              "id": "i107",
+              "ustId": "p17",
+              "metin": "Sancağa çıkmadan hükümdar olan ilk padişahtır"
+            },
+            {
+              "id": "i108",
+              "ustId": "p17",
+              "metin": "İran ile Nasuh Paşa Antlaşması, Avusturya ile Zitvatorok Antlaşması yapıldı"
+            },
+            {
+              "id": "i109",
+              "ustId": "p17",
+              "metin": "Bahti mahlasını kullanmıştır"
+            },
+            {
+              "id": "i110",
+              "ustId": "p18",
+              "metin": "Koçi Bey ve Kâtip Çelebi'ye risale hazırlattı"
+            },
+            {
+              "id": "i111",
+              "ustId": "p18",
+              "metin": "Bağdat Fatihi'dir"
+            },
+            {
+              "id": "i112",
+              "ustId": "p18",
+              "metin": "Revan Köşkü, Bağdat Köşkü ve Üsküdar Çinili Camii'ni yaptırmıştır"
+            },
+            {
+              "id": "i113",
+              "ustId": "p18",
+              "metin": "Hezarfen Ahmet Çelebi ve Lagari Hasan Çelebi uçuşlarını bu dönemde gerçekleştirmiştir"
+            },
+            {
+              "id": "i114",
+              "ustId": "p19",
+              "metin": "Venedik, Avusturya ve Lehistan ile Karlofça Antlaşması; Rusya ile 1700 İstanbul Antlaşması yapıldı"
+            }
+          ]
+        },
+        {
+          "id": "gerileme-donemi-padisahlar",
+          "baslik": "Gerileme Dönemi: Padişahlar",
+          "mod": "havuz",
+          "ust": [
+            {
+              "id": "p20",
+              "metin": "III. Selim"
+            },
+            {
+              "id": "p21",
+              "metin": "III. Ahmet"
+            },
+            {
+              "id": "p22",
+              "metin": "I. Abdülhamit"
+            },
+            {
+              "id": "p23",
+              "metin": "II. Mustafa"
+            },
+            {
+              "id": "p24",
+              "metin": "I. Mahmut"
+            },
+            {
+              "id": "p25",
+              "metin": "III. Mustafa"
+            }
+          ],
+          "havuz": [
+            {
+              "id": "i115",
+              "ustId": "p20",
+              "metin": "Nizam-ı Cedit ıslahatlarını gerçekleştiren padişahtır"
+            },
+            {
+              "id": "i116",
+              "ustId": "p20",
+              "metin": "İrad-ı Cedit Hazinesi kurulmuştur"
+            },
+            {
+              "id": "i117",
+              "ustId": "p20",
+              "metin": "İlk devlet matbaası Matbaa-i Âmire açılmıştır"
+            },
+            {
+              "id": "i118",
+              "ustId": "p20",
+              "metin": "İlk defa kalıcı elçilikler açılmıştır"
+            },
+            {
+              "id": "i119",
+              "ustId": "p20",
+              "metin": "Mühendishane-i Berri Hümayun açılmıştır"
+            },
+            {
+              "id": "i120",
+              "ustId": "p20",
+              "metin": "Kabakçı Mustafa İsyanı ile tahttan indirilmiştir"
+            },
+            {
+              "id": "i121",
+              "ustId": "p20",
+              "metin": "Viyana'ya elçi olarak gönderilen Ebubekir Ratib Efendi'nin Avrupa'da gördüklerini yazdığı 500 sayfalık Sefaretname'sini sunduğu padişahtır"
+            },
+            {
+              "id": "i122",
+              "ustId": "p20",
+              "metin": "Meşveret Meclisi (danışma kurulu) oluşturulmuştur"
+            },
+            {
+              "id": "i123",
+              "ustId": "p20",
+              "metin": "Yıldız Sarayı'nı yaptıran padişahtır"
+            },
+            {
+              "id": "i124",
+              "ustId": "p21",
+              "metin": "Lale Devri'nin padişahıdır"
+            },
+            {
+              "id": "i125",
+              "ustId": "p21",
+              "metin": "İlk defa geçici elçilikler açılmıştır"
+            },
+            {
+              "id": "i126",
+              "ustId": "p21",
+              "metin": "Islahatlarda ilk defa Batı örnek alınmıştır"
+            },
+            {
+              "id": "i127",
+              "ustId": "p21",
+              "metin": "İlk defa matbaa getirilmiştir"
+            },
+            {
+              "id": "i128",
+              "ustId": "p21",
+              "metin": "Tulumbacılar Ocağı kurulmuştur"
+            },
+            {
+              "id": "i129",
+              "ustId": "p21",
+              "metin": "Patrona Halil İsyanı ile tahttan indirilmiştir"
+            },
+            {
+              "id": "i130",
+              "ustId": "p21",
+              "metin": "Prut ve Pasarofça Antlaşmaları imzalanmıştır"
+            },
+            {
+              "id": "i131",
+              "ustId": "p22",
+              "metin": "İstihkam Okulu açılmıştır"
+            },
+            {
+              "id": "i132",
+              "ustId": "p22",
+              "metin": "Cülus bahşişi verme geleneği kaldırılmıştır"
+            },
+            {
+              "id": "i133",
+              "ustId": "p22",
+              "metin": "Yabancı uzmanların Müslüman olma şartı kaldırılmıştır"
+            },
+            {
+              "id": "i134",
+              "ustId": "p22",
+              "metin": "Halifelik ilk defa siyasi güç olarak kullanılmıştır"
+            },
+            {
+              "id": "i135",
+              "ustId": "p22",
+              "metin": "Küçük Kaynarca Antlaşması imzalanmıştır"
+            },
+            {
+              "id": "i136",
+              "ustId": "p22",
+              "metin": "Mühendishane-i Bahri Hümayun açılmıştır"
+            },
+            {
+              "id": "i137",
+              "ustId": "p22",
+              "metin": "İlk kez yeniçeri sayımı yapılarak ulufe alım satımı yasaklanmıştır"
+            },
+            {
+              "id": "i138",
+              "ustId": "p23",
+              "metin": "Edirne Vakası ile tahttan indirilmiştir"
+            },
+            {
+              "id": "i139",
+              "ustId": "p23",
+              "metin": "Ordunun başında sefere çıkan son padişahtır"
+            },
+            {
+              "id": "i140",
+              "ustId": "p23",
+              "metin": "Duraklama Dönemi'nin son, Gerileme Dönemi'nin ilk padişahıdır"
+            },
+            {
+              "id": "i141",
+              "ustId": "p23",
+              "metin": "Hat sanatıyla uğraşan ve eserleri günümüze ulaşan ilk padişahtır"
+            },
+            {
+              "id": "i142",
+              "ustId": "p24",
+              "metin": "Askeri alanda Batı ilk defa örnek alınmıştır"
+            },
+            {
+              "id": "i143",
+              "ustId": "p24",
+              "metin": "Hendesehane açılmıştır"
+            },
+            {
+              "id": "i144",
+              "ustId": "p25",
+              "metin": "Esham sistemi uygulanmıştır"
+            },
+            {
+              "id": "i145",
+              "ustId": "p25",
+              "metin": "Sürat Topçuları Ocağı açılmıştır"
+            }
+          ]
+        },
+        {
+          "id": "dagilma-donemi-padisahlar",
+          "baslik": "Dağılma Dönemi: Padişahlar",
+          "mod": "havuz",
+          "ust": [
+            {
+              "id": "p26",
+              "metin": "II. Mahmut"
+            },
+            {
+              "id": "p27",
+              "metin": "Abdülmecit"
+            },
+            {
+              "id": "p28",
+              "metin": "Abdülaziz"
+            },
+            {
+              "id": "p29",
+              "metin": "II. Abdülhamit"
+            }
+          ],
+          "havuz": [
+            {
+              "id": "i146",
+              "ustId": "p26",
+              "metin": "Ayanlarla Sened-i İttifak yapıldı"
+            },
+            {
+              "id": "i147",
+              "ustId": "p26",
+              "metin": "Yeniçeri Ocağı kapatıldı"
+            },
+            {
+              "id": "i148",
+              "ustId": "p26",
+              "metin": "İlk resmi gazete Takvim-i Vekayi çıkarıldı"
+            },
+            {
+              "id": "i149",
+              "ustId": "p26",
+              "metin": "İlk defa Avrupa'ya öğrenci gönderildi"
+            },
+            {
+              "id": "i150",
+              "ustId": "p26",
+              "metin": "Sekban-ı Cedit, Eşkinci Ocağı, Asakir-i Mansure-i Muhammediye, Redif Birlikleri kuruldu"
+            },
+            {
+              "id": "i151",
+              "ustId": "p26",
+              "metin": "İlk yurt içi seyahatine çıktı"
+            },
+            {
+              "id": "i152",
+              "ustId": "p26",
+              "metin": "Tıbbiye, Harbiye, Mekteb-i Maarif-i Adliye, Mekteb-i Ulûm-i Edebiye Mektepleri açıldı"
+            },
+            {
+              "id": "i153",
+              "ustId": "p26",
+              "metin": "İlk defa genel nüfus sayımı yapıldı"
+            },
+            {
+              "id": "i154",
+              "ustId": "p26",
+              "metin": "Tımar ve müsadere usulleri kaldırıldı"
+            },
+            {
+              "id": "i155",
+              "ustId": "p26",
+              "metin": "Memurlara ceket, fes ve pantolon giyme zorunluluğu getirildi"
+            },
+            {
+              "id": "i156",
+              "ustId": "p26",
+              "metin": "İlk pasaport uygulaması olan mürur tezkeresi uygulanmıştır"
+            },
+            {
+              "id": "i157",
+              "ustId": "p27",
+              "metin": "Tanzimat ve Islahat Fermanları yayınlandı"
+            },
+            {
+              "id": "i158",
+              "ustId": "p27",
+              "metin": "İlk kağıt para (Kaime) basıldı"
+            },
+            {
+              "id": "i159",
+              "ustId": "p27",
+              "metin": "İlk banka olan Bank-ı Dersaadet açıldı"
+            },
+            {
+              "id": "i160",
+              "ustId": "p27",
+              "metin": "İlk defa dış borç alındı (İngiltere)"
+            },
+            {
+              "id": "i161",
+              "ustId": "p27",
+              "metin": "Dolmabahçe Sarayı yapıldı"
+            },
+            {
+              "id": "i162",
+              "ustId": "p27",
+              "metin": "1851'de ilk anonim vapurculuk şirketi olan Şirket-i Hayriye kurulmuştur"
+            },
+            {
+              "id": "i163",
+              "ustId": "p27",
+              "metin": "Yabancı sermaye destekli ilk banka olan Bank-ı Osmani İngilizler tarafından açılmıştır"
+            },
+            {
+              "id": "i164",
+              "ustId": "p27",
+              "metin": "İlk kez belediye teşkilatı kurulmuştur"
+            },
+            {
+              "id": "i165",
+              "ustId": "p27",
+              "metin": "Meclis-i Ali-i Tanzimat kurulmuştur"
+            },
+            {
+              "id": "i166",
+              "ustId": "p28",
+              "metin": "İlk yurt dışı seyahatine çıkan padişahtır"
+            },
+            {
+              "id": "i167",
+              "ustId": "p28",
+              "metin": "Osmanlı donanması dünyanın en büyük ikinci donanması oldu"
+            },
+            {
+              "id": "i168",
+              "ustId": "p28",
+              "metin": "İlk metro, ilk tramvay hatları yapıldı"
+            },
+            {
+              "id": "i169",
+              "ustId": "p28",
+              "metin": "Şura-yı Devlet, Divan-ı Ahkâm-ı Adliye ve Divan-ı Muhasebat açıldı"
+            },
+            {
+              "id": "i170",
+              "ustId": "p28",
+              "metin": "Çırağan ve Beylerbeyi Sarayları yaptırıldı"
+            },
+            {
+              "id": "i171",
+              "ustId": "p28",
+              "metin": "Yenilik taraftarları tarafından tahttan indirilen ilk padişahtır"
+            },
+            {
+              "id": "i172",
+              "ustId": "p28",
+              "metin": "İlk posta pulu basılmıştır"
+            },
+            {
+              "id": "i173",
+              "ustId": "p29",
+              "metin": "Birinci ve İkinci Meşrutiyet ilan edildi"
+            },
+            {
+              "id": "i174",
+              "ustId": "p29",
+              "metin": "Ziraat, Baytar, Polis, Aşiret, Gümrük Mektepleri açıldı"
+            },
+            {
+              "id": "i175",
+              "ustId": "p29",
+              "metin": "Sanayi-i Nefise Mektebi açıldı"
+            },
+            {
+              "id": "i176",
+              "ustId": "p29",
+              "metin": "En çok okul açan padişahtır"
+            },
+            {
+              "id": "i177",
+              "ustId": "p29",
+              "metin": "Meclis kararıyla tahttan indirilen padişahtır"
+            },
+            {
+              "id": "i178",
+              "ustId": "p29",
+              "metin": "Devletin ilk kez rejimi değişmiştir"
+            },
+            {
+              "id": "i179",
+              "ustId": "p29",
+              "metin": "Muharrem Kararnamesi ile Duyun-u Umumiye İdaresi kurulmuştur"
+            }
+          ]
+        },
+        {
+          "id": "savaslar",
+          "baslik": "Savaşlar",
+          "mod": "havuz",
+          "ust": [
+            {
+              "id": "p30",
+              "metin": "Osmanlı - Bizans"
+            },
+            {
+              "id": "p31",
+              "metin": "Osmanlı - Haçlı"
+            }
+          ],
+          "havuz": [
+            {
+              "id": "i180",
+              "ustId": "p30",
+              "metin": "Koyunhisar Savaşı / Bafeus (1301) — İlk Osmanlı-Bizans savaşıdır"
+            },
+            {
+              "id": "i181",
+              "ustId": "p30",
+              "metin": "Maltepe Savaşı / Pelekanon (1329) — Bizans'tan İznik alındı"
+            },
+            {
+              "id": "i182",
+              "ustId": "p30",
+              "metin": "Sazlıdere Savaşı (1361) — Bizans'tan Edirne alındı"
+            },
+            {
+              "id": "i183",
+              "ustId": "p31",
+              "metin": "Sırpsındığı Savaşı (1364) — İlk Osmanlı-Haçlı savaşıdır"
+            },
+            {
+              "id": "i184",
+              "ustId": "p31",
+              "metin": "Çirmen Savaşı (1371) — Makedonya'nın fethi kolaylaştı"
+            },
+            {
+              "id": "i185",
+              "ustId": "p31",
+              "metin": "Ploşnik Bozgunu (1387) — Balkanlar'da ilk yenilgi"
+            },
+            {
+              "id": "i186",
+              "ustId": "p31",
+              "metin": "I. Kosova Savaşı (1389) — Savaş alanında ilk defa padişah şehit düşer; Türk bayrağının ay-yıldız şekli belirlenir"
+            },
+            {
+              "id": "i187",
+              "ustId": "p31",
+              "metin": "Niğbolu Savaşı (1396) — Halife, I. Bayezid'e \"Sultan-ı İklim-i Rum\" unvanını verir"
+            },
+            {
+              "id": "i188",
+              "ustId": "p31",
+              "metin": "Varna Savaşı (1444) — II. Murat'ın tahtı çocuk yaştaki II. Mehmet'e bırakmasını fırsat bilen Haçlıların Osmanlı'ya saldırmasıyla çıkan savaştır"
+            },
+            {
+              "id": "i189",
+              "ustId": "p31",
+              "metin": "II. Kosova Savaşı (1448) — Balkanların Türk yurdu olduğu kesinleşti"
+            }
+          ]
+        },
+        {
+          "id": "askeri-teskilat",
+          "baslik": "Askeri Teşkilat: Eyalet ve Kapıkulu Askerleri",
+          "mod": "havuz",
+          "ust": [
+            {
+              "id": "p32",
+              "metin": "Eyalet Askerleri (Tımar sistemi)"
+            },
+            {
+              "id": "p33",
+              "metin": "Kapıkulu Askerleri (Devşirme sistemi)"
+            }
+          ],
+          "havuz": [
+            {
+              "id": "i190",
+              "ustId": "p32",
+              "metin": "Akıncılar — Keşif birliği"
+            },
+            {
+              "id": "i191",
+              "ustId": "p32",
+              "metin": "Azaplar — İlk hücumu karşılayan öncü birlik"
+            },
+            {
+              "id": "i192",
+              "ustId": "p32",
+              "metin": "Yaya ve Müsellemler — Köprü tamiri ve yol yapımıyla görevlendirilir"
+            },
+            {
+              "id": "i193",
+              "ustId": "p32",
+              "metin": "Yörükler — Siper kazma, kale tamiri ve yol açma işleriyle görevlendirilir"
+            },
+            {
+              "id": "i194",
+              "ustId": "p32",
+              "metin": "Deliler — Sınır birlikleri; korkusuz akıncı askerler"
+            },
+            {
+              "id": "i195",
+              "ustId": "p32",
+              "metin": "Beşliler — Sınırdaki kaleleri koruyanlar"
+            },
+            {
+              "id": "i196",
+              "ustId": "p32",
+              "metin": "Gönüllüler — Sınırdaki şehir ve kasabaları koruyanlar"
+            },
+            {
+              "id": "i197",
+              "ustId": "p32",
+              "metin": "Cebelü — Sahib-i arz denilen tımar sahiplerinin beslemek zorunda olduğu askerler"
+            },
+            {
+              "id": "i198",
+              "ustId": "p33",
+              "metin": "Kapıkulu Piyadeleri — Yaya askerler"
+            },
+            {
+              "id": "i199",
+              "ustId": "p33",
+              "metin": "Acemi Oğlanlar Ocağı — Devşirmelerin ilk eğitildiği ocak"
+            },
+            {
+              "id": "i200",
+              "ustId": "p33",
+              "metin": "Yeniçeriler — Padişahı koruyan yaya askerler"
+            },
+            {
+              "id": "i201",
+              "ustId": "p33",
+              "metin": "Cebeciler — Silahlardan sorumlu"
+            },
+            {
+              "id": "i202",
+              "ustId": "p33",
+              "metin": "Humbaracılar — Havan topu yapan birlik"
+            },
+            {
+              "id": "i203",
+              "ustId": "p33",
+              "metin": "Bostancılar — Sarayın güvenliğini sağlayanlar"
+            },
+            {
+              "id": "i204",
+              "ustId": "p33",
+              "metin": "Kapıkulu Süvarileri — Atlı asker grubu"
+            },
+            {
+              "id": "i205",
+              "ustId": "p33",
+              "metin": "Silahtar ve Sipahiler — Savaş sırasında padişahın otağını koruyanlar"
+            },
+            {
+              "id": "i206",
+              "ustId": "p33",
+              "metin": "Sağ ve Sol Ulufeciler — Saltanat sancağını koruyanlar"
+            },
+            {
+              "id": "i207",
+              "ustId": "p33",
+              "metin": "Sağ ve Sol Garipler — Ordunun ağırlıklarını ve hazineyi koruyanlar"
+            },
+            {
+              "id": "i208",
+              "ustId": "p33",
+              "metin": "Pençik — Savaşta esir alınan her beş çocuktan birinin devlete ayrılması usulü"
+            }
+          ]
+        },
+        {
+          "id": "antlasmalar",
+          "baslik": "Antlaşmalar ve Sonuçları",
+          "mod": "liste",
+          "pairs": [
+            {
+              "left": "Prut Antlaşması (1711)",
+              "right": "Ruslardan Azak Kalesi geri alındı; Rusya'nın İstanbul'da daimi elçi bulundurma hakkı engellendi"
+            },
+            {
+              "left": "Pasarofça Antlaşması (1718)",
+              "right": "Avrupa'nın üstünlüğü kabul edildi; ilk defa Batı örnek alınarak Lale Devri ıslahatları başladı"
+            },
+            {
+              "left": "İstanbul Antlaşması (1724)",
+              "right": "Osmanlı ile Rusya arasındaki ilk ittifak antlaşması; İran'a karşı yapıldı"
+            },
+            {
+              "left": "Ahmet Paşa Antlaşması (1732)",
+              "right": "Osmanlı-İran Savaşı'nı bitirdi; sınır, ticaret ve hac-elçi düzenlemeleri yapıldı"
+            },
+            {
+              "left": "Belgrad Antlaşması (1739)",
+              "right": "Karadeniz'deki Türk egemenliğini son defa onaylayan, Osmanlı'nın imzaladığı son kazançlı antlaşma"
+            },
+            {
+              "left": "Kerden Antlaşması (1746)",
+              "right": "2. Kasr-ı Şirin Antlaşması olarak da bilinir"
+            },
+            {
+              "left": "Aynalıkavak Tenkihnamesi (1779)",
+              "right": "Rus yanlısı Şahin Giray'ın Kırım Hanı olarak tanındığı antlaşma"
+            },
+            {
+              "left": "Ziştovi Antlaşması (1791)",
+              "right": "Avusturya ile yapıldı; imzalanmasında Fransız İhtilali etkili oldu"
+            },
+            {
+              "left": "Yaş Antlaşması (1792)",
+              "right": "Kırım Rusya'ya bağlandı"
+            },
+            {
+              "left": "Trablusgarp Antlaşması (1795)",
+              "right": "Cezayir Beylerbeyi Hasan Paşa ile ABD arasında yapıldı; ABD'nin ilk defa yabancı bir devlete vergi ödemeyi kabul ettiği antlaşma"
+            },
+            {
+              "left": "El Ariş Antlaşması (1801)",
+              "right": "Fransa'dan Mısır geri alındı; Osmanlı ilk defa denge siyaseti uyguladı"
+            }
+          ]
+        },
+        {
+          "id": "eser-yazar",
+          "baslik": "Eser - Yazar Eşleştirmesi",
+          "mod": "cift-havuz",
+          "ustEtiket": "Yazarlar",
+          "altEtiket": "Eserler",
+          "ust": [
+            {
+              "id": "p42",
+              "metin": "Ahmet Cevdet Paşa"
+            },
+            {
+              "id": "p43",
+              "metin": "Akşemseddin"
+            },
+            {
+              "id": "p44",
+              "metin": "Ali Kuşçu"
+            },
+            {
+              "id": "p45",
+              "metin": "Aşıkpaşazade"
+            },
+            {
+              "id": "p46",
+              "metin": "Evliya Çelebi"
+            },
+            {
+              "id": "p47",
+              "metin": "Fuzuli"
+            },
+            {
+              "id": "p48",
+              "metin": "Itri"
+            },
+            {
+              "id": "p49",
+              "metin": "İdris-i Bitlisi"
+            },
+            {
+              "id": "p50",
+              "metin": "Kâtip Çelebi"
+            },
+            {
+              "id": "p51",
+              "metin": "Matrakçı Nasuh"
+            },
+            {
+              "id": "p52",
+              "metin": "Nef'i"
+            },
+            {
+              "id": "p53",
+              "metin": "Osman Hamdi Bey"
+            },
+            {
+              "id": "p54",
+              "metin": "Piri Reis"
+            },
+            {
+              "id": "p55",
+              "metin": "Sabuncuoğlu Şerefeddin"
+            },
+            {
+              "id": "p56",
+              "metin": "Seydi Ali Reis"
+            }
+          ],
+          "havuz": [
+            {
+              "id": "i247",
+              "ustId": "p42",
+              "metin": "Mecelle"
+            },
+            {
+              "id": "i248",
+              "ustId": "p43",
+              "metin": "Maddetü'l-Hayat"
+            },
+            {
+              "id": "i249",
+              "ustId": "p44",
+              "metin": "Fethiyye"
+            },
+            {
+              "id": "i250",
+              "ustId": "p45",
+              "metin": "Tevarih-i Âl-i Osman"
+            },
+            {
+              "id": "i251",
+              "ustId": "p46",
+              "metin": "Seyahatname"
+            },
+            {
+              "id": "i252",
+              "ustId": "p47",
+              "metin": "Su Kasidesi"
+            },
+            {
+              "id": "i253",
+              "ustId": "p47",
+              "metin": "Leyla vü Mecnun"
+            },
+            {
+              "id": "i254",
+              "ustId": "p48",
+              "metin": "Tûtî-i Mucize-Guyem"
+            },
+            {
+              "id": "i255",
+              "ustId": "p49",
+              "metin": "Heşt Behişt"
+            },
+            {
+              "id": "i256",
+              "ustId": "p50",
+              "metin": "Keşfü'z-Zünun"
+            },
+            {
+              "id": "i257",
+              "ustId": "p50",
+              "metin": "Cihannüma"
+            },
+            {
+              "id": "i258",
+              "ustId": "p50",
+              "metin": "Fezleke"
+            },
+            {
+              "id": "i259",
+              "ustId": "p51",
+              "metin": "Beyân-ı Menâzil-i Sefer-i Irakeyn"
+            },
+            {
+              "id": "i260",
+              "ustId": "p52",
+              "metin": "Siham-ı Kaza"
+            },
+            {
+              "id": "i261",
+              "ustId": "p53",
+              "metin": "Kaplumbağa Terbiyecisi"
+            },
+            {
+              "id": "i262",
+              "ustId": "p53",
+              "metin": "Cami Önü"
+            },
+            {
+              "id": "i263",
+              "ustId": "p53",
+              "metin": "Silah Taciri"
+            },
+            {
+              "id": "i264",
+              "ustId": "p53",
+              "metin": "İstanbul Hanımefendisi"
+            },
+            {
+              "id": "i265",
+              "ustId": "p53",
+              "metin": "Han İçi"
+            },
+            {
+              "id": "i266",
+              "ustId": "p54",
+              "metin": "Kitab-ı Bahriye"
+            },
+            {
+              "id": "i267",
+              "ustId": "p54",
+              "metin": "Dünya Haritası"
+            },
+            {
+              "id": "i268",
+              "ustId": "p55",
+              "metin": "Mücerreb-nâme"
+            },
+            {
+              "id": "i269",
+              "ustId": "p55",
+              "metin": "Cerrahiyyetü'l-Haniyye"
+            },
+            {
+              "id": "i270",
+              "ustId": "p56",
+              "metin": "Mir'atü'l-Memâlik"
+            }
+          ]
+        },
+        {
+          "id": "devlet-teskilati",
+          "baslik": "Devlet Teşkilatı Sınıflandırması",
+          "mod": "havuz",
+          "ust": [
+            {
+              "id": "p39",
+              "metin": "Seyfiye"
+            },
+            {
+              "id": "p40",
+              "metin": "Kalemiye"
+            },
+            {
+              "id": "p41",
+              "metin": "İlmiye"
+            }
+          ],
+          "havuz": [
+            {
+              "id": "i230",
+              "ustId": "p39",
+              "metin": "Veziriazam (Sadrazam)"
+            },
+            {
+              "id": "i231",
+              "ustId": "p39",
+              "metin": "Vezirler (Kubbealtı Vezirleri)"
+            },
+            {
+              "id": "i232",
+              "ustId": "p39",
+              "metin": "Yeniçeri Ağası"
+            },
+            {
+              "id": "i233",
+              "ustId": "p39",
+              "metin": "Kaptan-ı Derya"
+            },
+            {
+              "id": "i234",
+              "ustId": "p39",
+              "metin": "Beylerbeyi"
+            },
+            {
+              "id": "i235",
+              "ustId": "p39",
+              "metin": "Sancakbeyi"
+            },
+            {
+              "id": "i236",
+              "ustId": "p39",
+              "metin": "Subaşı"
+            },
+            {
+              "id": "i237",
+              "ustId": "p39",
+              "metin": "Tımarlı Sipahiler"
+            },
+            {
+              "id": "i238",
+              "ustId": "p40",
+              "metin": "Defterdar"
+            },
+            {
+              "id": "i239",
+              "ustId": "p40",
+              "metin": "Nişancı"
+            },
+            {
+              "id": "i240",
+              "ustId": "p40",
+              "metin": "Reisülküttap"
+            },
+            {
+              "id": "i241",
+              "ustId": "p40",
+              "metin": "Kâtipler ve Eminler"
+            },
+            {
+              "id": "i242",
+              "ustId": "p41",
+              "metin": "Şeyhülislam (Müftü)"
+            },
+            {
+              "id": "i243",
+              "ustId": "p41",
+              "metin": "Kazasker (Kadıasker)"
+            },
+            {
+              "id": "i244",
+              "ustId": "p41",
+              "metin": "Kadı"
+            },
+            {
+              "id": "i245",
+              "ustId": "p41",
+              "metin": "Müderris"
+            },
+            {
+              "id": "i246",
+              "ustId": "p41",
+              "metin": "Naib"
+            }
+          ]
+        },
+        {
+          "id": "devlet-gorevlileri",
+          "baslik": "Devlet Teşkilatı: Görevliler ve Görevleri",
+          "mod": "cift-havuz",
+          "ustEtiket": "Görevliler",
+          "altEtiket": "Görevler",
+          "ust": [
+            {
+              "id": "p57",
+              "metin": "Veziriazam (Sadrazam)"
+            },
+            {
+              "id": "p58",
+              "metin": "Vezirler (Kubbealtı Vezirleri)"
+            },
+            {
+              "id": "p59",
+              "metin": "Yeniçeri Ağası"
+            },
+            {
+              "id": "p60",
+              "metin": "Kaptan-ı Derya"
+            },
+            {
+              "id": "p61",
+              "metin": "Beylerbeyi"
+            },
+            {
+              "id": "p62",
+              "metin": "Sancakbeyi"
+            },
+            {
+              "id": "p63",
+              "metin": "Subaşı"
+            },
+            {
+              "id": "p64",
+              "metin": "Tımarlı Sipahiler"
+            },
+            {
+              "id": "p65",
+              "metin": "Defterdar"
+            },
+            {
+              "id": "p66",
+              "metin": "Nişancı"
+            },
+            {
+              "id": "p67",
+              "metin": "Reisülküttap"
+            },
+            {
+              "id": "p68",
+              "metin": "Kâtipler ve Eminler"
+            },
+            {
+              "id": "p69",
+              "metin": "Şeyhülislam (Müftü)"
+            },
+            {
+              "id": "p70",
+              "metin": "Kazasker (Kadıasker)"
+            },
+            {
+              "id": "p71",
+              "metin": "Kadı"
+            },
+            {
+              "id": "p72",
+              "metin": "Müderris"
+            },
+            {
+              "id": "p73",
+              "metin": "Naib"
+            }
+          ],
+          "havuz": [
+            {
+              "id": "i271",
+              "ustId": "p57",
+              "metin": "Padişahın mutlak vekilidir; günümüzün başbakanı konumundadır"
+            },
+            {
+              "id": "i272",
+              "ustId": "p58",
+              "metin": "Sadrazamın yardımcılarıdır; günümüzün devlet bakanları konumundadır"
+            },
+            {
+              "id": "i273",
+              "ustId": "p59",
+              "metin": "Yeniçeri Ocağı'nın baş komutanıdır; aynı zamanda İstanbul'un güvenliğinden sorumludur"
+            },
+            {
+              "id": "i274",
+              "ustId": "p60",
+              "metin": "Osmanlı donanmasının başkomutanıdır"
+            },
+            {
+              "id": "i275",
+              "ustId": "p61",
+              "metin": "Eyaletlerin en büyük mülki ve askeri amiridir"
+            },
+            {
+              "id": "i276",
+              "ustId": "p62",
+              "metin": "Eyaletlere bağlı sancakların (illerin) mülki ve askeri amiridir"
+            },
+            {
+              "id": "i277",
+              "ustId": "p63",
+              "metin": "Şehir ve kasabaların güvenlik sorumlusudur"
+            },
+            {
+              "id": "i278",
+              "ustId": "p64",
+              "metin": "Dirlik (tımar) sistemine bağlı olarak taşrada hem güvenliği sağlayan hem savaşa katılan atlı askerlerdir"
+            },
+            {
+              "id": "i279",
+              "ustId": "p65",
+              "metin": "Devletin maliye ve hazine işlerinden sorumludur; günümüzün maliye bakanı konumundadır"
+            },
+            {
+              "id": "i280",
+              "ustId": "p66",
+              "metin": "Padişahın ferman ve beratlarına tuğra çeker; fethedilen toprakların tahrir defterlerini tutar"
+            },
+            {
+              "id": "i281",
+              "ustId": "p67",
+              "metin": "Başlangıçta Nişancı'nın yardımcısıyken 17. yüzyıldan itibaren dışişleri bakanı statüsüne yükselmiştir"
+            },
+            {
+              "id": "i282",
+              "ustId": "p68",
+              "metin": "Divân-ı Hümayun'da resmi yazışmaları kaleme alan ve devlet dairelerinde çalışan memurlardır"
+            },
+            {
+              "id": "i283",
+              "ustId": "p69",
+              "metin": "İlmiye sınıfının başıdır; Divân-ı Hümayun kararlarının şeriata uygunluğuna dair fetva verir"
+            },
+            {
+              "id": "i284",
+              "ustId": "p70",
+              "metin": "Eğitim ve adalet işlerinden sorumludur; kadı ve müderris atamalarını yapar"
+            },
+            {
+              "id": "i285",
+              "ustId": "p71",
+              "metin": "Taşrada adaleti sağlayan hakimdir; noter ve mülki idareci gibi görevleri de üstlenir"
+            },
+            {
+              "id": "i286",
+              "ustId": "p72",
+              "metin": "Medreselerde eğitim veren hocadır"
+            },
+            {
+              "id": "i287",
+              "ustId": "p73",
+              "metin": "Kadının gidemediği yerlerde ya da büyük kazalarda ona vekalet eden hakim yardımcısıdır"
+            }
+          ]
+        },
+        {
+          "id": "20-yuzyil-osmanli",
+          "baslik": "20. Yüzyılda Osmanlı: Genelgeler ve Kongreler",
+          "mod": "havuz",
+          "ust": [
+            {
+              "id": "p34",
+              "metin": "Sivas Kongresi"
+            },
+            {
+              "id": "p35",
+              "metin": "Erzurum Kongresi"
+            },
+            {
+              "id": "p36",
+              "metin": "Amasya Genelgesi"
+            },
+            {
+              "id": "p37",
+              "metin": "Havza Genelgesi"
+            },
+            {
+              "id": "p38",
+              "metin": "Samsun Raporu"
+            }
+          ],
+          "havuz": [
+            {
+              "id": "i209",
+              "ustId": "p34",
+              "metin": "Temsil Heyeti'nin düzenlediği ilk (genel) kongredir"
+            },
+            {
+              "id": "i210",
+              "ustId": "p34",
+              "metin": "Temsil Heyeti'nin tüm yurdu kapsayacak hale getirilmesi kararlaştırılmıştır"
+            },
+            {
+              "id": "i211",
+              "ustId": "p34",
+              "metin": "Temsil Heyeti, hükümet gibi yürütmeyle ilgili karar alarak Batı Anadolu Kuvâ-yı Milliye birliklerinin başına Ali Fuat Paşa'yı atamıştır"
+            },
+            {
+              "id": "i212",
+              "ustId": "p34",
+              "metin": "Manda ve himaye kesin olarak reddedilmiştir"
+            },
+            {
+              "id": "i213",
+              "ustId": "p34",
+              "metin": "Milli cemiyetler, Anadolu ve Rumeli Müdafaa-i Hukuk Cemiyeti adı altında birleştirilmiştir"
+            },
+            {
+              "id": "i214",
+              "ustId": "p34",
+              "metin": "Elazığ (Harput) Valisi Ali Galip'in engellemeye çalıştığı kongredir"
+            },
+            {
+              "id": "i215",
+              "ustId": "p34",
+              "metin": "Sonrasında Damat Ferit Paşa hükümeti istifa etmiştir"
+            },
+            {
+              "id": "i216",
+              "ustId": "p35",
+              "metin": "Doğuyu kapsayan Temsil Heyeti'nin kurulmasını sağlamıştır"
+            },
+            {
+              "id": "i217",
+              "ustId": "p35",
+              "metin": "İlk kez milli sınırlardan (Misak-ı Milli'den) bahsedilmiştir"
+            },
+            {
+              "id": "i218",
+              "ustId": "p35",
+              "metin": "İlk kez manda ve himaye reddedilmiştir"
+            },
+            {
+              "id": "i219",
+              "ustId": "p35",
+              "metin": "İlk kez yeni bir hükümet kurulmasından söz edilmiştir"
+            },
+            {
+              "id": "i220",
+              "ustId": "p35",
+              "metin": "Trabzon Muhafaza-i Hukuk-u Milliye ve Doğu Anadolu Müdafaa-i Hukuk Cemiyetleri tarafından düzenlenmiştir"
+            },
+            {
+              "id": "i221",
+              "ustId": "p36",
+              "metin": "İlk kez Temsil Heyeti'nin kurulmasından söz edilmiştir"
+            },
+            {
+              "id": "i222",
+              "ustId": "p36",
+              "metin": "Milli egemenliğe dayalı yeni bir Türk devletinin kurulması yolunda atılan ilk adımdır"
+            },
+            {
+              "id": "i223",
+              "ustId": "p36",
+              "metin": "Milli mücadelenin ilk ihtilal beyannamesi olarak kabul edilir"
+            },
+            {
+              "id": "i224",
+              "ustId": "p36",
+              "metin": "Milli mücadelenin amacı, gerekçesi ve yöntemi belirlenmiştir"
+            },
+            {
+              "id": "i225",
+              "ustId": "p36",
+              "metin": "Sonrasında Mustafa Kemal, askerlik görevinden istifa etmiştir"
+            },
+            {
+              "id": "i226",
+              "ustId": "p37",
+              "metin": "Mustafa Kemal ilk kez halktan işgallere karşı protesto mitingleri düzenlemelerini istemiştir"
+            },
+            {
+              "id": "i227",
+              "ustId": "p37",
+              "metin": "Sonrasında Mustafa Kemal, İstanbul hükümeti tarafından ilk defa İstanbul'a geri çağrılmıştır"
+            },
+            {
+              "id": "i228",
+              "ustId": "p38",
+              "metin": "Mustafa Kemal, ilk defa görevi dışına çıkmıştır"
+            },
+            {
+              "id": "i229",
+              "ustId": "p38",
+              "metin": "Mustafa Kemal, İzmir'in işgaline ilk kez tepki göstermiştir"
+            }
+          ]
+        }
+      ]
     },
     {
-     "id": "yukselme-donemi-padisahlar",
-     "baslik": "Yükselme Dönemi: Padişahlar",
-     "mod": "havuz",
-     "ust": [
-      {
-       "id": "p7",
-       "metin": "Fatih Sultan Mehmet"
-      },
-      {
-       "id": "p8",
-       "metin": "II. Bayezid"
-      },
-      {
-       "id": "p9",
-       "metin": "Yavuz Sultan Selim"
-      },
-      {
-       "id": "p10",
-       "metin": "Sokullu Dönemi — II. Selim"
-      },
-      {
-       "id": "p11",
-       "metin": "Kanuni Sultan Süleyman"
-      },
-      {
-       "id": "p12",
-       "metin": "Sokullu Dönemi — III. Murat"
-      }
-     ],
-     "havuz": [
-      {
-       "id": "i54",
-       "ustId": "p7",
-       "metin": "Kırım alınarak Karadeniz Türk gölü olmuştur"
-      },
-      {
-       "id": "i55",
-       "ustId": "p7",
-       "metin": "\"Kayser-i Rum\" ve \"Sultanü'l-Berreyn ve'l-Bahreyn\" unvanlarını kullanmıştır"
-      },
-      {
-       "id": "i56",
-       "ustId": "p7",
-       "metin": "Kanunname-i Ali Osman hazırlanmıştır"
-      },
-      {
-       "id": "i57",
-       "ustId": "p7",
-       "metin": "Balkanlarda Sırbistan, Arnavutluk, Eflak-Boğdan, Bosna-Hersek, Mora Despotluğu ele geçirilmiştir"
-      },
-      {
-       "id": "i58",
-       "ustId": "p7",
-       "metin": "Osmanlı Devleti'ni Cihanşümul (dünya) devlet haline getirmiştir"
-      },
-      {
-       "id": "i59",
-       "ustId": "p7",
-       "metin": "Sabuncuoğlu Şerefeddin'in \"Cerrahiyyetü'l-Haniyye\" adlı eserini sunduğu padişah"
-      },
-      {
-       "id": "i60",
-       "ustId": "p7",
-       "metin": "Gedik Ahmet Paşa tarafından Otranto Seferi düzenlenmiştir"
-      },
-      {
-       "id": "i61",
-       "ustId": "p8",
-       "metin": "Cem Sultan ve Şahkulu isyanları yaşanmıştır"
-      },
-      {
-       "id": "i62",
-       "ustId": "p8",
-       "metin": "Yükselme Dönemi içinde Duraklama Dönemi özelliği taşıyan, \"Küçük Kıyamet\" olarak adlandırılan İstanbul depremi yaşanmıştır"
-      },
-      {
-       "id": "i63",
-       "ustId": "p9",
-       "metin": "Turnadağ Savaşı ile Dulkadiroğlu Beyliği'ne son verilmiştir"
-      },
-      {
-       "id": "i64",
-       "ustId": "p9",
-       "metin": "Mercidabık ve Ridaniye Savaşları ile Memlüklere son verilerek Suriye, Filistin, Irak, Hicaz ve Mısır ele geçirilmiştir"
-      },
-      {
-       "id": "i65",
-       "ustId": "p9",
-       "metin": "Çaldıran Savaşı ile Şah İsmail yenilgiye uğratılmıştır"
-      },
-      {
-       "id": "i66",
-       "ustId": "p9",
-       "metin": "İlk Osmanlı halifesi olmuştur"
-      },
-      {
-       "id": "i67",
-       "ustId": "p9",
-       "metin": "\"Benim altınla doldurduğum hazineyi torunlarımdan her kim doldurabilirse kendi mührüyle mühürlesin\" diyen padişah; Hazine-i Hümayun'da daima onun mührü kullanılmıştır"
-      },
-      {
-       "id": "i68",
-       "ustId": "p9",
-       "metin": "İdris-i Bitlisi Osmanlı hizmetinde görev yapmaya başlamıştır"
-      },
-      {
-       "id": "i69",
-       "ustId": "p10",
-       "metin": "Kıbrıs alınmış, bu durum İnebahtı Deniz Savaşı'na neden olmuştur"
-      },
-      {
-       "id": "i70",
-       "ustId": "p10",
-       "metin": "Şehzadelerin sancağa çıkmasını sadece Manisa ile sınırlandıran padişah"
-      },
-      {
-       "id": "i71",
-       "ustId": "p10",
-       "metin": "Sokullu, Don-Volga Kanal Projesi'ni sunmuştur"
-      },
-      {
-       "id": "i72",
-       "ustId": "p10",
-       "metin": "Sumatra Seferi ile Endonezya'daki Açe Sultanlığı'na Portekizlilere karşı yardım gönderilmiştir"
-      },
-      {
-       "id": "i73",
-       "ustId": "p11",
-       "metin": "Avrupa'da \"Büyük Türk\" olarak bilinen padişah"
-      },
-      {
-       "id": "i74",
-       "ustId": "p11",
-       "metin": "Mısır'da Canberdi Gazali ve Ahmet Paşa isyanları çıkmıştır"
-      },
-      {
-       "id": "i75",
-       "ustId": "p11",
-       "metin": "Hint Deniz Seferleri düzenlemiştir"
-      },
-      {
-       "id": "i76",
-       "ustId": "p11",
-       "metin": "İspanya ile Cerbe Deniz Savaşı yapılmıştır"
-      },
-      {
-       "id": "i77",
-       "ustId": "p11",
-       "metin": "Seydi Ali Reis'in \"Mir'atü'l-Memalik\" adlı eserini sunduğu padişah"
-      },
-      {
-       "id": "i78",
-       "ustId": "p11",
-       "metin": "Preveze Deniz Savaşı ile Akdeniz Türk gölü olmuştur"
-      },
-      {
-       "id": "i79",
-       "ustId": "p11",
-       "metin": "Zigetvar Seferi düzenlenmiştir"
-      },
-      {
-       "id": "i80",
-       "ustId": "p11",
-       "metin": "İran ile yapılan ilk antlaşma olan Amasya Antlaşması yapılmıştır"
-      },
-      {
-       "id": "i81",
-       "ustId": "p11",
-       "metin": "ABD Meclisi'nde portresi bulunan ünlü kanun koyucular arasında yer alan tek Osmanlı padişahı"
-      },
-      {
-       "id": "i82",
-       "ustId": "p12",
-       "metin": "Portekiz ile Vadi'üs-Seyl Savaşı yapılmıştır"
-      }
-     ]
+      "id": "cografya",
+      "baslik": "Coğrafya",
+      "aktif": true,
+      "bolumler": [
+        {
+          "id": "sinir-kapilari-gecitler",
+          "baslik": "Sınır Kapıları ve Dağ Geçitleri",
+          "mod": "harita",
+          "gorsel": "haritalar/turkiye-anahat.svg",
+          "noktalar": [
+            {
+              "id": "m1",
+              "x": 29.14,
+              "y": 29.56,
+              "metin": "Bolu Geçidi"
+            },
+            {
+              "id": "m2",
+              "x": 29.99,
+              "y": 14.69,
+              "metin": "Ecevit Geçidi"
+            },
+            {
+              "id": "m3",
+              "x": 40.27,
+              "y": 21.19,
+              "metin": "Ilgaz Geçidi"
+            },
+            {
+              "id": "m4",
+              "x": 70.74,
+              "y": 25.69,
+              "metin": "Zigana Geçidi"
+            },
+            {
+              "id": "m5",
+              "x": 79.68,
+              "y": 25.31,
+              "metin": "Ovit Geçidi"
+            },
+            {
+              "id": "m6",
+              "x": 75.38,
+              "y": 36.65,
+              "metin": "Kop Geçidi"
+            },
+            {
+              "id": "m7",
+              "x": 46.12,
+              "y": 11.96,
+              "metin": "Çubuk Geçidi"
+            },
+            {
+              "id": "m8",
+              "x": 39.0,
+              "y": 86.82,
+              "metin": "Sertavul Geçidi"
+            },
+            {
+              "id": "m9",
+              "x": 46.44,
+              "y": 78.83,
+              "metin": "Gülek Geçidi (Boğazı)"
+            },
+            {
+              "id": "m10",
+              "x": 51.78,
+              "y": 98.05,
+              "metin": "Belen Geçidi (Boğazı)"
+            },
+            {
+              "id": "m11",
+              "x": 4.82,
+              "y": 3.18,
+              "metin": "Kapıkule"
+            },
+            {
+              "id": "m12",
+              "x": 11.37,
+              "y": 2.04,
+              "metin": "Dereköy (Aziziye)"
+            },
+            {
+              "id": "m13",
+              "x": 2.84,
+              "y": 16.62,
+              "metin": "Uzunköprü"
+            },
+            {
+              "id": "m14",
+              "x": 1.71,
+              "y": 30.83,
+              "metin": "İpsala"
+            },
+            {
+              "id": "m15",
+              "x": 79.71,
+              "y": 10.32,
+              "metin": "Sarp"
+            },
+            {
+              "id": "m16",
+              "x": 85.92,
+              "y": 5.46,
+              "metin": "Aktaş"
+            },
+            {
+              "id": "m17",
+              "x": 90.74,
+              "y": 11.04,
+              "metin": "Türközü"
+            },
+            {
+              "id": "m18",
+              "x": 92.16,
+              "y": 24.0,
+              "metin": "Akyaka"
+            },
+            {
+              "id": "m19",
+              "x": 97.13,
+              "y": 28.25,
+              "metin": "Alican"
+            },
+            {
+              "id": "m20",
+              "x": 94.79,
+              "y": 36.35,
+              "metin": "Dilucu (Umut)"
+            },
+            {
+              "id": "m21",
+              "x": 96.34,
+              "y": 46.13,
+              "metin": "Gürbulak"
+            },
+            {
+              "id": "m22",
+              "x": 96.61,
+              "y": 57.89,
+              "metin": "Kapıköy"
+            },
+            {
+              "id": "m23",
+              "x": 94.61,
+              "y": 70.85,
+              "metin": "Esendere"
+            },
+            {
+              "id": "m24",
+              "x": 99.97,
+              "y": 69.83,
+              "metin": "Derecik"
+            },
+            {
+              "id": "m25",
+              "x": 88.71,
+              "y": 70.31,
+              "metin": "Habur"
+            },
+            {
+              "id": "m26",
+              "x": 82.97,
+              "y": 75.52,
+              "metin": "Üzümlü"
+            },
+            {
+              "id": "m27",
+              "x": 76.79,
+              "y": 77.98,
+              "metin": "Nusaybin"
+            },
+            {
+              "id": "m28",
+              "x": 56.24,
+              "y": 84.16,
+              "metin": "Öncüpınar"
+            },
+            {
+              "id": "m29",
+              "x": 67.18,
+              "y": 84.88,
+              "metin": "Karkamış"
+            },
+            {
+              "id": "m30",
+              "x": 64.37,
+              "y": 81.94,
+              "metin": "Çobanbey"
+            },
+            {
+              "id": "m31",
+              "x": 58.76,
+              "y": 86.44,
+              "metin": "Cilvegözü"
+            },
+            {
+              "id": "m32",
+              "x": 51.76,
+              "y": 90.28,
+              "metin": "Zeytin Dalı"
+            },
+            {
+              "id": "m33",
+              "x": 55.95,
+              "y": 93.34,
+              "metin": "Yayladağ"
+            }
+          ]
+        },
+        {
+          "id": "bitkiler",
+          "baslik": "Bitkiler (Bitki Örtüsü)",
+          "mod": "harita",
+          "gorsel": "haritalar/turkiye-anahat.svg",
+          "noktalar": [
+            {
+              "id": "b1",
+              "x": 24.74,
+              "y": 83.44,
+              "metin": "Kızılçam"
+            },
+            {
+              "id": "b2",
+              "x": 16.34,
+              "y": 87.74,
+              "metin": "Maki"
+            },
+            {
+              "id": "b3",
+              "x": 4.72,
+              "y": 61.12,
+              "metin": "Garig"
+            },
+            {
+              "id": "b4",
+              "x": 24.1,
+              "y": 55.66,
+              "metin": "Antropojen Bozkır"
+            },
+            {
+              "id": "b5",
+              "x": 34.26,
+              "y": 68.53,
+              "metin": "Step (Bozkır)"
+            },
+            {
+              "id": "b6",
+              "x": 20.81,
+              "y": 42.66,
+              "metin": "Meşe"
+            },
+            {
+              "id": "b7",
+              "x": 94.95,
+              "y": 40.67,
+              "metin": "Dağ Çayırı"
+            },
+            {
+              "id": "b8",
+              "x": 85.11,
+              "y": 16.58,
+              "metin": "İğne Yapraklı Orman"
+            },
+            {
+              "id": "b9",
+              "x": 33.25,
+              "y": 11.96,
+              "metin": "Geniş Yapraklı Orman"
+            },
+            {
+              "id": "b10",
+              "x": 76.97,
+              "y": 20.11,
+              "metin": "Psödomaki"
+            }
+          ]
+        },
+        {
+          "id": "daglar",
+          "baslik": "Dağlar",
+          "mod": "harita",
+          "gorsel": "haritalar/turkiye-anahat.svg",
+          "noktalar": [
+            {
+              "id": "d1",
+              "x": 10.79,
+              "y": 1.62,
+              "metin": "Yıldız Dağları (Istranca)"
+            },
+            {
+              "id": "d2",
+              "x": 11.15,
+              "y": 15.46,
+              "metin": "Koru Dağı"
+            },
+            {
+              "id": "d3",
+              "x": 21.89,
+              "y": 23.96,
+              "metin": "Samanlı Dağları"
+            },
+            {
+              "id": "d4",
+              "x": 29.19,
+              "y": 38.0,
+              "metin": "Sündiken Dağları"
+            },
+            {
+              "id": "d5",
+              "x": 30.32,
+              "y": 53.63,
+              "metin": "Sultan Dağları"
+            },
+            {
+              "id": "d6",
+              "x": 19.62,
+              "y": 70.36,
+              "metin": "Akdağ"
+            },
+            {
+              "id": "d7",
+              "x": 24.74,
+              "y": 84.1,
+              "metin": "Beydağları"
+            },
+            {
+              "id": "d8",
+              "x": 25.6,
+              "y": 64.09,
+              "metin": "Barla Dağı"
+            },
+            {
+              "id": "d9",
+              "x": 32.65,
+              "y": 77.47,
+              "metin": "Geyik Dağı"
+            },
+            {
+              "id": "d10",
+              "x": 45.93,
+              "y": 78.8,
+              "metin": "Bolkar Dağları"
+            },
+            {
+              "id": "d11",
+              "x": 50.07,
+              "y": 67.59,
+              "metin": "Aladağlar"
+            },
+            {
+              "id": "d12",
+              "x": 56.29,
+              "y": 72.53,
+              "metin": "Tahtalı Dağları"
+            },
+            {
+              "id": "d13",
+              "x": 57.84,
+              "y": 61.99,
+              "metin": "Binboğa Dağları"
+            },
+            {
+              "id": "d14",
+              "x": 65.22,
+              "y": 59.02,
+              "metin": "Malatya Dağları"
+            },
+            {
+              "id": "d15",
+              "x": 80.17,
+              "y": 50.28,
+              "metin": "Mastar Dağı"
+            },
+            {
+              "id": "d16",
+              "x": 78.76,
+              "y": 64.89,
+              "metin": "Sason Dağı"
+            },
+            {
+              "id": "d17",
+              "x": 93.71,
+              "y": 71.33,
+              "metin": "Hakkari Dağları (Cilo-Sat)"
+            },
+            {
+              "id": "d18",
+              "x": 41.82,
+              "y": 4.62,
+              "metin": "Küre Dağları (İsfendiyar)"
+            },
+            {
+              "id": "d19",
+              "x": 29.83,
+              "y": 18.13,
+              "metin": "Bolu Dağları"
+            },
+            {
+              "id": "d20",
+              "x": 42.0,
+              "y": 18.46,
+              "metin": "Ilgaz Dağları"
+            },
+            {
+              "id": "d21",
+              "x": 35.89,
+              "y": 23.98,
+              "metin": "Köroğlu Dağları"
+            },
+            {
+              "id": "d22",
+              "x": 54.4,
+              "y": 30.62,
+              "metin": "Hınzır Dağı"
+            },
+            {
+              "id": "d23",
+              "x": 55.9,
+              "y": 16.02,
+              "metin": "Canik Dağları"
+            },
+            {
+              "id": "d24",
+              "x": 59.96,
+              "y": 39.06,
+              "metin": "Tecer Dağları"
+            },
+            {
+              "id": "d25",
+              "x": 61.81,
+              "y": 24.56,
+              "metin": "Giresun Dağları"
+            },
+            {
+              "id": "d26",
+              "x": 68.05,
+              "y": 20.98,
+              "metin": "Zigana Dağları"
+            },
+            {
+              "id": "d27",
+              "x": 73.85,
+              "y": 19.06,
+              "metin": "Soğanlı Dağları"
+            },
+            {
+              "id": "d28",
+              "x": 78.25,
+              "y": 14.31,
+              "metin": "Rize Dağları"
+            },
+            {
+              "id": "d29",
+              "x": 80.67,
+              "y": 20.79,
+              "metin": "Kaçkar Dağları"
+            },
+            {
+              "id": "d30",
+              "x": 68.22,
+              "y": 36.8,
+              "metin": "Çimen Dağı"
+            },
+            {
+              "id": "d31",
+              "x": 75.29,
+              "y": 31.77,
+              "metin": "Kop Dağı"
+            },
+            {
+              "id": "d32",
+              "x": 73.44,
+              "y": 43.74,
+              "metin": "Mercan Dağları"
+            },
+            {
+              "id": "d33",
+              "x": 80.83,
+              "y": 31.21,
+              "metin": "Mescit Dağları"
+            },
+            {
+              "id": "d34",
+              "x": 85.17,
+              "y": 15.23,
+              "metin": "Yalnızçam Dağları"
+            },
+            {
+              "id": "d35",
+              "x": 88.42,
+              "y": 24.74,
+              "metin": "Allahuekber Dağları"
+            },
+            {
+              "id": "d36",
+              "x": 18.79,
+              "y": 53.59,
+              "metin": "Kula (Volkanik Arazi)"
+            },
+            {
+              "id": "d37",
+              "x": 40.16,
+              "y": 73.06,
+              "metin": "Karadağ (Karaman)"
+            },
+            {
+              "id": "d38",
+              "x": 39.58,
+              "y": 58.76,
+              "metin": "Karacadağ (Konya)"
+            },
+            {
+              "id": "d39",
+              "x": 36.94,
+              "y": 66.09,
+              "metin": "Meke"
+            },
+            {
+              "id": "d40",
+              "x": 43.6,
+              "y": 65.87,
+              "metin": "Hasan Dağı"
+            },
+            {
+              "id": "d41",
+              "x": 46.11,
+              "y": 57.21,
+              "metin": "Melendiz Dağı"
+            },
+            {
+              "id": "d42",
+              "x": 52.43,
+              "y": 53.58,
+              "metin": "Erciyes Dağı"
+            },
+            {
+              "id": "d43",
+              "x": 72.49,
+              "y": 69.43,
+              "metin": "Karacadağ (Diyarbakır)"
+            },
+            {
+              "id": "d44",
+              "x": 85.19,
+              "y": 57.78,
+              "metin": "Nemrut Dağı"
+            },
+            {
+              "id": "d45",
+              "x": 86.81,
+              "y": 45.13,
+              "metin": "Süphan Dağı"
+            },
+            {
+              "id": "d46",
+              "x": 92.86,
+              "y": 46.88,
+              "metin": "Tendürek Dağı"
+            },
+            {
+              "id": "d47",
+              "x": 95.41,
+              "y": 32.7,
+              "metin": "Büyük Ağrı Dağı"
+            },
+            {
+              "id": "d48",
+              "x": 96.03,
+              "y": 40.49,
+              "metin": "Küçük Ağrı Dağı"
+            },
+            {
+              "id": "d49",
+              "x": 5.46,
+              "y": 33.88,
+              "metin": "Kaz Dağı (İda)"
+            },
+            {
+              "id": "d50",
+              "x": 10.91,
+              "y": 36.09,
+              "metin": "Madra Dağı"
+            },
+            {
+              "id": "d51",
+              "x": 8.22,
+              "y": 48.28,
+              "metin": "Yunt Dağı"
+            },
+            {
+              "id": "d52",
+              "x": 12.7,
+              "y": 59.26,
+              "metin": "Boz Dağ"
+            },
+            {
+              "id": "d53",
+              "x": 11.89,
+              "y": 70.22,
+              "metin": "Aydın Dağları"
+            },
+            {
+              "id": "d54",
+              "x": 15.85,
+              "y": 81.12,
+              "metin": "Menteşe Dağları"
+            },
+            {
+              "id": "d55",
+              "x": 55.16,
+              "y": 86.65,
+              "metin": "Amanos Dağları (Nur Dağları)"
+            }
+          ]
+        },
+        {
+          "id": "akarsular",
+          "baslik": "Akarsular",
+          "mod": "harita",
+          "gorsel": "haritalar/turkiye-anahat.svg",
+          "noktalar": [
+            {
+              "id": "a1",
+              "x": 79.05,
+              "y": 11.76,
+              "metin": "Çoruh"
+            },
+            {
+              "id": "a2",
+              "x": 65.89,
+              "y": 19.8,
+              "metin": "Harşit (Doğankent)"
+            },
+            {
+              "id": "a3",
+              "x": 59.45,
+              "y": 17.88,
+              "metin": "Yeşilırmak"
+            },
+            {
+              "id": "a4",
+              "x": 53.45,
+              "y": 12.48,
+              "metin": "Kızılırmak (Delice)"
+            },
+            {
+              "id": "a5",
+              "x": 35.79,
+              "y": 7.32,
+              "metin": "Bartın"
+            },
+            {
+              "id": "a6",
+              "x": 30.08,
+              "y": 14.52,
+              "metin": "Filyos (Yenice)"
+            },
+            {
+              "id": "a7",
+              "x": 23.66,
+              "y": 16.2,
+              "metin": "Sakarya (Porsuk)"
+            },
+            {
+              "id": "a8",
+              "x": 13.21,
+              "y": 27.11,
+              "metin": "Susurluk (Nilüfer Ç.)"
+            },
+            {
+              "id": "a9",
+              "x": 1.95,
+              "y": 30.89,
+              "metin": "Meriç"
+            },
+            {
+              "id": "a10",
+              "x": 2.39,
+              "y": 57.17,
+              "metin": "Gediz"
+            },
+            {
+              "id": "a11",
+              "x": 4.5,
+              "y": 67.19,
+              "metin": "Küçük Menderes"
+            },
+            {
+              "id": "a12",
+              "x": 4.87,
+              "y": 48.29,
+              "metin": "Bakırçay"
+            },
+            {
+              "id": "a13",
+              "x": 7.24,
+              "y": 78.7,
+              "metin": "Büyük Menderes"
+            },
+            {
+              "id": "a14",
+              "x": 13.18,
+              "y": 83.38,
+              "metin": "Dalaman"
+            },
+            {
+              "id": "a15",
+              "x": 16.95,
+              "y": 93.52,
+              "metin": "Eşen"
+            },
+            {
+              "id": "a16",
+              "x": 21.29,
+              "y": 92.74,
+              "metin": "Alakır Çayı"
+            },
+            {
+              "id": "a17",
+              "x": 22.71,
+              "y": 83.2,
+              "metin": "Aksu"
+            },
+            {
+              "id": "a18",
+              "x": 26.87,
+              "y": 84.88,
+              "metin": "Köprü Çayı"
+            },
+            {
+              "id": "a19",
+              "x": 30.68,
+              "y": 89.44,
+              "metin": "Manavgat"
+            },
+            {
+              "id": "a20",
+              "x": 33.76,
+              "y": 96.82,
+              "metin": "Dragon Çayı"
+            },
+            {
+              "id": "a21",
+              "x": 40.82,
+              "y": 94.0,
+              "metin": "Göksu"
+            },
+            {
+              "id": "a22",
+              "x": 46.37,
+              "y": 86.14,
+              "metin": "Seyhan"
+            },
+            {
+              "id": "a23",
+              "x": 52.68,
+              "y": 83.14,
+              "metin": "Ceyhan"
+            },
+            {
+              "id": "a24",
+              "x": 51.79,
+              "y": 97.84,
+              "metin": "Asi"
+            },
+            {
+              "id": "a25",
+              "x": 63.47,
+              "y": 82.66,
+              "metin": "Fırat"
+            },
+            {
+              "id": "a26",
+              "x": 83.87,
+              "y": 75.04,
+              "metin": "Dicle"
+            },
+            {
+              "id": "a27",
+              "x": 96.08,
+              "y": 44.27,
+              "metin": "Aras"
+            },
+            {
+              "id": "a28",
+              "x": 91.76,
+              "y": 22.02,
+              "metin": "Kura"
+            }
+          ]
+        },
+        {
+          "id": "platolar",
+          "baslik": "Platolar",
+          "mod": "harita",
+          "gorsel": "haritalar/turkiye-anahat.svg",
+          "noktalar": [
+            {
+              "id": "pl1",
+              "x": 25.92,
+              "y": 73.31,
+              "metin": "Teke Platosu"
+            },
+            {
+              "id": "pl2",
+              "x": 29.23,
+              "y": 46.62,
+              "metin": "Yazılıkaya Platosu"
+            },
+            {
+              "id": "pl3",
+              "x": 15.13,
+              "y": 16.92,
+              "metin": "Çatalca Platosu"
+            },
+            {
+              "id": "pl4",
+              "x": 21.63,
+              "y": 22.08,
+              "metin": "Kocaeli Platosu"
+            },
+            {
+              "id": "pl5",
+              "x": 37.53,
+              "y": 52.26,
+              "metin": "Cihanbeyli Platosu"
+            },
+            {
+              "id": "pl6",
+              "x": 34.85,
+              "y": 38.56,
+              "metin": "Haymana Platosu"
+            },
+            {
+              "id": "pl7",
+              "x": 39.8,
+              "y": 66.34,
+              "metin": "Obruk Platosu"
+            },
+            {
+              "id": "pl8",
+              "x": 37.08,
+              "y": 82.96,
+              "metin": "Taşeli Platosu"
+            },
+            {
+              "id": "pl9",
+              "x": 47.5,
+              "y": 54.05,
+              "metin": "Kapadokya Platosu"
+            },
+            {
+              "id": "pl10",
+              "x": 47.24,
+              "y": 36.65,
+              "metin": "Bozok Platosu"
+            },
+            {
+              "id": "pl11",
+              "x": 55.34,
+              "y": 53.27,
+              "metin": "Uzunyayla Platosu"
+            },
+            {
+              "id": "pl12",
+              "x": 61.45,
+              "y": 19.44,
+              "metin": "Perşembe Platosu"
+            },
+            {
+              "id": "pl13",
+              "x": 65.54,
+              "y": 64.94,
+              "metin": "Adıyaman Platosu"
+            },
+            {
+              "id": "pl14",
+              "x": 60.32,
+              "y": 77.62,
+              "metin": "Gaziantep Platosu"
+            },
+            {
+              "id": "pl15",
+              "x": 68.25,
+              "y": 78.61,
+              "metin": "Şanlıurfa Platosu"
+            },
+            {
+              "id": "pl16",
+              "x": 74.63,
+              "y": 65.03,
+              "metin": "Diyarbakır Platosu"
+            },
+            {
+              "id": "pl17",
+              "x": 84.76,
+              "y": 33.23,
+              "metin": "Erzurum-Kars Platosu"
+            },
+            {
+              "id": "pl18",
+              "x": 87.32,
+              "y": 17.64,
+              "metin": "Ardahan Platosu"
+            }
+          ]
+        },
+        {
+          "id": "ovalar",
+          "baslik": "Ovalar",
+          "mod": "harita",
+          "gorsel": "haritalar/turkiye-anahat.svg",
+          "noktalar": [
+            {
+              "id": "ov1",
+              "x": 57.95,
+              "y": 17.27,
+              "metin": "Çarşamba Ovası"
+            },
+            {
+              "id": "ov2",
+              "x": 52.28,
+              "y": 9.65,
+              "metin": "Bafra Ovası"
+            },
+            {
+              "id": "ov3",
+              "x": 26.87,
+              "y": 18.6,
+              "metin": "Karasu Ovası"
+            },
+            {
+              "id": "ov4",
+              "x": 5.19,
+              "y": 16.23,
+              "metin": "Meriç Ovası"
+            },
+            {
+              "id": "ov5",
+              "x": 8.72,
+              "y": 39.52,
+              "metin": "Bakırçay Ovası"
+            },
+            {
+              "id": "ov6",
+              "x": 8.97,
+              "y": 51.78,
+              "metin": "Gediz Ovası"
+            },
+            {
+              "id": "ov7",
+              "x": 10.08,
+              "y": 64.03,
+              "metin": "Küçükmenderes Ovası"
+            },
+            {
+              "id": "ov8",
+              "x": 10.73,
+              "y": 76.29,
+              "metin": "Büyükmenderes Ovası"
+            },
+            {
+              "id": "ov9",
+              "x": 42.87,
+              "y": 88.06,
+              "metin": "Silifke Ovası"
+            },
+            {
+              "id": "ov10",
+              "x": 50.03,
+              "y": 83.81,
+              "metin": "Çukurova"
+            },
+            {
+              "id": "ov11",
+              "x": 50.93,
+              "y": 48.38,
+              "metin": "Kayseri Ovası"
+            },
+            {
+              "id": "ov12",
+              "x": 51.08,
+              "y": 63.38,
+              "metin": "Develi Ovası"
+            },
+            {
+              "id": "ov13",
+              "x": 80.1,
+              "y": 35.76,
+              "metin": "Erzurum Ovası"
+            },
+            {
+              "id": "ov14",
+              "x": 87.3,
+              "y": 17.59,
+              "metin": "Ardahan Ovası"
+            },
+            {
+              "id": "ov15",
+              "x": 95.21,
+              "y": 42.88,
+              "metin": "Çaldıran Ovası"
+            },
+            {
+              "id": "ov16",
+              "x": 90.73,
+              "y": 53.87,
+              "metin": "Muradiye Ovası"
+            }
+          ]
+        },
+        {
+          "id": "goller",
+          "baslik": "Göller",
+          "mod": "harita",
+          "gorsel": "haritalar/turkiye-anahat.svg",
+          "noktalar": [
+            {
+              "id": "g1",
+              "x": 22.79,
+              "y": 16.2,
+              "metin": "Sapanca Gölü"
+            },
+            {
+              "id": "g2",
+              "x": 21.33,
+              "y": 36.81,
+              "metin": "İznik Gölü"
+            },
+            {
+              "id": "g3",
+              "x": 14.38,
+              "y": 40.03,
+              "metin": "Ulubat Gölü"
+            },
+            {
+              "id": "g4",
+              "x": 9.23,
+              "y": 30.68,
+              "metin": "Manyas Gölü"
+            },
+            {
+              "id": "g5",
+              "x": 27.04,
+              "y": 47.32,
+              "metin": "Eber Gölü"
+            },
+            {
+              "id": "g6",
+              "x": 30.53,
+              "y": 58.64,
+              "metin": "Akşehir Gölü"
+            },
+            {
+              "id": "g7",
+              "x": 36.61,
+              "y": 58.98,
+              "metin": "Ilgın Gölü"
+            },
+            {
+              "id": "g8",
+              "x": 42.24,
+              "y": 51.21,
+              "metin": "Tuz Gölü"
+            },
+            {
+              "id": "g9",
+              "x": 47.76,
+              "y": 43.08,
+              "metin": "Seyfe Gölü"
+            },
+            {
+              "id": "g10",
+              "x": 16.84,
+              "y": 64.67,
+              "metin": "Acıgöl"
+            },
+            {
+              "id": "g11",
+              "x": 21.29,
+              "y": 73.63,
+              "metin": "Burdur Gölü"
+            },
+            {
+              "id": "g12",
+              "x": 23.85,
+              "y": 59.97,
+              "metin": "Eğirdir Gölü"
+            },
+            {
+              "id": "g13",
+              "x": 27.75,
+              "y": 71.07,
+              "metin": "Kovada Gölü"
+            },
+            {
+              "id": "g14",
+              "x": 34.02,
+              "y": 72.46,
+              "metin": "Beyşehir Gölü"
+            },
+            {
+              "id": "g15",
+              "x": 72.13,
+              "y": 57.56,
+              "metin": "Hazar Gölü"
+            },
+            {
+              "id": "g16",
+              "x": 80.98,
+              "y": 58.52,
+              "metin": "Nazik Gölü"
+            },
+            {
+              "id": "g17",
+              "x": 90.42,
+              "y": 49.57,
+              "metin": "Van Gölü"
+            },
+            {
+              "id": "g18",
+              "x": 94.45,
+              "y": 61.25,
+              "metin": "Erçek Gölü"
+            },
+            {
+              "id": "g19",
+              "x": 86.97,
+              "y": 10.37,
+              "metin": "Aktaş Gölü"
+            },
+            {
+              "id": "g20",
+              "x": 84.16,
+              "y": 45.86,
+              "metin": "Nemrut Gölü"
+            },
+            {
+              "id": "g21",
+              "x": 87.16,
+              "y": 62.29,
+              "metin": "Aygır Gölü"
+            },
+            {
+              "id": "g22",
+              "x": 41.73,
+              "y": 71.01,
+              "metin": "Meke Gölü"
+            },
+            {
+              "id": "g23",
+              "x": 18.87,
+              "y": 50.58,
+              "metin": "Gölcük Gölü (Simav)"
+            },
+            {
+              "id": "g24",
+              "x": 15.34,
+              "y": 80.21,
+              "metin": "Köyceğiz Gölü"
+            },
+            {
+              "id": "g25",
+              "x": 10.03,
+              "y": 71.36,
+              "metin": "Bafa Gölü"
+            },
+            {
+              "id": "g26",
+              "x": 11.09,
+              "y": 55.3,
+              "metin": "Marmara Gölü"
+            },
+            {
+              "id": "g27",
+              "x": 25.49,
+              "y": 26.88,
+              "metin": "Akgöl (Sakarya)"
+            },
+            {
+              "id": "g28",
+              "x": 40.47,
+              "y": 31.69,
+              "metin": "Eymir Gölü"
+            },
+            {
+              "id": "g29",
+              "x": 36.07,
+              "y": 43.87,
+              "metin": "Mogan Gölü"
+            },
+            {
+              "id": "g30",
+              "x": 75.8,
+              "y": 31.78,
+              "metin": "Uzungöl"
+            },
+            {
+              "id": "g31",
+              "x": 12.63,
+              "y": 3.06,
+              "metin": "Terkos Gölü"
+            },
+            {
+              "id": "g32",
+              "x": 16.53,
+              "y": 27.65,
+              "metin": "Küçükçekmece Gölü"
+            },
+            {
+              "id": "g33",
+              "x": 16.68,
+              "y": 13.5,
+              "metin": "Büyükçekmece Gölü"
+            },
+            {
+              "id": "g34",
+              "x": 3.37,
+              "y": 23.58,
+              "metin": "Karine (Dil) Gölü"
+            },
+            {
+              "id": "g35",
+              "x": 18.47,
+              "y": 93.4,
+              "metin": "Beymelek Gölü"
+            },
+            {
+              "id": "g36",
+              "x": 25.45,
+              "y": 84.28,
+              "metin": "Akgöl (Antalya)"
+            },
+            {
+              "id": "g37",
+              "x": 40.24,
+              "y": 93.64,
+              "metin": "Paradeniz Gölü"
+            },
+            {
+              "id": "g38",
+              "x": 45.68,
+              "y": 86.02,
+              "metin": "Ağyatan Gölü"
+            },
+            {
+              "id": "g39",
+              "x": 53.0,
+              "y": 85.36,
+              "metin": "Akyatan Gölü"
+            },
+            {
+              "id": "g40",
+              "x": 60.53,
+              "y": 18.09,
+              "metin": "Gemek Gölü"
+            },
+            {
+              "id": "g41",
+              "x": 66.68,
+              "y": 17.97,
+              "metin": "Gıcı Gölü"
+            },
+            {
+              "id": "g42",
+              "x": 73.27,
+              "y": 17.11,
+              "metin": "Balık Gölü"
+            },
+            {
+              "id": "g43",
+              "x": 79.47,
+              "y": 10.05,
+              "metin": "Tatlı Gölü"
+            },
+            {
+              "id": "g44",
+              "x": 28.89,
+              "y": 14.7,
+              "metin": "Yedigöller"
+            },
+            {
+              "id": "g45",
+              "x": 30.13,
+              "y": 34.33,
+              "metin": "Abant Gölü"
+            },
+            {
+              "id": "g46",
+              "x": 33.93,
+              "y": 13.28,
+              "metin": "Sünnet Gölü"
+            },
+            {
+              "id": "g47",
+              "x": 34.43,
+              "y": 25.72,
+              "metin": "Sülük Gölü"
+            },
+            {
+              "id": "g48",
+              "x": 48.54,
+              "y": 14.87,
+              "metin": "Borabay Gölü"
+            },
+            {
+              "id": "g49",
+              "x": 54.22,
+              "y": 22.43,
+              "metin": "Zinav Gölü"
+            },
+            {
+              "id": "g50",
+              "x": 69.12,
+              "y": 30.46,
+              "metin": "Sera Gölü"
+            },
+            {
+              "id": "g51",
+              "x": 81.72,
+              "y": 25.23,
+              "metin": "Tortum Gölü"
+            }
+          ]
+        }
+      ]
     },
     {
-     "id": "duraklama-donemi-padisahlar",
-     "baslik": "Duraklama Dönemi: Padişahlar",
-     "mod": "havuz",
-     "ust": [
-      {
-       "id": "p13",
-       "metin": "IV. Mehmet"
-      },
-      {
-       "id": "p14",
-       "metin": "II. Osman"
-      },
-      {
-       "id": "p15",
-       "metin": "III. Murat"
-      },
-      {
-       "id": "p16",
-       "metin": "III. Mehmet"
-      },
-      {
-       "id": "p17",
-       "metin": "I. Ahmet"
-      },
-      {
-       "id": "p18",
-       "metin": "IV. Murat"
-      },
-      {
-       "id": "p19",
-       "metin": "II. Mustafa"
-      }
-     ],
-     "havuz": [
-      {
-       "id": "i83",
-       "ustId": "p13",
-       "metin": "Tarhuncu Ahmet Paşa'ya ilk denk bütçeyi hazırlattı"
-      },
-      {
-       "id": "i84",
-       "ustId": "p13",
-       "metin": "Lehistan ile yapılan barış antlaşmasıyla Batı'da en geniş sınırlara ulaşıldı"
-      },
-      {
-       "id": "i85",
-       "ustId": "p13",
-       "metin": "Vak'a-i Vakvakiye Olayı yaşandı"
-      },
-      {
-       "id": "i86",
-       "ustId": "p13",
-       "metin": "Venedik'ten Girit, Avusturya'dan Uyvar Kalesi alındı"
-      },
-      {
-       "id": "i87",
-       "ustId": "p13",
-       "metin": "Tarhuncu Ahmet Paşa, Köprülü Mehmet Paşa, Köprülü Fazıl Ahmet Paşa ve Merzifonlu Kara Mustafa Paşa döneminde sadrazamlık yapmıştır"
-      },
-      {
-       "id": "i88",
-       "ustId": "p13",
-       "metin": "En genç padişahtır"
-      },
-      {
-       "id": "i89",
-       "ustId": "p13",
-       "metin": "İkinci Viyana Kuşatması gerçekleştirilmiştir"
-      },
-      {
-       "id": "i90",
-       "ustId": "p14",
-       "metin": "Hotin Seferi'nde yeniçerilerin isteksizliğini gördü"
-      },
-      {
-       "id": "i91",
-       "ustId": "p14",
-       "metin": "İlk yenilik yapan padişahtır"
-      },
-      {
-       "id": "i92",
-       "ustId": "p14",
-       "metin": "Yeniçeriler tarafından öldürülen ilk padişahtır"
-      },
-      {
-       "id": "i93",
-       "ustId": "p14",
-       "metin": "Saray dışında evlilik yapan ilk padişahtır"
-      },
-      {
-       "id": "i94",
-       "ustId": "p14",
-       "metin": "Yeniçeri Ocağı'nı kapatmayı düşünen ilk padişahtır"
-      },
-      {
-       "id": "i95",
-       "ustId": "p14",
-       "metin": "Farisi mahlasıyla şiir yazmıştır"
-      },
-      {
-       "id": "i96",
-       "ustId": "p15",
-       "metin": "Yükselme Dönemi'nin son, Duraklama Dönemi'nin ilk padişahıdır"
-      },
-      {
-       "id": "i97",
-       "ustId": "p15",
-       "metin": "Yeniçeri Ocağı'na dışarıdan alımlar başladı"
-      },
-      {
-       "id": "i98",
-       "ustId": "p15",
-       "metin": "İstanbul'da nüfus sayımı yaptırdı"
-      },
-      {
-       "id": "i99",
-       "ustId": "p15",
-       "metin": "Devalüasyon yapılarak paranın değeri düşürüldü"
-      },
-      {
-       "id": "i100",
-       "ustId": "p15",
-       "metin": "İran ile Ferhat Paşa Antlaşması yapıldı"
-      },
-      {
-       "id": "i101",
-       "ustId": "p16",
-       "metin": "Kanuni döneminde alınamayan Eğri Kalesi'ni aldı"
-      },
-      {
-       "id": "i102",
-       "ustId": "p16",
-       "metin": "Sancağa çıkıp padişah olan son hükümdardır"
-      },
-      {
-       "id": "i103",
-       "ustId": "p16",
-       "metin": "Sadeddin Efendi hocalığını yapmıştır"
-      },
-      {
-       "id": "i104",
-       "ustId": "p16",
-       "metin": "Haçova Meydan Savaşı ile Avusturya'yı yenmiştir"
-      },
-      {
-       "id": "i105",
-       "ustId": "p16",
-       "metin": "Kafes Sistemi'ni getirerek şehzadelerin sancağa çıkmasını yasaklamıştır"
-      },
-      {
-       "id": "i106",
-       "ustId": "p17",
-       "metin": "Ekber ve Erşed Sistemi'ni getirdi"
-      },
-      {
-       "id": "i107",
-       "ustId": "p17",
-       "metin": "Sancağa çıkmadan hükümdar olan ilk padişahtır"
-      },
-      {
-       "id": "i108",
-       "ustId": "p17",
-       "metin": "İran ile Nasuh Paşa Antlaşması, Avusturya ile Zitvatorok Antlaşması yapıldı"
-      },
-      {
-       "id": "i109",
-       "ustId": "p17",
-       "metin": "Bahti mahlasını kullanmıştır"
-      },
-      {
-       "id": "i110",
-       "ustId": "p18",
-       "metin": "Koçi Bey ve Kâtip Çelebi'ye risale hazırlattı"
-      },
-      {
-       "id": "i111",
-       "ustId": "p18",
-       "metin": "Bağdat Fatihi'dir"
-      },
-      {
-       "id": "i112",
-       "ustId": "p18",
-       "metin": "Revan Köşkü, Bağdat Köşkü ve Üsküdar Çinili Camii'ni yaptırmıştır"
-      },
-      {
-       "id": "i113",
-       "ustId": "p18",
-       "metin": "Hezarfen Ahmet Çelebi ve Lagari Hasan Çelebi uçuşlarını bu dönemde gerçekleştirmiştir"
-      },
-      {
-       "id": "i114",
-       "ustId": "p19",
-       "metin": "Venedik, Avusturya ve Lehistan ile Karlofça Antlaşması; Rusya ile 1700 İstanbul Antlaşması yapıldı"
-      }
-     ]
-    },
-    {
-     "id": "gerileme-donemi-padisahlar",
-     "baslik": "Gerileme Dönemi: Padişahlar",
-     "mod": "havuz",
-     "ust": [
-      {
-       "id": "p20",
-       "metin": "III. Selim"
-      },
-      {
-       "id": "p21",
-       "metin": "III. Ahmet"
-      },
-      {
-       "id": "p22",
-       "metin": "I. Abdülhamit"
-      },
-      {
-       "id": "p23",
-       "metin": "II. Mustafa"
-      },
-      {
-       "id": "p24",
-       "metin": "I. Mahmut"
-      },
-      {
-       "id": "p25",
-       "metin": "III. Mustafa"
-      }
-     ],
-     "havuz": [
-      {
-       "id": "i115",
-       "ustId": "p20",
-       "metin": "Nizam-ı Cedit ıslahatlarını gerçekleştiren padişahtır"
-      },
-      {
-       "id": "i116",
-       "ustId": "p20",
-       "metin": "İrad-ı Cedit Hazinesi kurulmuştur"
-      },
-      {
-       "id": "i117",
-       "ustId": "p20",
-       "metin": "İlk devlet matbaası Matbaa-i Âmire açılmıştır"
-      },
-      {
-       "id": "i118",
-       "ustId": "p20",
-       "metin": "İlk defa kalıcı elçilikler açılmıştır"
-      },
-      {
-       "id": "i119",
-       "ustId": "p20",
-       "metin": "Mühendishane-i Berri Hümayun açılmıştır"
-      },
-      {
-       "id": "i120",
-       "ustId": "p20",
-       "metin": "Kabakçı Mustafa İsyanı ile tahttan indirilmiştir"
-      },
-      {
-       "id": "i121",
-       "ustId": "p20",
-       "metin": "Viyana'ya elçi olarak gönderilen Ebubekir Ratib Efendi'nin Avrupa'da gördüklerini yazdığı 500 sayfalık Sefaretname'sini sunduğu padişahtır"
-      },
-      {
-       "id": "i122",
-       "ustId": "p20",
-       "metin": "Meşveret Meclisi (danışma kurulu) oluşturulmuştur"
-      },
-      {
-       "id": "i123",
-       "ustId": "p20",
-       "metin": "Yıldız Sarayı'nı yaptıran padişahtır"
-      },
-      {
-       "id": "i124",
-       "ustId": "p21",
-       "metin": "Lale Devri'nin padişahıdır"
-      },
-      {
-       "id": "i125",
-       "ustId": "p21",
-       "metin": "İlk defa geçici elçilikler açılmıştır"
-      },
-      {
-       "id": "i126",
-       "ustId": "p21",
-       "metin": "Islahatlarda ilk defa Batı örnek alınmıştır"
-      },
-      {
-       "id": "i127",
-       "ustId": "p21",
-       "metin": "İlk defa matbaa getirilmiştir"
-      },
-      {
-       "id": "i128",
-       "ustId": "p21",
-       "metin": "Tulumbacılar Ocağı kurulmuştur"
-      },
-      {
-       "id": "i129",
-       "ustId": "p21",
-       "metin": "Patrona Halil İsyanı ile tahttan indirilmiştir"
-      },
-      {
-       "id": "i130",
-       "ustId": "p21",
-       "metin": "Prut ve Pasarofça Antlaşmaları imzalanmıştır"
-      },
-      {
-       "id": "i131",
-       "ustId": "p22",
-       "metin": "İstihkam Okulu açılmıştır"
-      },
-      {
-       "id": "i132",
-       "ustId": "p22",
-       "metin": "Cülus bahşişi verme geleneği kaldırılmıştır"
-      },
-      {
-       "id": "i133",
-       "ustId": "p22",
-       "metin": "Yabancı uzmanların Müslüman olma şartı kaldırılmıştır"
-      },
-      {
-       "id": "i134",
-       "ustId": "p22",
-       "metin": "Halifelik ilk defa siyasi güç olarak kullanılmıştır"
-      },
-      {
-       "id": "i135",
-       "ustId": "p22",
-       "metin": "Küçük Kaynarca Antlaşması imzalanmıştır"
-      },
-      {
-       "id": "i136",
-       "ustId": "p22",
-       "metin": "Mühendishane-i Bahri Hümayun açılmıştır"
-      },
-      {
-       "id": "i137",
-       "ustId": "p22",
-       "metin": "İlk kez yeniçeri sayımı yapılarak ulufe alım satımı yasaklanmıştır"
-      },
-      {
-       "id": "i138",
-       "ustId": "p23",
-       "metin": "Edirne Vakası ile tahttan indirilmiştir"
-      },
-      {
-       "id": "i139",
-       "ustId": "p23",
-       "metin": "Ordunun başında sefere çıkan son padişahtır"
-      },
-      {
-       "id": "i140",
-       "ustId": "p23",
-       "metin": "Duraklama Dönemi'nin son, Gerileme Dönemi'nin ilk padişahıdır"
-      },
-      {
-       "id": "i141",
-       "ustId": "p23",
-       "metin": "Hat sanatıyla uğraşan ve eserleri günümüze ulaşan ilk padişahtır"
-      },
-      {
-       "id": "i142",
-       "ustId": "p24",
-       "metin": "Askeri alanda Batı ilk defa örnek alınmıştır"
-      },
-      {
-       "id": "i143",
-       "ustId": "p24",
-       "metin": "Hendesehane açılmıştır"
-      },
-      {
-       "id": "i144",
-       "ustId": "p25",
-       "metin": "Esham sistemi uygulanmıştır"
-      },
-      {
-       "id": "i145",
-       "ustId": "p25",
-       "metin": "Sürat Topçuları Ocağı açılmıştır"
-      }
-     ]
-    },
-    {
-     "id": "dagilma-donemi-padisahlar",
-     "baslik": "Dağılma Dönemi: Padişahlar",
-     "mod": "havuz",
-     "ust": [
-      {
-       "id": "p26",
-       "metin": "II. Mahmut"
-      },
-      {
-       "id": "p27",
-       "metin": "Abdülmecit"
-      },
-      {
-       "id": "p28",
-       "metin": "Abdülaziz"
-      },
-      {
-       "id": "p29",
-       "metin": "II. Abdülhamit"
-      }
-     ],
-     "havuz": [
-      {
-       "id": "i146",
-       "ustId": "p26",
-       "metin": "Ayanlarla Sened-i İttifak yapıldı"
-      },
-      {
-       "id": "i147",
-       "ustId": "p26",
-       "metin": "Yeniçeri Ocağı kapatıldı"
-      },
-      {
-       "id": "i148",
-       "ustId": "p26",
-       "metin": "İlk resmi gazete Takvim-i Vekayi çıkarıldı"
-      },
-      {
-       "id": "i149",
-       "ustId": "p26",
-       "metin": "İlk defa Avrupa'ya öğrenci gönderildi"
-      },
-      {
-       "id": "i150",
-       "ustId": "p26",
-       "metin": "Sekban-ı Cedit, Eşkinci Ocağı, Asakir-i Mansure-i Muhammediye, Redif Birlikleri kuruldu"
-      },
-      {
-       "id": "i151",
-       "ustId": "p26",
-       "metin": "İlk yurt içi seyahatine çıktı"
-      },
-      {
-       "id": "i152",
-       "ustId": "p26",
-       "metin": "Tıbbiye, Harbiye, Mekteb-i Maarif-i Adliye, Mekteb-i Ulûm-i Edebiye Mektepleri açıldı"
-      },
-      {
-       "id": "i153",
-       "ustId": "p26",
-       "metin": "İlk defa genel nüfus sayımı yapıldı"
-      },
-      {
-       "id": "i154",
-       "ustId": "p26",
-       "metin": "Tımar ve müsadere usulleri kaldırıldı"
-      },
-      {
-       "id": "i155",
-       "ustId": "p26",
-       "metin": "Memurlara ceket, fes ve pantolon giyme zorunluluğu getirildi"
-      },
-      {
-       "id": "i156",
-       "ustId": "p26",
-       "metin": "İlk pasaport uygulaması olan mürur tezkeresi uygulanmıştır"
-      },
-      {
-       "id": "i157",
-       "ustId": "p27",
-       "metin": "Tanzimat ve Islahat Fermanları yayınlandı"
-      },
-      {
-       "id": "i158",
-       "ustId": "p27",
-       "metin": "İlk kağıt para (Kaime) basıldı"
-      },
-      {
-       "id": "i159",
-       "ustId": "p27",
-       "metin": "İlk banka olan Bank-ı Dersaadet açıldı"
-      },
-      {
-       "id": "i160",
-       "ustId": "p27",
-       "metin": "İlk defa dış borç alındı (İngiltere)"
-      },
-      {
-       "id": "i161",
-       "ustId": "p27",
-       "metin": "Dolmabahçe Sarayı yapıldı"
-      },
-      {
-       "id": "i162",
-       "ustId": "p27",
-       "metin": "1851'de ilk anonim vapurculuk şirketi olan Şirket-i Hayriye kurulmuştur"
-      },
-      {
-       "id": "i163",
-       "ustId": "p27",
-       "metin": "Yabancı sermaye destekli ilk banka olan Bank-ı Osmani İngilizler tarafından açılmıştır"
-      },
-      {
-       "id": "i164",
-       "ustId": "p27",
-       "metin": "İlk kez belediye teşkilatı kurulmuştur"
-      },
-      {
-       "id": "i165",
-       "ustId": "p27",
-       "metin": "Meclis-i Ali-i Tanzimat kurulmuştur"
-      },
-      {
-       "id": "i166",
-       "ustId": "p28",
-       "metin": "İlk yurt dışı seyahatine çıkan padişahtır"
-      },
-      {
-       "id": "i167",
-       "ustId": "p28",
-       "metin": "Osmanlı donanması dünyanın en büyük ikinci donanması oldu"
-      },
-      {
-       "id": "i168",
-       "ustId": "p28",
-       "metin": "İlk metro, ilk tramvay hatları yapıldı"
-      },
-      {
-       "id": "i169",
-       "ustId": "p28",
-       "metin": "Şura-yı Devlet, Divan-ı Ahkâm-ı Adliye ve Divan-ı Muhasebat açıldı"
-      },
-      {
-       "id": "i170",
-       "ustId": "p28",
-       "metin": "Çırağan ve Beylerbeyi Sarayları yaptırıldı"
-      },
-      {
-       "id": "i171",
-       "ustId": "p28",
-       "metin": "Yenilik taraftarları tarafından tahttan indirilen ilk padişahtır"
-      },
-      {
-       "id": "i172",
-       "ustId": "p28",
-       "metin": "İlk posta pulu basılmıştır"
-      },
-      {
-       "id": "i173",
-       "ustId": "p29",
-       "metin": "Birinci ve İkinci Meşrutiyet ilan edildi"
-      },
-      {
-       "id": "i174",
-       "ustId": "p29",
-       "metin": "Ziraat, Baytar, Polis, Aşiret, Gümrük Mektepleri açıldı"
-      },
-      {
-       "id": "i175",
-       "ustId": "p29",
-       "metin": "Sanayi-i Nefise Mektebi açıldı"
-      },
-      {
-       "id": "i176",
-       "ustId": "p29",
-       "metin": "En çok okul açan padişahtır"
-      },
-      {
-       "id": "i177",
-       "ustId": "p29",
-       "metin": "Meclis kararıyla tahttan indirilen padişahtır"
-      },
-      {
-       "id": "i178",
-       "ustId": "p29",
-       "metin": "Devletin ilk kez rejimi değişmiştir"
-      },
-      {
-       "id": "i179",
-       "ustId": "p29",
-       "metin": "Muharrem Kararnamesi ile Duyun-u Umumiye İdaresi kurulmuştur"
-      }
-     ]
-    },
-    {
-     "id": "savaslar",
-     "baslik": "Savaşlar",
-     "mod": "havuz",
-     "ust": [
-      {
-       "id": "p30",
-       "metin": "Osmanlı - Bizans"
-      },
-      {
-       "id": "p31",
-       "metin": "Osmanlı - Haçlı"
-      }
-     ],
-     "havuz": [
-      {
-       "id": "i180",
-       "ustId": "p30",
-       "metin": "Koyunhisar Savaşı / Bafeus (1301) — İlk Osmanlı-Bizans savaşıdır"
-      },
-      {
-       "id": "i181",
-       "ustId": "p30",
-       "metin": "Maltepe Savaşı / Pelekanon (1329) — Bizans'tan İznik alındı"
-      },
-      {
-       "id": "i182",
-       "ustId": "p30",
-       "metin": "Sazlıdere Savaşı (1361) — Bizans'tan Edirne alındı"
-      },
-      {
-       "id": "i183",
-       "ustId": "p31",
-       "metin": "Sırpsındığı Savaşı (1364) — İlk Osmanlı-Haçlı savaşıdır"
-      },
-      {
-       "id": "i184",
-       "ustId": "p31",
-       "metin": "Çirmen Savaşı (1371) — Makedonya'nın fethi kolaylaştı"
-      },
-      {
-       "id": "i185",
-       "ustId": "p31",
-       "metin": "Ploşnik Bozgunu (1387) — Balkanlar'da ilk yenilgi"
-      },
-      {
-       "id": "i186",
-       "ustId": "p31",
-       "metin": "I. Kosova Savaşı (1389) — Savaş alanında ilk defa padişah şehit düşer; Türk bayrağının ay-yıldız şekli belirlenir"
-      },
-      {
-       "id": "i187",
-       "ustId": "p31",
-       "metin": "Niğbolu Savaşı (1396) — Halife, I. Bayezid'e \"Sultan-ı İklim-i Rum\" unvanını verir"
-      },
-      {
-       "id": "i188",
-       "ustId": "p31",
-       "metin": "Varna Savaşı (1444) — II. Murat'ın tahtı çocuk yaştaki II. Mehmet'e bırakmasını fırsat bilen Haçlıların Osmanlı'ya saldırmasıyla çıkan savaştır"
-      },
-      {
-       "id": "i189",
-       "ustId": "p31",
-       "metin": "II. Kosova Savaşı (1448) — Balkanların Türk yurdu olduğu kesinleşti"
-      }
-     ]
-    },
-    {
-     "id": "askeri-teskilat",
-     "baslik": "Askeri Teşkilat: Eyalet ve Kapıkulu Askerleri",
-     "mod": "havuz",
-     "ust": [
-      {
-       "id": "p32",
-       "metin": "Eyalet Askerleri (Tımar sistemi)"
-      },
-      {
-       "id": "p33",
-       "metin": "Kapıkulu Askerleri (Devşirme sistemi)"
-      }
-     ],
-     "havuz": [
-      {
-       "id": "i190",
-       "ustId": "p32",
-       "metin": "Akıncılar — Keşif birliği"
-      },
-      {
-       "id": "i191",
-       "ustId": "p32",
-       "metin": "Azaplar — İlk hücumu karşılayan öncü birlik"
-      },
-      {
-       "id": "i192",
-       "ustId": "p32",
-       "metin": "Yaya ve Müsellemler — Köprü tamiri ve yol yapımıyla görevlendirilir"
-      },
-      {
-       "id": "i193",
-       "ustId": "p32",
-       "metin": "Yörükler — Siper kazma, kale tamiri ve yol açma işleriyle görevlendirilir"
-      },
-      {
-       "id": "i194",
-       "ustId": "p32",
-       "metin": "Deliler — Sınır birlikleri; korkusuz akıncı askerler"
-      },
-      {
-       "id": "i195",
-       "ustId": "p32",
-       "metin": "Beşliler — Sınırdaki kaleleri koruyanlar"
-      },
-      {
-       "id": "i196",
-       "ustId": "p32",
-       "metin": "Gönüllüler — Sınırdaki şehir ve kasabaları koruyanlar"
-      },
-      {
-       "id": "i197",
-       "ustId": "p32",
-       "metin": "Cebelü — Sahib-i arz denilen tımar sahiplerinin beslemek zorunda olduğu askerler"
-      },
-      {
-       "id": "i198",
-       "ustId": "p33",
-       "metin": "Kapıkulu Piyadeleri — Yaya askerler"
-      },
-      {
-       "id": "i199",
-       "ustId": "p33",
-       "metin": "Acemi Oğlanlar Ocağı — Devşirmelerin ilk eğitildiği ocak"
-      },
-      {
-       "id": "i200",
-       "ustId": "p33",
-       "metin": "Yeniçeriler — Padişahı koruyan yaya askerler"
-      },
-      {
-       "id": "i201",
-       "ustId": "p33",
-       "metin": "Cebeciler — Silahlardan sorumlu"
-      },
-      {
-       "id": "i202",
-       "ustId": "p33",
-       "metin": "Humbaracılar — Havan topu yapan birlik"
-      },
-      {
-       "id": "i203",
-       "ustId": "p33",
-       "metin": "Bostancılar — Sarayın güvenliğini sağlayanlar"
-      },
-      {
-       "id": "i204",
-       "ustId": "p33",
-       "metin": "Kapıkulu Süvarileri — Atlı asker grubu"
-      },
-      {
-       "id": "i205",
-       "ustId": "p33",
-       "metin": "Silahtar ve Sipahiler — Savaş sırasında padişahın otağını koruyanlar"
-      },
-      {
-       "id": "i206",
-       "ustId": "p33",
-       "metin": "Sağ ve Sol Ulufeciler — Saltanat sancağını koruyanlar"
-      },
-      {
-       "id": "i207",
-       "ustId": "p33",
-       "metin": "Sağ ve Sol Garipler — Ordunun ağırlıklarını ve hazineyi koruyanlar"
-      },
-      {
-       "id": "i208",
-       "ustId": "p33",
-       "metin": "Pençik — Savaşta esir alınan her beş çocuktan birinin devlete ayrılması usulü"
-      }
-     ]
-    },
-    {
-     "id": "antlasmalar",
-     "baslik": "Antlaşmalar ve Sonuçları",
-     "mod": "liste",
-     "pairs": [
-      {
-       "left": "Prut Antlaşması (1711)",
-       "right": "Ruslardan Azak Kalesi geri alındı; Rusya'nın İstanbul'da daimi elçi bulundurma hakkı engellendi"
-      },
-      {
-       "left": "Pasarofça Antlaşması (1718)",
-       "right": "Avrupa'nın üstünlüğü kabul edildi; ilk defa Batı örnek alınarak Lale Devri ıslahatları başladı"
-      },
-      {
-       "left": "İstanbul Antlaşması (1724)",
-       "right": "Osmanlı ile Rusya arasındaki ilk ittifak antlaşması; İran'a karşı yapıldı"
-      },
-      {
-       "left": "Ahmet Paşa Antlaşması (1732)",
-       "right": "Osmanlı-İran Savaşı'nı bitirdi; sınır, ticaret ve hac-elçi düzenlemeleri yapıldı"
-      },
-      {
-       "left": "Belgrad Antlaşması (1739)",
-       "right": "Karadeniz'deki Türk egemenliğini son defa onaylayan, Osmanlı'nın imzaladığı son kazançlı antlaşma"
-      },
-      {
-       "left": "Kerden Antlaşması (1746)",
-       "right": "2. Kasr-ı Şirin Antlaşması olarak da bilinir"
-      },
-      {
-       "left": "Aynalıkavak Tenkihnamesi (1779)",
-       "right": "Rus yanlısı Şahin Giray'ın Kırım Hanı olarak tanındığı antlaşma"
-      },
-      {
-       "left": "Ziştovi Antlaşması (1791)",
-       "right": "Avusturya ile yapıldı; imzalanmasında Fransız İhtilali etkili oldu"
-      },
-      {
-       "left": "Yaş Antlaşması (1792)",
-       "right": "Kırım Rusya'ya bağlandı"
-      },
-      {
-       "left": "Trablusgarp Antlaşması (1795)",
-       "right": "Cezayir Beylerbeyi Hasan Paşa ile ABD arasında yapıldı; ABD'nin ilk defa yabancı bir devlete vergi ödemeyi kabul ettiği antlaşma"
-      },
-      {
-       "left": "El Ariş Antlaşması (1801)",
-       "right": "Fransa'dan Mısır geri alındı; Osmanlı ilk defa denge siyaseti uyguladı"
-      }
-     ]
-    },
-    {
-     "id": "eser-yazar",
-     "baslik": "Eser - Yazar Eşleştirmesi",
-     "mod": "cift-havuz",
-     "ustEtiket": "Yazarlar",
-     "altEtiket": "Eserler",
-     "ust": [
-      {
-       "id": "p42",
-       "metin": "Ahmet Cevdet Paşa"
-      },
-      {
-       "id": "p43",
-       "metin": "Akşemseddin"
-      },
-      {
-       "id": "p44",
-       "metin": "Ali Kuşçu"
-      },
-      {
-       "id": "p45",
-       "metin": "Aşıkpaşazade"
-      },
-      {
-       "id": "p46",
-       "metin": "Evliya Çelebi"
-      },
-      {
-       "id": "p47",
-       "metin": "Fuzuli"
-      },
-      {
-       "id": "p48",
-       "metin": "Itri"
-      },
-      {
-       "id": "p49",
-       "metin": "İdris-i Bitlisi"
-      },
-      {
-       "id": "p50",
-       "metin": "Kâtip Çelebi"
-      },
-      {
-       "id": "p51",
-       "metin": "Matrakçı Nasuh"
-      },
-      {
-       "id": "p52",
-       "metin": "Nef'i"
-      },
-      {
-       "id": "p53",
-       "metin": "Osman Hamdi Bey"
-      },
-      {
-       "id": "p54",
-       "metin": "Piri Reis"
-      },
-      {
-       "id": "p55",
-       "metin": "Sabuncuoğlu Şerefeddin"
-      },
-      {
-       "id": "p56",
-       "metin": "Seydi Ali Reis"
-      }
-     ],
-     "havuz": [
-      {
-       "id": "i247",
-       "ustId": "p42",
-       "metin": "Mecelle"
-      },
-      {
-       "id": "i248",
-       "ustId": "p43",
-       "metin": "Maddetü'l-Hayat"
-      },
-      {
-       "id": "i249",
-       "ustId": "p44",
-       "metin": "Fethiyye"
-      },
-      {
-       "id": "i250",
-       "ustId": "p45",
-       "metin": "Tevarih-i Âl-i Osman"
-      },
-      {
-       "id": "i251",
-       "ustId": "p46",
-       "metin": "Seyahatname"
-      },
-      {
-       "id": "i252",
-       "ustId": "p47",
-       "metin": "Su Kasidesi"
-      },
-      {
-       "id": "i253",
-       "ustId": "p47",
-       "metin": "Leyla vü Mecnun"
-      },
-      {
-       "id": "i254",
-       "ustId": "p48",
-       "metin": "Tûtî-i Mucize-Guyem"
-      },
-      {
-       "id": "i255",
-       "ustId": "p49",
-       "metin": "Heşt Behişt"
-      },
-      {
-       "id": "i256",
-       "ustId": "p50",
-       "metin": "Keşfü'z-Zünun"
-      },
-      {
-       "id": "i257",
-       "ustId": "p50",
-       "metin": "Cihannüma"
-      },
-      {
-       "id": "i258",
-       "ustId": "p50",
-       "metin": "Fezleke"
-      },
-      {
-       "id": "i259",
-       "ustId": "p51",
-       "metin": "Beyân-ı Menâzil-i Sefer-i Irakeyn"
-      },
-      {
-       "id": "i260",
-       "ustId": "p52",
-       "metin": "Siham-ı Kaza"
-      },
-      {
-       "id": "i261",
-       "ustId": "p53",
-       "metin": "Kaplumbağa Terbiyecisi"
-      },
-      {
-       "id": "i262",
-       "ustId": "p53",
-       "metin": "Cami Önü"
-      },
-      {
-       "id": "i263",
-       "ustId": "p53",
-       "metin": "Silah Taciri"
-      },
-      {
-       "id": "i264",
-       "ustId": "p53",
-       "metin": "İstanbul Hanımefendisi"
-      },
-      {
-       "id": "i265",
-       "ustId": "p53",
-       "metin": "Han İçi"
-      },
-      {
-       "id": "i266",
-       "ustId": "p54",
-       "metin": "Kitab-ı Bahriye"
-      },
-      {
-       "id": "i267",
-       "ustId": "p54",
-       "metin": "Dünya Haritası"
-      },
-      {
-       "id": "i268",
-       "ustId": "p55",
-       "metin": "Mücerreb-nâme"
-      },
-      {
-       "id": "i269",
-       "ustId": "p55",
-       "metin": "Cerrahiyyetü'l-Haniyye"
-      },
-      {
-       "id": "i270",
-       "ustId": "p56",
-       "metin": "Mir'atü'l-Memâlik"
-      }
-     ]
-    },
-    {
-     "id": "devlet-teskilati",
-     "baslik": "Devlet Teşkilatı Sınıflandırması",
-     "mod": "havuz",
-     "ust": [
-      {
-       "id": "p39",
-       "metin": "Seyfiye"
-      },
-      {
-       "id": "p40",
-       "metin": "Kalemiye"
-      },
-      {
-       "id": "p41",
-       "metin": "İlmiye"
-      }
-     ],
-     "havuz": [
-      {
-       "id": "i230",
-       "ustId": "p39",
-       "metin": "Veziriazam (Sadrazam)"
-      },
-      {
-       "id": "i231",
-       "ustId": "p39",
-       "metin": "Vezirler (Kubbealtı Vezirleri)"
-      },
-      {
-       "id": "i232",
-       "ustId": "p39",
-       "metin": "Yeniçeri Ağası"
-      },
-      {
-       "id": "i233",
-       "ustId": "p39",
-       "metin": "Kaptan-ı Derya"
-      },
-      {
-       "id": "i234",
-       "ustId": "p39",
-       "metin": "Beylerbeyi"
-      },
-      {
-       "id": "i235",
-       "ustId": "p39",
-       "metin": "Sancakbeyi"
-      },
-      {
-       "id": "i236",
-       "ustId": "p39",
-       "metin": "Subaşı"
-      },
-      {
-       "id": "i237",
-       "ustId": "p39",
-       "metin": "Tımarlı Sipahiler"
-      },
-      {
-       "id": "i238",
-       "ustId": "p40",
-       "metin": "Defterdar"
-      },
-      {
-       "id": "i239",
-       "ustId": "p40",
-       "metin": "Nişancı"
-      },
-      {
-       "id": "i240",
-       "ustId": "p40",
-       "metin": "Reisülküttap"
-      },
-      {
-       "id": "i241",
-       "ustId": "p40",
-       "metin": "Kâtipler ve Eminler"
-      },
-      {
-       "id": "i242",
-       "ustId": "p41",
-       "metin": "Şeyhülislam (Müftü)"
-      },
-      {
-       "id": "i243",
-       "ustId": "p41",
-       "metin": "Kazasker (Kadıasker)"
-      },
-      {
-       "id": "i244",
-       "ustId": "p41",
-       "metin": "Kadı"
-      },
-      {
-       "id": "i245",
-       "ustId": "p41",
-       "metin": "Müderris"
-      },
-      {
-       "id": "i246",
-       "ustId": "p41",
-       "metin": "Naib"
-      }
-     ]
-    },
-    {
-     "id": "devlet-gorevlileri",
-     "baslik": "Devlet Teşkilatı: Görevliler ve Görevleri",
-     "mod": "cift-havuz",
-     "ustEtiket": "Görevliler",
-     "altEtiket": "Görevler",
-     "ust": [
-      {
-       "id": "p57",
-       "metin": "Veziriazam (Sadrazam)"
-      },
-      {
-       "id": "p58",
-       "metin": "Vezirler (Kubbealtı Vezirleri)"
-      },
-      {
-       "id": "p59",
-       "metin": "Yeniçeri Ağası"
-      },
-      {
-       "id": "p60",
-       "metin": "Kaptan-ı Derya"
-      },
-      {
-       "id": "p61",
-       "metin": "Beylerbeyi"
-      },
-      {
-       "id": "p62",
-       "metin": "Sancakbeyi"
-      },
-      {
-       "id": "p63",
-       "metin": "Subaşı"
-      },
-      {
-       "id": "p64",
-       "metin": "Tımarlı Sipahiler"
-      },
-      {
-       "id": "p65",
-       "metin": "Defterdar"
-      },
-      {
-       "id": "p66",
-       "metin": "Nişancı"
-      },
-      {
-       "id": "p67",
-       "metin": "Reisülküttap"
-      },
-      {
-       "id": "p68",
-       "metin": "Kâtipler ve Eminler"
-      },
-      {
-       "id": "p69",
-       "metin": "Şeyhülislam (Müftü)"
-      },
-      {
-       "id": "p70",
-       "metin": "Kazasker (Kadıasker)"
-      },
-      {
-       "id": "p71",
-       "metin": "Kadı"
-      },
-      {
-       "id": "p72",
-       "metin": "Müderris"
-      },
-      {
-       "id": "p73",
-       "metin": "Naib"
-      }
-     ],
-     "havuz": [
-      {
-       "id": "i271",
-       "ustId": "p57",
-       "metin": "Padişahın mutlak vekilidir; günümüzün başbakanı konumundadır"
-      },
-      {
-       "id": "i272",
-       "ustId": "p58",
-       "metin": "Sadrazamın yardımcılarıdır; günümüzün devlet bakanları konumundadır"
-      },
-      {
-       "id": "i273",
-       "ustId": "p59",
-       "metin": "Yeniçeri Ocağı'nın baş komutanıdır; aynı zamanda İstanbul'un güvenliğinden sorumludur"
-      },
-      {
-       "id": "i274",
-       "ustId": "p60",
-       "metin": "Osmanlı donanmasının başkomutanıdır"
-      },
-      {
-       "id": "i275",
-       "ustId": "p61",
-       "metin": "Eyaletlerin en büyük mülki ve askeri amiridir"
-      },
-      {
-       "id": "i276",
-       "ustId": "p62",
-       "metin": "Eyaletlere bağlı sancakların (illerin) mülki ve askeri amiridir"
-      },
-      {
-       "id": "i277",
-       "ustId": "p63",
-       "metin": "Şehir ve kasabaların güvenlik sorumlusudur"
-      },
-      {
-       "id": "i278",
-       "ustId": "p64",
-       "metin": "Dirlik (tımar) sistemine bağlı olarak taşrada hem güvenliği sağlayan hem savaşa katılan atlı askerlerdir"
-      },
-      {
-       "id": "i279",
-       "ustId": "p65",
-       "metin": "Devletin maliye ve hazine işlerinden sorumludur; günümüzün maliye bakanı konumundadır"
-      },
-      {
-       "id": "i280",
-       "ustId": "p66",
-       "metin": "Padişahın ferman ve beratlarına tuğra çeker; fethedilen toprakların tahrir defterlerini tutar"
-      },
-      {
-       "id": "i281",
-       "ustId": "p67",
-       "metin": "Başlangıçta Nişancı'nın yardımcısıyken 17. yüzyıldan itibaren dışişleri bakanı statüsüne yükselmiştir"
-      },
-      {
-       "id": "i282",
-       "ustId": "p68",
-       "metin": "Divân-ı Hümayun'da resmi yazışmaları kaleme alan ve devlet dairelerinde çalışan memurlardır"
-      },
-      {
-       "id": "i283",
-       "ustId": "p69",
-       "metin": "İlmiye sınıfının başıdır; Divân-ı Hümayun kararlarının şeriata uygunluğuna dair fetva verir"
-      },
-      {
-       "id": "i284",
-       "ustId": "p70",
-       "metin": "Eğitim ve adalet işlerinden sorumludur; kadı ve müderris atamalarını yapar"
-      },
-      {
-       "id": "i285",
-       "ustId": "p71",
-       "metin": "Taşrada adaleti sağlayan hakimdir; noter ve mülki idareci gibi görevleri de üstlenir"
-      },
-      {
-       "id": "i286",
-       "ustId": "p72",
-       "metin": "Medreselerde eğitim veren hocadır"
-      },
-      {
-       "id": "i287",
-       "ustId": "p73",
-       "metin": "Kadının gidemediği yerlerde ya da büyük kazalarda ona vekalet eden hakim yardımcısıdır"
-      }
-     ]
-    },
-    {
-     "id": "20-yuzyil-osmanli",
-     "baslik": "20. Yüzyılda Osmanlı: Genelgeler ve Kongreler",
-     "mod": "havuz",
-     "ust": [
-      {
-       "id": "p34",
-       "metin": "Sivas Kongresi"
-      },
-      {
-       "id": "p35",
-       "metin": "Erzurum Kongresi"
-      },
-      {
-       "id": "p36",
-       "metin": "Amasya Genelgesi"
-      },
-      {
-       "id": "p37",
-       "metin": "Havza Genelgesi"
-      },
-      {
-       "id": "p38",
-       "metin": "Samsun Raporu"
-      }
-     ],
-     "havuz": [
-      {
-       "id": "i209",
-       "ustId": "p34",
-       "metin": "Temsil Heyeti'nin düzenlediği ilk (genel) kongredir"
-      },
-      {
-       "id": "i210",
-       "ustId": "p34",
-       "metin": "Temsil Heyeti'nin tüm yurdu kapsayacak hale getirilmesi kararlaştırılmıştır"
-      },
-      {
-       "id": "i211",
-       "ustId": "p34",
-       "metin": "Temsil Heyeti, hükümet gibi yürütmeyle ilgili karar alarak Batı Anadolu Kuvâ-yı Milliye birliklerinin başına Ali Fuat Paşa'yı atamıştır"
-      },
-      {
-       "id": "i212",
-       "ustId": "p34",
-       "metin": "Manda ve himaye kesin olarak reddedilmiştir"
-      },
-      {
-       "id": "i213",
-       "ustId": "p34",
-       "metin": "Milli cemiyetler, Anadolu ve Rumeli Müdafaa-i Hukuk Cemiyeti adı altında birleştirilmiştir"
-      },
-      {
-       "id": "i214",
-       "ustId": "p34",
-       "metin": "Elazığ (Harput) Valisi Ali Galip'in engellemeye çalıştığı kongredir"
-      },
-      {
-       "id": "i215",
-       "ustId": "p34",
-       "metin": "Sonrasında Damat Ferit Paşa hükümeti istifa etmiştir"
-      },
-      {
-       "id": "i216",
-       "ustId": "p35",
-       "metin": "Doğuyu kapsayan Temsil Heyeti'nin kurulmasını sağlamıştır"
-      },
-      {
-       "id": "i217",
-       "ustId": "p35",
-       "metin": "İlk kez milli sınırlardan (Misak-ı Milli'den) bahsedilmiştir"
-      },
-      {
-       "id": "i218",
-       "ustId": "p35",
-       "metin": "İlk kez manda ve himaye reddedilmiştir"
-      },
-      {
-       "id": "i219",
-       "ustId": "p35",
-       "metin": "İlk kez yeni bir hükümet kurulmasından söz edilmiştir"
-      },
-      {
-       "id": "i220",
-       "ustId": "p35",
-       "metin": "Trabzon Muhafaza-i Hukuk-u Milliye ve Doğu Anadolu Müdafaa-i Hukuk Cemiyetleri tarafından düzenlenmiştir"
-      },
-      {
-       "id": "i221",
-       "ustId": "p36",
-       "metin": "İlk kez Temsil Heyeti'nin kurulmasından söz edilmiştir"
-      },
-      {
-       "id": "i222",
-       "ustId": "p36",
-       "metin": "Milli egemenliğe dayalı yeni bir Türk devletinin kurulması yolunda atılan ilk adımdır"
-      },
-      {
-       "id": "i223",
-       "ustId": "p36",
-       "metin": "Milli mücadelenin ilk ihtilal beyannamesi olarak kabul edilir"
-      },
-      {
-       "id": "i224",
-       "ustId": "p36",
-       "metin": "Milli mücadelenin amacı, gerekçesi ve yöntemi belirlenmiştir"
-      },
-      {
-       "id": "i225",
-       "ustId": "p36",
-       "metin": "Sonrasında Mustafa Kemal, askerlik görevinden istifa etmiştir"
-      },
-      {
-       "id": "i226",
-       "ustId": "p37",
-       "metin": "Mustafa Kemal ilk kez halktan işgallere karşı protesto mitingleri düzenlemelerini istemiştir"
-      },
-      {
-       "id": "i227",
-       "ustId": "p37",
-       "metin": "Sonrasında Mustafa Kemal, İstanbul hükümeti tarafından ilk defa İstanbul'a geri çağrılmıştır"
-      },
-      {
-       "id": "i228",
-       "ustId": "p38",
-       "metin": "Mustafa Kemal, ilk defa görevi dışına çıkmıştır"
-      },
-      {
-       "id": "i229",
-       "ustId": "p38",
-       "metin": "Mustafa Kemal, İzmir'in işgaline ilk kez tepki göstermiştir"
-      }
-     ]
+      "id": "vatandaslik",
+      "baslik": "Vatandaşlık",
+      "aktif": false,
+      "bolumler": []
     }
-   ]
-  },
-  {
-   "id": "cografya",
-   "baslik": "Coğrafya",
-   "aktif": true,
-   "bolumler": [
-    {
-     "id": "sinir-kapilari-gecitler",
-     "baslik": "Sınır Kapıları ve Dağ Geçitleri",
-     "mod": "harita",
-     "gorsel": "haritalar/turkiye-anahat.svg",
-     "noktalar": [
-      {
-       "id": "m1",
-       "x": 29.14,
-       "y": 29.56,
-       "metin": "Bolu Geçidi"
-      },
-      {
-       "id": "m2",
-       "x": 29.99,
-       "y": 14.69,
-       "metin": "Ecevit Geçidi"
-      },
-      {
-       "id": "m3",
-       "x": 40.27,
-       "y": 21.19,
-       "metin": "Ilgaz Geçidi"
-      },
-      {
-       "id": "m4",
-       "x": 70.74,
-       "y": 25.69,
-       "metin": "Zigana Geçidi"
-      },
-      {
-       "id": "m5",
-       "x": 79.68,
-       "y": 25.31,
-       "metin": "Ovit Geçidi"
-      },
-      {
-       "id": "m6",
-       "x": 75.38,
-       "y": 36.65,
-       "metin": "Kop Geçidi"
-      },
-      {
-       "id": "m7",
-       "x": 46.12,
-       "y": 11.96,
-       "metin": "Çubuk Geçidi"
-      },
-      {
-       "id": "m8",
-       "x": 39.0,
-       "y": 86.82,
-       "metin": "Sertavul Geçidi"
-      },
-      {
-       "id": "m9",
-       "x": 46.44,
-       "y": 78.83,
-       "metin": "Gülek Geçidi (Boğazı)"
-      },
-      {
-       "id": "m10",
-       "x": 51.78,
-       "y": 98.05,
-       "metin": "Belen Geçidi (Boğazı)"
-      },
-      {
-       "id": "m11",
-       "x": 4.82,
-       "y": 3.18,
-       "metin": "Kapıkule"
-      },
-      {
-       "id": "m12",
-       "x": 11.37,
-       "y": 2.04,
-       "metin": "Dereköy (Aziziye)"
-      },
-      {
-       "id": "m13",
-       "x": 2.84,
-       "y": 16.62,
-       "metin": "Uzunköprü"
-      },
-      {
-       "id": "m14",
-       "x": 1.71,
-       "y": 30.83,
-       "metin": "İpsala"
-      },
-      {
-       "id": "m15",
-       "x": 79.71,
-       "y": 10.32,
-       "metin": "Sarp"
-      },
-      {
-       "id": "m16",
-       "x": 85.92,
-       "y": 5.46,
-       "metin": "Aktaş"
-      },
-      {
-       "id": "m17",
-       "x": 90.74,
-       "y": 11.04,
-       "metin": "Türközü"
-      },
-      {
-       "id": "m18",
-       "x": 92.16,
-       "y": 24.0,
-       "metin": "Akyaka"
-      },
-      {
-       "id": "m19",
-       "x": 97.13,
-       "y": 28.25,
-       "metin": "Alican"
-      },
-      {
-       "id": "m20",
-       "x": 94.79,
-       "y": 36.35,
-       "metin": "Dilucu (Umut)"
-      },
-      {
-       "id": "m21",
-       "x": 96.34,
-       "y": 46.13,
-       "metin": "Gürbulak"
-      },
-      {
-       "id": "m22",
-       "x": 96.61,
-       "y": 57.89,
-       "metin": "Kapıköy"
-      },
-      {
-       "id": "m23",
-       "x": 94.61,
-       "y": 70.85,
-       "metin": "Esendere"
-      },
-      {
-       "id": "m24",
-       "x": 99.97,
-       "y": 69.83,
-       "metin": "Derecik"
-      },
-      {
-       "id": "m25",
-       "x": 88.71,
-       "y": 70.31,
-       "metin": "Habur"
-      },
-      {
-       "id": "m26",
-       "x": 82.97,
-       "y": 75.52,
-       "metin": "Üzümlü"
-      },
-      {
-       "id": "m27",
-       "x": 76.79,
-       "y": 77.98,
-       "metin": "Nusaybin"
-      },
-      {
-       "id": "m28",
-       "x": 56.24,
-       "y": 84.16,
-       "metin": "Öncüpınar"
-      },
-      {
-       "id": "m29",
-       "x": 67.18,
-       "y": 84.88,
-       "metin": "Karkamış"
-      },
-      {
-       "id": "m30",
-       "x": 64.37,
-       "y": 81.94,
-       "metin": "Çobanbey"
-      },
-      {
-       "id": "m31",
-       "x": 58.76,
-       "y": 86.44,
-       "metin": "Cilvegözü"
-      },
-      {
-       "id": "m32",
-       "x": 51.76,
-       "y": 90.28,
-       "metin": "Zeytin Dalı"
-      },
-      {
-       "id": "m33",
-       "x": 55.95,
-       "y": 93.34,
-       "metin": "Yayladağ"
-      }
-     ]
-    },
-    {
-     "id": "bitkiler",
-     "baslik": "Bitkiler (Bitki Örtüsü)",
-     "mod": "harita",
-     "gorsel": "haritalar/turkiye-anahat.svg",
-     "noktalar": [
-      {
-       "id": "b1",
-       "x": 24.74,
-       "y": 83.44,
-       "metin": "Kızılçam"
-      },
-      {
-       "id": "b2",
-       "x": 16.34,
-       "y": 87.74,
-       "metin": "Maki"
-      },
-      {
-       "id": "b3",
-       "x": 4.72,
-       "y": 61.12,
-       "metin": "Garig"
-      },
-      {
-       "id": "b4",
-       "x": 24.1,
-       "y": 55.66,
-       "metin": "Antropojen Bozkır"
-      },
-      {
-       "id": "b5",
-       "x": 34.26,
-       "y": 68.53,
-       "metin": "Step (Bozkır)"
-      },
-      {
-       "id": "b6",
-       "x": 20.81,
-       "y": 42.66,
-       "metin": "Meşe"
-      },
-      {
-       "id": "b7",
-       "x": 94.95,
-       "y": 40.67,
-       "metin": "Dağ Çayırı"
-      },
-      {
-       "id": "b8",
-       "x": 85.11,
-       "y": 16.58,
-       "metin": "İğne Yapraklı Orman"
-      },
-      {
-       "id": "b9",
-       "x": 33.25,
-       "y": 11.96,
-       "metin": "Geniş Yapraklı Orman"
-      },
-      {
-       "id": "b10",
-       "x": 76.97,
-       "y": 20.11,
-       "metin": "Psödomaki"
-      }
-     ]
-    },
-    {
-     "id": "daglar",
-     "baslik": "Dağlar",
-     "mod": "harita",
-     "gorsel": "haritalar/turkiye-anahat.svg",
-     "noktalar": [
-      {
-       "id": "d1",
-       "x": 10.79,
-       "y": 1.62,
-       "metin": "Yıldız Dağları (Istranca)"
-      },
-      {
-       "id": "d2",
-       "x": 11.15,
-       "y": 15.46,
-       "metin": "Koru Dağı"
-      },
-      {
-       "id": "d3",
-       "x": 21.89,
-       "y": 23.96,
-       "metin": "Samanlı Dağları"
-      },
-      {
-       "id": "d4",
-       "x": 29.19,
-       "y": 38.0,
-       "metin": "Sündiken Dağları"
-      },
-      {
-       "id": "d5",
-       "x": 30.32,
-       "y": 53.63,
-       "metin": "Sultan Dağları"
-      },
-      {
-       "id": "d6",
-       "x": 19.62,
-       "y": 70.36,
-       "metin": "Akdağ"
-      },
-      {
-       "id": "d7",
-       "x": 24.74,
-       "y": 84.1,
-       "metin": "Beydağları"
-      },
-      {
-       "id": "d8",
-       "x": 25.6,
-       "y": 64.09,
-       "metin": "Barla Dağı"
-      },
-      {
-       "id": "d9",
-       "x": 32.65,
-       "y": 77.47,
-       "metin": "Geyik Dağı"
-      },
-      {
-       "id": "d10",
-       "x": 45.93,
-       "y": 78.8,
-       "metin": "Bolkar Dağları"
-      },
-      {
-       "id": "d11",
-       "x": 50.07,
-       "y": 67.59,
-       "metin": "Aladağlar"
-      },
-      {
-       "id": "d12",
-       "x": 56.29,
-       "y": 72.53,
-       "metin": "Tahtalı Dağları"
-      },
-      {
-       "id": "d13",
-       "x": 57.84,
-       "y": 61.99,
-       "metin": "Binboğa Dağları"
-      },
-      {
-       "id": "d14",
-       "x": 65.22,
-       "y": 59.02,
-       "metin": "Malatya Dağları"
-      },
-      {
-       "id": "d15",
-       "x": 80.17,
-       "y": 50.28,
-       "metin": "Mastar Dağı"
-      },
-      {
-       "id": "d16",
-       "x": 78.76,
-       "y": 64.89,
-       "metin": "Sason Dağı"
-      },
-      {
-       "id": "d17",
-       "x": 93.71,
-       "y": 71.33,
-       "metin": "Hakkari Dağları (Cilo-Sat)"
-      },
-      {
-       "id": "d18",
-       "x": 41.82,
-       "y": 4.62,
-       "metin": "Küre Dağları (İsfendiyar)"
-      },
-      {
-       "id": "d19",
-       "x": 29.83,
-       "y": 18.13,
-       "metin": "Bolu Dağları"
-      },
-      {
-       "id": "d20",
-       "x": 42.0,
-       "y": 18.46,
-       "metin": "Ilgaz Dağları"
-      },
-      {
-       "id": "d21",
-       "x": 35.89,
-       "y": 23.98,
-       "metin": "Köroğlu Dağları"
-      },
-      {
-       "id": "d22",
-       "x": 54.4,
-       "y": 30.62,
-       "metin": "Hınzır Dağı"
-      },
-      {
-       "id": "d23",
-       "x": 55.9,
-       "y": 16.02,
-       "metin": "Canik Dağları"
-      },
-      {
-       "id": "d24",
-       "x": 59.96,
-       "y": 39.06,
-       "metin": "Tecer Dağları"
-      },
-      {
-       "id": "d25",
-       "x": 61.81,
-       "y": 24.56,
-       "metin": "Giresun Dağları"
-      },
-      {
-       "id": "d26",
-       "x": 68.05,
-       "y": 20.98,
-       "metin": "Zigana Dağları"
-      },
-      {
-       "id": "d27",
-       "x": 73.85,
-       "y": 19.06,
-       "metin": "Soğanlı Dağları"
-      },
-      {
-       "id": "d28",
-       "x": 78.25,
-       "y": 14.31,
-       "metin": "Rize Dağları"
-      },
-      {
-       "id": "d29",
-       "x": 80.67,
-       "y": 20.79,
-       "metin": "Kaçkar Dağları"
-      },
-      {
-       "id": "d30",
-       "x": 68.22,
-       "y": 36.8,
-       "metin": "Çimen Dağı"
-      },
-      {
-       "id": "d31",
-       "x": 75.29,
-       "y": 31.77,
-       "metin": "Kop Dağı"
-      },
-      {
-       "id": "d32",
-       "x": 73.44,
-       "y": 43.74,
-       "metin": "Mercan Dağları"
-      },
-      {
-       "id": "d33",
-       "x": 80.83,
-       "y": 31.21,
-       "metin": "Mescit Dağları"
-      },
-      {
-       "id": "d34",
-       "x": 85.17,
-       "y": 15.23,
-       "metin": "Yalnızçam Dağları"
-      },
-      {
-       "id": "d35",
-       "x": 88.42,
-       "y": 24.74,
-       "metin": "Allahuekber Dağları"
-      },
-      {
-       "id": "d36",
-       "x": 18.79,
-       "y": 53.59,
-       "metin": "Kula (Volkanik Arazi)"
-      },
-      {
-       "id": "d37",
-       "x": 40.16,
-       "y": 73.06,
-       "metin": "Karadağ (Karaman)"
-      },
-      {
-       "id": "d38",
-       "x": 39.58,
-       "y": 58.76,
-       "metin": "Karacadağ (Konya)"
-      },
-      {
-       "id": "d39",
-       "x": 36.94,
-       "y": 66.09,
-       "metin": "Meke"
-      },
-      {
-       "id": "d40",
-       "x": 43.6,
-       "y": 65.87,
-       "metin": "Hasan Dağı"
-      },
-      {
-       "id": "d41",
-       "x": 46.11,
-       "y": 57.21,
-       "metin": "Melendiz Dağı"
-      },
-      {
-       "id": "d42",
-       "x": 52.43,
-       "y": 53.58,
-       "metin": "Erciyes Dağı"
-      },
-      {
-       "id": "d43",
-       "x": 72.49,
-       "y": 69.43,
-       "metin": "Karacadağ (Diyarbakır)"
-      },
-      {
-       "id": "d44",
-       "x": 85.19,
-       "y": 57.78,
-       "metin": "Nemrut Dağı"
-      },
-      {
-       "id": "d45",
-       "x": 86.81,
-       "y": 45.13,
-       "metin": "Süphan Dağı"
-      },
-      {
-       "id": "d46",
-       "x": 92.86,
-       "y": 46.88,
-       "metin": "Tendürek Dağı"
-      },
-      {
-       "id": "d47",
-       "x": 95.41,
-       "y": 32.7,
-       "metin": "Büyük Ağrı Dağı"
-      },
-      {
-       "id": "d48",
-       "x": 96.03,
-       "y": 40.49,
-       "metin": "Küçük Ağrı Dağı"
-      },
-      {
-       "id": "d49",
-       "x": 5.46,
-       "y": 33.88,
-       "metin": "Kaz Dağı (İda)"
-      },
-      {
-       "id": "d50",
-       "x": 10.91,
-       "y": 36.09,
-       "metin": "Madra Dağı"
-      },
-      {
-       "id": "d51",
-       "x": 8.22,
-       "y": 48.28,
-       "metin": "Yunt Dağı"
-      },
-      {
-       "id": "d52",
-       "x": 12.7,
-       "y": 59.26,
-       "metin": "Boz Dağ"
-      },
-      {
-       "id": "d53",
-       "x": 11.89,
-       "y": 70.22,
-       "metin": "Aydın Dağları"
-      },
-      {
-       "id": "d54",
-       "x": 15.85,
-       "y": 81.12,
-       "metin": "Menteşe Dağları"
-      },
-      {
-       "id": "d55",
-       "x": 55.16,
-       "y": 86.65,
-       "metin": "Amanos Dağları (Nur Dağları)"
-      }
-     ]
-    },
-    {
-     "id": "akarsular",
-     "baslik": "Akarsular",
-     "mod": "harita",
-     "gorsel": "haritalar/turkiye-anahat.svg",
-     "noktalar": [
-      {
-       "id": "a1",
-       "x": 79.05,
-       "y": 11.76,
-       "metin": "Çoruh"
-      },
-      {
-       "id": "a2",
-       "x": 65.89,
-       "y": 19.8,
-       "metin": "Harşit (Doğankent)"
-      },
-      {
-       "id": "a3",
-       "x": 59.45,
-       "y": 17.88,
-       "metin": "Yeşilırmak"
-      },
-      {
-       "id": "a4",
-       "x": 53.45,
-       "y": 12.48,
-       "metin": "Kızılırmak (Delice)"
-      },
-      {
-       "id": "a5",
-       "x": 35.79,
-       "y": 7.32,
-       "metin": "Bartın"
-      },
-      {
-       "id": "a6",
-       "x": 30.08,
-       "y": 14.52,
-       "metin": "Filyos (Yenice)"
-      },
-      {
-       "id": "a7",
-       "x": 23.66,
-       "y": 16.2,
-       "metin": "Sakarya (Porsuk)"
-      },
-      {
-       "id": "a8",
-       "x": 13.21,
-       "y": 27.11,
-       "metin": "Susurluk (Nilüfer Ç.)"
-      },
-      {
-       "id": "a9",
-       "x": 1.95,
-       "y": 30.89,
-       "metin": "Meriç"
-      },
-      {
-       "id": "a10",
-       "x": 2.39,
-       "y": 57.17,
-       "metin": "Gediz"
-      },
-      {
-       "id": "a11",
-       "x": 4.5,
-       "y": 67.19,
-       "metin": "Küçük Menderes"
-      },
-      {
-       "id": "a12",
-       "x": 4.87,
-       "y": 48.29,
-       "metin": "Bakırçay"
-      },
-      {
-       "id": "a13",
-       "x": 7.24,
-       "y": 78.7,
-       "metin": "Büyük Menderes"
-      },
-      {
-       "id": "a14",
-       "x": 13.18,
-       "y": 83.38,
-       "metin": "Dalaman"
-      },
-      {
-       "id": "a15",
-       "x": 16.95,
-       "y": 93.52,
-       "metin": "Eşen"
-      },
-      {
-       "id": "a16",
-       "x": 21.29,
-       "y": 92.74,
-       "metin": "Alakır Çayı"
-      },
-      {
-       "id": "a17",
-       "x": 22.71,
-       "y": 83.2,
-       "metin": "Aksu"
-      },
-      {
-       "id": "a18",
-       "x": 26.87,
-       "y": 84.88,
-       "metin": "Köprü Çayı"
-      },
-      {
-       "id": "a19",
-       "x": 30.68,
-       "y": 89.44,
-       "metin": "Manavgat"
-      },
-      {
-       "id": "a20",
-       "x": 33.76,
-       "y": 96.82,
-       "metin": "Dragon Çayı"
-      },
-      {
-       "id": "a21",
-       "x": 40.82,
-       "y": 94.0,
-       "metin": "Göksu"
-      },
-      {
-       "id": "a22",
-       "x": 46.37,
-       "y": 86.14,
-       "metin": "Seyhan"
-      },
-      {
-       "id": "a23",
-       "x": 52.68,
-       "y": 83.14,
-       "metin": "Ceyhan"
-      },
-      {
-       "id": "a24",
-       "x": 51.79,
-       "y": 97.84,
-       "metin": "Asi"
-      },
-      {
-       "id": "a25",
-       "x": 63.47,
-       "y": 82.66,
-       "metin": "Fırat"
-      },
-      {
-       "id": "a26",
-       "x": 83.87,
-       "y": 75.04,
-       "metin": "Dicle"
-      },
-      {
-       "id": "a27",
-       "x": 96.08,
-       "y": 44.27,
-       "metin": "Aras"
-      },
-      {
-       "id": "a28",
-       "x": 91.76,
-       "y": 22.02,
-       "metin": "Kura"
-      }
-     ]
-    },
-    {
-     "id": "platolar",
-     "baslik": "Platolar",
-     "mod": "harita",
-     "gorsel": "haritalar/turkiye-anahat.svg",
-     "noktalar": [
-      {
-       "id": "pl1",
-       "x": 25.92,
-       "y": 73.31,
-       "metin": "Teke Platosu"
-      },
-      {
-       "id": "pl2",
-       "x": 29.23,
-       "y": 46.62,
-       "metin": "Yazılıkaya Platosu"
-      },
-      {
-       "id": "pl3",
-       "x": 15.13,
-       "y": 16.92,
-       "metin": "Çatalca Platosu"
-      },
-      {
-       "id": "pl4",
-       "x": 21.63,
-       "y": 22.08,
-       "metin": "Kocaeli Platosu"
-      },
-      {
-       "id": "pl5",
-       "x": 37.53,
-       "y": 52.26,
-       "metin": "Cihanbeyli Platosu"
-      },
-      {
-       "id": "pl6",
-       "x": 34.85,
-       "y": 38.56,
-       "metin": "Haymana Platosu"
-      },
-      {
-       "id": "pl7",
-       "x": 39.8,
-       "y": 66.34,
-       "metin": "Obruk Platosu"
-      },
-      {
-       "id": "pl8",
-       "x": 37.08,
-       "y": 82.96,
-       "metin": "Taşeli Platosu"
-      },
-      {
-       "id": "pl9",
-       "x": 47.5,
-       "y": 54.05,
-       "metin": "Kapadokya Platosu"
-      },
-      {
-       "id": "pl10",
-       "x": 47.24,
-       "y": 36.65,
-       "metin": "Bozok Platosu"
-      },
-      {
-       "id": "pl11",
-       "x": 55.34,
-       "y": 53.27,
-       "metin": "Uzunyayla Platosu"
-      },
-      {
-       "id": "pl12",
-       "x": 61.45,
-       "y": 19.44,
-       "metin": "Perşembe Platosu"
-      },
-      {
-       "id": "pl13",
-       "x": 65.54,
-       "y": 64.94,
-       "metin": "Adıyaman Platosu"
-      },
-      {
-       "id": "pl14",
-       "x": 60.32,
-       "y": 77.62,
-       "metin": "Gaziantep Platosu"
-      },
-      {
-       "id": "pl15",
-       "x": 68.25,
-       "y": 78.61,
-       "metin": "Şanlıurfa Platosu"
-      },
-      {
-       "id": "pl16",
-       "x": 74.63,
-       "y": 65.03,
-       "metin": "Diyarbakır Platosu"
-      },
-      {
-       "id": "pl17",
-       "x": 84.76,
-       "y": 33.23,
-       "metin": "Erzurum-Kars Platosu"
-      },
-      {
-       "id": "pl18",
-       "x": 87.32,
-       "y": 17.64,
-       "metin": "Ardahan Platosu"
-      }
-     ]
-    },
-    {
-     "id": "ovalar",
-     "baslik": "Ovalar",
-     "mod": "harita",
-     "gorsel": "haritalar/turkiye-anahat.svg",
-     "noktalar": [
-      { "id": "ov1", "x": 57.95, "y": 17.27, "metin": "Çarşamba Ovası" },
-      { "id": "ov2", "x": 52.28, "y": 9.65, "metin": "Bafra Ovası" },
-      { "id": "ov3", "x": 26.87, "y": 18.6, "metin": "Karasu Ovası" },
-      { "id": "ov4", "x": 5.19, "y": 16.23, "metin": "Meriç Ovası" },
-      { "id": "ov5", "x": 8.72, "y": 39.52, "metin": "Bakırçay Ovası" },
-      { "id": "ov6", "x": 8.97, "y": 51.78, "metin": "Gediz Ovası" },
-      { "id": "ov7", "x": 10.08, "y": 64.03, "metin": "Küçükmenderes Ovası" },
-      { "id": "ov8", "x": 10.73, "y": 76.29, "metin": "Büyükmenderes Ovası" },
-      { "id": "ov9", "x": 42.87, "y": 88.06, "metin": "Silifke Ovası" },
-      { "id": "ov10", "x": 50.03, "y": 83.81, "metin": "Çukurova" },
-      { "id": "ov11", "x": 50.93, "y": 48.38, "metin": "Kayseri Ovası" },
-      { "id": "ov12", "x": 51.08, "y": 63.38, "metin": "Develi Ovası" },
-      { "id": "ov13", "x": 80.1, "y": 35.76, "metin": "Erzurum Ovası" },
-      { "id": "ov14", "x": 87.3, "y": 17.59, "metin": "Ardahan Ovası" },
-      { "id": "ov15", "x": 95.21, "y": 42.88, "metin": "Çaldıran Ovası" },
-      { "id": "ov16", "x": 90.73, "y": 53.87, "metin": "Muradiye Ovası" }
-     ]
-    }
-   ]
-  },
-  {
-   "id": "vatandaslik",
-   "baslik": "Vatandaşlık",
-   "aktif": false,
-   "bolumler": []
-  }
- ]
+  ]
 }
