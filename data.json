@@ -283,6 +283,28 @@
           ]
         },
         {
+          "id": "savaslar",
+          "baslik": "Savaşlar",
+          "mod": "havuz",
+          "ust": [
+            { "id": "p30", "metin": "Osmanlı - Bizans" },
+            { "id": "p31", "metin": "Osmanlı - Haçlı" }
+          ],
+          "havuz": [
+            { "id": "i180", "ustId": "p30", "metin": "Koyunhisar Savaşı / Bafeus (1301) — İlk Osmanlı-Bizans savaşıdır" },
+            { "id": "i181", "ustId": "p30", "metin": "Maltepe Savaşı / Pelekanon (1329) — Bizans'tan İznik alındı" },
+            { "id": "i182", "ustId": "p30", "metin": "Sazlıdere Savaşı (1361) — Bizans'tan Edirne alındı" },
+
+            { "id": "i183", "ustId": "p31", "metin": "Sırpsındığı Savaşı (1364) — İlk Osmanlı-Haçlı savaşıdır" },
+            { "id": "i184", "ustId": "p31", "metin": "Çirmen Savaşı (1371) — Makedonya'nın fethi kolaylaştı" },
+            { "id": "i185", "ustId": "p31", "metin": "Ploşnik Bozgunu (1387) — Balkanlar'da ilk yenilgi" },
+            { "id": "i186", "ustId": "p31", "metin": "I. Kosova Savaşı (1389) — Savaş alanında ilk defa padişah şehit düşer; Türk bayrağının ay-yıldız şekli belirlenir" },
+            { "id": "i187", "ustId": "p31", "metin": "Niğbolu Savaşı (1396) — Halife, I. Bayezid'e \"Sultan-ı İklim-i Rum\" unvanını verir" },
+            { "id": "i188", "ustId": "p31", "metin": "Varna Savaşı (1444) — II. Murat'ın tahtı çocuk yaştaki II. Mehmet'e bırakmasını fırsat bilen Haçlıların Osmanlı'ya saldırmasıyla çıkan savaştır" },
+            { "id": "i189", "ustId": "p31", "metin": "II. Kosova Savaşı (1448) — Balkanların Türk yurdu olduğu kesinleşti" }
+          ]
+        },
+        {
           "id": "antlasmalar",
           "baslik": "Antlaşmalar ve Sonuçları",
           "mod": "liste",
