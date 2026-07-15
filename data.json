@@ -363,7 +363,35 @@
           "id": "devlet-teskilati",
           "baslik": "Devlet Teşkilatı Sınıflandırması",
           "mod": "liste",
-          "pairs": []
+          "pairs": [
+            { "left": "Seyfiye", "right": "Padişahın kılıç ve güç temsilcisidir; yönetim ve askeriye işlerinden sorumlu sınıftır" },
+            { "left": "Kalemiye", "right": "Devletin yazışma, maliye ve dış ilişkilerini yürüten bürokrasi sınıfıdır" },
+            { "left": "İlmiye", "right": "Din, hukuk ve eğitim işlerine bakan; medrese eğitimi almış sınıftır" }
+          ]
+        },
+        {
+          "id": "devlet-gorevlileri",
+          "baslik": "Devlet Teşkilatı: Görevliler ve Görevleri",
+          "mod": "liste",
+          "pairs": [
+            { "left": "Veziriazam (Sadrazam)", "right": "Padişahın mutlak vekilidir; günümüzün başbakanı konumundadır" },
+            { "left": "Vezirler (Kubbealtı Vezirleri)", "right": "Sadrazamın yardımcılarıdır; günümüzün devlet bakanları konumundadır" },
+            { "left": "Yeniçeri Ağası", "right": "Yeniçeri Ocağı'nın baş komutanıdır; aynı zamanda İstanbul'un güvenliğinden sorumludur" },
+            { "left": "Kaptan-ı Derya", "right": "Osmanlı donanmasının başkomutanıdır" },
+            { "left": "Beylerbeyi", "right": "Eyaletlerin en büyük mülki ve askeri amiridir" },
+            { "left": "Sancakbeyi", "right": "Eyaletlere bağlı sancakların (illerin) mülki ve askeri amiridir" },
+            { "left": "Subaşı", "right": "Şehir ve kasabaların güvenlik sorumlusudur" },
+            { "left": "Tımarlı Sipahiler", "right": "Dirlik (tımar) sistemine bağlı olarak taşrada hem güvenliği sağlayan hem savaşa katılan atlı askerlerdir" },
+            { "left": "Defterdar", "right": "Devletin maliye ve hazine işlerinden sorumludur; günümüzün maliye bakanı konumundadır" },
+            { "left": "Nişancı", "right": "Padişahın ferman ve beratlarına tuğra çeker; fethedilen toprakların tahrir defterlerini tutar" },
+            { "left": "Reisülküttap", "right": "Başlangıçta Nişancı'nın yardımcısıyken 17. yüzyıldan itibaren dışişleri bakanı statüsüne yükselmiştir" },
+            { "left": "Kâtipler ve Eminler", "right": "Divân-ı Hümayun'da resmi yazışmaları kaleme alan ve devlet dairelerinde çalışan memurlardır" },
+            { "left": "Şeyhülislam (Müftü)", "right": "İlmiye sınıfının başıdır; Divân-ı Hümayun kararlarının şeriata uygunluğuna dair fetva verir" },
+            { "left": "Kazasker (Kadıasker)", "right": "Eğitim ve adalet işlerinden sorumludur; kadı ve müderris atamalarını yapar" },
+            { "left": "Kadı", "right": "Taşrada adaleti sağlayan hakimdir; noter ve mülki idareci gibi görevleri de üstlenir" },
+            { "left": "Müderris", "right": "Medreselerde eğitim veren hocadır" },
+            { "left": "Naib", "right": "Kadının gidemediği yerlerde ya da büyük kazalarda ona vekalet eden hakim yardımcısıdır" }
+          ]
         },
         {
           "id": "20-yuzyil-osmanli",
