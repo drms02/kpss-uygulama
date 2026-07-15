@@ -142,6 +142,38 @@
     0%,100%{transform:translateX(0);} 25%{transform:translateX(-5px);} 75%{transform:translateX(5px);}
   }
 
+  /* --- harita modu: haritada nokta eşleştirme --- */
+  .harita-kapsayici{
+    position:relative; width:100%; aspect-ratio: 181.55 / 79.66;
+    background: var(--zift-panel); border:1px solid var(--kenar); border-radius:12px;
+    overflow:hidden; margin-bottom:6px;
+  }
+  .harita-svg-sarmal{ position:absolute; inset:0; }
+  .harita-svg-sarmal svg{ width:100%; height:100%; display:block; }
+  .harita-svg-sarmal .ulke-anahat{
+    fill: var(--panel-3); stroke: var(--kenar-belirgin); stroke-width:0.35;
+  }
+  .harita-pin{
+    position:absolute; width:26px; height:26px; margin:-13px 0 0 -13px;
+    border-radius:50%; background: var(--zift-panel); border:1.5px solid var(--altin);
+    color: var(--altin); font-family:'IBM Plex Mono', monospace; font-size:11px; font-weight:600;
+    display:flex; align-items:center; justify-content:center; cursor:pointer;
+    transition: border-color .15s ease, background .15s ease, transform .12s ease;
+    box-shadow: 0 1px 3px rgba(0,0,0,0.4);
+  }
+  .harita-pin:hover{ border-color: var(--altin-parlak); background: var(--panel-2); transform: scale(1.1); }
+  .harita-pin.secili{
+    border-color: var(--altin); background: rgba(201,162,39,0.25); color: var(--fildisi);
+    box-shadow: inset 0 0 0 1px var(--altin);
+  }
+  .harita-pin.dogru{
+    border-color: var(--basari); background: var(--basari-zemin); color: var(--basari); cursor:default;
+  }
+  .harita-pin.yanlis-titre{ animation: titre .35s ease; border-color: var(--hata); background: var(--hata-zemin); }
+  @media (max-width:560px){
+    .harita-pin{ width:22px; height:22px; margin:-11px 0 0 -11px; font-size:10px; }
+  }
+
   /* --- liste modu: açık defter --- */
   .defter{
     display:grid; grid-template-columns: 1fr 16px 1fr;
@@ -294,6 +326,9 @@
       if(bolum.mod === 'havuz' || bolum.mod === 'cift-havuz'){
         dolu = bolum.ust.length > 0 && bolum.havuz.length > 0;
         detay = dolu ? `${bolum.ust.length} sabit · ${bolum.havuz.length} madde` : 'veri bekleniyor';
+      } else if(bolum.mod === 'harita'){
+        dolu = bolum.noktalar.length > 0;
+        detay = dolu ? `${bolum.noktalar.length} nokta` : 'veri bekleniyor';
       } else {
         dolu = bolum.pairs.length > 0;
         detay = dolu ? `${bolum.pairs.length} çift` : 'veri bekleniyor';
@@ -318,6 +353,7 @@
 
     if(bolum.mod === 'havuz') havuzOyunuKur(bolum);
     else if(bolum.mod === 'cift-havuz') ciftHavuzOyunuKur(bolum);
+    else if(bolum.mod === 'harita') haritaOyunuKur(bolum);
     else listeOyunuKur(bolum);
   }
 
@@ -750,6 +786,186 @@
 
     document.getElementById('cBitisDetay').innerHTML = detay;
     document.getElementById('cBitis').style.display = 'block';
+  }
+
+  // ================= HARİTA MODU =================
+  // Türkiye anahat haritası üzerinde numaralı sabit noktalar + altta isim
+  // havuzu. Kullanıcı bir ismi seçer, haritada doğru numaralı noktaya
+  // tıklar. Numaralar her oturumda karışık atanır (ezber engellensin diye).
+
+  let rBolum = null, rNoktalar = [], rSeciliKart = null, rSeciliPin = null, rKilitli = false;
+  let rAsamaToplam = 0, rAsamaTamamlanan = 0, rDeneme = 0, rDogruSayisi = 0;
+  let rFaz = 'ilk', rHataliIdSet = new Set();
+  const rSvgOnbellek = {};
+
+  function haritaOyunuKur(bolum){
+    rBolum = bolum;
+    rNoktalar = bolum.noktalar;
+    rAsamaToplam = rNoktalar.length; rAsamaTamamlanan = 0;
+    rDeneme = 0; rDogruSayisi = 0;
+    rFaz = 'ilk'; rHataliIdSet = new Set();
+    rSeciliKart = null; rSeciliPin = null; rKilitli = false;
+
+    const kap = document.createElement('div');
+    kap.innerHTML = `
+      <div class="durum-cubugu">
+        <span id="rSkorMetni"></span>
+        <div class="ilerleme-arka"><div class="ilerleme-on" id="rIlerleme" style="width:0%"></div></div>
+        <span id="rDenemeMetni"></span>
+      </div>
+      <div class="harita-kapsayici" id="rHaritaKapsayici">
+        <div class="harita-svg-sarmal" id="rSvgSarmal"></div>
+      </div>
+      <div class="havuz-blok">
+        <div class="havuz-etiket" id="rHavuzEtiket">İsimler — doğru numarayı haritada bul</div>
+        <div class="kart-izgara" id="rKartIzgara"></div>
+      </div>
+      <div class="bitis-karti" id="rBitis" style="display:none;">
+        <h2>Fasıl tamamlandı</h2>
+        <div id="rBitisDetay"></div>
+        <button class="yeniden-btn" onclick="haritaOyunuKur(bolumBul(aktifDersId, aktifBolumId))">Baştan başla</button>
+      </div>
+    `;
+    icerigiDegistir(kap);
+
+    rHaritaSvgYukleVeCiz(bolum);
+    rPinleriCiz(karistir(rNoktalar));
+    rKartIzgaraCiz(karistir(rNoktalar));
+    rDurumGuncelle();
+  }
+
+  async function rHaritaSvgYukleVeCiz(bolum){
+    const sarmal = document.getElementById('rSvgSarmal');
+    try{
+      if(!rSvgOnbellek[bolum.gorsel]){
+        const yanit = await fetch(bolum.gorsel);
+        rSvgOnbellek[bolum.gorsel] = await yanit.text();
+      }
+      if(document.getElementById('rSvgSarmal') === sarmal) sarmal.innerHTML = rSvgOnbellek[bolum.gorsel];
+    } catch(e){
+      sarmal.innerHTML = '';
+    }
+  }
+
+  // Numaraları karışık sırayla atar (kart havuzunun eşleşme sırasıyla ilgisiz).
+  function rPinleriCiz(numaraliSira){
+    const kap = document.getElementById('rHaritaKapsayici');
+    kap.querySelectorAll('.harita-pin').forEach(p => p.remove());
+    numaraliSira.forEach((nokta, i) => {
+      const el = document.createElement('div');
+      el.className = 'harita-pin';
+      el.textContent = i + 1;
+      el.dataset.id = nokta.id;
+      el.style.left = nokta.x + '%';
+      el.style.top = nokta.y + '%';
+      el.onclick = () => rPinSecildi(el, nokta);
+      kap.appendChild(el);
+    });
+  }
+
+  function rKartIzgaraCiz(liste){
+    const kap = document.getElementById('rKartIzgara');
+    kap.innerHTML = '';
+    liste.forEach(nokta => {
+      const el = document.createElement('div');
+      el.className = 'kart';
+      el.textContent = nokta.metin;
+      el.dataset.id = nokta.id;
+      el.onclick = () => rKartSecildi(el, nokta);
+      kap.appendChild(el);
+      kartMetnineSigdir(el);
+    });
+  }
+
+  function rKartSecildi(el, nokta){
+    if(rKilitli || el.classList.contains('cikiyor')) return;
+    if(rSeciliKart) rSeciliKart.el.classList.remove('secili');
+    rSeciliKart = { el, nokta };
+    el.classList.add('secili');
+    rKontrolEt();
+  }
+
+  function rPinSecildi(el, nokta){
+    if(rKilitli || el.classList.contains('dogru')) return;
+    if(rSeciliPin) rSeciliPin.el.classList.remove('secili');
+    rSeciliPin = { el, nokta };
+    el.classList.add('secili');
+    rKontrolEt();
+  }
+
+  function rKontrolEt(){
+    if(!rSeciliKart || !rSeciliPin) return;
+    rDeneme++;
+    rKilitli = true;
+    const dogruMu = rSeciliKart.nokta.id === rSeciliPin.nokta.id;
+    const kartEl = rSeciliKart.el, pinEl = rSeciliPin.el;
+
+    setTimeout(() => {
+      if(dogruMu){
+        pinEl.classList.remove('secili');
+        pinEl.classList.add('dogru');
+        kartEl.classList.remove('secili');
+        kartEl.classList.add('cikiyor');
+        rDogruSayisi++;
+        rAsamaTamamlanan++;
+        muhurGoster();
+        setTimeout(() => {
+          kartEl.remove();
+          rSeciliKart = null; rSeciliPin = null; rKilitli = false;
+          rDurumGuncelle();
+          if(rAsamaTamamlanan === rAsamaToplam) rFazBitti();
+        }, 260);
+      } else {
+        rHataliIdSet.add(rSeciliKart.nokta.id);
+        kartEl.classList.add('yanlis-titre');
+        pinEl.classList.add('yanlis-titre');
+        setTimeout(() => {
+          kartEl.classList.remove('secili','yanlis-titre');
+          pinEl.classList.remove('secili','yanlis-titre');
+          rSeciliKart = null; rSeciliPin = null; rKilitli = false;
+          rDurumGuncelle();
+        }, 380);
+      }
+    }, dogruMu ? 200 : 420);
+  }
+
+  function rDurumGuncelle(){
+    const yanlisSayisi = rDeneme - rDogruSayisi;
+    const fazEtiketi = rFaz === 'tekrar' ? 'Tekrar turu — ' : '';
+    document.getElementById('rSkorMetni').textContent = `${fazEtiketi}${rAsamaTamamlanan} / ${rAsamaToplam} tamamlandı`;
+    document.getElementById('rDenemeMetni').textContent = `✓ ${rDogruSayisi}   ✗ ${yanlisSayisi}`;
+    const yuzde = rAsamaToplam ? Math.round((rAsamaTamamlanan / rAsamaToplam) * 100) : 0;
+    document.getElementById('rIlerleme').style.width = yuzde + '%';
+  }
+
+  function rFazBitti(){
+    if(rFaz === 'ilk' && rHataliIdSet.size > 0){
+      rFaz = 'tekrar';
+      const tekrarListesi = karistir(rNoktalar.filter(o => rHataliIdSet.has(o.id)));
+      rAsamaToplam = tekrarListesi.length; rAsamaTamamlanan = 0;
+      rKartIzgaraCiz(tekrarListesi);
+      const etiket = document.getElementById('rHavuzEtiket');
+      if(etiket) etiket.textContent = 'Yanlış yaptıkların — tekrar turu';
+      rDurumGuncelle();
+    } else {
+      rTamamlandi();
+    }
+  }
+
+  function rTamamlandi(){
+    const yanlisSayisi = rDeneme - rDogruSayisi;
+    const isabet = rDeneme ? Math.round((rDogruSayisi / rDeneme) * 100) : 100;
+    let detay = `<p>${rNoktalar.length} noktanın tamamını ${rDeneme} denemede eşleştirdin — ${rDogruSayisi} doğru, ${yanlisSayisi} yanlış (isabet %${isabet}).</p>`;
+
+    if(rHataliIdSet.size > 0){
+      const hataliIsimler = rNoktalar.filter(o => rHataliIdSet.has(o.id)).map(o => o.metin);
+      detay += `<p class="hata-ozeti">Şurada hata yaptın: <strong>${hataliIsimler.join(', ')}</strong>. Tekrar çalışmanı öneririm.</p>`;
+    } else {
+      detay += `<p class="hata-ozeti">Hiç hata yapmadan tamamladın, tebrikler!</p>`;
+    }
+
+    document.getElementById('rBitisDetay').innerHTML = detay;
+    document.getElementById('rBitis').style.display = 'block';
   }
 
   // ================= LİSTE MODU =================
