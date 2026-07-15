@@ -21,13 +21,10 @@
   }
   *{box-sizing:border-box;}
   body{
-    margin:0;
-    background: var(--zift);
+    margin:0; background: var(--zift);
     background-image: radial-gradient(circle at 50% 0%, rgba(201,162,39,0.05) 0%, transparent 55%);
-    font-family:'Noto Serif', serif;
-    color: var(--fildisi);
-    min-height:100vh;
-    padding: 30px 14px 70px;
+    font-family:'Noto Serif', serif; color: var(--fildisi);
+    min-height:100vh; padding: 30px 14px 70px;
   }
   .sayfa{max-width: 800px; margin:0 auto;}
 
@@ -36,47 +33,50 @@
     background:
       repeating-linear-gradient(135deg, var(--altin) 0px, var(--altin) 6px, transparent 6px, transparent 12px),
       repeating-linear-gradient(45deg, var(--bakir) 0px, var(--bakir) 6px, transparent 6px, transparent 12px);
-    background-blend-mode: screen;
-    opacity:0.85;
+    background-blend-mode: screen; opacity:0.85;
   }
 
-  .ustluk{ text-align:center; padding: 26px 10px 22px; position:relative; }
+  .ustluk{ text-align:center; padding: 26px 10px 18px; }
   .kayit-no{
-    font-family:'IBM Plex Mono', monospace; font-size:11px; letter-spacing:3px;
-    text-transform:uppercase; color: var(--altin); margin-bottom:10px;
+    font-family:'IBM Plex Mono', monospace; font-size:11px; letter-spacing:2px;
+    text-transform:uppercase; color: var(--altin); margin-bottom:10px; min-height:14px;
   }
   h1{
     font-family:'Cinzel', serif; font-size:34px; font-weight:600; margin:0 0 8px;
     color: var(--fildisi); letter-spacing:0.5px;
   }
   .altbaslik{ font-size:14px; color:var(--fildisi-soluk); font-style:italic; margin:0;}
-  .rozet{
-    width:34px; height:34px; margin: 14px auto 0;
-    border:1.5px solid var(--altin); border-radius:50%;
-    display:flex; align-items:center; justify-content:center; position:relative;
+
+  .geri-linki{
+    display:inline-flex; align-items:center; gap:6px;
+    font-family:'IBM Plex Mono', monospace; font-size:11.5px; letter-spacing:0.5px;
+    color: var(--altin); text-transform:uppercase; cursor:pointer;
+    margin: 18px 0 4px; user-select:none;
   }
-  .rozet::before{
-    content:""; width:16px; height:16px; border:1.5px solid var(--altin);
-    transform: rotate(45deg); border-radius:2px;
+  .geri-linki:hover{ color: var(--altin-parlak); }
+
+  /* --- kapı kartları: ders / bölüm seçimi --- */
+  .kapi-listesi{ display:flex; flex-direction:column; gap:10px; margin-top:20px; }
+  .kapi{
+    background: var(--zift-panel); border:1px solid rgba(201,162,39,0.25);
+    border-left:3px solid var(--bakir);
+    padding:16px 18px; cursor:pointer;
+    display:flex; justify-content:space-between; align-items:center; gap:12px;
+    transition: border-color .15s ease, background .15s ease, transform .12s ease;
+  }
+  .kapi:hover{ border-left-color: var(--altin); background:#242C42; transform: translateX(2px); }
+  .kapi.kilitli{ opacity:0.4; cursor:not-allowed; border-left-color: rgba(201,162,39,0.25); }
+  .kapi.kilitli:hover{ transform:none; background:var(--zift-panel); }
+  .kapi-baslik{ font-family:'Cinzel', serif; font-size:17px; color: var(--fildisi); letter-spacing:0.3px; }
+  .kapi-detay{
+    font-family:'IBM Plex Mono', monospace; font-size:11px; color: var(--fildisi-soluk);
+    text-transform:uppercase; letter-spacing:0.5px; white-space:nowrap;
   }
 
-  .modul-sekmeleri{
-    display:flex; gap:2px; margin: 22px 0 18px; flex-wrap:wrap; justify-content:center;
-    border-top:1px solid rgba(201,162,39,0.3); border-bottom:1px solid rgba(201,162,39,0.3);
-    padding: 10px 0;
-  }
-  .sekme{
-    font-family:'IBM Plex Mono', monospace; font-size:11px; letter-spacing:0.5px;
-    padding:8px 14px; border:1px solid transparent; background: transparent;
-    color: var(--fildisi-soluk); cursor:pointer; text-transform:uppercase;
-  }
-  .sekme.aktif{ color:var(--zift); background: var(--altin); font-weight:500; }
-  .sekme.kilitli{ opacity:0.35; cursor:not-allowed; }
-  .sekme:not(.aktif):not(.kilitli):hover{ color: var(--altin-parlak); }
-
+  /* --- havuz modu: sabit üst sıra + kayan alt sıra --- */
   .durum-cubugu{
     display:flex; justify-content:space-between; align-items:center;
-    margin-bottom:20px; font-family:'IBM Plex Mono', monospace; font-size:12px;
+    margin: 18px 0 20px; font-family:'IBM Plex Mono', monospace; font-size:12px;
     color:var(--fildisi-soluk);
   }
   .ilerleme-arka{
@@ -88,23 +88,21 @@
     background: var(--altin-parlak); transform: rotate(45deg);
   }
 
-  .defter{
-    display:grid; grid-template-columns: 1fr 20px 1fr;
-    background: var(--zift-panel); border:1px solid rgba(201,162,39,0.25);
+  .havuz-blok{ margin-bottom: 22px; }
+  .havuz-etiket{
+    font-family:'IBM Plex Mono', monospace; font-size:10.5px; letter-spacing:2px;
+    text-transform:uppercase; color: var(--bakir); margin-bottom:10px;
   }
-  .sayfa-sol, .sayfa-sag{ padding:20px 18px; display:flex; flex-direction:column; gap:10px; }
-  .cilt-sirti{ background: linear-gradient(180deg, transparent, rgba(201,162,39,0.25), transparent); position:relative; }
-  .cilt-sirti::before{
-    content:""; position:absolute; left:50%; top:0; bottom:0; width:1px;
-    background: repeating-linear-gradient(180deg, var(--altin) 0 4px, transparent 4px 9px);
-    transform: translateX(-50%);
+  .kart-izgara{
+    display:grid; grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
+    gap:10px;
   }
 
   .kart{
     background: var(--lacivert); border-left:2px solid var(--bakir);
-    padding:13px 14px; font-size:14px; line-height:1.5; cursor:pointer;
+    padding:13px 14px; font-size:14px; line-height:1.45; cursor:pointer;
     min-height:48px; display:flex; align-items:center; position:relative;
-    transition: transform .12s ease, background .15s ease, border-color .15s ease;
+    transition: transform .12s ease, background .15s ease, border-color .15s ease, opacity .25s ease;
   }
   .kart:hover{ border-left-color: var(--altin); background:#2A3350; }
   .kart.secili{
@@ -119,9 +117,27 @@
     content:"✓"; position:absolute; right:12px; top:50%; transform:translateY(-50%);
     color:var(--yesil-tasdik); font-weight:700; font-size:15px;
   }
+  .kart.cikiyor{ opacity:0; transform: scale(0.9); }
   .kart.yanlis-titre{ animation: titre .35s ease; border-left-color: var(--muhur-kirmizi); }
   @keyframes titre{
     0%,100%{transform:translateX(0);} 25%{transform:translateX(-5px);} 75%{transform:translateX(5px);}
+  }
+
+  /* --- liste modu: açık defter --- */
+  .defter{
+    display:grid; grid-template-columns: 1fr 20px 1fr;
+    background: var(--zift-panel); border:1px solid rgba(201,162,39,0.25);
+  }
+  .sayfa-sol, .sayfa-sag{ padding:20px 18px; display:flex; flex-direction:column; gap:10px; }
+  .cilt-sirti{ background: linear-gradient(180deg, transparent, rgba(201,162,39,0.25), transparent); position:relative; }
+  .cilt-sirti::before{
+    content:""; position:absolute; left:50%; top:0; bottom:0; width:1px;
+    background: repeating-linear-gradient(180deg, var(--altin) 0 4px, transparent 4px 9px);
+    transform: translateX(-50%);
+  }
+  @media (max-width:560px){
+    .defter{ grid-template-columns:1fr; }
+    .cilt-sirti{ display:none; }
   }
 
   .muhur{
@@ -134,9 +150,8 @@
 
   .bitis-karti{
     text-align:center; padding:32px 20px; border:1px solid var(--altin);
-    background: var(--zift-panel); margin-top:8px; display:none;
+    background: var(--zift-panel); margin-top:8px;
   }
-  .bitis-karti.goster{ display:block; }
   .bitis-karti h2{ font-family:'Cinzel', serif; font-size:22px; color:var(--altin-parlak); margin:0 0 8px; letter-spacing:0.5px;}
   .bitis-karti p{ color: var(--fildisi-soluk); font-size:14px; }
   .yeniden-btn{
@@ -146,17 +161,10 @@
   }
   .yeniden-btn:hover{ background: var(--altin); color:var(--zift); }
 
-  .durum-mesaji{
-    text-align:center; padding: 60px 20px; color: var(--fildisi-soluk);
-    font-size:14px; line-height:1.7;
-  }
+  .durum-mesaji{ text-align:center; padding: 50px 20px; color: var(--fildisi-soluk); font-size:14px; line-height:1.7; }
   .durum-mesaji.hata{ color: var(--muhur-kirmizi); }
 
-  @media (max-width:560px){
-    .defter{ grid-template-columns:1fr; }
-    .cilt-sirti{ display:none; }
-    h1{ font-size:26px; }
-  }
+  @media (max-width:560px){ h1{ font-size:26px; } }
 </style>
 </head>
 <body>
@@ -164,13 +172,13 @@
 
   <div class="tezhip"></div>
   <div class="ustluk">
-    <div class="kayit-no">Sicil № 2026 · Tarih Faslı</div>
-    <h1>Eşleştirme Defteri</h1>
-    <p class="altbaslik">Sol sayfadan seç, sağ sayfada karşılığını bul, mührünü vur.</p>
-    <div class="rozet"></div>
+    <div class="kayit-no" id="izYolu">Sicil № 2026</div>
+    <h1 id="anaBaslik">Eşleştirme Defteri</h1>
+    <p class="altbaslik" id="anaAltbaslik">Bir ders seç, bir fasıl aç, mührünü vur.</p>
   </div>
   <div class="tezhip"></div>
 
+  <div id="geriAlani"></div>
   <div id="icerikAlani">
     <div class="durum-mesaji" id="yuklemeMesaji">Defter açılıyor…</div>
   </div>
@@ -194,54 +202,114 @@
 
 <script>
   // ============================================================
-  // VERİ, artık bu dosyanın içinde değil — aynı klasördeki
-  // data.json'dan her açılışta canlı çekiliyor. Yeni modül ya da
-  // soru eklemek için sadece data.json güncellenip GitHub'a
-  // push edilir; uygulama koduna dokunulmaz.
+  // VERİ — data.json'dan her açılışta canlı çekilir.
+  // Yapı: dersler[] -> her ders.bolumler[] -> her bölüm ya
+  // mod:"havuz" (sabit üst + kayan alt havuz) ya da
+  // mod:"liste" (klasik tam liste eşleştirme).
+  // Yeni ders/bölüm/madde eklemek = sadece data.json'u güncelleyip
+  // GitHub'a push atmak. Bu dosyaya dokunulmaz.
   // ============================================================
-  let MODULLER = {};
-  let aktifModulId = null;
-  let dogruSayisi = 0, denemeSayisi = 0, toplamCift = 0;
-  let secilenSol = null, secilenSag = null, kilitli = false;
+  let VERI = null;
+  let ekran = 'ders';       // 'ders' | 'bolum' | 'oyun'
+  let aktifDersId = null;
+  let aktifBolumId = null;
 
   async function veriYukle(){
     const mesaj = document.getElementById('yuklemeMesaji');
     try{
       const yanit = await fetch('data.json', { cache: 'no-store' });
       if(!yanit.ok) throw new Error('sunucu hatası');
-      MODULLER = await yanit.json();
-      const ilkDoluModul = Object.entries(MODULLER).find(([,m]) => m.pairs && m.pairs.length > 0);
-      if(!ilkDoluModul){
-        mesaj.textContent = 'Henüz hiçbir fasılda veri yok.';
-        return;
-      }
-      arayuzuKur();
-      modulYukle(ilkDoluModul[0]);
+      VERI = await yanit.json();
+      dersSecimineGit();
     } catch(e){
       mesaj.textContent = 'Defter açılamadı. İnternet bağlantını kontrol edip tekrar dene.';
       mesaj.classList.add('hata');
     }
   }
 
-  function arayuzuKur(){
-    document.getElementById('icerikAlani').innerHTML = `
-      <div class="modul-sekmeleri" id="sekmeler"></div>
-      <div class="durum-cubugu">
-        <span id="skorMetni">0 / 0 doğru</span>
-        <div class="ilerleme-arka"><div class="ilerleme-on" id="ilerlemeCubugu" style="width:0%"></div></div>
-        <span id="denemeMetni">0 deneme</span>
-      </div>
-      <div class="defter">
-        <div class="sayfa-sol" id="solSutun"></div>
-        <div class="cilt-sirti"></div>
-        <div class="sayfa-sag" id="sagSutun"></div>
-      </div>
-      <div class="bitis-karti" id="bitisKarti">
-        <h2>Fasıl tamamlandı</h2>
-        <p id="bitisDetay"></p>
-        <button class="yeniden-btn" onclick="modulYukle(aktifModulId)">Sayfaları yeniden karıştır</button>
-      </div>
-    `;
+  function dersBul(id){ return VERI.dersler.find(d => d.id === id); }
+  function bolumBul(dersId, bolumId){ return dersBul(dersId).bolumler.find(b => b.id === bolumId); }
+
+  // ---------------- navigasyon ----------------
+
+  function dersSecimineGit(){
+    ekran = 'ders'; aktifDersId = null; aktifBolumId = null;
+    document.getElementById('izYolu').textContent = 'Sicil № 2026';
+    document.getElementById('anaBaslik').textContent = 'Eşleştirme Defteri';
+    document.getElementById('anaAltbaslik').textContent = 'Hangi dersin faslını açmak istersin?';
+    document.getElementById('geriAlani').innerHTML = '';
+
+    const kap = document.createElement('div');
+    kap.className = 'kapi-listesi';
+    VERI.dersler.forEach(ders => {
+      const dolu = ders.aktif && ders.bolumler.length > 0;
+      const el = document.createElement('div');
+      el.className = 'kapi' + (dolu ? '' : ' kilitli');
+      el.innerHTML = `
+        <span class="kapi-baslik">${ders.baslik}</span>
+        <span class="kapi-detay">${dolu ? ders.bolumler.length + ' fasıl' : 'yakında'}</span>
+      `;
+      if(dolu) el.onclick = () => bolumSecimineGit(ders.id);
+      kap.appendChild(el);
+    });
+    icerigiDegistir(kap);
+  }
+
+  function bolumSecimineGit(dersId){
+    ekran = 'bolum'; aktifDersId = dersId; aktifBolumId = null;
+    const ders = dersBul(dersId);
+    document.getElementById('izYolu').textContent = ders.baslik;
+    document.getElementById('anaBaslik').textContent = ders.baslik + ' Faslı';
+    document.getElementById('anaAltbaslik').textContent = 'Bir bölüm seç.';
+    geriLinkiCiz('◄ Derslere dön', dersSecimineGit);
+
+    const kap = document.createElement('div');
+    kap.className = 'kapi-listesi';
+    ders.bolumler.forEach(bolum => {
+      let dolu, detay;
+      if(bolum.mod === 'havuz'){
+        dolu = bolum.ust.length > 0 && bolum.havuz.length > 0;
+        detay = dolu ? `${bolum.ust.length} sabit · ${bolum.havuz.length} madde` : 'veri bekleniyor';
+      } else {
+        dolu = bolum.pairs.length > 0;
+        detay = dolu ? `${bolum.pairs.length} çift` : 'veri bekleniyor';
+      }
+      const el = document.createElement('div');
+      el.className = 'kapi' + (dolu ? '' : ' kilitli');
+      el.innerHTML = `<span class="kapi-baslik">${bolum.baslik}</span><span class="kapi-detay">${detay}</span>`;
+      if(dolu) el.onclick = () => oyunaGit(dersId, bolum.id);
+      kap.appendChild(el);
+    });
+    icerigiDegistir(kap);
+  }
+
+  function oyunaGit(dersId, bolumId){
+    ekran = 'oyun'; aktifDersId = dersId; aktifBolumId = bolumId;
+    const ders = dersBul(dersId);
+    const bolum = bolumBul(dersId, bolumId);
+    document.getElementById('izYolu').textContent = ders.baslik + ' › ' + bolum.baslik;
+    document.getElementById('anaBaslik').textContent = bolum.baslik;
+    document.getElementById('anaAltbaslik').textContent = 'Doğru kartı seç, karşılığını bul, mührünü vur.';
+    geriLinkiCiz('◄ Bölümlere dön', () => bolumSecimineGit(dersId));
+
+    if(bolum.mod === 'havuz') havuzOyunuKur(bolum);
+    else listeOyunuKur(bolum);
+  }
+
+  function geriLinkiCiz(metin, tikla){
+    const alan = document.getElementById('geriAlani');
+    alan.innerHTML = '';
+    const el = document.createElement('div');
+    el.className = 'geri-linki';
+    el.textContent = metin;
+    el.onclick = tikla;
+    alan.appendChild(el);
+  }
+
+  function icerigiDegistir(node){
+    const alan = document.getElementById('icerikAlani');
+    alan.innerHTML = '';
+    alan.appendChild(node);
   }
 
   function karistir(dizi){
@@ -253,36 +321,189 @@
     return d;
   }
 
-  function sekmeleriCiz(){
-    const kap = document.getElementById('sekmeler');
+  function muhurGoster(){
+    const m = document.getElementById('muhur');
+    m.classList.add('goster');
+    setTimeout(() => m.classList.remove('goster'), 550);
+  }
+
+  // ================= HAVUZ MODU =================
+  // Üstte sabit N eleman, altta o anda görünen N eleman.
+  // Doğru eşleşen alt kart havuzdan düşer, yerine havuzdan
+  // yeni bir kart gelir. Üsttekiler oturum boyunca değişmez.
+
+  let hUst = [], hHavuzKalan = [], hGorunen = [], hToplam = 0, hTamamlanan = 0, hDeneme = 0;
+  let hSeciliUst = null, hSeciliMadde = null, hKilitli = false;
+
+  function havuzOyunuKur(bolum){
+    hUst = bolum.ust;
+    hHavuzKalan = karistir(bolum.havuz);
+    hToplam = bolum.havuz.length;
+    hTamamlanan = 0; hDeneme = 0;
+    hSeciliUst = null; hSeciliMadde = null; hKilitli = false;
+
+    hGorunen = hHavuzKalan.splice(0, hUst.length);
+
+    const kap = document.createElement('div');
+    kap.innerHTML = `
+      <div class="durum-cubugu">
+        <span id="hSkorMetni"></span>
+        <div class="ilerleme-arka"><div class="ilerleme-on" id="hIlerleme" style="width:0%"></div></div>
+        <span id="hDenemeMetni"></span>
+      </div>
+      <div class="havuz-blok">
+        <div class="havuz-etiket">Sabit liste</div>
+        <div class="kart-izgara" id="hUstIzgara"></div>
+      </div>
+      <div class="havuz-blok">
+        <div class="havuz-etiket">Havuzdan gelen maddeler</div>
+        <div class="kart-izgara" id="hAltIzgara"></div>
+      </div>
+      <div class="bitis-karti" id="hBitis" style="display:none;">
+        <h2>Fasıl tamamlandı</h2>
+        <p id="hBitisDetay"></p>
+        <button class="yeniden-btn" onclick="havuzOyunuKur(bolumBul(aktifDersId, aktifBolumId))">Baştan başla</button>
+      </div>
+    `;
+    icerigiDegistir(kap);
+
+    hUstIzgaraCiz();
+    hAltIzgaraCiz();
+    hDurumGuncelle();
+  }
+
+  function hUstIzgaraCiz(){
+    const kap = document.getElementById('hUstIzgara');
     kap.innerHTML = '';
-    Object.entries(MODULLER).forEach(([id, mod]) => {
-      const bos = !mod.pairs || mod.pairs.length === 0;
-      const btn = document.createElement('button');
-      btn.className = 'sekme' + (id === aktifModulId ? ' aktif' : '') + (bos ? ' kilitli' : '');
-      btn.textContent = mod.baslik + (bos ? ' — boş' : '');
-      if(!bos) btn.onclick = () => modulYukle(id);
-      kap.appendChild(btn);
+    hUst.forEach(o => {
+      const el = document.createElement('div');
+      el.className = 'kart';
+      el.textContent = o.metin;
+      el.dataset.id = o.id;
+      el.onclick = () => hUstSecildi(el, o.id);
+      kap.appendChild(el);
     });
   }
 
-  function modulYukle(modulId){
-    aktifModulId = modulId;
-    const mod = MODULLER[modulId];
-    dogruSayisi = 0; denemeSayisi = 0; toplamCift = mod.pairs.length;
-    secilenSol = null; secilenSag = null; kilitli = false;
-    document.getElementById('bitisKarti').classList.remove('goster');
-
-    const solVeri = mod.pairs.map((p, i) => ({ metin: p.left, ciftId: i }));
-    const sagVeri = mod.pairs.map((p, i) => ({ metin: p.right, ciftId: i }));
-
-    ciz('solSutun', karistir(solVeri), 'sol');
-    ciz('sagSutun', karistir(sagVeri), 'sag');
-    sekmeleriCiz();
-    durumGuncelle();
+  function hAltIzgaraCiz(){
+    const kap = document.getElementById('hAltIzgara');
+    kap.innerHTML = '';
+    hGorunen.forEach(o => {
+      const el = document.createElement('div');
+      el.className = 'kart';
+      el.textContent = o.metin;
+      el.dataset.id = o.id;
+      el.dataset.ustId = o.ustId;
+      el.onclick = () => hMaddeSecildi(el, o);
+      kap.appendChild(el);
+    });
   }
 
-  function ciz(kapId, veri, taraf){
+  function hUstSecildi(el, ustId){
+    if(hKilitli) return;
+    if(hSeciliUst) hSeciliUst.el.classList.remove('secili');
+    hSeciliUst = { el, id: ustId };
+    el.classList.add('secili');
+    hKontrolEt();
+  }
+
+  function hMaddeSecildi(el, ogr){
+    if(hKilitli || el.classList.contains('cikiyor')) return;
+    if(hSeciliMadde) hSeciliMadde.el.classList.remove('secili');
+    hSeciliMadde = { el, ogr };
+    el.classList.add('secili');
+    hKontrolEt();
+  }
+
+  function hKontrolEt(){
+    if(!hSeciliUst || !hSeciliMadde) return;
+    hDeneme++;
+    hKilitli = true;
+    const dogruMu = hSeciliUst.id === hSeciliMadde.ogr.ustId;
+    const ustEl = hSeciliUst.el, maddeEl = hSeciliMadde.el;
+
+    setTimeout(() => {
+      if(dogruMu){
+        ustEl.classList.remove('secili');
+        maddeEl.classList.remove('secili');
+        maddeEl.classList.add('cikiyor');
+        hTamamlanan++;
+        muhurGoster();
+        setTimeout(() => {
+          hGorunen = hGorunen.filter(o => o.id !== hSeciliMadde.ogr.id);
+          if(hHavuzKalan.length > 0){
+            hGorunen.push(hHavuzKalan.shift());
+          }
+          hAltIzgaraCiz();
+          hSeciliUst = null; hSeciliMadde = null; hKilitli = false;
+          hDurumGuncelle();
+          if(hTamamlanan === hToplam) hTamamlandi();
+        }, 260);
+      } else {
+        ustEl.classList.add('yanlis-titre');
+        maddeEl.classList.add('yanlis-titre');
+        setTimeout(() => {
+          ustEl.classList.remove('secili','yanlis-titre');
+          maddeEl.classList.remove('secili','yanlis-titre');
+          hSeciliUst = null; hSeciliMadde = null; hKilitli = false;
+        }, 380);
+      }
+    }, dogruMu ? 200 : 420);
+  }
+
+  function hDurumGuncelle(){
+    document.getElementById('hSkorMetni').textContent = `${hTamamlanan} / ${hToplam} tamamlandı`;
+    document.getElementById('hDenemeMetni').textContent = `${hDeneme} deneme`;
+    const yuzde = hToplam ? Math.round((hTamamlanan / hToplam) * 100) : 0;
+    document.getElementById('hIlerleme').style.width = yuzde + '%';
+  }
+
+  function hTamamlandi(){
+    const isabet = hDeneme ? Math.round((hToplam / hDeneme) * 100) : 100;
+    document.getElementById('hBitisDetay').textContent =
+      `Havuzdaki ${hToplam} maddenin tamamını ${hDeneme} denemede eşleştirdin — isabet oranı %${isabet}.`;
+    document.getElementById('hBitis').style.display = 'block';
+  }
+
+  // ================= LİSTE MODU =================
+  // Klasik tam liste eşleştirme — tüm çiftler aynı anda ekranda.
+
+  let lPairs = [], lDogru = 0, lDeneme = 0, lToplam = 0;
+  let lSol = null, lSag = null, lKilitli = false;
+
+  function listeOyunuKur(bolum){
+    lPairs = bolum.pairs;
+    lDogru = 0; lDeneme = 0; lToplam = lPairs.length;
+    lSol = null; lSag = null; lKilitli = false;
+
+    const kap = document.createElement('div');
+    kap.innerHTML = `
+      <div class="durum-cubugu">
+        <span id="lSkorMetni"></span>
+        <div class="ilerleme-arka"><div class="ilerleme-on" id="lIlerleme" style="width:0%"></div></div>
+        <span id="lDenemeMetni"></span>
+      </div>
+      <div class="defter">
+        <div class="sayfa-sol" id="lSol"></div>
+        <div class="cilt-sirti"></div>
+        <div class="sayfa-sag" id="lSag"></div>
+      </div>
+      <div class="bitis-karti" id="lBitis" style="display:none;">
+        <h2>Fasıl tamamlandı</h2>
+        <p id="lBitisDetay"></p>
+        <button class="yeniden-btn" onclick="listeOyunuKur(bolumBul(aktifDersId, aktifBolumId))">Sayfaları yeniden karıştır</button>
+      </div>
+    `;
+    icerigiDegistir(kap);
+
+    const solVeri = lPairs.map((p, i) => ({ metin: p.left, ciftId: i }));
+    const sagVeri = lPairs.map((p, i) => ({ metin: p.right, ciftId: i }));
+    lCiz('lSol', karistir(solVeri), 'sol');
+    lCiz('lSag', karistir(sagVeri), 'sag');
+    lDurumGuncelle();
+  }
+
+  function lCiz(kapId, veri, taraf){
     const kap = document.getElementById(kapId);
     kap.innerHTML = '';
     veri.forEach(ogr => {
@@ -290,65 +511,56 @@
       el.className = 'kart';
       el.textContent = ogr.metin;
       el.dataset.ciftId = ogr.ciftId;
-      el.onclick = () => kartSecildi(el, ogr.ciftId, taraf);
+      el.onclick = () => lKartSecildi(el, ogr.ciftId, taraf);
       kap.appendChild(el);
     });
   }
 
-  function kartSecildi(el, ciftId, taraf){
-    if(kilitli || el.classList.contains('dogru')) return;
-
+  function lKartSecildi(el, ciftId, taraf){
+    if(lKilitli || el.classList.contains('dogru')) return;
     if(taraf === 'sol'){
-      if(secilenSol) secilenSol.classList.remove('secili');
-      secilenSol = el; el.classList.add('secili');
+      if(lSol) lSol.classList.remove('secili');
+      lSol = el; el.classList.add('secili');
     } else {
-      if(secilenSag) secilenSag.classList.remove('secili');
-      secilenSag = el; el.classList.add('secili');
+      if(lSag) lSag.classList.remove('secili');
+      lSag = el; el.classList.add('secili');
     }
-
-    if(secilenSol && secilenSag){
-      denemeSayisi++;
-      kilitli = true;
-      const dogruMu = secilenSol.dataset.ciftId === secilenSag.dataset.ciftId;
-
+    if(lSol && lSag){
+      lDeneme++;
+      lKilitli = true;
+      const dogruMu = lSol.dataset.ciftId === lSag.dataset.ciftId;
       setTimeout(() => {
         if(dogruMu){
-          secilenSol.classList.remove('secili'); secilenSag.classList.remove('secili');
-          secilenSol.classList.add('dogru'); secilenSag.classList.add('dogru');
-          dogruSayisi++;
+          lSol.classList.remove('secili'); lSag.classList.remove('secili');
+          lSol.classList.add('dogru'); lSag.classList.add('dogru');
+          lDogru++;
           muhurGoster();
         } else {
-          secilenSol.classList.add('yanlis-titre'); secilenSag.classList.add('yanlis-titre');
+          lSol.classList.add('yanlis-titre'); lSag.classList.add('yanlis-titre');
           setTimeout(() => {
-            secilenSol.classList.remove('secili','yanlis-titre');
-            secilenSag.classList.remove('secili','yanlis-titre');
+            lSol.classList.remove('secili','yanlis-titre');
+            lSag.classList.remove('secili','yanlis-titre');
           }, 380);
         }
-        secilenSol = null; secilenSag = null; kilitli = false;
-        durumGuncelle();
-        if(dogruSayisi === toplamCift) tamamlandi();
+        lSol = null; lSag = null; lKilitli = false;
+        lDurumGuncelle();
+        if(lDogru === lToplam) lTamamlandi();
       }, dogruMu ? 260 : 420);
     }
   }
 
-  function muhurGoster(){
-    const m = document.getElementById('muhur');
-    m.classList.add('goster');
-    setTimeout(() => m.classList.remove('goster'), 550);
+  function lDurumGuncelle(){
+    document.getElementById('lSkorMetni').textContent = `${lDogru} / ${lToplam} doğru`;
+    document.getElementById('lDenemeMetni').textContent = `${lDeneme} deneme`;
+    const yuzde = lToplam ? Math.round((lDogru / lToplam) * 100) : 0;
+    document.getElementById('lIlerleme').style.width = yuzde + '%';
   }
 
-  function durumGuncelle(){
-    document.getElementById('skorMetni').textContent = `${dogruSayisi} / ${toplamCift} doğru`;
-    document.getElementById('denemeMetni').textContent = `${denemeSayisi} deneme`;
-    const yuzde = toplamCift ? Math.round((dogruSayisi / toplamCift) * 100) : 0;
-    document.getElementById('ilerlemeCubugu').style.width = yuzde + '%';
-  }
-
-  function tamamlandi(){
-    const isabet = denemeSayisi ? Math.round((toplamCift / denemeSayisi) * 100) : 100;
-    document.getElementById('bitisDetay').textContent =
-      `${toplamCift} çiftin tamamını ${denemeSayisi} denemede eşleştirdin — isabet oranı %${isabet}.`;
-    document.getElementById('bitisKarti').classList.add('goster');
+  function lTamamlandi(){
+    const isabet = lDeneme ? Math.round((lToplam / lDeneme) * 100) : 100;
+    document.getElementById('lBitisDetay').textContent =
+      `${lToplam} çiftin tamamını ${lDeneme} denemede eşleştirdin — isabet oranı %${isabet}.`;
+    document.getElementById('lBitis').style.display = 'block';
   }
 
   veriYukle();
