@@ -2680,6 +2680,122 @@
        "metin": "Kura"
       }
      ]
+    },
+    {
+     "id": "platolar",
+     "baslik": "Platolar",
+     "mod": "harita",
+     "gorsel": "haritalar/turkiye-anahat.svg",
+     "noktalar": [
+      {
+       "id": "pl1",
+       "x": 25.92,
+       "y": 73.31,
+       "metin": "Teke Platosu"
+      },
+      {
+       "id": "pl2",
+       "x": 29.23,
+       "y": 46.62,
+       "metin": "Yazılıkaya Platosu"
+      },
+      {
+       "id": "pl3",
+       "x": 15.13,
+       "y": 16.92,
+       "metin": "Çatalca Platosu"
+      },
+      {
+       "id": "pl4",
+       "x": 21.63,
+       "y": 22.08,
+       "metin": "Kocaeli Platosu"
+      },
+      {
+       "id": "pl5",
+       "x": 37.53,
+       "y": 52.26,
+       "metin": "Cihanbeyli Platosu"
+      },
+      {
+       "id": "pl6",
+       "x": 34.85,
+       "y": 38.56,
+       "metin": "Haymana Platosu"
+      },
+      {
+       "id": "pl7",
+       "x": 39.8,
+       "y": 66.34,
+       "metin": "Obruk Platosu"
+      },
+      {
+       "id": "pl8",
+       "x": 37.08,
+       "y": 82.96,
+       "metin": "Taşeli Platosu"
+      },
+      {
+       "id": "pl9",
+       "x": 47.5,
+       "y": 54.05,
+       "metin": "Kapadokya Platosu"
+      },
+      {
+       "id": "pl10",
+       "x": 47.24,
+       "y": 36.65,
+       "metin": "Bozok Platosu"
+      },
+      {
+       "id": "pl11",
+       "x": 55.34,
+       "y": 53.27,
+       "metin": "Uzunyayla Platosu"
+      },
+      {
+       "id": "pl12",
+       "x": 61.45,
+       "y": 19.44,
+       "metin": "Perşembe Platosu"
+      },
+      {
+       "id": "pl13",
+       "x": 65.54,
+       "y": 64.94,
+       "metin": "Adıyaman Platosu"
+      },
+      {
+       "id": "pl14",
+       "x": 60.32,
+       "y": 77.62,
+       "metin": "Gaziantep Platosu"
+      },
+      {
+       "id": "pl15",
+       "x": 68.25,
+       "y": 78.61,
+       "metin": "Şanlıurfa Platosu"
+      },
+      {
+       "id": "pl16",
+       "x": 74.63,
+       "y": 65.03,
+       "metin": "Diyarbakır Platosu"
+      },
+      {
+       "id": "pl17",
+       "x": 84.76,
+       "y": 33.23,
+       "metin": "Erzurum-Kars Platosu"
+      },
+      {
+       "id": "pl18",
+       "x": 87.32,
+       "y": 17.64,
+       "metin": "Ardahan Platosu"
+      }
+     ]
     }
    ]
   },
