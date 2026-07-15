@@ -47,13 +47,22 @@
   }
   .altbaslik{ font-size:14px; color:var(--fildisi-soluk); font-style:italic; margin:0;}
 
-  .geri-linki{
-    display:inline-flex; align-items:center; gap:6px;
-    font-family:'IBM Plex Mono', monospace; font-size:11.5px; letter-spacing:0.5px;
-    color: var(--altin); text-transform:uppercase; cursor:pointer;
-    margin: 18px 0 4px; user-select:none;
+  #geriAlani{
+    position: sticky; top:0; z-index:20;
+    background: var(--zift); padding: 10px 0;
+    margin: 4px 0 4px;
   }
-  .geri-linki:hover{ color: var(--altin-parlak); }
+  .geri-linki{
+    display:inline-flex; align-items:center; gap:7px;
+    font-family:'IBM Plex Mono', monospace; font-size:12px; letter-spacing:0.5px;
+    color: var(--altin); text-transform:uppercase; cursor:pointer;
+    user-select:none; background: var(--zift-panel);
+    border:1px solid rgba(201,162,39,0.35); border-radius:20px;
+    padding:9px 16px 9px 12px; transition: border-color .15s ease, background .15s ease, transform .12s ease;
+  }
+  .geri-linki:active{ transform: scale(0.96); }
+  .geri-linki:hover{ color: var(--altin-parlak); border-color: var(--altin); background:#242C42; }
+  .geri-linki .ok{ font-size:15px; line-height:1; }
 
   /* --- kapı kartları: ders / bölüm seçimi --- */
   .kapi-listesi{ display:flex; flex-direction:column; gap:10px; margin-top:20px; }
@@ -261,7 +270,7 @@
     document.getElementById('izYolu').textContent = ders.baslik;
     document.getElementById('anaBaslik').textContent = ders.baslik + ' Faslı';
     document.getElementById('anaAltbaslik').textContent = 'Bir bölüm seç.';
-    geriLinkiCiz('◄ Derslere dön', dersSecimineGit);
+    geriLinkiCiz('Derslere dön', dersSecimineGit);
 
     const kap = document.createElement('div');
     kap.className = 'kapi-listesi';
@@ -290,7 +299,7 @@
     document.getElementById('izYolu').textContent = ders.baslik + ' › ' + bolum.baslik;
     document.getElementById('anaBaslik').textContent = bolum.baslik;
     document.getElementById('anaAltbaslik').textContent = 'Doğru kartı seç, karşılığını bul, mührünü vur.';
-    geriLinkiCiz('◄ Bölümlere dön', () => bolumSecimineGit(dersId));
+    geriLinkiCiz('Bölümlere dön', () => bolumSecimineGit(dersId));
 
     if(bolum.mod === 'havuz') havuzOyunuKur(bolum);
     else listeOyunuKur(bolum);
@@ -301,7 +310,7 @@
     alan.innerHTML = '';
     const el = document.createElement('div');
     el.className = 'geri-linki';
-    el.textContent = metin;
+    el.innerHTML = `<span class="ok">◄</span> ${metin}`;
     el.onclick = tikla;
     alan.appendChild(el);
   }
