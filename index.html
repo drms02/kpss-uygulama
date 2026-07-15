@@ -173,6 +173,15 @@
   @media (max-width:560px){
     .harita-pin{ width:22px; height:22px; margin:-11px 0 0 -11px; font-size:10px; }
   }
+  .harita-havuz-izgara{
+    display:grid; grid-template-columns: repeat(3, 1fr); gap:8px;
+  }
+  .kart.harita-kart{
+    height:56px; padding:6px 8px; font-size:12.5px; line-height:1.2;
+  }
+  @media (max-width:400px){
+    .harita-havuz-izgara{ grid-template-columns: repeat(2, 1fr); }
+  }
 
   /* --- liste modu: açık defter --- */
   .defter{
@@ -793,7 +802,9 @@
   // havuzu. Kullanıcı bir ismi seçer, haritada doğru numaralı noktaya
   // tıklar. Numaralar her oturumda karışık atanır (ezber engellensin diye).
 
-  let rBolum = null, rNoktalar = [], rSeciliKart = null, rSeciliPin = null, rKilitli = false;
+  const R_HAVUZ_GORUNEN = 6;
+
+  let rBolum = null, rNoktalar = [], rHavuzKalan = [], rGorunen = [], rSeciliKart = null, rSeciliPin = null, rKilitli = false;
   let rAsamaToplam = 0, rAsamaTamamlanan = 0, rDeneme = 0, rDogruSayisi = 0;
   let rFaz = 'ilk', rHataliIdSet = new Set();
   const rSvgOnbellek = {};
@@ -805,6 +816,9 @@
     rDeneme = 0; rDogruSayisi = 0;
     rFaz = 'ilk'; rHataliIdSet = new Set();
     rSeciliKart = null; rSeciliPin = null; rKilitli = false;
+
+    rHavuzKalan = karistir(rNoktalar);
+    rGorunen = rHavuzKalan.splice(0, Math.min(R_HAVUZ_GORUNEN, rHavuzKalan.length));
 
     const kap = document.createElement('div');
     kap.innerHTML = `
@@ -818,7 +832,7 @@
       </div>
       <div class="havuz-blok">
         <div class="havuz-etiket" id="rHavuzEtiket">İsimler — doğru numarayı haritada bul</div>
-        <div class="kart-izgara" id="rKartIzgara"></div>
+        <div class="kart-izgara harita-havuz-izgara" id="rKartIzgara"></div>
       </div>
       <div class="bitis-karti" id="rBitis" style="display:none;">
         <h2>Fasıl tamamlandı</h2>
@@ -830,7 +844,7 @@
 
     rHaritaSvgYukleVeCiz(bolum);
     rPinleriCiz(karistir(rNoktalar));
-    rKartIzgaraCiz(karistir(rNoktalar));
+    rKartIzgaraCiz(rGorunen);
     rDurumGuncelle();
   }
 
@@ -868,7 +882,7 @@
     kap.innerHTML = '';
     liste.forEach(nokta => {
       const el = document.createElement('div');
-      el.className = 'kart';
+      el.className = 'kart harita-kart';
       el.textContent = nokta.metin;
       el.dataset.id = nokta.id;
       el.onclick = () => rKartSecildi(el, nokta);
@@ -910,7 +924,12 @@
         rAsamaTamamlanan++;
         muhurGoster();
         setTimeout(() => {
-          kartEl.remove();
+          const cozulenId = rSeciliKart.nokta.id;
+          rGorunen = rGorunen.filter(o => o.id !== cozulenId);
+          if(rHavuzKalan.length > 0){
+            rGorunen.push(rHavuzKalan.shift());
+          }
+          rKartIzgaraCiz(rGorunen);
           rSeciliKart = null; rSeciliPin = null; rKilitli = false;
           rDurumGuncelle();
           if(rAsamaTamamlanan === rAsamaToplam) rFazBitti();
@@ -941,9 +960,10 @@
   function rFazBitti(){
     if(rFaz === 'ilk' && rHataliIdSet.size > 0){
       rFaz = 'tekrar';
-      const tekrarListesi = karistir(rNoktalar.filter(o => rHataliIdSet.has(o.id)));
-      rAsamaToplam = tekrarListesi.length; rAsamaTamamlanan = 0;
-      rKartIzgaraCiz(tekrarListesi);
+      rHavuzKalan = karistir(rNoktalar.filter(o => rHataliIdSet.has(o.id)));
+      rAsamaToplam = rHavuzKalan.length; rAsamaTamamlanan = 0;
+      rGorunen = rHavuzKalan.splice(0, Math.min(R_HAVUZ_GORUNEN, rHavuzKalan.length));
+      rKartIzgaraCiz(rGorunen);
       const etiket = document.getElementById('rHavuzEtiket');
       if(etiket) etiket.textContent = 'Yanlış yaptıkların — tekrar turu';
       rDurumGuncelle();
