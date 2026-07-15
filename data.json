@@ -79,6 +79,55 @@
           ]
         },
         {
+          "id": "yukselme-donemi-padisahlar",
+          "baslik": "Yükselme Dönemi: Padişahlar",
+          "mod": "havuz",
+          "ust": [
+            { "id": "p7", "metin": "Fatih Sultan Mehmet" },
+            { "id": "p8", "metin": "II. Bayezid" },
+            { "id": "p9", "metin": "Yavuz Sultan Selim" },
+            { "id": "p10", "metin": "Sokullu Dönemi — II. Selim" },
+            { "id": "p11", "metin": "Kanuni Sultan Süleyman" },
+            { "id": "p12", "metin": "Sokullu Dönemi — III. Murat" }
+          ],
+          "havuz": [
+            { "id": "i54", "ustId": "p7", "metin": "Kırım alınarak Karadeniz Türk gölü olmuştur" },
+            { "id": "i55", "ustId": "p7", "metin": "\"Kayser-i Rum\" ve \"Sultanü'l-Berreyn ve'l-Bahreyn\" unvanlarını kullanmıştır" },
+            { "id": "i56", "ustId": "p7", "metin": "Kanunname-i Ali Osman hazırlanmıştır" },
+            { "id": "i57", "ustId": "p7", "metin": "Balkanlarda Sırbistan, Arnavutluk, Eflak-Boğdan, Bosna-Hersek, Mora Despotluğu ele geçirilmiştir" },
+            { "id": "i58", "ustId": "p7", "metin": "Osmanlı Devleti'ni Cihanşümul (dünya) devlet haline getirmiştir" },
+            { "id": "i59", "ustId": "p7", "metin": "Sabuncuoğlu Şerefeddin'in \"Cerrahiyyetü'l-Haniyye\" adlı eserini sunduğu padişah" },
+            { "id": "i60", "ustId": "p7", "metin": "Gedik Ahmet Paşa tarafından Otranto Seferi düzenlenmiştir" },
+
+            { "id": "i61", "ustId": "p8", "metin": "Cem Sultan ve Şahkulu isyanları yaşanmıştır" },
+            { "id": "i62", "ustId": "p8", "metin": "Yükselme Dönemi içinde Duraklama Dönemi özelliği taşıyan, \"Küçük Kıyamet\" olarak adlandırılan İstanbul depremi yaşanmıştır" },
+
+            { "id": "i63", "ustId": "p9", "metin": "Turnadağ Savaşı ile Dulkadiroğlu Beyliği'ne son verilmiştir" },
+            { "id": "i64", "ustId": "p9", "metin": "Mercidabık ve Ridaniye Savaşları ile Memlüklere son verilerek Suriye, Filistin, Irak, Hicaz ve Mısır ele geçirilmiştir" },
+            { "id": "i65", "ustId": "p9", "metin": "Çaldıran Savaşı ile Şah İsmail yenilgiye uğratılmıştır" },
+            { "id": "i66", "ustId": "p9", "metin": "İlk Osmanlı halifesi olmuştur" },
+            { "id": "i67", "ustId": "p9", "metin": "\"Benim altınla doldurduğum hazineyi torunlarımdan her kim doldurabilirse kendi mührüyle mühürlesin\" diyen padişah; Hazine-i Hümayun'da daima onun mührü kullanılmıştır" },
+            { "id": "i68", "ustId": "p9", "metin": "İdris-i Bitlisi Osmanlı hizmetinde görev yapmaya başlamıştır" },
+
+            { "id": "i69", "ustId": "p10", "metin": "Kıbrıs alınmış, bu durum İnebahtı Deniz Savaşı'na neden olmuştur" },
+            { "id": "i70", "ustId": "p10", "metin": "Şehzadelerin sancağa çıkmasını sadece Manisa ile sınırlandıran padişah" },
+            { "id": "i71", "ustId": "p10", "metin": "Sokullu, Don-Volga Kanal Projesi'ni sunmuştur" },
+            { "id": "i72", "ustId": "p10", "metin": "Sumatra Seferi ile Endonezya'daki Açe Sultanlığı'na Portekizlilere karşı yardım gönderilmiştir" },
+
+            { "id": "i73", "ustId": "p11", "metin": "Avrupa'da \"Büyük Türk\" olarak bilinen padişah" },
+            { "id": "i74", "ustId": "p11", "metin": "Mısır'da Canberdi Gazali ve Ahmet Paşa isyanları çıkmıştır" },
+            { "id": "i75", "ustId": "p11", "metin": "Hint Deniz Seferleri düzenlemiştir" },
+            { "id": "i76", "ustId": "p11", "metin": "İspanya ile Cerbe Deniz Savaşı yapılmıştır" },
+            { "id": "i77", "ustId": "p11", "metin": "Seydi Ali Reis'in \"Mir'atü'l-Memalik\" adlı eserini sunduğu padişah" },
+            { "id": "i78", "ustId": "p11", "metin": "Preveze Deniz Savaşı ile Akdeniz Türk gölü olmuştur" },
+            { "id": "i79", "ustId": "p11", "metin": "Zigetvar Seferi düzenlenmiştir" },
+            { "id": "i80", "ustId": "p11", "metin": "İran ile yapılan ilk antlaşma olan Amasya Antlaşması yapılmıştır" },
+            { "id": "i81", "ustId": "p11", "metin": "ABD Meclisi'nde portresi bulunan ünlü kanun koyucular arasında yer alan tek Osmanlı padişahı" },
+
+            { "id": "i82", "ustId": "p12", "metin": "Portekiz ile Vadi'üs-Seyl Savaşı yapılmıştır" }
+          ]
+        },
+        {
           "id": "antlasmalar",
           "baslik": "Antlaşmalar ve Sonuçları",
           "mod": "liste",
