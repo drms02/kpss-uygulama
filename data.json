@@ -1,0 +1,25 @@
+{
+  "padisah-islahat": {
+    "baslik": "Padişah · Islahat",
+    "pairs": [
+      { "left": "Fatih Sultan Mehmet", "right": "İstanbul'u fethetti, Kanunname-i Ali Osman'ı hazırlattı" },
+      { "left": "III. Selim", "right": "Nizam-ı Cedid adıyla yeni bir ordu kurdu" },
+      { "left": "II. Mahmut", "right": "Yeniçeri Ocağı'nı kaldırdı (Vaka-i Hayriye, 1826)" },
+      { "left": "Abdülmecit", "right": "Tanzimat Fermanı'nı ilan etti (1839)" },
+      { "left": "II. Abdülhamit", "right": "Kanun-i Esasi'yi ilan etti, I. Meşrutiyet'i başlattı" },
+      { "left": "I. Abdülhamit", "right": "Rusya ile Küçük Kaynarca Antlaşması'nı imzaladı" }
+    ]
+  },
+  "antlasmalar": {
+    "baslik": "Antlaşma · Sonuç",
+    "pairs": []
+  },
+  "eser-yazar": {
+    "baslik": "Eser · Yazar",
+    "pairs": []
+  },
+  "devlet-teskilati": {
+    "baslik": "Görevli · Sınıf",
+    "pairs": []
+  }
+}

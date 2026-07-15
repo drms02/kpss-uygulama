@@ -1,0 +1,357 @@
+<!DOCTYPE html>
+<html lang="tr">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+<title>KPSS Tarih — Sicil Defteri</title>
+<style>
+  @import url('https://fonts.googleapis.com/css2?family=Cinzel:wght@500;600&family=Noto+Serif:ital,wght@0,400;0,600;1,400&family=IBM+Plex+Mono:wght@500&display=swap');
+
+  :root{
+    --zift: #171B26;
+    --zift-panel: #1E2433;
+    --lacivert: #262F45;
+    --fildisi: #E9E1CB;
+    --fildisi-soluk: #B7AD93;
+    --bakir: #B5651D;
+    --altin: #C9A227;
+    --altin-parlak: #E0BE55;
+    --muhur-kirmizi: #8B1E3F;
+    --yesil-tasdik: #6B8F3E;
+  }
+  *{box-sizing:border-box;}
+  body{
+    margin:0;
+    background: var(--zift);
+    background-image: radial-gradient(circle at 50% 0%, rgba(201,162,39,0.05) 0%, transparent 55%);
+    font-family:'Noto Serif', serif;
+    color: var(--fildisi);
+    min-height:100vh;
+    padding: 30px 14px 70px;
+  }
+  .sayfa{max-width: 800px; margin:0 auto;}
+
+  .tezhip{
+    height:10px;
+    background:
+      repeating-linear-gradient(135deg, var(--altin) 0px, var(--altin) 6px, transparent 6px, transparent 12px),
+      repeating-linear-gradient(45deg, var(--bakir) 0px, var(--bakir) 6px, transparent 6px, transparent 12px);
+    background-blend-mode: screen;
+    opacity:0.85;
+  }
+
+  .ustluk{ text-align:center; padding: 26px 10px 22px; position:relative; }
+  .kayit-no{
+    font-family:'IBM Plex Mono', monospace; font-size:11px; letter-spacing:3px;
+    text-transform:uppercase; color: var(--altin); margin-bottom:10px;
+  }
+  h1{
+    font-family:'Cinzel', serif; font-size:34px; font-weight:600; margin:0 0 8px;
+    color: var(--fildisi); letter-spacing:0.5px;
+  }
+  .altbaslik{ font-size:14px; color:var(--fildisi-soluk); font-style:italic; margin:0;}
+  .rozet{
+    width:34px; height:34px; margin: 14px auto 0;
+    border:1.5px solid var(--altin); border-radius:50%;
+    display:flex; align-items:center; justify-content:center; position:relative;
+  }
+  .rozet::before{
+    content:""; width:16px; height:16px; border:1.5px solid var(--altin);
+    transform: rotate(45deg); border-radius:2px;
+  }
+
+  .modul-sekmeleri{
+    display:flex; gap:2px; margin: 22px 0 18px; flex-wrap:wrap; justify-content:center;
+    border-top:1px solid rgba(201,162,39,0.3); border-bottom:1px solid rgba(201,162,39,0.3);
+    padding: 10px 0;
+  }
+  .sekme{
+    font-family:'IBM Plex Mono', monospace; font-size:11px; letter-spacing:0.5px;
+    padding:8px 14px; border:1px solid transparent; background: transparent;
+    color: var(--fildisi-soluk); cursor:pointer; text-transform:uppercase;
+  }
+  .sekme.aktif{ color:var(--zift); background: var(--altin); font-weight:500; }
+  .sekme.kilitli{ opacity:0.35; cursor:not-allowed; }
+  .sekme:not(.aktif):not(.kilitli):hover{ color: var(--altin-parlak); }
+
+  .durum-cubugu{
+    display:flex; justify-content:space-between; align-items:center;
+    margin-bottom:20px; font-family:'IBM Plex Mono', monospace; font-size:12px;
+    color:var(--fildisi-soluk);
+  }
+  .ilerleme-arka{
+    flex:1; height:2px; background: rgba(233,225,203,0.15); margin:0 18px; position:relative;
+  }
+  .ilerleme-on{ height:100%; background:var(--altin); transition: width .35s ease; }
+  .ilerleme-on::after{
+    content:""; position:absolute; right:-3px; top:-3px; width:8px; height:8px;
+    background: var(--altin-parlak); transform: rotate(45deg);
+  }
+
+  .defter{
+    display:grid; grid-template-columns: 1fr 20px 1fr;
+    background: var(--zift-panel); border:1px solid rgba(201,162,39,0.25);
+  }
+  .sayfa-sol, .sayfa-sag{ padding:20px 18px; display:flex; flex-direction:column; gap:10px; }
+  .cilt-sirti{ background: linear-gradient(180deg, transparent, rgba(201,162,39,0.25), transparent); position:relative; }
+  .cilt-sirti::before{
+    content:""; position:absolute; left:50%; top:0; bottom:0; width:1px;
+    background: repeating-linear-gradient(180deg, var(--altin) 0 4px, transparent 4px 9px);
+    transform: translateX(-50%);
+  }
+
+  .kart{
+    background: var(--lacivert); border-left:2px solid var(--bakir);
+    padding:13px 14px; font-size:14px; line-height:1.5; cursor:pointer;
+    min-height:48px; display:flex; align-items:center; position:relative;
+    transition: transform .12s ease, background .15s ease, border-color .15s ease;
+  }
+  .kart:hover{ border-left-color: var(--altin); background:#2A3350; }
+  .kart.secili{
+    background: var(--muhur-kirmizi); border-left-color: var(--altin-parlak);
+    color:var(--fildisi); transform: translateX(2px);
+  }
+  .kart.dogru{
+    background: rgba(107,143,62,0.18); border-left-color: var(--yesil-tasdik);
+    color: var(--fildisi-soluk); cursor:default;
+  }
+  .kart.dogru::after{
+    content:"✓"; position:absolute; right:12px; top:50%; transform:translateY(-50%);
+    color:var(--yesil-tasdik); font-weight:700; font-size:15px;
+  }
+  .kart.yanlis-titre{ animation: titre .35s ease; border-left-color: var(--muhur-kirmizi); }
+  @keyframes titre{
+    0%,100%{transform:translateX(0);} 25%{transform:translateX(-5px);} 75%{transform:translateX(5px);}
+  }
+
+  .muhur{
+    position:fixed; top:50%; left:50%; transform:translate(-50%,-50%) scale(0.3) rotate(-14deg);
+    width:108px; height:108px; opacity:0; pointer-events:none; z-index:50;
+    transition: transform .3s cubic-bezier(.2,1.5,.4,1), opacity .3s ease;
+  }
+  .muhur.goster{ opacity:1; transform:translate(-50%,-50%) scale(1) rotate(-10deg); }
+  .muhur svg{ width:100%; height:100%; }
+
+  .bitis-karti{
+    text-align:center; padding:32px 20px; border:1px solid var(--altin);
+    background: var(--zift-panel); margin-top:8px; display:none;
+  }
+  .bitis-karti.goster{ display:block; }
+  .bitis-karti h2{ font-family:'Cinzel', serif; font-size:22px; color:var(--altin-parlak); margin:0 0 8px; letter-spacing:0.5px;}
+  .bitis-karti p{ color: var(--fildisi-soluk); font-size:14px; }
+  .yeniden-btn{
+    margin-top:14px; padding:10px 24px; background:transparent; color:var(--altin);
+    border:1px solid var(--altin); font-family:'IBM Plex Mono', monospace;
+    font-size:11px; letter-spacing:1px; text-transform:uppercase; cursor:pointer;
+  }
+  .yeniden-btn:hover{ background: var(--altin); color:var(--zift); }
+
+  .durum-mesaji{
+    text-align:center; padding: 60px 20px; color: var(--fildisi-soluk);
+    font-size:14px; line-height:1.7;
+  }
+  .durum-mesaji.hata{ color: var(--muhur-kirmizi); }
+
+  @media (max-width:560px){
+    .defter{ grid-template-columns:1fr; }
+    .cilt-sirti{ display:none; }
+    h1{ font-size:26px; }
+  }
+</style>
+</head>
+<body>
+<div class="sayfa">
+
+  <div class="tezhip"></div>
+  <div class="ustluk">
+    <div class="kayit-no">Sicil № 2026 · Tarih Faslı</div>
+    <h1>Eşleştirme Defteri</h1>
+    <p class="altbaslik">Sol sayfadan seç, sağ sayfada karşılığını bul, mührünü vur.</p>
+    <div class="rozet"></div>
+  </div>
+  <div class="tezhip"></div>
+
+  <div id="icerikAlani">
+    <div class="durum-mesaji" id="yuklemeMesaji">Defter açılıyor…</div>
+  </div>
+
+</div>
+
+<div class="muhur" id="muhur">
+  <svg viewBox="0 0 100 100">
+    <circle cx="50" cy="50" r="46" fill="none" stroke="#E0BE55" stroke-width="2"/>
+    <circle cx="50" cy="50" r="38" fill="none" stroke="#E0BE55" stroke-width="1"/>
+    <g fill="#E0BE55">
+      <rect x="46" y="14" width="8" height="8" transform="rotate(45 50 18)"/>
+      <rect x="46" y="78" width="8" height="8" transform="rotate(45 50 82)"/>
+      <rect x="14" y="46" width="8" height="8" transform="rotate(45 18 50)"/>
+      <rect x="78" y="46" width="8" height="8" transform="rotate(45 82 50)"/>
+    </g>
+    <text x="50" y="47" text-anchor="middle" fill="#E0BE55" font-family="Cinzel, serif" font-size="11" font-weight="600">TASDİK</text>
+    <text x="50" y="61" text-anchor="middle" fill="#E0BE55" font-family="Cinzel, serif" font-size="11" font-weight="600">OLUNDU</text>
+  </svg>
+</div>
+
+<script>
+  // ============================================================
+  // VERİ, artık bu dosyanın içinde değil — aynı klasördeki
+  // data.json'dan her açılışta canlı çekiliyor. Yeni modül ya da
+  // soru eklemek için sadece data.json güncellenip GitHub'a
+  // push edilir; uygulama koduna dokunulmaz.
+  // ============================================================
+  let MODULLER = {};
+  let aktifModulId = null;
+  let dogruSayisi = 0, denemeSayisi = 0, toplamCift = 0;
+  let secilenSol = null, secilenSag = null, kilitli = false;
+
+  async function veriYukle(){
+    const mesaj = document.getElementById('yuklemeMesaji');
+    try{
+      const yanit = await fetch('data.json', { cache: 'no-store' });
+      if(!yanit.ok) throw new Error('sunucu hatası');
+      MODULLER = await yanit.json();
+      const ilkDoluModul = Object.entries(MODULLER).find(([,m]) => m.pairs && m.pairs.length > 0);
+      if(!ilkDoluModul){
+        mesaj.textContent = 'Henüz hiçbir fasılda veri yok.';
+        return;
+      }
+      arayuzuKur();
+      modulYukle(ilkDoluModul[0]);
+    } catch(e){
+      mesaj.textContent = 'Defter açılamadı. İnternet bağlantını kontrol edip tekrar dene.';
+      mesaj.classList.add('hata');
+    }
+  }
+
+  function arayuzuKur(){
+    document.getElementById('icerikAlani').innerHTML = `
+      <div class="modul-sekmeleri" id="sekmeler"></div>
+      <div class="durum-cubugu">
+        <span id="skorMetni">0 / 0 doğru</span>
+        <div class="ilerleme-arka"><div class="ilerleme-on" id="ilerlemeCubugu" style="width:0%"></div></div>
+        <span id="denemeMetni">0 deneme</span>
+      </div>
+      <div class="defter">
+        <div class="sayfa-sol" id="solSutun"></div>
+        <div class="cilt-sirti"></div>
+        <div class="sayfa-sag" id="sagSutun"></div>
+      </div>
+      <div class="bitis-karti" id="bitisKarti">
+        <h2>Fasıl tamamlandı</h2>
+        <p id="bitisDetay"></p>
+        <button class="yeniden-btn" onclick="modulYukle(aktifModulId)">Sayfaları yeniden karıştır</button>
+      </div>
+    `;
+  }
+
+  function karistir(dizi){
+    const d = [...dizi];
+    for(let i = d.length - 1; i > 0; i--){
+      const j = Math.floor(Math.random() * (i + 1));
+      [d[i], d[j]] = [d[j], d[i]];
+    }
+    return d;
+  }
+
+  function sekmeleriCiz(){
+    const kap = document.getElementById('sekmeler');
+    kap.innerHTML = '';
+    Object.entries(MODULLER).forEach(([id, mod]) => {
+      const bos = !mod.pairs || mod.pairs.length === 0;
+      const btn = document.createElement('button');
+      btn.className = 'sekme' + (id === aktifModulId ? ' aktif' : '') + (bos ? ' kilitli' : '');
+      btn.textContent = mod.baslik + (bos ? ' — boş' : '');
+      if(!bos) btn.onclick = () => modulYukle(id);
+      kap.appendChild(btn);
+    });
+  }
+
+  function modulYukle(modulId){
+    aktifModulId = modulId;
+    const mod = MODULLER[modulId];
+    dogruSayisi = 0; denemeSayisi = 0; toplamCift = mod.pairs.length;
+    secilenSol = null; secilenSag = null; kilitli = false;
+    document.getElementById('bitisKarti').classList.remove('goster');
+
+    const solVeri = mod.pairs.map((p, i) => ({ metin: p.left, ciftId: i }));
+    const sagVeri = mod.pairs.map((p, i) => ({ metin: p.right, ciftId: i }));
+
+    ciz('solSutun', karistir(solVeri), 'sol');
+    ciz('sagSutun', karistir(sagVeri), 'sag');
+    sekmeleriCiz();
+    durumGuncelle();
+  }
+
+  function ciz(kapId, veri, taraf){
+    const kap = document.getElementById(kapId);
+    kap.innerHTML = '';
+    veri.forEach(ogr => {
+      const el = document.createElement('div');
+      el.className = 'kart';
+      el.textContent = ogr.metin;
+      el.dataset.ciftId = ogr.ciftId;
+      el.onclick = () => kartSecildi(el, ogr.ciftId, taraf);
+      kap.appendChild(el);
+    });
+  }
+
+  function kartSecildi(el, ciftId, taraf){
+    if(kilitli || el.classList.contains('dogru')) return;
+
+    if(taraf === 'sol'){
+      if(secilenSol) secilenSol.classList.remove('secili');
+      secilenSol = el; el.classList.add('secili');
+    } else {
+      if(secilenSag) secilenSag.classList.remove('secili');
+      secilenSag = el; el.classList.add('secili');
+    }
+
+    if(secilenSol && secilenSag){
+      denemeSayisi++;
+      kilitli = true;
+      const dogruMu = secilenSol.dataset.ciftId === secilenSag.dataset.ciftId;
+
+      setTimeout(() => {
+        if(dogruMu){
+          secilenSol.classList.remove('secili'); secilenSag.classList.remove('secili');
+          secilenSol.classList.add('dogru'); secilenSag.classList.add('dogru');
+          dogruSayisi++;
+          muhurGoster();
+        } else {
+          secilenSol.classList.add('yanlis-titre'); secilenSag.classList.add('yanlis-titre');
+          setTimeout(() => {
+            secilenSol.classList.remove('secili','yanlis-titre');
+            secilenSag.classList.remove('secili','yanlis-titre');
+          }, 380);
+        }
+        secilenSol = null; secilenSag = null; kilitli = false;
+        durumGuncelle();
+        if(dogruSayisi === toplamCift) tamamlandi();
+      }, dogruMu ? 260 : 420);
+    }
+  }
+
+  function muhurGoster(){
+    const m = document.getElementById('muhur');
+    m.classList.add('goster');
+    setTimeout(() => m.classList.remove('goster'), 550);
+  }
+
+  function durumGuncelle(){
+    document.getElementById('skorMetni').textContent = `${dogruSayisi} / ${toplamCift} doğru`;
+    document.getElementById('denemeMetni').textContent = `${denemeSayisi} deneme`;
+    const yuzde = toplamCift ? Math.round((dogruSayisi / toplamCift) * 100) : 0;
+    document.getElementById('ilerlemeCubugu').style.width = yuzde + '%';
+  }
+
+  function tamamlandi(){
+    const isabet = denemeSayisi ? Math.round((toplamCift / denemeSayisi) * 100) : 100;
+    document.getElementById('bitisDetay').textContent =
+      `${toplamCift} çiftin tamamını ${denemeSayisi} denemede eşleştirdin — isabet oranı %${isabet}.`;
+    document.getElementById('bitisKarti').classList.add('goster');
+  }
+
+  veriYukle();
+</script>
+</body>
+</html>
