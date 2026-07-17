@@ -5848,14 +5848,24 @@
       "aktif": true,
       "bolumler": [
         {
-          "id": "turkiye-gundemi-2025-2026",
-          "baslik": "Türkiye Gündemi (2025-2026)",
-          "mod": "havuz",
+          "id": "guncel-bilgiler-havuzu",
+          "baslik": "Güncel Bilgiler (2025-2026)",
+          "mod": "cift-havuz",
+          "ustEtiket": "Konu Başlığı",
+          "altEtiket": "Bilgi",
           "ust": [
             { "id": "tg1", "metin": "Savunma Sanayii" },
             { "id": "tg2", "metin": "Uzay ve Teknoloji" },
             { "id": "tg3", "metin": "Kültür, Turizm ve Miras" },
-            { "id": "tg4", "metin": "Spor" }
+            { "id": "tg4", "metin": "Spor" },
+            { "id": "dg1", "metin": "Zirveler ve Uluslararası Kuruluşlar" },
+            { "id": "dg2", "metin": "Kültür Başkentleri ve Unvanlar (Dünya)" },
+            { "id": "nb1", "metin": "Nobel Fizik Ödülü" },
+            { "id": "nb2", "metin": "Nobel Kimya Ödülü" },
+            { "id": "nb3", "metin": "Nobel Tıp Ödülü" },
+            { "id": "nb4", "metin": "Nobel Edebiyat Ödülü" },
+            { "id": "nb5", "metin": "Nobel Barış Ödülü" },
+            { "id": "nb6", "metin": "Nobel Ekonomi Ödülü (Anma Ödülü)" }
           ],
           "havuz": [
             { "id": "tgh1", "ustId": "tg1", "metin": "Bayraktar KIZILELMA, görüş ötesi hava-hava füzesiyle jet motorlu bir hava hedefini vuran dünyadaki ilk insansız savaş uçağı oldu (2025)." },
@@ -5870,40 +5880,16 @@
             { "id": "tgh10", "ustId": "tg3", "metin": "Türkiye'nin UNESCO Dünya Mirası Listesi'ndeki alan sayısı 22'ye yükseldi (20 kültürel, 2 karma miras)." },
             { "id": "tgh11", "ustId": "tg3", "metin": "Kayseri Pastırması, Mart 2026'da AB'den coğrafi işaret tescili alarak Türkiye'nin 46. tescilli ürünü oldu." },
             { "id": "tgh12", "ustId": "tg3", "metin": "Ankara, 2026 yılı Türk Dünyası Turizm Başkenti unvanını resmen devraldı." },
+            { "id": "tgh15", "ustId": "tg3", "metin": "\"Antep İşi Nakışı\", Aralık 2025'te UNESCO İnsanlığın Somut Olmayan Kültürel Mirası Listesi'ne eklendi; Türkiye'nin bu listedeki unsur sayısı 32'ye yükseldi." },
             { "id": "tgh13", "ustId": "tg4", "metin": "2026 UEFA Avrupa Ligi finali, İstanbul'daki Beşiktaş Park Stadyumu'nda oynandı." },
-            { "id": "tgh14", "ustId": "tg4", "metin": "Türkiye, 2027-2031 döneminde Formula 1 yarışlarına yeniden ev sahipliği yapacak." }
-          ]
-        },
-        {
-          "id": "dunya-gundemi-2025-2026",
-          "baslik": "Dünya Gündemi ve Uluslararası İlişkiler (2025-2026)",
-          "mod": "havuz",
-          "ust": [
-            { "id": "dg1", "metin": "Zirveler ve Uluslararası Kuruluşlar" },
-            { "id": "dg2", "metin": "Kültür Başkentleri ve Spor (Dünya)" }
-          ],
-          "havuz": [
+            { "id": "tgh14", "ustId": "tg4", "metin": "Türkiye, 2027-2031 döneminde Formula 1 yarışlarına yeniden ev sahipliği yapacak." },
             { "id": "dgh1", "ustId": "dg1", "metin": "2025 G20 Zirvesi'ne Güney Afrika ev sahipliği yaptı; Afrika kıtasında düzenlenen ilk G20 zirvesiydi (Johannesburg)." },
             { "id": "dgh2", "ustId": "dg1", "metin": "2026 G20 dönem başkanlığını ABD üstlendi; zirvenin Miami'de yapılması planlanıyor." },
             { "id": "dgh3", "ustId": "dg1", "metin": "COP31 İklim Zirvesi'nin Kasım 2026'da düzenlenmesi planlanıyor." },
+            { "id": "dgh7", "ustId": "dg1", "metin": "Birleşmiş Milletler'in yıllık iklim raporları, küresel ısınma ve sera gazı emisyonlarındaki artışa dikkat çekmeye devam ediyor." },
             { "id": "dgh4", "ustId": "dg2", "metin": "Özbekistan'ın Andican şehri, 2026 Türk Dünyası Kültür Başkenti ilan edildi." },
             { "id": "dgh5", "ustId": "dg2", "metin": "Slovakya'nın Trenčín şehri, 2026 Avrupa Kültür Başkentlerinden biri seçildi." },
-            { "id": "dgh6", "ustId": "dg2", "metin": "2026 UEFA Şampiyonlar Ligi Finali, Budapeşte'deki Puskás Aréna'da oynandı; kupayı Paris Saint-Germain (PSG) kazandı." }
-          ]
-        },
-        {
-          "id": "2025-nobel-odulleri",
-          "baslik": "2025 Nobel Ödülleri",
-          "mod": "havuz",
-          "ust": [
-            { "id": "nb1", "metin": "Nobel Fizik Ödülü" },
-            { "id": "nb2", "metin": "Nobel Kimya Ödülü" },
-            { "id": "nb3", "metin": "Nobel Tıp Ödülü" },
-            { "id": "nb4", "metin": "Nobel Edebiyat Ödülü" },
-            { "id": "nb5", "metin": "Nobel Barış Ödülü" },
-            { "id": "nb6", "metin": "Nobel Ekonomi Ödülü (Anma Ödülü)" }
-          ],
-          "havuz": [
+            { "id": "dgh6", "ustId": "dg2", "metin": "2026 UEFA Şampiyonlar Ligi Finali, Budapeşte'deki Puskás Aréna'da oynandı; kupayı Paris Saint-Germain (PSG) kazandı." },
             { "id": "nbh1", "ustId": "nb1", "metin": "John Clarke, Michel H. Devoret ve John M. Martinis'e verildi." },
             { "id": "nbh2", "ustId": "nb1", "metin": "Elektrik devrelerinde makroskobik kuantum tünelleme ve enerji kuantalanması etkilerinin gözlemlenmesiyle kazanıldı." },
             { "id": "nbh3", "ustId": "nb2", "metin": "Susumu Kitagawa, Richard Robson ve Omar M. Yaghi'ye verildi." },
