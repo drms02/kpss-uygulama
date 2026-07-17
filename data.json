@@ -5583,7 +5583,7 @@
     {
       "id": "vatandaslik",
       "baslik": "Vatandaşlık",
-      "aktif": false,
+      "aktif": true,
       "bolumler": [
         {
           "id": "anayasal-temel-ilkeler",
@@ -5809,6 +5809,35 @@
             { "id": "ith11", "ustId": "it4", "metin": "Muhtar, köy halkı tarafından seçilir." },
             { "id": "ith12", "ustId": "it5", "metin": "Belli bir mesleğe mensup olanların ortak ihtiyaçlarını karşılamak amacıyla kanunla kurulan kamu tüzel kişileridir (örn. barolar, TTB, TMMOB, ticaret ve sanayi odaları)." },
             { "id": "ith13", "ustId": "it5", "metin": "Organları, üyeleri tarafından kanunda gösterilen usullere göre gizli oyla seçilir." }
+          ]
+        },
+        {
+          "id": "secim-ve-siyasi-partiler",
+          "baslik": "Seçim Sistemi ve Siyasi Partiler",
+          "kategori": "Seçim ve Siyaset",
+          "mod": "havuz",
+          "ust": [
+            { "id": "sp1", "metin": "Seçim Sisteminin Temel İlkeleri" },
+            { "id": "sp2", "metin": "Seçmen ve Aday Olma Şartları" },
+            { "id": "sp3", "metin": "Siyasi Partiler" },
+            { "id": "sp4", "metin": "Yüksek Seçim Kurulu (YSK)" }
+          ],
+          "havuz": [
+            { "id": "sph1", "ustId": "sp1", "metin": "Seçimler serbest, eşit, gizli, tek dereceli, genel oy, açık sayım ve döküm esaslarına göre yapılır." },
+            { "id": "sph2", "ustId": "sp1", "metin": "Serbest seçim: Seçmenin iradesine hiçbir baskı yapılmaması." },
+            { "id": "sph3", "ustId": "sp1", "metin": "Eşit oy: Her seçmenin bir oy hakkına sahip olması." },
+            { "id": "sph4", "ustId": "sp1", "metin": "Genel oy: Yasada belirtilen istisnalar dışında her Türk vatandaşının oy kullanabilmesi." },
+            { "id": "sph5", "ustId": "sp2", "metin": "On sekiz yaşını dolduran her Türk vatandaşı seçme ve halkoylamalarına katılma hakkına sahiptir." },
+            { "id": "sph6", "ustId": "sp2", "metin": "Milletvekili seçilebilmek için on sekiz yaşını doldurmuş olmak yeterlidir." },
+            { "id": "sph7", "ustId": "sp2", "metin": "Silah altında bulunan er ve erbaşlar ile askeri öğrenciler oy kullanamaz." },
+            { "id": "sph8", "ustId": "sp2", "metin": "Taksirli suçlar hariç, kasıtlı bir suçtan hükümlü olup ceza infaz kurumunda bulunanlar oy kullanamaz." },
+            { "id": "sph9", "ustId": "sp3", "metin": "Siyasi partiler önceden izin almadan kurulur, Anayasa Mahkemesince denetlenir." },
+            { "id": "sph10", "ustId": "sp3", "metin": "Siyasi partilerin tüzük ve programları Devletin bağımsızlığına ve ülkesi/milletiyle bölünmez bütünlüğüne aykırı olamaz." },
+            { "id": "sph11", "ustId": "sp3", "metin": "Bir siyasi partinin kapatılmasına Anayasa Mahkemesince karar verilir." },
+            { "id": "sph12", "ustId": "sp3", "metin": "Siyasi partilere Devlet, yeterli düzeyde ve hakça mali yardım yapar." },
+            { "id": "sph13", "ustId": "sp4", "metin": "Seçimlerin başından bitimine kadar düzen içinde ve dürüst yönetimiyle ilgili bütün işlemleri yapma görevi YSK'ya aittir." },
+            { "id": "sph14", "ustId": "sp4", "metin": "YSK, yedi asıl ve dört yedek üyeden oluşur; altısı Yargıtay, beşi Danıştay genel kurullarınca kendi üyeleri arasından seçilir." },
+            { "id": "sph15", "ustId": "sp4", "metin": "YSK kararlarına karşı başka bir mercie başvurulamaz." }
           ]
         }
       ]
