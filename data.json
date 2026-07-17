@@ -5841,6 +5841,81 @@
           ]
         }
       ]
+    },
+    {
+      "id": "guncel-bilgiler",
+      "baslik": "Güncel Bilgiler",
+      "aktif": true,
+      "bolumler": [
+        {
+          "id": "turkiye-gundemi-2025-2026",
+          "baslik": "Türkiye Gündemi (2025-2026)",
+          "mod": "havuz",
+          "ust": [
+            { "id": "tg1", "metin": "Savunma Sanayii" },
+            { "id": "tg2", "metin": "Uzay ve Teknoloji" },
+            { "id": "tg3", "metin": "Kültür, Turizm ve Miras" },
+            { "id": "tg4", "metin": "Spor" }
+          ],
+          "havuz": [
+            { "id": "tgh1", "ustId": "tg1", "metin": "Bayraktar KIZILELMA, görüş ötesi hava-hava füzesiyle jet motorlu bir hava hedefini vuran dünyadaki ilk insansız savaş uçağı oldu (2025)." },
+            { "id": "tgh2", "ustId": "tg1", "metin": "IDEF 2025'te milli ramjet motorlu hava-hava füzesi GÖKHAN kamuoyuna tanıtıldı." },
+            { "id": "tgh3", "ustId": "tg1", "metin": "ALTAY tankının seri üretileceği BMC Kahramankazan tesisi açıldı, ilk teslimatlar yapıldı." },
+            { "id": "tgh4", "ustId": "tg1", "metin": "ASELSAN ve Roketsan ile Çelik Kubbe bileşenlerini de içeren 6,5 milyar dolarlık seri üretim sözleşmeleri imzalandı (Kasım 2025)." },
+            { "id": "tgh5", "ustId": "tg2", "metin": "Türkiye'nin LUNA-1 uydusu, SpaceX Transporter-15 aracılığıyla 28 Kasım 2025'te uzaya fırlatıldı." },
+            { "id": "tgh6", "ustId": "tg2", "metin": "1,5 ton faydalı yük taşıyabilen sıvı yakıtlı uydu fırlatma aracı ŞİMŞEK-2, IDEF 2025'te tanıtıldı." },
+            { "id": "tgh7", "ustId": "tg2", "metin": "Türkiye, 2026 Uzay Kongresi'ne (Space Congress) ev sahipliği yapacak." },
+            { "id": "tgh8", "ustId": "tg2", "metin": "TEKNOFEST Mavi Vatan, 27-30 Ağustos 2026'da Kocaeli Gölcük Deniz Üs Komutanlığı'nda düzenlenecek." },
+            { "id": "tgh9", "ustId": "tg3", "metin": "Sardes Antik Kenti ve Bin Tepe Lidya Tümülüleri, 2025'te UNESCO Dünya Mirası Listesi'ne eklendi." },
+            { "id": "tgh10", "ustId": "tg3", "metin": "Türkiye'nin UNESCO Dünya Mirası Listesi'ndeki alan sayısı 22'ye yükseldi (20 kültürel, 2 karma miras)." },
+            { "id": "tgh11", "ustId": "tg3", "metin": "Kayseri Pastırması, Mart 2026'da AB'den coğrafi işaret tescili alarak Türkiye'nin 46. tescilli ürünü oldu." },
+            { "id": "tgh12", "ustId": "tg3", "metin": "Ankara, 2026 yılı Türk Dünyası Turizm Başkenti unvanını resmen devraldı." },
+            { "id": "tgh13", "ustId": "tg4", "metin": "2026 UEFA Avrupa Ligi finali, İstanbul'daki Beşiktaş Park Stadyumu'nda oynandı." },
+            { "id": "tgh14", "ustId": "tg4", "metin": "Türkiye, 2027-2031 döneminde Formula 1 yarışlarına yeniden ev sahipliği yapacak." }
+          ]
+        },
+        {
+          "id": "dunya-gundemi-2025-2026",
+          "baslik": "Dünya Gündemi ve Uluslararası İlişkiler (2025-2026)",
+          "mod": "havuz",
+          "ust": [
+            { "id": "dg1", "metin": "Zirveler ve Uluslararası Kuruluşlar" },
+            { "id": "dg2", "metin": "Kültür Başkentleri ve Spor (Dünya)" }
+          ],
+          "havuz": [
+            { "id": "dgh1", "ustId": "dg1", "metin": "2025 G20 Zirvesi'ne Güney Afrika ev sahipliği yaptı; Afrika kıtasında düzenlenen ilk G20 zirvesiydi (Johannesburg)." },
+            { "id": "dgh2", "ustId": "dg1", "metin": "2026 G20 dönem başkanlığını ABD üstlendi; zirvenin Miami'de yapılması planlanıyor." },
+            { "id": "dgh3", "ustId": "dg1", "metin": "COP31 İklim Zirvesi'nin Kasım 2026'da düzenlenmesi planlanıyor." },
+            { "id": "dgh4", "ustId": "dg2", "metin": "Özbekistan'ın Andican şehri, 2026 Türk Dünyası Kültür Başkenti ilan edildi." },
+            { "id": "dgh5", "ustId": "dg2", "metin": "Slovakya'nın Trenčín şehri, 2026 Avrupa Kültür Başkentlerinden biri seçildi." },
+            { "id": "dgh6", "ustId": "dg2", "metin": "2026 UEFA Şampiyonlar Ligi Finali, Budapeşte'deki Puskás Aréna'da oynandı; kupayı Paris Saint-Germain (PSG) kazandı." }
+          ]
+        },
+        {
+          "id": "2025-nobel-odulleri",
+          "baslik": "2025 Nobel Ödülleri",
+          "mod": "havuz",
+          "ust": [
+            { "id": "nb1", "metin": "Nobel Fizik Ödülü" },
+            { "id": "nb2", "metin": "Nobel Kimya Ödülü" },
+            { "id": "nb3", "metin": "Nobel Tıp Ödülü" },
+            { "id": "nb4", "metin": "Nobel Edebiyat Ödülü" },
+            { "id": "nb5", "metin": "Nobel Barış Ödülü" },
+            { "id": "nb6", "metin": "Nobel Ekonomi Ödülü (Anma Ödülü)" }
+          ],
+          "havuz": [
+            { "id": "nbh1", "ustId": "nb1", "metin": "John Clarke, Michel H. Devoret ve John M. Martinis'e verildi." },
+            { "id": "nbh2", "ustId": "nb1", "metin": "Elektrik devrelerinde makroskobik kuantum tünelleme ve enerji kuantalanması etkilerinin gözlemlenmesiyle kazanıldı." },
+            { "id": "nbh3", "ustId": "nb2", "metin": "Susumu Kitagawa, Richard Robson ve Omar M. Yaghi'ye verildi." },
+            { "id": "nbh4", "ustId": "nb2", "metin": "Metal-organik yapılar (MOF) üzerine yapılan çalışmalarla kazanıldı." },
+            { "id": "nbh5", "ustId": "nb3", "metin": "Mary E. Brunkow, Fred Ramsdell ve Shimon Sakaguchi arasında paylaştırıldı." },
+            { "id": "nbh6", "ustId": "nb3", "metin": "Bağışıklık sisteminin kendi dokularına saldırmasını önleyen düzenleyici T hücreleri (Treg) üzerine yapılan çalışmayla kazanıldı." },
+            { "id": "nbh7", "ustId": "nb4", "metin": "Macar yazar László Krasznahorkai'ye verildi." },
+            { "id": "nbh8", "ustId": "nb5", "metin": "Venezuelalı muhalefet lideri María Corina Machado'ya verildi." },
+            { "id": "nbh9", "ustId": "nb6", "metin": "Joel Mokyr, Philippe Aghion ve Peter Howitt arasında paylaştırıldı." }
+          ]
+        }
+      ]
     }
   ]
 }
