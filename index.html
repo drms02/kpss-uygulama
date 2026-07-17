@@ -76,6 +76,11 @@
   .geri-linki .ok{ font-size:15px; line-height:1; }
 
   /* --- kapı kartları: ders / bölüm seçimi --- */
+  .bolum-grup-baslik{
+    font-family:'Cinzel', serif; font-size:13px; letter-spacing:2px; text-transform:uppercase;
+    color: var(--altin); margin: 30px 0 4px; padding-bottom:8px; border-bottom:1px solid var(--kenar);
+  }
+  .bolum-grup-baslik:first-child{ margin-top:0; }
   .kapi-listesi{ display:flex; flex-direction:column; gap:10px; margin-top:20px; }
   .kapi{
     background: var(--zift-panel); border:1px solid var(--kenar);
@@ -354,27 +359,45 @@
     document.getElementById('anaAltbaslik').textContent = 'Bir bölüm seç.';
     geriLinkiCiz('Derslere dön', dersSecimineGit);
 
-    const kap = document.createElement('div');
-    kap.className = 'kapi-listesi';
+    const disKap = document.createElement('div');
+
+    const gruplar = new Map();
     ders.bolumler.forEach(bolum => {
-      let dolu, detay;
-      if(bolum.mod === 'havuz' || bolum.mod === 'cift-havuz'){
-        dolu = bolum.ust.length > 0 && bolum.havuz.length > 0;
-        detay = dolu ? `${bolum.ust.length} sabit · ${bolum.havuz.length} madde` : 'veri bekleniyor';
-      } else if(bolum.mod === 'harita'){
-        dolu = bolum.noktalar.length > 0;
-        detay = dolu ? `${bolum.noktalar.length} nokta` : 'veri bekleniyor';
-      } else {
-        dolu = bolum.pairs.length > 0;
-        detay = dolu ? `${bolum.pairs.length} çift` : 'veri bekleniyor';
-      }
-      const el = document.createElement('div');
-      el.className = 'kapi' + (dolu ? '' : ' kilitli');
-      el.innerHTML = `<span class="kapi-baslik">${bolum.baslik}</span><span class="kapi-detay">${detay}</span>`;
-      if(dolu) el.onclick = () => oyunaGit(dersId, bolum.id);
-      kap.appendChild(el);
+      const anahtar = bolum.kategori || '';
+      if(!gruplar.has(anahtar)) gruplar.set(anahtar, []);
+      gruplar.get(anahtar).push(bolum);
     });
-    icerigiDegistir(kap);
+
+    gruplar.forEach((bolumler, kategori) => {
+      if(kategori){
+        const baslikEl = document.createElement('div');
+        baslikEl.className = 'bolum-grup-baslik';
+        baslikEl.textContent = kategori;
+        disKap.appendChild(baslikEl);
+      }
+      const kap = document.createElement('div');
+      kap.className = 'kapi-listesi';
+      bolumler.forEach(bolum => {
+        let dolu, detay;
+        if(bolum.mod === 'havuz' || bolum.mod === 'cift-havuz'){
+          dolu = bolum.ust.length > 0 && bolum.havuz.length > 0;
+          detay = dolu ? `${bolum.ust.length} sabit · ${bolum.havuz.length} madde` : 'veri bekleniyor';
+        } else if(bolum.mod === 'harita'){
+          dolu = bolum.noktalar.length > 0;
+          detay = dolu ? `${bolum.noktalar.length} nokta` : 'veri bekleniyor';
+        } else {
+          dolu = bolum.pairs.length > 0;
+          detay = dolu ? `${bolum.pairs.length} çift` : 'veri bekleniyor';
+        }
+        const el = document.createElement('div');
+        el.className = 'kapi' + (dolu ? '' : ' kilitli');
+        el.innerHTML = `<span class="kapi-baslik">${bolum.baslik}</span><span class="kapi-detay">${detay}</span>`;
+        if(dolu) el.onclick = () => oyunaGit(dersId, bolum.id);
+        kap.appendChild(el);
+      });
+      disKap.appendChild(kap);
+    });
+    icerigiDegistir(disKap);
   }
 
   function oyunaGit(dersId, bolumId){

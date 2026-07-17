@@ -8,6 +8,7 @@
         {
           "id": "islamiyet-oncesi-turk-tarihi",
           "baslik": "İslamiyet Öncesi Türk Tarihi",
+          "kategori": "İslamiyet Öncesi ve İlk Türk-İslam Devletleri",
           "mod": "havuz",
           "ust": [
             {
@@ -272,6 +273,7 @@
         {
           "id": "ilk-turk-islam-devletleri",
           "baslik": "İlk Türk-İslam Devletleri",
+          "kategori": "İslamiyet Öncesi ve İlk Türk-İslam Devletleri",
           "mod": "havuz",
           "ust": [
             {
@@ -596,6 +598,7 @@
         {
           "id": "turk-islam-kultur-medeniyet",
           "baslik": "Türk-İslam Kültür ve Medeniyeti",
+          "kategori": "İslamiyet Öncesi ve İlk Türk-İslam Devletleri",
           "mod": "havuz",
           "ust": [
             {
@@ -830,6 +833,7 @@
         {
           "id": "padisah-islahat",
           "baslik": "Kuruluş Dönemi: Padişahlar",
+          "kategori": "Osmanlı Devleti",
           "mod": "havuz",
           "ust": [
             {
@@ -1134,6 +1138,7 @@
         {
           "id": "yukselme-donemi-padisahlar",
           "baslik": "Yükselme Dönemi: Padişahlar",
+          "kategori": "Osmanlı Devleti",
           "mod": "havuz",
           "ust": [
             {
@@ -1318,6 +1323,7 @@
         {
           "id": "duraklama-donemi-padisahlar",
           "baslik": "Duraklama Dönemi: Padişahlar",
+          "kategori": "Osmanlı Devleti",
           "mod": "havuz",
           "ust": [
             {
@@ -1522,6 +1528,7 @@
         {
           "id": "gerileme-donemi-padisahlar",
           "baslik": "Gerileme Dönemi: Padişahlar",
+          "kategori": "Osmanlı Devleti",
           "mod": "havuz",
           "ust": [
             {
@@ -1716,6 +1723,7 @@
         {
           "id": "dagilma-donemi-padisahlar",
           "baslik": "Dağılma Dönemi: Padişahlar",
+          "kategori": "Osmanlı Devleti",
           "mod": "havuz",
           "ust": [
             {
@@ -1915,6 +1923,7 @@
         {
           "id": "savaslar",
           "baslik": "Savaşlar",
+          "kategori": "Osmanlı Devleti",
           "mod": "havuz",
           "ust": [
             {
@@ -1982,6 +1991,7 @@
         {
           "id": "askeri-teskilat",
           "baslik": "Askeri Teşkilat: Eyalet ve Kapıkulu Askerleri",
+          "kategori": "Osmanlı Devleti",
           "mod": "havuz",
           "ust": [
             {
@@ -2094,57 +2104,39 @@
         {
           "id": "antlasmalar",
           "baslik": "Antlaşmalar ve Sonuçları",
-          "mod": "liste",
-          "pairs": [
-            {
-              "left": "Prut Antlaşması (1711)",
-              "right": "Ruslardan Azak Kalesi geri alındı; Rusya'nın İstanbul'da daimi elçi bulundurma hakkı engellendi"
-            },
-            {
-              "left": "Pasarofça Antlaşması (1718)",
-              "right": "Avrupa'nın üstünlüğü kabul edildi; ilk defa Batı örnek alınarak Lale Devri ıslahatları başladı"
-            },
-            {
-              "left": "İstanbul Antlaşması (1724)",
-              "right": "Osmanlı ile Rusya arasındaki ilk ittifak antlaşması; İran'a karşı yapıldı"
-            },
-            {
-              "left": "Ahmet Paşa Antlaşması (1732)",
-              "right": "Osmanlı-İran Savaşı'nı bitirdi; sınır, ticaret ve hac-elçi düzenlemeleri yapıldı"
-            },
-            {
-              "left": "Belgrad Antlaşması (1739)",
-              "right": "Karadeniz'deki Türk egemenliğini son defa onaylayan, Osmanlı'nın imzaladığı son kazançlı antlaşma"
-            },
-            {
-              "left": "Kerden Antlaşması (1746)",
-              "right": "2. Kasr-ı Şirin Antlaşması olarak da bilinir"
-            },
-            {
-              "left": "Aynalıkavak Tenkihnamesi (1779)",
-              "right": "Rus yanlısı Şahin Giray'ın Kırım Hanı olarak tanındığı antlaşma"
-            },
-            {
-              "left": "Ziştovi Antlaşması (1791)",
-              "right": "Avusturya ile yapıldı; imzalanmasında Fransız İhtilali etkili oldu"
-            },
-            {
-              "left": "Yaş Antlaşması (1792)",
-              "right": "Kırım Rusya'ya bağlandı"
-            },
-            {
-              "left": "Trablusgarp Antlaşması (1795)",
-              "right": "Cezayir Beylerbeyi Hasan Paşa ile ABD arasında yapıldı; ABD'nin ilk defa yabancı bir devlete vergi ödemeyi kabul ettiği antlaşma"
-            },
-            {
-              "left": "El Ariş Antlaşması (1801)",
-              "right": "Fransa'dan Mısır geri alındı; Osmanlı ilk defa denge siyaseti uyguladı"
-            }
+          "kategori": "Osmanlı Devleti",
+          "mod": "havuz",
+          "ust": [
+            { "id": "at1", "metin": "Prut Antlaşması (1711)" },
+            { "id": "at2", "metin": "Pasarofça Antlaşması (1718)" },
+            { "id": "at3", "metin": "İstanbul Antlaşması (1724)" },
+            { "id": "at4", "metin": "Ahmet Paşa Antlaşması (1732)" },
+            { "id": "at5", "metin": "Belgrad Antlaşması (1739)" },
+            { "id": "at6", "metin": "Kerden Antlaşması (1746)" },
+            { "id": "at7", "metin": "Aynalıkavak Tenkihnamesi (1779)" },
+            { "id": "at8", "metin": "Ziştovi Antlaşması (1791)" },
+            { "id": "at9", "metin": "Yaş Antlaşması (1792)" },
+            { "id": "at10", "metin": "Trablusgarp Antlaşması (1795)" },
+            { "id": "at11", "metin": "El Ariş Antlaşması (1801)" }
+          ],
+          "havuz": [
+            { "id": "ath1", "ustId": "at1", "metin": "Ruslardan Azak Kalesi geri alındı; Rusya'nın İstanbul'da daimi elçi bulundurma hakkı engellendi" },
+            { "id": "ath2", "ustId": "at2", "metin": "Avrupa'nın üstünlüğü kabul edildi; ilk defa Batı örnek alınarak Lale Devri ıslahatları başladı" },
+            { "id": "ath3", "ustId": "at3", "metin": "Osmanlı ile Rusya arasındaki ilk ittifak antlaşması; İran'a karşı yapıldı" },
+            { "id": "ath4", "ustId": "at4", "metin": "Osmanlı-İran Savaşı'nı bitirdi; sınır, ticaret ve hac-elçi düzenlemeleri yapıldı" },
+            { "id": "ath5", "ustId": "at5", "metin": "Karadeniz'deki Türk egemenliğini son defa onaylayan, Osmanlı'nın imzaladığı son kazançlı antlaşma" },
+            { "id": "ath6", "ustId": "at6", "metin": "2. Kasr-ı Şirin Antlaşması olarak da bilinir" },
+            { "id": "ath7", "ustId": "at7", "metin": "Rus yanlısı Şahin Giray'ın Kırım Hanı olarak tanındığı antlaşma" },
+            { "id": "ath8", "ustId": "at8", "metin": "Avusturya ile yapıldı; imzalanmasında Fransız İhtilali etkili oldu" },
+            { "id": "ath9", "ustId": "at9", "metin": "Kırım Rusya'ya bağlandı" },
+            { "id": "ath10", "ustId": "at10", "metin": "Cezayir Beylerbeyi Hasan Paşa ile ABD arasında yapıldı; ABD'nin ilk defa yabancı bir devlete vergi ödemeyi kabul ettiği antlaşma" },
+            { "id": "ath11", "ustId": "at11", "metin": "Fransa'dan Mısır geri alındı; Osmanlı ilk defa denge siyaseti uyguladı" }
           ]
         },
         {
           "id": "eser-yazar",
           "baslik": "Eser - Yazar Eşleştirmesi",
+          "kategori": "Osmanlı Devleti",
           "mod": "cift-havuz",
           "ustEtiket": "Yazarlar",
           "altEtiket": "Eserler",
@@ -2336,6 +2328,7 @@
         {
           "id": "devlet-teskilati",
           "baslik": "Devlet Teşkilatı Sınıflandırması",
+          "kategori": "Osmanlı Devleti",
           "mod": "havuz",
           "ust": [
             {
@@ -2442,6 +2435,7 @@
         {
           "id": "devlet-gorevlileri",
           "baslik": "Devlet Teşkilatı: Görevliler ve Görevleri",
+          "kategori": "Osmanlı Devleti",
           "mod": "cift-havuz",
           "ustEtiket": "Görevliler",
           "altEtiket": "Görevler",
@@ -2606,6 +2600,7 @@
         {
           "id": "20-yuzyil-osmanli",
           "baslik": "20. Yüzyılda Osmanlı: Genelgeler ve Kongreler",
+          "kategori": "Osmanlı Devleti",
           "mod": "havuz",
           "ust": [
             {
@@ -2740,6 +2735,7 @@
         {
           "id": "osmanli-kultur-medeniyet",
           "baslik": "Osmanlı Kültür ve Medeniyeti",
+          "kategori": "Osmanlı Devleti",
           "mod": "havuz",
           "ust": [
             {
@@ -3019,6 +3015,7 @@
         {
           "id": "milli-mucadele-cepheler",
           "baslik": "Milli Mücadele: Cepheler ve Barış Antlaşmaları",
+          "kategori": "Milli Mücadele ve Atatürk Dönemi",
           "mod": "havuz",
           "ust": [
             {
@@ -3223,6 +3220,7 @@
         {
           "id": "ataturk-inkilaplari",
           "baslik": "Atatürk İnkılapları",
+          "kategori": "Milli Mücadele ve Atatürk Dönemi",
           "mod": "havuz",
           "ust": [
             {
@@ -3432,6 +3430,7 @@
         {
           "id": "cok-partili-donem",
           "baslik": "Çok Partili Dönem: İnönü ve Demokrat Parti",
+          "kategori": "Cumhuriyet Dönemi Türkiye'si",
           "mod": "havuz",
           "ust": [
             {
@@ -3671,6 +3670,7 @@
         {
           "id": "soguk-savas-donemi",
           "baslik": "Soğuk Savaş Döneminde Türkiye ve Dünya",
+          "kategori": "Cumhuriyet Dönemi Türkiye'si",
           "mod": "havuz",
           "ust": [
             {
@@ -3985,6 +3985,7 @@
         {
           "id": "kureselesen-dunya",
           "baslik": "Küreselleşen Dünya",
+          "kategori": "Cumhuriyet Dönemi Türkiye'si",
           "mod": "havuz",
           "ust": [
             {
