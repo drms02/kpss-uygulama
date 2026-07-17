@@ -192,6 +192,13 @@
   }
   .ipucu-btn.aktif:hover{ background: rgba(201,162,39,0.22); transform: translateY(-1px); }
   .ipucu-btn.aktif:active{ transform: translateY(0); }
+  .ipucu-metin{
+    display:none; font-family:'IBM Plex Mono', monospace; font-size:12.5px;
+    color:var(--altin-parlak); background:rgba(201,162,39,0.1);
+    border:1px solid rgba(201,162,39,0.3); border-radius:8px;
+    padding:10px 14px; margin:-10px 0 20px; line-height:1.4;
+  }
+  .ipucu-metin.goster{ display:block; }
   .harita-havuz-izgara{
     display:grid; grid-template-columns: repeat(3, 1fr); gap:8px;
   }
@@ -435,6 +442,8 @@
   let hAsamaToplam = 0, hAsamaTamamlanan = 0, hDeneme = 0, hDogruSayisi = 0;
   let hFaz = 'ilk', hHataliIdSet = new Set();
   let hSeciliUst = null, hSeciliMadde = null, hKilitli = false;
+  const H_IPUCU_BASLANGIC = 5;
+  let hIpucuHakki = H_IPUCU_BASLANGIC, hIpucuVarMi = false;
 
   function havuzOyunuKur(bolum){
     hUst = bolum.ust;
@@ -444,6 +453,8 @@
     hDeneme = 0; hDogruSayisi = 0;
     hFaz = 'ilk'; hHataliIdSet = new Set();
     hSeciliUst = null; hSeciliMadde = null; hKilitli = false;
+    hIpucuHakki = H_IPUCU_BASLANGIC;
+    hIpucuVarMi = hUst.some(u => u.ipucu);
 
     hGorunen = hHavuzKalan.splice(0, hUst.length);
 
@@ -458,6 +469,8 @@
         <div class="havuz-etiket">Sabit liste</div>
         <div class="kart-izgara" id="hUstIzgara"></div>
       </div>
+      ${hIpucuVarMi ? `<button class="ipucu-btn" id="hIpucuBtn" onclick="hIpucuVer()" title="Seçtiğin maddenin sahibi padişah hakkında ipucu göster">💡 İpucu Göster <span id="hIpucuSayi"></span></button>
+      <div class="ipucu-metin" id="hIpucuMetin"></div>` : ''}
       <div class="havuz-blok">
         <div class="havuz-etiket" id="hAltEtiket">Havuzdan gelen maddeler</div>
         <div class="kart-izgara" id="hAltIzgara"></div>
@@ -473,6 +486,7 @@
     hUstIzgaraCiz();
     hAltIzgaraCiz();
     hDurumGuncelle();
+    hIpucuDurumGuncelle();
   }
 
   function hUstIzgaraCiz(){
@@ -510,6 +524,7 @@
     hSeciliUst = { el, id: ustId };
     el.classList.add('secili');
     hKontrolEt();
+    hIpucuDurumGuncelle();
   }
 
   function hMaddeSecildi(el, ogr){
@@ -517,13 +532,17 @@
     if(hSeciliMadde) hSeciliMadde.el.classList.remove('secili');
     hSeciliMadde = { el, ogr };
     el.classList.add('secili');
+    hIpucuGizle();
     hKontrolEt();
+    hIpucuDurumGuncelle();
   }
 
   function hKontrolEt(){
     if(!hSeciliUst || !hSeciliMadde) return;
     hDeneme++;
     hKilitli = true;
+    hIpucuGizle();
+    hIpucuDurumGuncelle();
     const dogruMu = hSeciliUst.id === hSeciliMadde.ogr.ustId;
     const ustEl = hSeciliUst.el, maddeEl = hSeciliMadde.el;
 
@@ -543,6 +562,7 @@
           hAltIzgaraCiz();
           hSeciliUst = null; hSeciliMadde = null; hKilitli = false;
           hDurumGuncelle();
+          hIpucuDurumGuncelle();
           if(hAsamaTamamlanan === hAsamaToplam) hFazBitti();
         }, 260);
       } else {
@@ -554,6 +574,7 @@
           maddeEl.classList.remove('secili','yanlis-titre');
           hSeciliUst = null; hSeciliMadde = null; hKilitli = false;
           hDurumGuncelle();
+          hIpucuDurumGuncelle();
         }, 380);
       }
     }, dogruMu ? 200 : 420);
@@ -566,6 +587,34 @@
     document.getElementById('hDenemeMetni').textContent = `✓ ${hDogruSayisi}   ✗ ${yanlisSayisi}`;
     const yuzde = hAsamaToplam ? Math.round((hAsamaTamamlanan / hAsamaToplam) * 100) : 0;
     document.getElementById('hIlerleme').style.width = yuzde + '%';
+  }
+
+  // Seçili maddenin sahibi padişahın en bilindik özelliğini (lakabını) gösterir;
+  // kartı doğrudan işaretlemez, kullanıcı yine kendi eşleştirmesini yapmalıdır.
+  function hIpucuVer(){
+    if(hKilitli || !hSeciliMadde || hIpucuHakki <= 0) return;
+    const hedefUst = hUst.find(u => u.id === hSeciliMadde.ogr.ustId);
+    if(!hedefUst || !hedefUst.ipucu) return;
+    hIpucuHakki--;
+    const kutu = document.getElementById('hIpucuMetin');
+    if(kutu){
+      kutu.textContent = '💡 ' + hedefUst.ipucu;
+      kutu.classList.add('goster');
+    }
+    hIpucuDurumGuncelle();
+  }
+
+  function hIpucuGizle(){
+    const kutu = document.getElementById('hIpucuMetin');
+    if(kutu){ kutu.textContent = ''; kutu.classList.remove('goster'); }
+  }
+
+  function hIpucuDurumGuncelle(){
+    const btn = document.getElementById('hIpucuBtn');
+    if(!btn) return;
+    document.getElementById('hIpucuSayi').textContent = hIpucuHakki;
+    const aktif = !!hSeciliMadde && hIpucuHakki > 0 && !hKilitli;
+    btn.classList.toggle('aktif', aktif);
   }
 
   // İlk tur bitince yanlış yapılan maddeler varsa bir tekrar turu başlatır;

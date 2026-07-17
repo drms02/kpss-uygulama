@@ -6,33 +6,861 @@
       "aktif": true,
       "bolumler": [
         {
+          "id": "islamiyet-oncesi-turk-tarihi",
+          "baslik": "İslamiyet Öncesi Türk Tarihi",
+          "mod": "havuz",
+          "ust": [
+            {
+              "id": "io1",
+              "metin": "Asya Hun Devleti",
+              "ipucu": "Mete Han'ın onlu sistemle ilk düzenli Türk ordusunu kurduğu devlettir"
+            },
+            {
+              "id": "io2",
+              "metin": "Avrupa Hun Devleti",
+              "ipucu": "Attila liderliğinde Doğu Roma'yı vergiye bağlayan, \"Tanrı'nın Kırbacı\" olarak anılan devlettir"
+            },
+            {
+              "id": "io3",
+              "metin": "Göktürk Devleti",
+              "ipucu": "Adında \"Türk\" adını kullanan ilk devlettir; Orhun Abideleri'ni bırakmıştır"
+            },
+            {
+              "id": "io4",
+              "metin": "Uygur Devleti",
+              "ipucu": "Yerleşik hayata geçen, Mani dinini kabul eden ilk Türk devletidir"
+            },
+            {
+              "id": "io5",
+              "metin": "Genel Türk Devlet Anlayışı / Bozkır Kültürü",
+              "ipucu": "Devletin hükümdar ailesinin ortak malı sayıldığı \"kut\" anlayışına dayanan yönetim sistemidir"
+            }
+          ],
+          "havuz": [
+            {
+              "id": "ioh1",
+              "ustId": "io1",
+              "metin": "Bilinen ilk teşkilatlı ve düzenli Türk devletidir."
+            },
+            {
+              "id": "ioh2",
+              "ustId": "io1",
+              "metin": "Teoman'dan sonra tahta çıkan Mete Han döneminde (MÖ 209'dan itibaren) en güçlü dönemini yaşamıştır."
+            },
+            {
+              "id": "ioh3",
+              "ustId": "io1",
+              "metin": "Mete Han, onlu-yüzlü-binli-tümenli birliklerden oluşan onlu sistemi kurarak ilk düzenli Türk ordusunu oluşturmuştur."
+            },
+            {
+              "id": "ioh4",
+              "ustId": "io1",
+              "metin": "\"Ordu-millet\" anlayışının ilk uygulandığı devlettir."
+            },
+            {
+              "id": "ioh5",
+              "ustId": "io1",
+              "metin": "Mete Han, Çin İmparatorluğu'nu yıllık vergiye bağlamıştır."
+            },
+            {
+              "id": "ioh6",
+              "ustId": "io1",
+              "metin": "Orta Asya'daki dağınık Türk boylarını ilk kez siyasi birlik altında toplamıştır."
+            },
+            {
+              "id": "ioh7",
+              "ustId": "io1",
+              "metin": "İpek Yolu'nun önemli bir bölümünü egemenliği altına almıştır."
+            },
+            {
+              "id": "ioh8",
+              "ustId": "io1",
+              "metin": "Zamanla Çin baskısı ve iç karışıklıklar sonucu zayıflayarak parçalanmıştır."
+            },
+            {
+              "id": "ioh9",
+              "ustId": "io2",
+              "metin": "Kavimler Göçü sürecinde Balamir önderliğinde Avrupa'da kurulmuştur."
+            },
+            {
+              "id": "ioh10",
+              "ustId": "io2",
+              "metin": "En güçlü ve en geniş sınırlarına Attila döneminde ulaşmıştır."
+            },
+            {
+              "id": "ioh11",
+              "ustId": "io2",
+              "metin": "Attila, Doğu Roma (Bizans) İmparatorluğu'nu vergiye bağlamıştır."
+            },
+            {
+              "id": "ioh12",
+              "ustId": "io2",
+              "metin": "Attila'ya Avrupalılar tarafından \"Tanrı'nın Kırbacı\" (Flagellum Dei) unvanı verilmiştir."
+            },
+            {
+              "id": "ioh13",
+              "ustId": "io2",
+              "metin": "Attila'nın Batı Roma üzerine düzenlediği sefer, 451 yılındaki Katalon (Kataláunum) Savaşı'nda Roma-Germen ittifakı karşısında geri çekilmesiyle sonuçlanmıştır."
+            },
+            {
+              "id": "ioh14",
+              "ustId": "io2",
+              "metin": "Rivayete göre Attila'nın İtalya seferini yarıda kesip geri dönmesi, Papa I. Leo ile yaptığı görüşmeyle ilişkilendirilir."
+            },
+            {
+              "id": "ioh15",
+              "ustId": "io2",
+              "metin": "Hunların Karadeniz'in kuzeyindeki Germen kavimlerini batıya itmesi, Kavimler Göçü'nün başlamasına neden olmuştur."
+            },
+            {
+              "id": "ioh16",
+              "ustId": "io2",
+              "metin": "Attila'nın ölümünden sonra devlet, oğulları arasındaki taht kavgaları yüzünden kısa sürede dağılmıştır."
+            },
+            {
+              "id": "ioh17",
+              "ustId": "io2",
+              "metin": "Avrupa'da kurulan ilk Türk devleti olarak kabul edilir."
+            },
+            {
+              "id": "ioh18",
+              "ustId": "io3",
+              "metin": "552 yılında Bumin Kağan tarafından, Avarları (Juan-juanları) yıkarak kurulmuştur."
+            },
+            {
+              "id": "ioh19",
+              "ustId": "io3",
+              "metin": "Adında \"Türk\" adını taşıyan bilinen ilk devlettir."
+            },
+            {
+              "id": "ioh20",
+              "ustId": "io3",
+              "metin": "I. Göktürk Devleti, doğu ve batı olmak üzere ikili teşkilat sistemiyle yönetilmiştir."
+            },
+            {
+              "id": "ioh21",
+              "ustId": "io3",
+              "metin": "Çin baskısı sonucu zayıflayan I. Göktürk Devleti'nin ardından İlteriş (Kutluk) Kağan, 682 yılında II. Göktürk (Kutluk) Devleti'ni kurmuştur."
+            },
+            {
+              "id": "ioh22",
+              "ustId": "io3",
+              "metin": "II. Göktürk Devleti'nin en güçlü dönemi Bilge Kağan, kardeşi Kültigin ve Vezir Tonyukuk zamanında yaşanmıştır."
+            },
+            {
+              "id": "ioh23",
+              "ustId": "io3",
+              "metin": "Bilge Kağan, Kültigin ve Tonyukuk adına diktirilen Orhun Abideleri, Türk adının geçtiği ilk yazılı Türkçe metinlerdir."
+            },
+            {
+              "id": "ioh24",
+              "ustId": "io3",
+              "metin": "Göktürkler, 38 harfli Köktürk (Orhun) alfabesini kullanmışlardır."
+            },
+            {
+              "id": "ioh25",
+              "ustId": "io3",
+              "metin": "II. Göktürk Devleti, 745 yılında Uygur, Karluk ve Basmil ittifakı tarafından yıkılmıştır."
+            },
+            {
+              "id": "ioh26",
+              "ustId": "io3",
+              "metin": "Göktürkler döneminde Kurultay (Toy) ve töre, devlet yönetiminin temel unsurlarıydı."
+            },
+            {
+              "id": "ioh27",
+              "ustId": "io4",
+              "metin": "745 yılında II. Göktürk Devleti'ni yıkan Kutluk Bilge Kül Kağan tarafından kurulmuştur."
+            },
+            {
+              "id": "ioh28",
+              "ustId": "io4",
+              "metin": "Başkenti Karabalgasun'dur (Ordu-Balık)."
+            },
+            {
+              "id": "ioh29",
+              "ustId": "io4",
+              "metin": "Yerleşik hayata geçen ilk Türk devleti olarak bilinir."
+            },
+            {
+              "id": "ioh30",
+              "ustId": "io4",
+              "metin": "Bögü Kağan döneminde Mani dinini kabul etmişlerdir."
+            },
+            {
+              "id": "ioh31",
+              "ustId": "io4",
+              "metin": "Mani dininin et yemeyi ve savaşmayı yasaklaması nedeniyle Uygurların savaşçı özellikleri zamanla zayıflamıştır."
+            },
+            {
+              "id": "ioh32",
+              "ustId": "io4",
+              "metin": "Matbaayı kullanan ilk Türk topluluğudur."
+            },
+            {
+              "id": "ioh33",
+              "ustId": "io4",
+              "metin": "Kağıt üretiminde ve minyatür (resim) sanatında ileri gitmişlerdir."
+            },
+            {
+              "id": "ioh34",
+              "ustId": "io4",
+              "metin": "18 harfli, yukarıdan aşağıya yazılan Uygur alfabesini geliştirmişlerdir."
+            },
+            {
+              "id": "ioh35",
+              "ustId": "io4",
+              "metin": "Yerleşik hayata geçmeleriyle tapınak ve saray gibi mimari eserler inşa etmişlerdir."
+            },
+            {
+              "id": "ioh36",
+              "ustId": "io4",
+              "metin": "840 yılında Kırgızlar tarafından yıkılmış, halkının bir kısmı Turfan ve Kansu bölgelerine göç etmiştir."
+            },
+            {
+              "id": "ioh37",
+              "ustId": "io5",
+              "metin": "Hükümdarlık yetkisinin Gök Tanrı tarafından verildiğine inanılan \"kut\" anlayışı hakimdi."
+            },
+            {
+              "id": "ioh38",
+              "ustId": "io5",
+              "metin": "Ülke, hanedanın ortak malı sayılırdı; bu anlayış sık taht kavgalarına ve devletlerin bölünmesine neden olmuştur."
+            },
+            {
+              "id": "ioh39",
+              "ustId": "io5",
+              "metin": "Devlet işlerinin görüşüldüğü danışma meclisine Kurultay (Toy) denirdi."
+            },
+            {
+              "id": "ioh40",
+              "ustId": "io5",
+              "metin": "Ülke genellikle doğu-batı (sağ-sol) olmak üzere ikili teşkilat sistemiyle yönetilirdi."
+            },
+            {
+              "id": "ioh41",
+              "ustId": "io5",
+              "metin": "Yazılı olmayan Türk hukuk kurallarının bütününe töre denirdi."
+            },
+            {
+              "id": "ioh42",
+              "ustId": "io5",
+              "metin": "\"Ordu-millet\" anlayışına göre halk, barış zamanında üretici, savaş zamanında asker konumundaydı."
+            },
+            {
+              "id": "ioh43",
+              "ustId": "io5",
+              "metin": "Mete Han tarafından kurulan onlu sistem, askeri ve idari teşkilatlanmanın temelini oluşturmuştur."
+            },
+            {
+              "id": "ioh44",
+              "ustId": "io5",
+              "metin": "Ekonomi, konar-göçer hayvancılığa (özellikle at ve koyun yetiştiriciliğine) dayanıyordu."
+            },
+            {
+              "id": "ioh45",
+              "ustId": "io5",
+              "metin": "Ölen kişiler, kurgan adı verilen mezarlara kişisel eşyalarıyla birlikte gömülürdü."
+            },
+            {
+              "id": "ioh46",
+              "ustId": "io5",
+              "metin": "Toplum; oguş (aile), boy, budun (millet) ve il (devlet) gibi kademeli birimlerden oluşurdu."
+            }
+          ]
+        },
+        {
+          "id": "ilk-turk-islam-devletleri",
+          "baslik": "İlk Türk-İslam Devletleri",
+          "mod": "havuz",
+          "ust": [
+            {
+              "id": "ti1",
+              "metin": "Karahanlılar",
+              "ipucu": "İslamiyet'i resmen kabul eden ilk Türk devletidir"
+            },
+            {
+              "id": "ti2",
+              "metin": "Gazneliler",
+              "ipucu": "\"Sultan\" unvanını kullanan ilk Türk-İslam devletidir"
+            },
+            {
+              "id": "ti3",
+              "metin": "Tuğrul Bey",
+              "ipucu": "Büyük Selçuklu Devleti'nin kurucusu; Bağdat'ı Büveyhoğulları'ndan kurtararak halifeyi himayesine aldı"
+            },
+            {
+              "id": "ti4",
+              "metin": "Alparslan",
+              "ipucu": "1071 Malazgirt Zaferi'yle Anadolu'nun kapılarını Türklere açtı"
+            },
+            {
+              "id": "ti5",
+              "metin": "Melikşah",
+              "ipucu": "Büyük Selçuklu Devleti'nin en geniş sınırlara ulaştığı dönemin sultanıdır"
+            },
+            {
+              "id": "ti6",
+              "metin": "I. Kılıç Arslan",
+              "ipucu": "I. Haçlı Seferi'nde İznik'i kaybedip başkenti Konya'ya taşıyan Anadolu Selçuklu sultanıdır"
+            },
+            {
+              "id": "ti7",
+              "metin": "I. Alaeddin Keykubad",
+              "ipucu": "Anadolu Selçuklu Devleti'ni en parlak dönemine ulaştıran, Alanya'yı fetheden sultandır"
+            },
+            {
+              "id": "ti8",
+              "metin": "II. Gıyaseddin Keyhüsrev",
+              "ipucu": "1243 Kösedağ Savaşı'nda Moğollara yenilerek devletin çöküşünü başlattı"
+            },
+            {
+              "id": "ti9",
+              "metin": "Anadolu Beylikleri",
+              "ipucu": "Kösedağ sonrası ortaya çıkan Türkmen beylikleridir; içlerinden Osmanoğulları büyük bir devlete dönüştü"
+            }
+          ],
+          "havuz": [
+            {
+              "id": "tih1",
+              "ustId": "ti1",
+              "metin": "840 yılında Bilge Kül Kadir Han tarafından kurulmuştur."
+            },
+            {
+              "id": "tih2",
+              "ustId": "ti1",
+              "metin": "Satuk Buğra Han döneminde İslamiyet'i resmen kabul eden ilk Türk hükümdarı/devleti olmuştur."
+            },
+            {
+              "id": "tih3",
+              "ustId": "ti1",
+              "metin": "Türkçeyi bilim ve edebiyat dili olarak kullanan ilk Türk-İslam devletlerindendir."
+            },
+            {
+              "id": "tih4",
+              "ustId": "ti1",
+              "metin": "Yusuf Has Hacib, Kutadgu Bilig adlı eseri Karahanlılar döneminde yazmıştır."
+            },
+            {
+              "id": "tih5",
+              "ustId": "ti1",
+              "metin": "Kaşgarlı Mahmut, Divanü Lügati't-Türk adlı eseri Karahanlılar döneminde kaleme almıştır."
+            },
+            {
+              "id": "tih6",
+              "ustId": "ti1",
+              "metin": "Karahanlı Devleti zamanla Doğu ve Batı Karahanlı olmak üzere ikiye ayrılmıştır."
+            },
+            {
+              "id": "tih7",
+              "ustId": "ti1",
+              "metin": "Samanoğulları Devleti üzerine seferler düzenleyerek Orta Asya'daki nüfuzunu genişletmiştir."
+            },
+            {
+              "id": "tih8",
+              "ustId": "ti2",
+              "metin": "Alp Tegin tarafından 963 yılında Gazne şehri merkezli olarak kurulmuştur."
+            },
+            {
+              "id": "tih9",
+              "ustId": "ti2",
+              "metin": "Gazneli Mahmut, Abbasi halifesi tarafından \"Sultan\" unvanıyla onurlandırılan ilk Türk hükümdardır."
+            },
+            {
+              "id": "tih10",
+              "ustId": "ti2",
+              "metin": "Gazneli Mahmut, İslamiyet'i yaymak amacıyla Hindistan'a birçok sefer düzenlemiştir."
+            },
+            {
+              "id": "tih11",
+              "ustId": "ti2",
+              "metin": "Büyük Selçuklu Devleti ile 1040 yılında Dandanakan Savaşı'nı yapmış ve bu savaşta yenilmiştir."
+            },
+            {
+              "id": "tih12",
+              "ustId": "ti2",
+              "metin": "Dandanakan yenilgisi sonucunda Horasan bölgesini Selçuklulara bırakmıştır."
+            },
+            {
+              "id": "tih13",
+              "ustId": "ti2",
+              "metin": "Şair Firdevsi, Şehname adlı eserini Gazneli Mahmut'a ithaf etmiştir."
+            },
+            {
+              "id": "tih14",
+              "ustId": "ti2",
+              "metin": "Dönemin ünlü bilgini Biruni, Gazneli sarayında himaye görmüştür."
+            },
+            {
+              "id": "tih15",
+              "ustId": "ti3",
+              "metin": "Büyük Selçuklu Devleti'ni 1040 Dandanakan zaferinin ardından kurmuş ve devletin ilk sultanı olmuştur."
+            },
+            {
+              "id": "tih16",
+              "ustId": "ti3",
+              "metin": "1055 yılında Bağdat'a girerek halifeyi Şii Büveyhoğulları'nın baskısından kurtarmıştır."
+            },
+            {
+              "id": "tih17",
+              "ustId": "ti3",
+              "metin": "Abbasi halifesi tarafından kendisine \"Doğunun ve Batının Sultanı\" unvanı verilmiştir."
+            },
+            {
+              "id": "tih18",
+              "ustId": "ti3",
+              "metin": "Kardeşi Çağrı Bey ile birlikte devletin kuruluş sürecinde ortak hareket etmiştir."
+            },
+            {
+              "id": "tih19",
+              "ustId": "ti3",
+              "metin": "Sünni İslam'ın koruyuculuğunu üstlenerek Şii Fatımiler ve Büveyhoğulları'na karşı denge unsuru olmuştur."
+            },
+            {
+              "id": "tih20",
+              "ustId": "ti4",
+              "metin": "Tuğrul Bey'in yeğenidir ve onun ölümünün ardından Büyük Selçuklu tahtına geçmiştir."
+            },
+            {
+              "id": "tih21",
+              "ustId": "ti4",
+              "metin": "1071 yılında Malazgirt Savaşı'nda Bizans İmparatoru Romen Diyojen'i yenilgiye uğratmıştır."
+            },
+            {
+              "id": "tih22",
+              "ustId": "ti4",
+              "metin": "Malazgirt Zaferi'yle Anadolu'nun kapıları Türklere açılmış, Anadolu'nun Türkleşmesi süreci başlamıştır."
+            },
+            {
+              "id": "tih23",
+              "ustId": "ti4",
+              "metin": "Malazgirt sonrasında komutanlarına Anadolu'yu fetih izni vererek Anadolu Selçuklu Devleti'nin kuruluş zeminini hazırlamıştır."
+            },
+            {
+              "id": "tih24",
+              "ustId": "ti4",
+              "metin": "Ünlü vezir Nizamülmülk'ü göreve getirmiştir."
+            },
+            {
+              "id": "tih25",
+              "ustId": "ti4",
+              "metin": "Karahanlılar üzerine düzenlediği bir sefer sırasında bir kale muhafızı tarafından hançerlenerek şehit olmuştur."
+            },
+            {
+              "id": "tih26",
+              "ustId": "ti5",
+              "metin": "Alparslan'ın oğludur ve babasının ölümünün ardından Büyük Selçuklu tahtına geçmiştir."
+            },
+            {
+              "id": "tih27",
+              "ustId": "ti5",
+              "metin": "Döneminde Büyük Selçuklu Devleti en geniş sınırlarına ulaşmıştır."
+            },
+            {
+              "id": "tih28",
+              "ustId": "ti5",
+              "metin": "Veziri Nizamülmülk ile birlikte Bağdat, Nişabur ve İsfahan gibi şehirlerde Nizamiye Medreseleri'ni yaygınlaştırmıştır."
+            },
+            {
+              "id": "tih29",
+              "ustId": "ti5",
+              "metin": "Ünlü bilgin Ömer Hayyam'ı himaye ederek Celali Takvimi'nin hazırlanmasını sağlamıştır."
+            },
+            {
+              "id": "tih30",
+              "ustId": "ti5",
+              "metin": "İkta sistemini yaygınlaştırarak toprak yönetimini düzenlemiştir."
+            },
+            {
+              "id": "tih31",
+              "ustId": "ti5",
+              "metin": "Döneminde Süleyman Şah, Anadolu Selçuklu Devleti'ni kurmuş ve İznik'i başkent yapmıştır."
+            },
+            {
+              "id": "tih32",
+              "ustId": "ti5",
+              "metin": "Melikşah'ın ölümünün ardından Büyük Selçuklu Devleti'nde taht kavgaları başlamış, devlet parçalanma sürecine girmiştir."
+            },
+            {
+              "id": "tih33",
+              "ustId": "ti6",
+              "metin": "Anadolu Selçuklu Devleti'nin kurucusu Süleyman Şah'ın oğludur."
+            },
+            {
+              "id": "tih34",
+              "ustId": "ti6",
+              "metin": "I. Haçlı Seferi (1096-1099) sırasında Haçlı ordularıyla mücadele etmiştir."
+            },
+            {
+              "id": "tih35",
+              "ustId": "ti6",
+              "metin": "I. Haçlı Seferi sonucunda İznik'i kaybetmiştir."
+            },
+            {
+              "id": "tih36",
+              "ustId": "ti6",
+              "metin": "İznik'in kaybedilmesi üzerine Anadolu Selçuklu Devleti'nin başkentini Konya'ya taşımıştır."
+            },
+            {
+              "id": "tih37",
+              "ustId": "ti6",
+              "metin": "Haçlı Seferleri'ne karşı gösterdiği direnişle Anadolu'daki Türk varlığının sürmesini sağlamıştır."
+            },
+            {
+              "id": "tih38",
+              "ustId": "ti7",
+              "metin": "Anadolu Selçuklu Devleti'nin en güçlü ve en parlak döneminin hükümdarı kabul edilir."
+            },
+            {
+              "id": "tih39",
+              "ustId": "ti7",
+              "metin": "Alanya'yı (dönemin adıyla Alaiye) fethederek burayı kışlık başkent ve tersane şehri haline getirmiştir."
+            },
+            {
+              "id": "tih40",
+              "ustId": "ti7",
+              "metin": "Konya ve Sivas şehirlerinin surlarını onartarak imar faaliyetleri yürütmüştür."
+            },
+            {
+              "id": "tih41",
+              "ustId": "ti7",
+              "metin": "Beyşehir Gölü kıyısında Kubadabad Sarayı'nı yaptırmıştır."
+            },
+            {
+              "id": "tih42",
+              "ustId": "ti7",
+              "metin": "Alanya'da tersane kurdurarak Anadolu Selçuklularının deniz gücünü artırmıştır."
+            },
+            {
+              "id": "tih43",
+              "ustId": "ti7",
+              "metin": "Yükselen Moğol tehlikesine karşı çevre İslam devletleriyle ittifaklar kurmaya çalışmıştır."
+            },
+            {
+              "id": "tih44",
+              "ustId": "ti8",
+              "metin": "I. Alaeddin Keykubad'ın oğludur."
+            },
+            {
+              "id": "tih45",
+              "ustId": "ti8",
+              "metin": "1243 yılında Kösedağ Savaşı'nda Moğollara yenilmiştir."
+            },
+            {
+              "id": "tih46",
+              "ustId": "ti8",
+              "metin": "Kösedağ yenilgisiyle Anadolu Selçuklu Devleti Moğol egemenliğine girmiş ve çöküş sürecine girmiştir."
+            },
+            {
+              "id": "tih47",
+              "ustId": "ti8",
+              "metin": "Yenilgi sonrasında Anadolu Selçuklu Devleti Moğollara vergi vermeye başlamıştır."
+            },
+            {
+              "id": "tih48",
+              "ustId": "ti8",
+              "metin": "Döneminde Baba İshak (Babailer) İsyanı devleti içeriden de sarsmıştır."
+            },
+            {
+              "id": "tih49",
+              "ustId": "ti8",
+              "metin": "Kösedağ sonrasında Anadolu'da doğan otorite boşluğu, Anadolu Beylikleri'nin kuruluş sürecini hızlandırmıştır."
+            },
+            {
+              "id": "tih50",
+              "ustId": "ti9",
+              "metin": "Anadolu Selçuklu Devleti'nin 1243 Kösedağ Savaşı sonrası zayıflamasıyla Anadolu'da ortaya çıkmışlardır."
+            },
+            {
+              "id": "tih51",
+              "ustId": "ti9",
+              "metin": "Karamanoğulları, Germiyanoğulları, Candaroğulları, Aydınoğulları, Saruhanoğulları, Menteşeoğulları, Karesioğulları, Hamitoğulları ve Osmanoğulları başlıca beyliklerdendir."
+            },
+            {
+              "id": "tih52",
+              "ustId": "ti9",
+              "metin": "Karamanoğlu Mehmet Bey, 1277 yılında Türkçeyi resmi/devlet dili ilan etmiştir."
+            },
+            {
+              "id": "tih53",
+              "ustId": "ti9",
+              "metin": "Bu dönemde Anadolu, siyasi birlikten yoksun ve dağınık bir yapıya sahip olmuştur."
+            },
+            {
+              "id": "tih54",
+              "ustId": "ti9",
+              "metin": "Söğüt ve çevresinde kurulan Osmanoğulları Beyliği, zamanla diğer beylikleri kendi çatısı altında toplayarak Osmanlı Devleti'ne dönüşmüştür."
+            }
+          ]
+        },
+        {
+          "id": "turk-islam-kultur-medeniyet",
+          "baslik": "Türk-İslam Kültür ve Medeniyeti",
+          "mod": "havuz",
+          "ust": [
+            {
+              "id": "tk1",
+              "metin": "Farabi",
+              "ipucu": "İslam dünyasında Aristoteles'ten sonra \"İkinci Öğretmen\" (Muallim-i Sani) unvanıyla anılan filozoftur"
+            },
+            {
+              "id": "tk2",
+              "metin": "İbn-i Sina",
+              "ipucu": "Tıp alanındaki eseri yüzyıllarca Avrupa üniversitelerinde okutulan, Batı'da \"Avicenna\" adıyla tanınan bilgindir"
+            },
+            {
+              "id": "tk3",
+              "metin": "Kaşgarlı Mahmud",
+              "ipucu": "Türkçenin ilk kapsamlı sözlüğünü yazan Karahanlı bilginidir"
+            },
+            {
+              "id": "tk4",
+              "metin": "Yusuf Has Hacib",
+              "ipucu": "İlk Türk-İslam siyasetnamesi olan Kutadgu Bilig'in yazarıdır"
+            },
+            {
+              "id": "tk5",
+              "metin": "Ahmet Yesevi",
+              "ipucu": "Türkistan'da Yesevilik tarikatının kurucusudur, \"Pir-i Türkistan\" olarak anılır"
+            },
+            {
+              "id": "tk6",
+              "metin": "Ömer Hayyam",
+              "ipucu": "Büyük Selçuklu himayesinde rubaileri ve Celali Takvimi'yle tanınan çok yönlü bilgindir"
+            },
+            {
+              "id": "tk7",
+              "metin": "Nizamülmülk",
+              "ipucu": "Alparslan ve Melikşah dönemlerinde vezirlik yapan, Nizamiye Medreselerini kuran devlet adamıdır"
+            },
+            {
+              "id": "tk8",
+              "metin": "İmam Gazali",
+              "ipucu": "Bağdat Nizamiye Medresesi'nde müderrislik yapan, tasavvuf ve kelam alimidir"
+            },
+            {
+              "id": "tk9",
+              "metin": "Kurumlar",
+              "ipucu": "Dönemin bilim, ticaret ve esnaf hayatını şekillendiren temel kurumlardır"
+            }
+          ],
+          "havuz": [
+            {
+              "id": "tkh1",
+              "ustId": "tk1",
+              "metin": "El-Medinetü'l-Fazıla: İdeal/erdemli şehir-devlet düzenini ve toplumsal mutluluğu ele aldığı felsefi eseridir."
+            },
+            {
+              "id": "tkh2",
+              "ustId": "tk1",
+              "metin": "İhsau'l-Ulum (İlimlerin Sayımı): Dönemin bilim dallarını sınıflandırıp tanıttığı eseridir."
+            },
+            {
+              "id": "tkh3",
+              "ustId": "tk1",
+              "metin": "Kitabu'l-Musika'l-Kebir (Büyük Musiki Kitabı): Türk-İslam dünyasında müzik teorisi üzerine yazdığı temel eseridir."
+            },
+            {
+              "id": "tkh4",
+              "ustId": "tk1",
+              "metin": "Aristoteles'in eserlerine yazdığı şerhlerle İslam dünyasında Meşşai (Aristocu) felsefe akımının öncülerinden sayılmıştır."
+            },
+            {
+              "id": "tkh5",
+              "ustId": "tk2",
+              "metin": "El-Kanun Fi't-Tıb (Tıbbın Kanunu): Tıp bilimini sistemli biçimde ele alan, Avrupa'da asırlarca temel ders kitabı olarak okutulan eseridir."
+            },
+            {
+              "id": "tkh6",
+              "ustId": "tk2",
+              "metin": "Eş-Şifa: Mantık, fizik, matematik ve metafizik konularını kapsayan felsefe ansiklopedisidir."
+            },
+            {
+              "id": "tkh7",
+              "ustId": "tk2",
+              "metin": "En-Necat: Eş-Şifa adlı eserinin özeti niteliğinde, felsefe konularını daha kısa ele aldığı çalışmasıdır."
+            },
+            {
+              "id": "tkh8",
+              "ustId": "tk2",
+              "metin": "Tıp ve felsefe alanındaki çalışmalarıyla Batı dünyasında \"Avicenna\" adıyla tanınmış, eserleri Latinceye çevrilmiştir."
+            },
+            {
+              "id": "tkh9",
+              "ustId": "tk3",
+              "metin": "Divan-ı Lügati't-Türk: Türkçenin ilk sözlüğü; Türkçeyi Araplara öğretmek amacıyla yazılan, aynı zamanda Türk kültürü, coğrafyası ve edebiyatına dair bilgiler içeren ansiklopedik eseridir."
+            },
+            {
+              "id": "tkh10",
+              "ustId": "tk3",
+              "metin": "Eserini dönemin Abbasi halifesine sunmuştur."
+            },
+            {
+              "id": "tkh11",
+              "ustId": "tk3",
+              "metin": "Eserinde ilk Türk dünyası haritalarından biri de yer alır."
+            },
+            {
+              "id": "tkh12",
+              "ustId": "tk3",
+              "metin": "Türk boylarının dil özelliklerini karşılaştırmalı biçimde incelemiştir."
+            },
+            {
+              "id": "tkh13",
+              "ustId": "tk4",
+              "metin": "Kutadgu Bilig: \"Mutluluk veren bilgi\" anlamına gelen, ideal devlet ve toplum düzenini anlatan ilk Türk-İslam siyasetnamesidir."
+            },
+            {
+              "id": "tkh14",
+              "ustId": "tk4",
+              "metin": "Eserini Karahanlı hükümdarı Tabgaç Buğra Han'a sunmuştur."
+            },
+            {
+              "id": "tkh15",
+              "ustId": "tk4",
+              "metin": "Eserde Küntogdı (hükümdar/adalet), Aytoldı (vezir/devlet), Ögdülmiş (akıl) ve Odgurmış (akıbet) sembolik karakterleriyle devlet yönetimi anlatılmıştır."
+            },
+            {
+              "id": "tkh16",
+              "ustId": "tk4",
+              "metin": "Bu eseri sunması karşılığında \"Has Hacib\" (saray görevlisi) unvanını almıştır."
+            },
+            {
+              "id": "tkh17",
+              "ustId": "tk5",
+              "metin": "Divan-ı Hikmet: Tasavvufi öğütler ve dini-ahlaki öğretiler içeren, hece ölçüsüyle Türkçe yazılmış hikmetlerden oluşan eseridir."
+            },
+            {
+              "id": "tkh18",
+              "ustId": "tk5",
+              "metin": "Yetiştirdiği dervişler (alperenler) aracılığıyla İslamiyet'in Türkler arasında ve sonrasında Anadolu'da yayılmasına öncülük etmiştir."
+            },
+            {
+              "id": "tkh19",
+              "ustId": "tk5",
+              "metin": "Yesevilik tarikatının kurucusudur."
+            },
+            {
+              "id": "tkh20",
+              "ustId": "tk5",
+              "metin": "Şiirlerini sade, halkın anlayacağı Türkçeyle yazarak dinî öğretilerin halk arasında yayılmasını kolaylaştırmıştır."
+            },
+            {
+              "id": "tkh21",
+              "ustId": "tk6",
+              "metin": "Rubailer: Dörtlük (rubai) tarzında yazdığı felsefi içerikli şiirleriyle tanınır."
+            },
+            {
+              "id": "tkh22",
+              "ustId": "tk6",
+              "metin": "Celali Takvimi: Sultan Melikşah'ın emriyle hazırladığı, güneş yılına dayanan takvimdir."
+            },
+            {
+              "id": "tkh23",
+              "ustId": "tk6",
+              "metin": "Cebir alanında denklemlerin sınıflandırılması ve çözümü üzerine matematik çalışmaları yapmıştır."
+            },
+            {
+              "id": "tkh24",
+              "ustId": "tk6",
+              "metin": "Matematik, astronomi ve şiir alanlarında çok yönlü bir bilgin olarak Büyük Selçuklu sarayında himaye görmüştür."
+            },
+            {
+              "id": "tkh25",
+              "ustId": "tk7",
+              "metin": "Siyasetname: Devlet yönetimi, adalet ve teşkilatlanma esasları üzerine yazdığı eseridir."
+            },
+            {
+              "id": "tkh26",
+              "ustId": "tk7",
+              "metin": "Nizamiye Medreselerinin kurucusudur; başta Bağdat olmak üzere birçok şehirde medrese açtırmıştır."
+            },
+            {
+              "id": "tkh27",
+              "ustId": "tk7",
+              "metin": "Alparslan ve Melikşah dönemlerinde uzun yıllar vezirlik yapmıştır."
+            },
+            {
+              "id": "tkh28",
+              "ustId": "tk7",
+              "metin": "İkta sisteminin düzenli biçimde uygulanmasında etkili olmuştur."
+            },
+            {
+              "id": "tkh29",
+              "ustId": "tk8",
+              "metin": "İhya'u Ulumi'd-Din (Din İlimlerinin İhyası): Tasavvuf ve İslam ahlakı üzerine yazdığı temel eseridir."
+            },
+            {
+              "id": "tkh30",
+              "ustId": "tk8",
+              "metin": "Tehafütü'l-Felasife (Filozofların Tutarsızlığı): Bazı filozofların görüşlerini eleştirdiği eseridir."
+            },
+            {
+              "id": "tkh31",
+              "ustId": "tk8",
+              "metin": "El-Munkız mine'd-Dalal (Dalaletten Kurtuluş): Kendi düşünsel arayışını ve şüphe sürecini anlattığı eseridir."
+            },
+            {
+              "id": "tkh32",
+              "ustId": "tk8",
+              "metin": "Bağdat Nizamiye Medresesi'nde müderrislik (öğretmenlik) yapmıştır."
+            },
+            {
+              "id": "tkh33",
+              "ustId": "tk9",
+              "metin": "Nizamiye Medreseleri: Nizamülmülk tarafından kurulan, döneminin en gelişmiş yükseköğretim kurumlarıdır; Bağdat Nizamiye Medresesi bunların en önemlisidir."
+            },
+            {
+              "id": "tkh34",
+              "ustId": "tk9",
+              "metin": "Kervansaraylar: Ticaret yolları üzerinde kurulan, tüccarların ve kervanların güvenle konaklamasını sağlayan yapılardır; Anadolu Selçukluları döneminde yaygınlaşmıştır."
+            },
+            {
+              "id": "tkh35",
+              "ustId": "tk9",
+              "metin": "Ahilik teşkilatının kökenleri: Anadolu'da esnaf ve zanaatkarları meslek ahlakı ve dayanışma çerçevesinde örgütleyen, Ahi Evran öncülüğünde gelişen teşkilatlanmanın temelleri bu dönemde atılmıştır."
+            },
+            {
+              "id": "tkh36",
+              "ustId": "tk9",
+              "metin": "Darüşşifalar: Tıp eğitimi verilen ve hastaların tedavi edildiği sağlık kurumlarıdır."
+            }
+          ]
+        },
+        {
           "id": "padisah-islahat",
           "baslik": "Kuruluş Dönemi: Padişahlar",
           "mod": "havuz",
           "ust": [
             {
               "id": "p1",
-              "metin": "Osman Bey"
+              "metin": "Osman Bey",
+              "ipucu": "Osmanlı Devleti'nin kurucusu, ilk bey"
             },
             {
               "id": "p2",
-              "metin": "Orhan Bey"
+              "metin": "Orhan Bey",
+              "ipucu": "Bursa'yı ilk başkent yapan, devleti kurumsallaştıran bey"
             },
             {
               "id": "p3",
-              "metin": "I. Murat"
+              "metin": "I. Murat",
+              "ipucu": "Lakabı: Hüdavendigâr; I. Kosova'da şehit düşen padişah"
             },
             {
               "id": "p4",
-              "metin": "Yıldırım Bayezid"
+              "metin": "Yıldırım Bayezid",
+              "ipucu": "Lakabı: Yıldırım; Ankara Savaşı'nda Timur'a yenildi"
             },
             {
               "id": "p5",
-              "metin": "I. Mehmet (Çelebi)"
+              "metin": "I. Mehmet (Çelebi)",
+              "ipucu": "Lakabı: Çelebi; Fetret Devri'ni sona erdiren padişah"
             },
             {
               "id": "p6",
-              "metin": "II. Murat"
+              "metin": "II. Murat",
+              "ipucu": "Lakabı: Hayır Babası"
             }
           ],
           "havuz": [
@@ -310,27 +1138,33 @@
           "ust": [
             {
               "id": "p7",
-              "metin": "Fatih Sultan Mehmet"
+              "metin": "Fatih Sultan Mehmet",
+              "ipucu": "İstanbul'u fethederek Bizans'ı sona erdiren padişah"
             },
             {
               "id": "p8",
-              "metin": "II. Bayezid"
+              "metin": "II. Bayezid",
+              "ipucu": "İspanya'dan kovulan Yahudileri Osmanlı'ya kabul etti"
             },
             {
               "id": "p9",
-              "metin": "Yavuz Sultan Selim"
+              "metin": "Yavuz Sultan Selim",
+              "ipucu": "8 yılda devlet topraklarını en çok genişleten padişah"
             },
             {
               "id": "p10",
-              "metin": "Sokullu Dönemi — II. Selim"
+              "metin": "Sokullu Dönemi — II. Selim",
+              "ipucu": "Lakabı: Sarı Selim; yönetim tamamen Sokullu'daydı"
             },
             {
               "id": "p11",
-              "metin": "Kanuni Sultan Süleyman"
+              "metin": "Kanuni Sultan Süleyman",
+              "ipucu": "En uzun süre tahtta kalan padişah (46 yıl)"
             },
             {
               "id": "p12",
-              "metin": "Sokullu Dönemi — III. Murat"
+              "metin": "Sokullu Dönemi — III. Murat",
+              "ipucu": "Sokullu Mehmet Paşa bu dönemde suikaste uğradı"
             }
           ],
           "havuz": [
@@ -488,31 +1322,38 @@
           "ust": [
             {
               "id": "p13",
-              "metin": "IV. Mehmet"
+              "metin": "IV. Mehmet",
+              "ipucu": "Lakabı: Avcı Mehmet"
             },
             {
               "id": "p14",
-              "metin": "II. Osman"
+              "metin": "II. Osman",
+              "ipucu": "Lakabı: Genç Osman"
             },
             {
               "id": "p15",
-              "metin": "III. Murat"
+              "metin": "III. Murat",
+              "ipucu": "İngiltere'ye ilk kapitülasyonların verildiği dönemin padişahı"
             },
             {
               "id": "p16",
-              "metin": "III. Mehmet"
+              "metin": "III. Mehmet",
+              "ipucu": "Tahta çıkarken 19 kardeşini idam ettiren padişah"
             },
             {
               "id": "p17",
-              "metin": "I. Ahmet"
+              "metin": "I. Ahmet",
+              "ipucu": "Sultanahmet (Mavi) Camii'ni yaptıran padişah"
             },
             {
               "id": "p18",
-              "metin": "IV. Murat"
+              "metin": "IV. Murat",
+              "ipucu": "Tütün, kahve ve içkiyi yasaklayan sert disiplinli padişah"
             },
             {
               "id": "p19",
-              "metin": "II. Mustafa"
+              "metin": "II. Mustafa",
+              "ipucu": "Zenta Bozgunu'nda bizzat ordu başında yenildi"
             }
           ],
           "havuz": [
@@ -685,27 +1526,33 @@
           "ust": [
             {
               "id": "p20",
-              "metin": "III. Selim"
+              "metin": "III. Selim",
+              "ipucu": "İlhamî mahlasıyla beste yapan müzisyen padişah"
             },
             {
               "id": "p21",
-              "metin": "III. Ahmet"
+              "metin": "III. Ahmet",
+              "ipucu": "Lale Devri padişahı; sadrazamı Nevşehirli Damat İbrahim Paşa"
             },
             {
               "id": "p22",
-              "metin": "I. Abdülhamit"
+              "metin": "I. Abdülhamit",
+              "ipucu": "Küçük Kaynarca Antlaşması'nın imzalandığı padişah (Kırım kaybı)"
             },
             {
               "id": "p23",
-              "metin": "II. Mustafa"
+              "metin": "II. Mustafa",
+              "ipucu": "Edirne Vakası'yla indirilen, hattatlığıyla bilinen padişah"
             },
             {
               "id": "p24",
-              "metin": "I. Mahmut"
+              "metin": "I. Mahmut",
+              "ipucu": "Askerlikte ilk kez Batı'nın örnek alındığı padişah"
             },
             {
               "id": "p25",
-              "metin": "III. Mustafa"
+              "metin": "III. Mustafa",
+              "ipucu": "Baron de Tott'u hizmete alan padişah"
             }
           ],
           "havuz": [
@@ -873,19 +1720,23 @@
           "ust": [
             {
               "id": "p26",
-              "metin": "II. Mahmut"
+              "metin": "II. Mahmut",
+              "ipucu": "Yeniçeri Ocağı'nı kaldırdı: Vaka-i Hayriye"
             },
             {
               "id": "p27",
-              "metin": "Abdülmecit"
+              "metin": "Abdülmecit",
+              "ipucu": "Tanzimat Fermanı'nı ilan eden padişah"
             },
             {
               "id": "p28",
-              "metin": "Abdülaziz"
+              "metin": "Abdülaziz",
+              "ipucu": "Avrupa'ya seyahat eden ilk Osmanlı padişahı"
             },
             {
               "id": "p29",
-              "metin": "II. Abdülhamit"
+              "metin": "II. Abdülhamit",
+              "ipucu": "33 yıl saltanat süren, Meşrutiyet'i iki kez ilan eden padişah"
             }
           ],
           "havuz": [
@@ -1883,6 +2734,1515 @@
               "id": "i229",
               "ustId": "p38",
               "metin": "Mustafa Kemal, İzmir'in işgaline ilk kez tepki göstermiştir"
+            }
+          ]
+        },
+        {
+          "id": "osmanli-kultur-medeniyet",
+          "baslik": "Osmanlı Kültür ve Medeniyeti",
+          "mod": "havuz",
+          "ust": [
+            {
+              "id": "ok1",
+              "metin": "Eğitim Kurumları",
+              "ipucu": "Sıbyan Mektebi, Medrese ve Enderun; Osmanlı'nın temel örgün eğitim basamaklarıdır"
+            },
+            {
+              "id": "ok2",
+              "metin": "Mimari (Mimar Sinan)",
+              "ipucu": "Kanuni'den III. Murad dönemine dek görev yapan, Süleymaniye ve Selimiye gibi başyapıtların mimarıdır"
+            },
+            {
+              "id": "ok3",
+              "metin": "Bilim ve Coğrafya",
+              "ipucu": "Osmanlı'da astronomi, matematik ve mühendislik alanında iz bırakan bilim insanları ve kurumlardır"
+            },
+            {
+              "id": "ok4",
+              "metin": "Hukuk Sistemi (Şer'i-Örfi)",
+              "ipucu": "Dini kaynaklı şer'i hukuk ile padişah iradesine dayanan örfi hukukun bir arada uygulanmasıdır"
+            },
+            {
+              "id": "ok5",
+              "metin": "Sanat Dalları",
+              "ipucu": "Hat, tezhip, minyatür ve ebru; Osmanlı'nın kitap ve süsleme sanatlarının başlıcalarıdır"
+            },
+            {
+              "id": "ok6",
+              "metin": "Toplumsal ve Vakıf Sistemi",
+              "ipucu": "Farklı din/milletlerin bir arada yaşadığı millet sistemi ile sosyal hizmetleri finanse eden vakıf düzenidir"
+            }
+          ],
+          "havuz": [
+            {
+              "id": "okh1",
+              "ustId": "ok1",
+              "metin": "Sıbyan mektepleri, genellikle caminin yanında yer alan, mahalle ve köy düzeyindeki ilk eğitim kurumlarıdır."
+            },
+            {
+              "id": "okh2",
+              "ustId": "ok1",
+              "metin": "Sıbyan mekteplerinde öğrencilere temel okuma-yazma, Kur'an-ı Kerim ve dini bilgiler öğretilirdi."
+            },
+            {
+              "id": "okh3",
+              "ustId": "ok1",
+              "metin": "Medrese, sıbyan mektebini bitiren öğrencilerin devam ettiği orta ve yüksek öğretim kurumudur."
+            },
+            {
+              "id": "okh4",
+              "ustId": "ok1",
+              "metin": "Medreselerde tefsir, hadis ve fıkıh gibi dini ilimlerin yanı sıra matematik, astronomi ve tıp gibi pozitif bilimler de okutulurdu."
+            },
+            {
+              "id": "okh5",
+              "ustId": "ok1",
+              "metin": "Medrese öğrencilerine \"softa\" veya \"danişmend\" denirdi."
+            },
+            {
+              "id": "okh6",
+              "ustId": "ok1",
+              "metin": "Enderun Mektebi, Topkapı Sarayı içinde devşirme yoluyla toplanan yetenekli çocukların devlet adamı ve sanatkâr olarak yetiştirildiği bir saray okuludur."
+            },
+            {
+              "id": "okh7",
+              "ustId": "ok1",
+              "metin": "Enderun'da dil, edebiyat, müzik ve hat gibi sanatların yanı sıra binicilik, güreş ve okçuluk gibi beden eğitimi de verilirdi."
+            },
+            {
+              "id": "okh8",
+              "ustId": "ok1",
+              "metin": "Enderun mezunları arasından sadrazamlığa kadar yükselen devlet adamları çıkmıştır."
+            },
+            {
+              "id": "okh9",
+              "ustId": "ok1",
+              "metin": "Saray içindeki kız çocuklarının eğitimi Harem'de verilirdi."
+            },
+            {
+              "id": "okh10",
+              "ustId": "ok2",
+              "metin": "Mimar Sinan, kendi ifadesiyle Şehzade Camii'ni çıraklık, Süleymaniye Camii'ni kalfalık, Selimiye Camii'ni ise ustalık eseri olarak nitelendirmiştir."
+            },
+            {
+              "id": "okh11",
+              "ustId": "ok2",
+              "metin": "Süleymaniye Camii, Kanuni Sultan Süleyman adına İstanbul'da yaptırılmış; içinde medrese, imaret, hastane ve kütüphane barındıran bir külliyedir."
+            },
+            {
+              "id": "okh12",
+              "ustId": "ok2",
+              "metin": "Selimiye Camii, II. Selim adına Edirne'de yaptırılmıştır ve tek kubbeli cami mimarisinin en önemli örneklerinden biridir."
+            },
+            {
+              "id": "okh13",
+              "ustId": "ok2",
+              "metin": "Selimiye Camii'nin kubbe çapıyla Ayasofya'nın kubbesinin geçilmesinin amaçlandığı kabul edilir."
+            },
+            {
+              "id": "okh14",
+              "ustId": "ok2",
+              "metin": "Şehzade Camii, Kanuni Sultan Süleyman'ın İstanbul'da, genç yaşta ölen oğlu Şehzade Mehmed anısına yaptırdığı camidir."
+            },
+            {
+              "id": "okh15",
+              "ustId": "ok2",
+              "metin": "Mimar Sinan, \"hassa mimarbaşı\" unvanıyla devletin resmi baş mimarı olarak görev yapmıştır."
+            },
+            {
+              "id": "okh16",
+              "ustId": "ok2",
+              "metin": "Mihrimah Sultan Camii, Mimar Sinan tarafından Kanuni'nin kızı Mihrimah Sultan adına yaptırılmıştır."
+            },
+            {
+              "id": "okh17",
+              "ustId": "ok2",
+              "metin": "Mimar Sinan, devşirme yoluyla saraya alınmış, Yeniçeri Ocağı'nda görev yaptıktan sonra mimarlığa yönelmiştir."
+            },
+            {
+              "id": "okh18",
+              "ustId": "ok2",
+              "metin": "Mimar Sinan'ın eserleri arasında cami ve külliyelerin yanı sıra Büyükçekmece Köprüsü gibi sivil mimari yapılar da bulunur."
+            },
+            {
+              "id": "okh19",
+              "ustId": "ok3",
+              "metin": "Takiyüddin (Takiyüddin er-Rasıd), III. Murad döneminde İstanbul'da bir rasathane (gözlemevi) kurmuştur."
+            },
+            {
+              "id": "okh20",
+              "ustId": "ok3",
+              "metin": "Takiyüddin'in kurduğu İstanbul Rasathanesi, dönemin bazı çevrelerinin tepkisi üzerine 1580'de yıktırılmıştır."
+            },
+            {
+              "id": "okh21",
+              "ustId": "ok3",
+              "metin": "Molla Fenari, Osmanlı Devleti'nin ilk şeyhülislamı kabul edilir."
+            },
+            {
+              "id": "okh22",
+              "ustId": "ok3",
+              "metin": "Ali Kuşçu, Fatih Sultan Mehmed'in daveti üzerine Semerkant'tan İstanbul'a gelerek Osmanlı'da astronomi ve matematik çalışmalarına öncülük etmiştir."
+            },
+            {
+              "id": "okh23",
+              "ustId": "ok3",
+              "metin": "Müneccimbaşılık, gökyüzü gözlemlerine dayanarak takvim ve astronomik hesaplamalar yapan resmi bir saray görevidir."
+            },
+            {
+              "id": "okh24",
+              "ustId": "ok3",
+              "metin": "Mühendishane-i Bahri-i Hümayun, 1773'te III. Mustafa döneminde açılan ilk modern deniz mühendisliği okuludur."
+            },
+            {
+              "id": "okh25",
+              "ustId": "ok4",
+              "metin": "Osmanlı hukuku, dini kaynaklara dayanan şer'i hukuk ile padişahın kanun koyma yetkisine dayanan örfi hukukun bir arada uygulanmasına dayanır."
+            },
+            {
+              "id": "okh26",
+              "ustId": "ok4",
+              "metin": "Şer'i hukuk; Kur'an, hadis, icma ve kıyas gibi İslam hukuku kaynaklarına dayanır, miras ve evlilik gibi konuları düzenler."
+            },
+            {
+              "id": "okh27",
+              "ustId": "ok4",
+              "metin": "Örfi hukuk, şeriatin doğrudan hüküm getirmediği toprak, vergi ve ceza gibi alanlarda padişah fermanları ve kanunnameler yoluyla uygulanan hukuk dalıdır."
+            },
+            {
+              "id": "okh28",
+              "ustId": "ok4",
+              "metin": "Divan-ı Hümayun, hem şer'i hem de örfi davalara bakabilen Osmanlı'nın en yüksek yargı ve yönetim organıydı."
+            },
+            {
+              "id": "okh29",
+              "ustId": "ok4",
+              "metin": "Şer'i hukuk davalarına şer'iye mahkemelerinde kadılar tarafından bakılırdı."
+            },
+            {
+              "id": "okh30",
+              "ustId": "ok4",
+              "metin": "Örfi hukuk kuralları toplumsal ve ekonomik ihtiyaçlara göre zamanla değişebilirken, şer'i hukuk sabit kaynaklara dayandığından değişmezdi."
+            },
+            {
+              "id": "okh31",
+              "ustId": "ok4",
+              "metin": "Örfi hukuk düzenlemeleri şeriata aykırı olmayacak şekilde hazırlanırdı."
+            },
+            {
+              "id": "okh32",
+              "ustId": "ok5",
+              "metin": "Hat sanatı, Arap harfleriyle yazının estetik biçimde yazılması sanatıdır; başta Kur'an-ı Kerim yazımı olmak üzere cami kitabelerinde de kullanılmıştır."
+            },
+            {
+              "id": "okh33",
+              "ustId": "ok5",
+              "metin": "Şeyh Hamdullah ve Hâfız Osman, Osmanlı hat sanatının en önemli ustaları arasında sayılır."
+            },
+            {
+              "id": "okh34",
+              "ustId": "ok5",
+              "metin": "Hat sanatında sülüs, nesih ve talik gibi farklı yazı türleri kullanılmıştır."
+            },
+            {
+              "id": "okh35",
+              "ustId": "ok5",
+              "metin": "Tezhip, el yazması eserlerin ve Kur'an-ı Kerim sayfalarının varak altın ve boyalarla süslenmesi sanatıdır."
+            },
+            {
+              "id": "okh36",
+              "ustId": "ok5",
+              "metin": "Minyatür, gölge ve perspektif kullanılmadan dönemin olaylarını ve yaşamını betimleyen küçük boyutlu kitap resmi sanatıdır."
+            },
+            {
+              "id": "okh37",
+              "ustId": "ok5",
+              "metin": "Levni, Lale Devri'nin en tanınmış minyatür sanatçısıdır; Surname-i Vehbi adlı eserdeki minyatürleriyle ün kazanmıştır."
+            },
+            {
+              "id": "okh38",
+              "ustId": "ok5",
+              "metin": "Ebru, kitre ile kıvamlaştırılmış su üzerine boyalarla desen oluşturup kağıda aktarma sanatıdır."
+            },
+            {
+              "id": "okh39",
+              "ustId": "ok5",
+              "metin": "Klasik Türk müziğinde (musiki) nevâ, hicaz gibi makam kavramları temel unsurlardandır."
+            },
+            {
+              "id": "okh40",
+              "ustId": "ok6",
+              "metin": "Osmanlı toplumu; yönetenler (askeri sınıf) ve yönetilenler (reaya) olmak üzere iki temel gruba ayrılırdı."
+            },
+            {
+              "id": "okh41",
+              "ustId": "ok6",
+              "metin": "Reaya, üretim yapıp vergi veren Müslim ve gayrimüslim halkı ifade eder."
+            },
+            {
+              "id": "okh42",
+              "ustId": "ok6",
+              "metin": "Millet sistemi, farklı din ve mezheplere mensup toplulukların (Rum, Ermeni, Yahudi milletleri gibi) kendi dini liderleri önderliğinde iç işlerinde serbest bırakıldığı yönetim anlayışıdır."
+            },
+            {
+              "id": "okh43",
+              "ustId": "ok6",
+              "metin": "Gayrimüslim milletlerin dini lideri (Rum Ortodoks Patriği, Ermeni Patriği, Hahambaşı gibi) aynı zamanda kendi cemaatinin idari temsilcisi konumundaydı."
+            },
+            {
+              "id": "okh44",
+              "ustId": "ok6",
+              "metin": "Vakıf sistemi, bir kişinin mal varlığını dini, hayır veya toplumsal bir hizmete gelir getirmek üzere temelli olarak bağlaması esasına dayanır."
+            },
+            {
+              "id": "okh45",
+              "ustId": "ok6",
+              "metin": "Cami, medrese, imaret, kütüphane, çeşme ve darüşşifa gibi pek çok sosyal hizmet vakıflar aracılığıyla finanse edilirdi."
+            },
+            {
+              "id": "okh46",
+              "ustId": "ok6",
+              "metin": "Darüşşifalar (bimarhaneler), vakıflar tarafından finanse edilen, ücretsiz sağlık hizmeti veren kurumlardı."
+            },
+            {
+              "id": "okh47",
+              "ustId": "ok6",
+              "metin": "İmaretler, vakıflar tarafından işletilen ve ihtiyaç sahiplerine ücretsiz yemek dağıtan aşevleridir."
+            },
+            {
+              "id": "okh48",
+              "ustId": "ok6",
+              "metin": "Vakıflar, devlet bütçesinden bağımsız olarak kira ve arazi geliri gibi kendi gelir kaynaklarıyla hizmetlerini sürdürürdü."
+            }
+          ]
+        },
+        {
+          "id": "milli-mucadele-cepheler",
+          "baslik": "Milli Mücadele: Cepheler ve Barış Antlaşmaları",
+          "mod": "havuz",
+          "ust": [
+            {
+              "id": "mc1",
+              "metin": "Doğu Cephesi",
+              "ipucu": "Kazım Karabekir komutasında Ermenilere karşı savaşıldı, Gümrü Antlaşması ile sona erdi"
+            },
+            {
+              "id": "mc2",
+              "metin": "Güney Cephesi",
+              "ipucu": "Fransızlara karşı düzenli ordu değil, Kuvay-ı Milliye (Maraş, Antep, Urfa halkı) savaştı"
+            },
+            {
+              "id": "mc3",
+              "metin": "Batı Cephesi",
+              "ipucu": "Yunanlılara karşı İnönü, Sakarya ve Büyük Taarruz zaferleriyle kazanıldı"
+            },
+            {
+              "id": "mc4",
+              "metin": "Mudanya ve Lozan",
+              "ipucu": "Silahlı mücadeleyi Mudanya Ateşkesi, resmî barışı Lozan Antlaşması sonuçlandırdı"
+            }
+          ],
+          "havuz": [
+            {
+              "id": "mch1",
+              "ustId": "mc1",
+              "metin": "Doğu Cephesi'nde TBMM ordusu, Kazım Karabekir Paşa komutasında Ermenilere karşı savaştı."
+            },
+            {
+              "id": "mch2",
+              "ustId": "mc1",
+              "metin": "Sevr Antlaşması, doğuda bağımsız bir Ermeni devleti kurulmasını öngörüyordu; bu cephe bu tasarıyı boşa çıkardı."
+            },
+            {
+              "id": "mch3",
+              "ustId": "mc1",
+              "metin": "Doğu Cephesi savaşları sonunda 3 Aralık 1920'de Gümrü Antlaşması imzalandı."
+            },
+            {
+              "id": "mch4",
+              "ustId": "mc1",
+              "metin": "Gümrü Antlaşması, bir devletin (Ermenistan) TBMM hükümetini resmen tanıdığı ilk antlaşmadır."
+            },
+            {
+              "id": "mch5",
+              "ustId": "mc1",
+              "metin": "Gümrü Antlaşması ile Kars ve çevresi TBMM sınırları içine katıldı."
+            },
+            {
+              "id": "mch6",
+              "ustId": "mc1",
+              "metin": "Doğu Cephesi'ndeki zafer, düzenli ordunun kazandığı ilk başarı olarak kabul edilir (Kuvay-ı Milliye'den farklı olarak)."
+            },
+            {
+              "id": "mch7",
+              "ustId": "mc1",
+              "metin": "Bu cephedeki başarı, TBMM'nin uluslararası alanda görünürlük kazanmasına katkı sağladı."
+            },
+            {
+              "id": "mch8",
+              "ustId": "mc2",
+              "metin": "Güney Cephesi'nde Fransızlara karşı düzenli ordu değil, doğrudan yerel halkın oluşturduğu Kuvay-ı Milliye birlikleri savaştı."
+            },
+            {
+              "id": "mch9",
+              "ustId": "mc2",
+              "metin": "Direniş esas olarak Maraş, Antep ve Urfa'da yaşandı."
+            },
+            {
+              "id": "mch10",
+              "ustId": "mc2",
+              "metin": "Urfa, Fransız işgalinden 11 Nisan 1920'de kurtarılan ilk şehirdir."
+            },
+            {
+              "id": "mch11",
+              "ustId": "mc2",
+              "metin": "Maraş'ta halk direnişi sonucu Fransız kuvvetleri şehri Şubat 1920'de terk etti; şehre \"Kahraman\" unvanı 1973'te resmen verilmiştir."
+            },
+            {
+              "id": "mch12",
+              "ustId": "mc2",
+              "metin": "Antep savunmasında Şahin Bey gibi isimler öne çıktı; TBMM, 6 Şubat 1921'de Antep'e \"Gazi\" unvanını verdi."
+            },
+            {
+              "id": "mch13",
+              "ustId": "mc2",
+              "metin": "Fransızlarla 20 Ekim 1921'de Ankara Antlaşması (Ankara İtilafnamesi) imzalandı ve Güney Cephesi resmen kapandı."
+            },
+            {
+              "id": "mch14",
+              "ustId": "mc2",
+              "metin": "Ankara Antlaşması ile Fransa, İtilaf Devletleri içinde TBMM'yi resmen tanıyan ilk devlet oldu."
+            },
+            {
+              "id": "mch15",
+              "ustId": "mc2",
+              "metin": "Bu cephe, Kurtuluş Savaşı'nda düzenli ordunun değil, tamamen halk direnişinin (Kuvay-ı Milliye) savaştığı cephe olması bakımından diğerlerinden ayrılır."
+            },
+            {
+              "id": "mch16",
+              "ustId": "mc3",
+              "metin": "I. İnönü Muharebesi (6-10 Ocak 1921), TBMM düzenli ordusunun Yunanlılara karşı kazandığı ilk zaferdir; komutan İsmet Bey'dir (İnönü)."
+            },
+            {
+              "id": "mch17",
+              "ustId": "mc3",
+              "metin": "I. İnönü zaferinin ardından TBMM'nin uluslararası itibarı arttı; 20 Ocak 1921'de 1921 Anayasası (Teşkilat-ı Esasiye Kanunu) kabul edildi."
+            },
+            {
+              "id": "mch18",
+              "ustId": "mc3",
+              "metin": "12 Mart 1921'de İstiklal Marşı TBMM tarafından kabul edildi."
+            },
+            {
+              "id": "mch19",
+              "ustId": "mc3",
+              "metin": "16 Mart 1921'de Sovyet Rusya ile Moskova Antlaşması imzalandı; Sovyet Rusya, TBMM'yi tanıyan ilk devlet oldu."
+            },
+            {
+              "id": "mch20",
+              "ustId": "mc3",
+              "metin": "II. İnönü Muharebesi (23 Mart - 1 Nisan 1921), yine İsmet Bey komutasında kazanıldı."
+            },
+            {
+              "id": "mch21",
+              "ustId": "mc3",
+              "metin": "Kütahya-Eskişehir Muharebeleri'nde (Temmuz 1921) TBMM ordusu yenilgi aldı; Afyon, Kütahya ve Eskişehir Yunan işgaline girdi, ordu Sakarya'nın doğusuna çekildi."
+            },
+            {
+              "id": "mch22",
+              "ustId": "mc3",
+              "metin": "5 Ağustos 1921'de TBMM, Başkomutanlık Kanunu ile yetkilerini geçici bir süre için Mustafa Kemal'e devretti."
+            },
+            {
+              "id": "mch23",
+              "ustId": "mc3",
+              "metin": "7-8 Ağustos 1921'de Tekalif-i Milliye Emirleri yayımlandı; halktan savaş için araç, gereç ve erzak toplandı."
+            },
+            {
+              "id": "mch24",
+              "ustId": "mc3",
+              "metin": "Sakarya Meydan Muharebesi (23 Ağustos - 13 Eylül 1921) kazanıldı; ardından TBMM, Mustafa Kemal'e Mareşal rütbesi ve Gazi unvanı verdi."
+            },
+            {
+              "id": "mch25",
+              "ustId": "mc3",
+              "metin": "Büyük Taarruz (26 Ağustos 1922) ve Başkomutanlık Meydan Muharebesi (30 Ağustos 1922) ile Yunan ordusunun ana gücü imha edildi; 9 Eylül 1922'de İzmir kurtarıldı."
+            },
+            {
+              "id": "mch26",
+              "ustId": "mc4",
+              "metin": "Mudanya Ateşkes Antlaşması, 11 Ekim 1922'de TBMM, İngiltere, Fransa ve İtalya arasında imzalandı; Yunanistan görüşmelere katılmadı ama kararları kabul etti."
+            },
+            {
+              "id": "mch27",
+              "ustId": "mc4",
+              "metin": "Mudanya görüşmelerinde TBMM'yi İsmet Paşa (İnönü) temsil etti."
+            },
+            {
+              "id": "mch28",
+              "ustId": "mc4",
+              "metin": "Mudanya ile Doğu Trakya, savaş yapılmadan TBMM'ye devredildi."
+            },
+            {
+              "id": "mch29",
+              "ustId": "mc4",
+              "metin": "Mudanya Ateşkesi, Kurtuluş Savaşı'nın silahlı mücadele döneminin fiilen sona erdiğini gösteren belgedir."
+            },
+            {
+              "id": "mch30",
+              "ustId": "mc4",
+              "metin": "Lozan Barış Antlaşması, 24 Temmuz 1923'te Türkiye ile İtilaf Devletleri arasında imzalandı; baş delege İsmet Paşa'dır."
+            },
+            {
+              "id": "mch31",
+              "ustId": "mc4",
+              "metin": "Lozan görüşmelerine gidilmeden önce, İstanbul hükümetinin ayrıca temsilci göndermesini engellemek amacıyla 1 Kasım 1922'de saltanat kaldırıldı."
+            },
+            {
+              "id": "mch32",
+              "ustId": "mc4",
+              "metin": "Lozan Antlaşması ile kapitülasyonlar tamamen kaldırıldı."
+            },
+            {
+              "id": "mch33",
+              "ustId": "mc4",
+              "metin": "Lozan'da Musul sorunu çözülemedi; konu 1926 Ankara Antlaşması ile İngiltere'ye bırakılmasına kadar ertelendi."
+            },
+            {
+              "id": "mch34",
+              "ustId": "mc4",
+              "metin": "Lozan'da Boğazlar meselesi uluslararası bir komisyona bağlandı; Türkiye'nin Boğazlar üzerindeki tam egemenliği ancak 1936 Montrö Boğazlar Sözleşmesi ile sağlandı."
+            },
+            {
+              "id": "mch35",
+              "ustId": "mc4",
+              "metin": "Lozan Barış Antlaşması, Türkiye Cumhuriyeti'nin bağımsızlığının uluslararası alanda tanındığı temel belge olarak kabul edilir."
+            }
+          ]
+        },
+        {
+          "id": "ataturk-inkilaplari",
+          "baslik": "Atatürk İnkılapları",
+          "mod": "havuz",
+          "ust": [
+            {
+              "id": "ai1",
+              "metin": "Siyasi İnkılaplar",
+              "ipucu": "Saltanat ve halifelik kaldırıldı, yerine Cumhuriyet kuruldu"
+            },
+            {
+              "id": "ai2",
+              "metin": "Hukuk İnkılapları",
+              "ipucu": "İsviçre Medeni Kanunu esas alınarak laik hukuk düzeni kuruldu"
+            },
+            {
+              "id": "ai3",
+              "metin": "Eğitim ve Kültür İnkılapları",
+              "ipucu": "Tevhid-i Tedrisat ile eğitim birleştirildi, Latin harfli yeni alfabeye geçildi"
+            },
+            {
+              "id": "ai4",
+              "metin": "Toplumsal ve Ekonomik İnkılaplar",
+              "ipucu": "Kılık-kıyafetten soyadına, kadın haklarından ekonomiye geniş bir reform alanıdır"
+            }
+          ],
+          "havuz": [
+            {
+              "id": "aih1",
+              "ustId": "ai1",
+              "metin": "Saltanat, 1 Kasım 1922'de TBMM kararıyla kaldırıldı; halifelik makamı geçici olarak devam etti."
+            },
+            {
+              "id": "aih2",
+              "ustId": "ai1",
+              "metin": "Son padişah VI. Mehmed Vahdettin, saltanatın kaldırılmasından sonra 17 Kasım 1922'de yurt dışına gitti."
+            },
+            {
+              "id": "aih3",
+              "ustId": "ai1",
+              "metin": "Cumhuriyet, 29 Ekim 1923'te TBMM'de ilan edildi; Mustafa Kemal ilk Cumhurbaşkanı seçildi."
+            },
+            {
+              "id": "aih4",
+              "ustId": "ai1",
+              "metin": "Halifelik, 3 Mart 1924'te TBMM kararıyla kaldırıldı."
+            },
+            {
+              "id": "aih5",
+              "ustId": "ai1",
+              "metin": "3 Mart 1924'te halifeliğin kaldırılmasıyla birlikte aynı gün Tevhid-i Tedrisat Kanunu da kabul edildi ve Şer'iye ve Evkaf Vekaleti kapatıldı."
+            },
+            {
+              "id": "aih6",
+              "ustId": "ai1",
+              "metin": "Terakkiperver Cumhuriyet Fırkası (1924), Cumhuriyet döneminin ilk muhalefet partisidir; 1925'te kapatılmıştır."
+            },
+            {
+              "id": "aih7",
+              "ustId": "ai1",
+              "metin": "Serbest Cumhuriyet Fırkası (1930), Fethi Okyar tarafından kurulmuş, kısa süre sonra kendini feshetmiştir."
+            },
+            {
+              "id": "aih8",
+              "ustId": "ai1",
+              "metin": "1924 Anayasası, Cumhuriyet döneminin ilk anayasasıdır."
+            },
+            {
+              "id": "aih9",
+              "ustId": "ai2",
+              "metin": "Türk Medeni Kanunu, 17 Şubat 1926'da kabul edildi; İsviçre Medeni Kanunu esas alınarak hazırlandı."
+            },
+            {
+              "id": "aih10",
+              "ustId": "ai2",
+              "metin": "Medeni Kanun ile tek eşlilik (monogami) getirildi ve resmi nikah zorunlu hale geldi."
+            },
+            {
+              "id": "aih11",
+              "ustId": "ai2",
+              "metin": "Medeni Kanun ile kadın ve erkeğe miras ve boşanmada eşit haklar tanındı."
+            },
+            {
+              "id": "aih12",
+              "ustId": "ai2",
+              "metin": "Şer'iye ve Evkaf Vekaleti (Din İşleri ve Vakıflar Bakanlığı), 3 Mart 1924'te kaldırıldı."
+            },
+            {
+              "id": "aih13",
+              "ustId": "ai2",
+              "metin": "Türk Ceza Kanunu (1926), İtalyan Ceza Kanunu esas alınarak hazırlandı."
+            },
+            {
+              "id": "aih14",
+              "ustId": "ai2",
+              "metin": "1928'de Anayasa'dan \"Devletin dini İslam'dır\" ibaresi çıkarıldı."
+            },
+            {
+              "id": "aih15",
+              "ustId": "ai2",
+              "metin": "1937'de laiklik ilkesi dahil altı Atatürk ilkesi anayasaya girdi."
+            },
+            {
+              "id": "aih16",
+              "ustId": "ai3",
+              "metin": "Tevhid-i Tedrisat Kanunu, 3 Mart 1924'te kabul edildi; eğitim-öğretim Milli Eğitim Bakanlığı'na bağlandı, medreseler kapatıldı."
+            },
+            {
+              "id": "aih17",
+              "ustId": "ai3",
+              "metin": "Harf İnkılabı ile 1 Kasım 1928'de Latin esaslı yeni Türk alfabesi kabul edildi, Arap harfli alfabe terk edildi."
+            },
+            {
+              "id": "aih18",
+              "ustId": "ai3",
+              "metin": "Millet Mektepleri 1928'de açıldı; Mustafa Kemal bu süreçte \"Başöğretmen\" unvanını almıştır."
+            },
+            {
+              "id": "aih19",
+              "ustId": "ai3",
+              "metin": "Üniversite Reformu kapsamında 1933'te İstanbul Darülfünunu kapatılıp yerine İstanbul Üniversitesi kurulmuştur."
+            },
+            {
+              "id": "aih20",
+              "ustId": "ai3",
+              "metin": "Türk Tarih Kurumu, 1931'de kurulmuştur."
+            },
+            {
+              "id": "aih21",
+              "ustId": "ai3",
+              "metin": "Türk Dil Kurumu, 1932'de kurulmuştur; dilde sadeleşme amaçlanmıştır."
+            },
+            {
+              "id": "aih22",
+              "ustId": "ai3",
+              "metin": "Maarif Teşkilatı Hakkında Kanun (1926) ile eğitim sistemi yeniden düzenlenmiştir."
+            },
+            {
+              "id": "aih23",
+              "ustId": "ai4",
+              "metin": "Şapka Kanunu, 25 Kasım 1925'te kabul edildi; fes yasaklandı."
+            },
+            {
+              "id": "aih24",
+              "ustId": "ai4",
+              "metin": "Tekke, zaviye ve türbeler, 30 Kasım 1925'te kapatıldı."
+            },
+            {
+              "id": "aih25",
+              "ustId": "ai4",
+              "metin": "Miladi takvim 1926'da, uluslararası rakamlar 1928'de kabul edildi."
+            },
+            {
+              "id": "aih26",
+              "ustId": "ai4",
+              "metin": "Hafta tatili 1935'te Cuma'dan Pazar'a alındı."
+            },
+            {
+              "id": "aih27",
+              "ustId": "ai4",
+              "metin": "Soyadı Kanunu, 21 Haziran 1934'te kabul edildi; TBMM, Mustafa Kemal'e 24 Kasım 1934'te \"Atatürk\" soyadını verdi."
+            },
+            {
+              "id": "aih28",
+              "ustId": "ai4",
+              "metin": "Kadınlara siyasi haklar kademeli olarak tanındı: 1930'da belediye seçimlerinde, 1933'te muhtarlık seçimlerinde, 1934'te milletvekili seçme ve seçilme hakkı."
+            },
+            {
+              "id": "aih29",
+              "ustId": "ai4",
+              "metin": "1935 seçimlerinde TBMM'ye ilk kez 18 kadın milletvekili girmiştir."
+            },
+            {
+              "id": "aih30",
+              "ustId": "ai4",
+              "metin": "Uluslararası ölçü birimleri (metre-kilogram sistemi), 1931'de kabul edildi."
+            },
+            {
+              "id": "aih31",
+              "ustId": "ai4",
+              "metin": "İzmir İktisat Kongresi, Şubat 1923'te toplandı; ekonomi politikalarının temel ilkelerini içeren Misak-ı İktisadi kabul edildi."
+            },
+            {
+              "id": "aih32",
+              "ustId": "ai4",
+              "metin": "Aşar (öşür) vergisi, 17 Şubat 1925'te kaldırıldı."
+            },
+            {
+              "id": "aih33",
+              "ustId": "ai4",
+              "metin": "Kabotaj Kanunu, 1926'da kabul edildi; Türk karasularında gemi taşımacılığı Türk gemilerine bırakıldı."
+            },
+            {
+              "id": "aih34",
+              "ustId": "ai4",
+              "metin": "Teşvik-i Sanayi Kanunu, 1927'de çıkarıldı."
+            },
+            {
+              "id": "aih35",
+              "ustId": "ai4",
+              "metin": "Birinci Beş Yıllık Sanayi Planı, 1934'te uygulamaya konuldu."
+            },
+            {
+              "id": "aih36",
+              "ustId": "ai4",
+              "metin": "Türkiye İş Bankası 1924'te, T.C. Merkez Bankası 1930'da kurulmuştur."
+            }
+          ]
+        },
+        {
+          "id": "cok-partili-donem",
+          "baslik": "Çok Partili Dönem: İnönü ve Demokrat Parti",
+          "mod": "havuz",
+          "ust": [
+            {
+              "id": "cp1",
+              "metin": "İnönü Dönemi (1938-1945)",
+              "ipucu": "Atatürk'ün ölümünün ardından cumhurbaşkanı seçilen İsmet İnönü'ye CHP tarafından \"Milli Şef\" unvanı verildi"
+            },
+            {
+              "id": "cp2",
+              "metin": "II. Dünya Savaşı ve Türkiye (1939-1945)",
+              "ipucu": "Türkiye, savaş boyunca fiilen çatışmaya girmeden denge politikası izledi ve savaşın bitimine yakın 1945'te Almanya ve Japonya'ya savaş ilan etti"
+            },
+            {
+              "id": "cp3",
+              "metin": "Çok Partili Hayata Geçiş (1945-1950)",
+              "ipucu": "7 Ocak 1946'da Celal Bayar, Adnan Menderes, Fuat Köprülü ve Refik Koraltan tarafından Demokrat Parti kuruldu"
+            },
+            {
+              "id": "cp4",
+              "metin": "Demokrat Parti Dönemi (1950-1960)",
+              "ipucu": "14 Mayıs 1950 seçimlerini kazanan Demokrat Parti, Türkiye'de seçimle gerçekleşen ilk iktidar değişikliğini sağladı"
+            },
+            {
+              "id": "cp5",
+              "metin": "27 Mayıs 1960",
+              "ipucu": "Bir grup subayın yönetime el koyup DP hükümetini devirdiği, Türkiye'nin ilk askeri darbesi olarak kabul edilen olaydır"
+            }
+          ],
+          "havuz": [
+            {
+              "id": "cph1",
+              "ustId": "cp1",
+              "metin": "10 Kasım 1938'de Atatürk'ün vefatının ardından 11 Kasım 1938'de İsmet İnönü, TBMM tarafından ikinci cumhurbaşkanı seçildi."
+            },
+            {
+              "id": "cph2",
+              "ustId": "cp1",
+              "metin": "Aralık 1938'de toplanan CHP Olağanüstü Kurultayı'nda İsmet İnönü'ye \"Değişmez Genel Başkan\" ve \"Milli Şef\" unvanları verildi."
+            },
+            {
+              "id": "cph3",
+              "ustId": "cp1",
+              "metin": "1940 yılında çıkarılan Milli Korunma Kanunu, hükümete savaş şartlarında ekonomiyi denetleme ve yönlendirme konusunda geniş yetkiler tanıdı."
+            },
+            {
+              "id": "cph4",
+              "ustId": "cp1",
+              "metin": "1942'de çıkarılan Varlık Vergisi Kanunu olağanüstü bir servet/gelir vergisi olarak uygulandı; 1944'te yürürlükten kaldırıldı."
+            },
+            {
+              "id": "cph5",
+              "ustId": "cp1",
+              "metin": "1943'te Toprak Mahsulleri Vergisi Kanunu kabul edilerek tarımsal üründen vergi alınması öngörüldü."
+            },
+            {
+              "id": "cph6",
+              "ustId": "cp1",
+              "metin": "1940'ta Köy Enstitüleri kuruldu; amacı kırsal bölgelere öğretmen ve sağlık personeli yetiştirmekti."
+            },
+            {
+              "id": "cph7",
+              "ustId": "cp1",
+              "metin": "Savaş yıllarında karne uygulaması, fiyat kontrolleri ve karaborsacılık halkı ekonomik olarak zorladı."
+            },
+            {
+              "id": "cph8",
+              "ustId": "cp1",
+              "metin": "Bu dönemde ülke, CHP'nin tek parti yönetimi altında kaldı."
+            },
+            {
+              "id": "cph9",
+              "ustId": "cp2",
+              "metin": "1 Eylül 1939'da II. Dünya Savaşı başladığında Türkiye tarafsızlık politikası izledi."
+            },
+            {
+              "id": "cph10",
+              "ustId": "cp2",
+              "metin": "19 Ekim 1939'da Türkiye, İngiltere ve Fransa ile Üçlü İttifak Antlaşması imzaladı."
+            },
+            {
+              "id": "cph11",
+              "ustId": "cp2",
+              "metin": "18 Haziran 1941'de Almanya ile Türk-Alman Saldırmazlık Paktı imzalandı."
+            },
+            {
+              "id": "cph12",
+              "ustId": "cp2",
+              "metin": "Ocak 1943'te İnönü ile İngiltere Başbakanı Churchill arasında Adana Görüşmesi yapıldı."
+            },
+            {
+              "id": "cph13",
+              "ustId": "cp2",
+              "metin": "Ağustos 1944'te Türkiye, Almanya ile diplomatik ilişkilerini kesti."
+            },
+            {
+              "id": "cph14",
+              "ustId": "cp2",
+              "metin": "23 Şubat 1945'te Türkiye, Almanya ve Japonya'ya savaş ilan etti; fiili bir çatışmaya girmedi."
+            },
+            {
+              "id": "cph15",
+              "ustId": "cp2",
+              "metin": "Türkiye bu adımla Birleşmiş Milletler'in kurucu üyeleri arasında yer alma şartını sağladı ve 1945'te San Francisco Konferansı'na katıldı."
+            },
+            {
+              "id": "cph16",
+              "ustId": "cp2",
+              "metin": "Savaş sonrasında SSCB'nin Kars-Ardahan üzerindeki toprak talepleri ve Boğazlar'da üs isteği, Türkiye'yi Batı bloğuna yakınlaştıran gelişmeler arasında yer aldı."
+            },
+            {
+              "id": "cph17",
+              "ustId": "cp3",
+              "metin": "1930'da denenen Serbest Cumhuriyet Fırkası deneyiminin kısa sürede sona ermesinin ardından çok partili hayata geçiş 1945'e kadar gerçekleşmedi."
+            },
+            {
+              "id": "cph18",
+              "ustId": "cp3",
+              "metin": "Temmuz 1945'te Nuri Demirağ tarafından Milli Kalkınma Partisi kuruldu; çok partili dönemde kurulan ilk parti oldu."
+            },
+            {
+              "id": "cph19",
+              "ustId": "cp3",
+              "metin": "7 Haziran 1945'te Celal Bayar, Adnan Menderes, Fuat Köprülü ve Refik Koraltan tarafından TBMM'ye \"Dörtlü Takrir\" sunuldu."
+            },
+            {
+              "id": "cph20",
+              "ustId": "cp3",
+              "metin": "Dörtlü Takrir'i imzalayanlar kısa süre sonra CHP'den ayrıldı/ihraç edildi."
+            },
+            {
+              "id": "cph21",
+              "ustId": "cp3",
+              "metin": "7 Ocak 1946'da Celal Bayar, Adnan Menderes, Fuat Köprülü ve Refik Koraltan tarafından Demokrat Parti kuruldu; ilk genel başkanı Celal Bayar oldu."
+            },
+            {
+              "id": "cph22",
+              "ustId": "cp3",
+              "metin": "21 Temmuz 1946'da yapılan seçimler, birden fazla partinin katıldığı ilk genel seçim oldu ve tek dereceli, açık oy-gizli tasnif esasına göre gerçekleşti."
+            },
+            {
+              "id": "cph23",
+              "ustId": "cp3",
+              "metin": "1946 seçimleri, uygulanan oylama usulü nedeniyle sonradan tartışma konusu oldu."
+            },
+            {
+              "id": "cph24",
+              "ustId": "cp3",
+              "metin": "Şubat 1950'de kabul edilen yeni Seçim Kanunu ile \"gizli oy, açık sayım\" esası getirildi."
+            },
+            {
+              "id": "cph25",
+              "ustId": "cp4",
+              "metin": "14 Mayıs 1950 seçimlerinde Demokrat Parti büyük çoğunlukla iktidara geldi; Türkiye'de demokratik yollarla ilk iktidar değişikliği gerçekleşti."
+            },
+            {
+              "id": "cph26",
+              "ustId": "cp4",
+              "metin": "Cumhurbaşkanlığına Celal Bayar, başbakanlığa Adnan Menderes seçildi; TBMM Başkanlığına Refik Koraltan getirildi."
+            },
+            {
+              "id": "cph27",
+              "ustId": "cp4",
+              "metin": "1950'de Türkiye, Kore Savaşı'na asker gönderdi."
+            },
+            {
+              "id": "cph28",
+              "ustId": "cp4",
+              "metin": "18 Şubat 1952'de Türkiye NATO'ya (Kuzey Atlantik Antlaşması Örgütü) üye oldu."
+            },
+            {
+              "id": "cph29",
+              "ustId": "cp4",
+              "metin": "DP döneminde tarımda makineleşme hız kazandı ve karayolu yapımına büyük önem verildi."
+            },
+            {
+              "id": "cph30",
+              "ustId": "cp4",
+              "metin": "2 Mayıs 1954 seçimlerinde Demokrat Parti yeniden ve daha yüksek oy oranıyla iktidara geldi."
+            },
+            {
+              "id": "cph31",
+              "ustId": "cp4",
+              "metin": "6-7 Eylül 1955'te İstanbul ve İzmir'de azınlıklara yönelik saldırılar (6-7 Eylül Olayları) yaşandı."
+            },
+            {
+              "id": "cph32",
+              "ustId": "cp4",
+              "metin": "27 Ekim 1957 seçimlerinde DP oy kaybetmesine rağmen iktidarını korudu."
+            },
+            {
+              "id": "cph33",
+              "ustId": "cp4",
+              "metin": "Nisan 1960'ta TBMM'de Tahkikat Komisyonu kuruldu; muhalefet ve basınla gerginlik arttı."
+            },
+            {
+              "id": "cph34",
+              "ustId": "cp5",
+              "metin": "27 Mayıs 1960 sabahı bir grup subay, Türk Silahlı Kuvvetleri adına yönetime el koydu."
+            },
+            {
+              "id": "cph35",
+              "ustId": "cp5",
+              "metin": "Darbeyi gerçekleştirenler \"Milli Birlik Komitesi\" adıyla yönetimi devraldı; başına Orgeneral Cemal Gürsel getirildi."
+            },
+            {
+              "id": "cph36",
+              "ustId": "cp5",
+              "metin": "Cumhurbaşkanı Celal Bayar, Başbakan Adnan Menderes ve çok sayıda DP'li milletvekili tutuklandı."
+            },
+            {
+              "id": "cph37",
+              "ustId": "cp5",
+              "metin": "Tutuklanan DP'liler Yassıada'da kurulan mahkemede yargılandı (Yassıada Duruşmaları)."
+            },
+            {
+              "id": "cph38",
+              "ustId": "cp5",
+              "metin": "Yargılamalar sonucunda Adnan Menderes, Dışişleri Bakanı Fatin Rüştü Zorlu ve Maliye Bakanı Hasan Polatkan Eylül 1961'de idam edildi."
+            },
+            {
+              "id": "cph39",
+              "ustId": "cp5",
+              "metin": "Celal Bayar'ın idam cezası ileri yaşı nedeniyle müebbet hapse çevrildi."
+            },
+            {
+              "id": "cph40",
+              "ustId": "cp5",
+              "metin": "9 Temmuz 1961'de halkoyuna sunulan 1961 Anayasası kabul edildi."
+            },
+            {
+              "id": "cph41",
+              "ustId": "cp5",
+              "metin": "27 Mayıs 1960, Türkiye Cumhuriyeti tarihindeki ilk askeri darbe olarak kabul edilir."
+            }
+          ]
+        },
+        {
+          "id": "soguk-savas-donemi",
+          "baslik": "Soğuk Savaş Döneminde Türkiye ve Dünya",
+          "mod": "havuz",
+          "ust": [
+            {
+              "id": "ss1",
+              "metin": "Truman Doktrini ve Marshall Planı",
+              "ipucu": "ABD'nin Sovyet yayılmacılığına karşı 1947'de başlattığı, Türkiye'yi de kapsayan askeri/ekonomik yardım politikalarıdır"
+            },
+            {
+              "id": "ss2",
+              "metin": "Türkiye'nin NATO'ya Girişi ve Kore Savaşı",
+              "ipucu": "Türkiye, Kore Savaşı'na asker göndererek 1952'de NATO'ya üye oldu"
+            },
+            {
+              "id": "ss3",
+              "metin": "Türkiye-AET İlişkileri (Ankara Antlaşması)",
+              "ipucu": "1963'te imzalanan antlaşma, Türkiye'nin AET'ye tam üyeliğini nihai hedef olarak belirledi"
+            },
+            {
+              "id": "ss4",
+              "metin": "Johnson Mektubu ve Sonrası",
+              "ipucu": "1964'te ABD Başkanı'nın gönderdiği mektup, Türkiye'nin Kıbrıs'a müdahalesini engellemeyi amaçladı ve Türk-Amerikan ilişkilerinde güven bunalımı yarattı"
+            },
+            {
+              "id": "ss5",
+              "metin": "Kıbrıs Sorunu ve 1974 Barış Harekatı",
+              "ipucu": "Türkiye, 1974'te garantörlük hakkını kullanarak iki aşamalı Kıbrıs Barış Harekatı'nı gerçekleştirdi"
+            },
+            {
+              "id": "ss6",
+              "metin": "12 Mart 1971 Muhtırası",
+              "ipucu": "Ordu, Demirel hükümetinin istifasını isteyen bir muhtıra verdi"
+            },
+            {
+              "id": "ss7",
+              "metin": "12 Eylül 1980 Darbesi",
+              "ipucu": "Kenan Evren liderliğindeki ordu yönetime el koydu, meclis ve partiler kapatıldı"
+            }
+          ],
+          "havuz": [
+            {
+              "id": "ssh1",
+              "ustId": "ss1",
+              "metin": "Truman Doktrini, ABD Başkanı Harry Truman tarafından 12 Mart 1947'de açıklandı."
+            },
+            {
+              "id": "ssh2",
+              "ustId": "ss1",
+              "metin": "Truman Doktrini, Sovyet yayılmacılığına karşı Türkiye ve Yunanistan'a askeri ve ekonomik yardım öngörüyordu."
+            },
+            {
+              "id": "ssh3",
+              "ustId": "ss1",
+              "metin": "Truman Doktrini kapsamındaki Türk-Amerikan Yardım Anlaşması 12 Temmuz 1947'de imzalandı."
+            },
+            {
+              "id": "ssh4",
+              "ustId": "ss1",
+              "metin": "Marshall Planı, ABD Dışişleri Bakanı George Marshall tarafından 1947'de açıklandı ve Avrupa'nın savaş sonrası ekonomik kalkınmasını hedefliyordu."
+            },
+            {
+              "id": "ssh5",
+              "ustId": "ss1",
+              "metin": "Türkiye, Marshall Planı çerçevesinde kurulan OEEC'ye (Avrupa Ekonomik İşbirliği Örgütü) 1948'de kurucu üye olarak katıldı."
+            },
+            {
+              "id": "ssh6",
+              "ustId": "ss1",
+              "metin": "Marshall yardımlarıyla Türkiye'de karayolu ağı genişledi ve tarımda makineleşme (traktör sayısında artış) hızlandı."
+            },
+            {
+              "id": "ssh7",
+              "ustId": "ss1",
+              "metin": "Truman Doktrini ve Marshall Planı, Türkiye'nin Soğuk Savaş'ta Batı bloğuna yönelmesinde belirleyici oldu."
+            },
+            {
+              "id": "ssh8",
+              "ustId": "ss1",
+              "metin": "Bu yardımlar, ABD'nin SSCB'yi çevreleme (containment) politikasının bir parçasıydı."
+            },
+            {
+              "id": "ssh9",
+              "ustId": "ss2",
+              "metin": "Kuzey Atlantik Antlaşması Örgütü (NATO) 4 Nisan 1949'da kuruldu."
+            },
+            {
+              "id": "ssh10",
+              "ustId": "ss2",
+              "metin": "Türkiye, BM kararıyla Kore Savaşı'na (1950-1953) asker gönderdi."
+            },
+            {
+              "id": "ssh11",
+              "ustId": "ss2",
+              "metin": "Türk Tugayı, Kore'ye ilk kez 1950 yılında gönderildi."
+            },
+            {
+              "id": "ssh12",
+              "ustId": "ss2",
+              "metin": "Türkiye ve Yunanistan, 18 Şubat 1952'de NATO'ya resmen üye oldu."
+            },
+            {
+              "id": "ssh13",
+              "ustId": "ss2",
+              "metin": "Türkiye'nin NATO üyeliği, Adnan Menderes başkanlığındaki Demokrat Parti hükümeti döneminde gerçekleşti."
+            },
+            {
+              "id": "ssh14",
+              "ustId": "ss2",
+              "metin": "Kore Savaşı'ndaki askeri katılım, Türkiye'nin NATO'ya kabulünde önemli bir etken oldu."
+            },
+            {
+              "id": "ssh15",
+              "ustId": "ss2",
+              "metin": "NATO üyeliğiyle Türkiye, Soğuk Savaş boyunca Batı Bloğu'nun bir parçası haline geldi."
+            },
+            {
+              "id": "ssh16",
+              "ustId": "ss2",
+              "metin": "Kore Savaşı'na katılan Türkiye, bu savaşa asker gönderen ilk Müslüman ülkelerden biri oldu."
+            },
+            {
+              "id": "ssh17",
+              "ustId": "ss3",
+              "metin": "Avrupa Ekonomik Topluluğu (AET), 1957 Roma Antlaşması ile kuruldu."
+            },
+            {
+              "id": "ssh18",
+              "ustId": "ss3",
+              "metin": "Türkiye ile AET arasındaki Ankara Antlaşması 12 Eylül 1963'te imzalandı."
+            },
+            {
+              "id": "ssh19",
+              "ustId": "ss3",
+              "metin": "Ankara Antlaşması'nı Türkiye adına Dışişleri Bakanı Feridun Cemal Erkin imzaladı."
+            },
+            {
+              "id": "ssh20",
+              "ustId": "ss3",
+              "metin": "Ankara Antlaşması, Türkiye'nin AET'ye tam üyeliğini nihai hedef olarak belirleyen bir ortaklık anlaşmasıdır."
+            },
+            {
+              "id": "ssh21",
+              "ustId": "ss3",
+              "metin": "Ankara Antlaşması, hazırlık, geçiş ve son dönem olmak üzere üç aşama öngörüyordu; 1 Aralık 1964'te yürürlüğe girdi."
+            },
+            {
+              "id": "ssh22",
+              "ustId": "ss3",
+              "metin": "Katma Protokol, 23 Kasım 1970'te imzalanarak gümrük birliğine geçiş takvimini düzenledi."
+            },
+            {
+              "id": "ssh23",
+              "ustId": "ss3",
+              "metin": "Türkiye'nin AET ile ilişkileri, Soğuk Savaş döneminde Batı ile ekonomik bütünleşme çabasının bir parçasıydı."
+            },
+            {
+              "id": "ssh24",
+              "ustId": "ss4",
+              "metin": "Johnson Mektubu, ABD Başkanı Lyndon B. Johnson tarafından 5 Haziran 1964'te dönemin Başbakanı İsmet İnönü'ye gönderildi."
+            },
+            {
+              "id": "ssh25",
+              "ustId": "ss4",
+              "metin": "Mektup, Türkiye'nin Kıbrıs'a olası bir askeri müdahalesini engellemeyi amaçlıyordu."
+            },
+            {
+              "id": "ssh26",
+              "ustId": "ss4",
+              "metin": "Mektupta, Türkiye NATO silahlarını Kıbrıs'ta kullanırsa ve bu bir Sovyet müdahalesine yol açarsa NATO'nun Türkiye'yi savunmayabileceği ima edildi."
+            },
+            {
+              "id": "ssh27",
+              "ustId": "ss4",
+              "metin": "Johnson Mektubu, Türk kamuoyunda büyük tepkiyle karşılandı ve Türkiye-ABD ilişkilerinde ciddi bir güven bunalımına yol açtı."
+            },
+            {
+              "id": "ssh28",
+              "ustId": "ss4",
+              "metin": "Kriz sonrasında Türkiye, dış politikasını çeşitlendirme arayışına girerek SSCB ile ilişkilerini geliştirmeye başladı."
+            },
+            {
+              "id": "ssh29",
+              "ustId": "ss4",
+              "metin": "Johnson Mektubu'nun etkisiyle Türkiye, 1965 sonrasında SSCB'den ilk kez ekonomik ve teknik yardım almaya başladı."
+            },
+            {
+              "id": "ssh30",
+              "ustId": "ss4",
+              "metin": "Mektup, Türkiye'de \"tam bağımsızlık\" söylemini güçlendiren, çok yönlü dış politika arayışlarına zemin hazırladı."
+            },
+            {
+              "id": "ssh31",
+              "ustId": "ss5",
+              "metin": "Kıbrıs, 1959-1960 Zürih ve Londra Antlaşmaları ile bağımsızlığını kazandı; Türkiye, Yunanistan ve İngiltere garantör devlet oldu."
+            },
+            {
+              "id": "ssh32",
+              "ustId": "ss5",
+              "metin": "Kıbrıs Cumhuriyeti'nin ilk Cumhurbaşkanı Makarios, Cumhurbaşkanı Yardımcısı ise Fazıl Küçük oldu."
+            },
+            {
+              "id": "ssh33",
+              "ustId": "ss5",
+              "metin": "1963'te Makarios'un anayasa değişikliği girişimi, adada Türk-Rum çatışmalarının başlamasına yol açtı (Kanlı Noel olayları)."
+            },
+            {
+              "id": "ssh34",
+              "ustId": "ss5",
+              "metin": "15 Temmuz 1974'te Yunan cuntasının desteğiyle EOKA-B, Makarios'a karşı darbe yaptı."
+            },
+            {
+              "id": "ssh35",
+              "ustId": "ss5",
+              "metin": "Türkiye, garantörlük hakkını kullanarak 20 Temmuz 1974'te I. Kıbrıs Barış Harekatı'nı başlattı."
+            },
+            {
+              "id": "ssh36",
+              "ustId": "ss5",
+              "metin": "14 Ağustos 1974'te II. Kıbrıs Barış Harekatı gerçekleştirildi ve adanın kuzeyi Türk kontrolüne geçti."
+            },
+            {
+              "id": "ssh37",
+              "ustId": "ss5",
+              "metin": "Kıbrıs Barış Harekatı sonrasında ABD, Türkiye'ye 1975-1978 yılları arasında silah ambargosu uyguladı."
+            },
+            {
+              "id": "ssh38",
+              "ustId": "ss5",
+              "metin": "15 Kasım 1983'te Kuzey Kıbrıs Türk Cumhuriyeti (KKTC) ilan edildi; KKTC'yi bugüne dek yalnızca Türkiye tanımaktadır."
+            },
+            {
+              "id": "ssh39",
+              "ustId": "ss5",
+              "metin": "Kıbrıs Barış Harekatı döneminde Türkiye Başbakanı Bülent Ecevit'ti."
+            },
+            {
+              "id": "ssh40",
+              "ustId": "ss6",
+              "metin": "12 Mart 1971'de Türk Silahlı Kuvvetleri, dönemin Başbakanı Süleyman Demirel'e bir muhtıra vererek hükümetin istifasını istedi."
+            },
+            {
+              "id": "ssh41",
+              "ustId": "ss6",
+              "metin": "Muhtırayı Genelkurmay Başkanı Memduh Tağmaç imzaladı."
+            },
+            {
+              "id": "ssh42",
+              "ustId": "ss6",
+              "metin": "Muhtıra üzerine Süleyman Demirel hükümeti istifa etti."
+            },
+            {
+              "id": "ssh43",
+              "ustId": "ss6",
+              "metin": "Muhtıra sonrasında \"partiler üstü\" nitelikte Nihat Erim hükümeti kuruldu."
+            },
+            {
+              "id": "ssh44",
+              "ustId": "ss6",
+              "metin": "Muhtıra sonrasında ülke genelinde sıkıyönetim ilan edildi."
+            },
+            {
+              "id": "ssh45",
+              "ustId": "ss6",
+              "metin": "12 Mart döneminde Anayasa'da temel hak ve özgürlükleri kısıtlayıcı değişiklikler yapıldı."
+            },
+            {
+              "id": "ssh46",
+              "ustId": "ss6",
+              "metin": "12 Mart Muhtırası, dönemin artan sol-sağ çatışmaları ve toplumsal huzursuzluğu gerekçe gösterilerek verildi."
+            },
+            {
+              "id": "ssh47",
+              "ustId": "ss7",
+              "metin": "12 Eylül 1980'de Türk Silahlı Kuvvetleri, Orgeneral Kenan Evren liderliğinde yönetime el koydu."
+            },
+            {
+              "id": "ssh48",
+              "ustId": "ss7",
+              "metin": "Darbeyi gerçekleştiren komuta kademesi Milli Güvenlik Konseyi'ni (MGK) kurdu."
+            },
+            {
+              "id": "ssh49",
+              "ustId": "ss7",
+              "metin": "Darbe sonrasında Türkiye Büyük Millet Meclisi ve tüm siyasi partiler kapatıldı."
+            },
+            {
+              "id": "ssh50",
+              "ustId": "ss7",
+              "metin": "Kenan Evren, Milli Güvenlik Konseyi Başkanı ve Devlet Başkanı sıfatıyla ülkeyi yönetti."
+            },
+            {
+              "id": "ssh51",
+              "ustId": "ss7",
+              "metin": "12 Eylül 1980 Darbesi, dönemin artan terör olayları, ekonomik kriz ve siyasi istikrarsızlık ortamında gerçekleşti."
+            },
+            {
+              "id": "ssh52",
+              "ustId": "ss7",
+              "metin": "7 Kasım 1982'de halkoyuna sunulan yeni Anayasa kabul edildi ve Kenan Evren Cumhurbaşkanı oldu."
+            },
+            {
+              "id": "ssh53",
+              "ustId": "ss7",
+              "metin": "Darbe sonrasında binlerce kişi gözaltına alındı ve yargılandı."
+            },
+            {
+              "id": "ssh54",
+              "ustId": "ss7",
+              "metin": "1983 genel seçimleriyle sivil siyasete geçiş süreci başladı; Turgut Özal (ANAP) Başbakan oldu."
+            }
+          ]
+        },
+        {
+          "id": "kureselesen-dunya",
+          "baslik": "Küreselleşen Dünya",
+          "mod": "havuz",
+          "ust": [
+            {
+              "id": "kd1",
+              "metin": "Berlin Duvarı'nın Yıkılması ve Almanya'nın Birleşmesi",
+              "ipucu": "Soğuk Savaş'ın sembolü Berlin Duvarı 9 Kasım 1989'da yıkıldı, Almanya 1990'da yeniden birleşti"
+            },
+            {
+              "id": "kd2",
+              "metin": "SSCB'nin Dağılması ve Türk Cumhuriyetleri",
+              "ipucu": "SSCB 1991'de resmen dağıldı, Orta Asya'da beş Türk cumhuriyeti bağımsızlığını kazandı"
+            },
+            {
+              "id": "kd3",
+              "metin": "Körfez Savaşları",
+              "ipucu": "Irak'ın Kuveyt'i işgaliyle başlayan I. Körfez Savaşı'nda (1990-91) Türkiye, ABD öncülüğündeki koalisyona destek verdi"
+            },
+            {
+              "id": "kd4",
+              "metin": "Yugoslavya'nın Dağılması ve Balkan Savaşları",
+              "ipucu": "Sosyalist Yugoslavya 1990'ların başında dağıldı; süreç Bosna ve Kosova'da kanlı savaşlara yol açtı"
+            },
+            {
+              "id": "kd5",
+              "metin": "Türkiye-Avrupa Birliği İlişkileri",
+              "ipucu": "Türkiye 1996'da AB ile Gümrük Birliği'ni tamamladı, 1999 Helsinki Zirvesi'nde adaylık statüsü kazandı"
+            },
+            {
+              "id": "kd6",
+              "metin": "11 Eylül 2001 ve Sonrası",
+              "ipucu": "El Kaide'nin ABD'ye düzenlediği saldırılar, küresel \"teröre karşı savaş\" dönemini başlattı"
+            }
+          ],
+          "havuz": [
+            {
+              "id": "kdh1",
+              "ustId": "kd1",
+              "metin": "Berlin Duvarı, 9 Kasım 1989'da yıkıldı."
+            },
+            {
+              "id": "kdh2",
+              "ustId": "kd1",
+              "metin": "Duvar, 1961'de Doğu Almanya tarafından Doğu ve Batı Berlin'i ayırmak için inşa edilmişti."
+            },
+            {
+              "id": "kdh3",
+              "ustId": "kd1",
+              "metin": "Doğu Almanya (Alman Demokratik Cumhuriyeti) ve Batı Almanya (Almanya Federal Cumhuriyeti), 3 Ekim 1990'da resmen birleşti."
+            },
+            {
+              "id": "kdh4",
+              "ustId": "kd1",
+              "metin": "Birleşme sürecinde iki Almanya ile ABD, SSCB, İngiltere ve Fransa arasında \"2+4 Antlaşması\" imzalandı (Eylül 1990, Moskova)."
+            },
+            {
+              "id": "kdh5",
+              "ustId": "kd1",
+              "metin": "Almanya'nın birleşmesi, Soğuk Savaş'ın Avrupa'daki en önemli sembollerinden birinin sona ermesi anlamına geldi."
+            },
+            {
+              "id": "kdh6",
+              "ustId": "kd1",
+              "metin": "Helmut Kohl, birleşme döneminde Batı Almanya'nın ve ardından birleşik Almanya'nın başbakanıydı."
+            },
+            {
+              "id": "kdh7",
+              "ustId": "kd1",
+              "metin": "Berlin Duvarı'nın yıkılışı, Doğu Bloku'ndaki komünist rejimlerin çözülüş sürecinin en görünür işaretlerinden biri oldu."
+            },
+            {
+              "id": "kdh8",
+              "ustId": "kd2",
+              "metin": "SSCB, 25 Aralık 1991'de resmen dağıldı; son SSCB lideri Mihail Gorbaçov bu tarihte istifa etti."
+            },
+            {
+              "id": "kdh9",
+              "ustId": "kd2",
+              "metin": "Gorbaçov'un 1985 sonrası uyguladığı Glasnost (açıklık) ve Perestroyka (yeniden yapılanma) politikaları, SSCB'nin dağılma sürecini hızlandırdı."
+            },
+            {
+              "id": "kdh10",
+              "ustId": "kd2",
+              "metin": "SSCB'nin dağılmasıyla Azerbaycan, Kazakistan, Kırgızistan, Özbekistan ve Türkmenistan 1991'de bağımsızlıklarını ilan etti."
+            },
+            {
+              "id": "kdh11",
+              "ustId": "kd2",
+              "metin": "Türkiye, bağımsızlığını ilan eden Türk cumhuriyetlerini tanıyan ilk ülkelerden biri oldu."
+            },
+            {
+              "id": "kdh12",
+              "ustId": "kd2",
+              "metin": "SSCB'nin dağılmasının ardından eski Sovyet cumhuriyetlerinin bir kısmını kapsayan Bağımsız Devletler Topluluğu (BDT), 1991'in sonunda kuruldu."
+            },
+            {
+              "id": "kdh13",
+              "ustId": "kd2",
+              "metin": "Türk Dili Konuşan Ülkeler Devlet Başkanları Zirvesi ilk kez 1992'de Ankara'da toplandı."
+            },
+            {
+              "id": "kdh14",
+              "ustId": "kd2",
+              "metin": "TİKA (Türk İşbirliği ve Koordinasyon Ajansı), Türk cumhuriyetleriyle ilişkileri geliştirmek amacıyla 1992'de kuruldu."
+            },
+            {
+              "id": "kdh15",
+              "ustId": "kd2",
+              "metin": "SSCB'nin dağılmasıyla iki kutuplu dünya düzenine dayanan Soğuk Savaş dönemi fiilen sona erdi."
+            },
+            {
+              "id": "kdh16",
+              "ustId": "kd3",
+              "metin": "Irak, 2 Ağustos 1990'da Kuveyt'i işgal etti."
+            },
+            {
+              "id": "kdh17",
+              "ustId": "kd3",
+              "metin": "BM Güvenlik Konseyi, Irak'a ambargo uygulayarak Kuveyt'ten çekilmesini istedi."
+            },
+            {
+              "id": "kdh18",
+              "ustId": "kd3",
+              "metin": "ABD öncülüğündeki koalisyon güçleri, \"Çöl Fırtınası Harekâtı\" ile Ocak 1991'de Irak'a müdahale etti."
+            },
+            {
+              "id": "kdh19",
+              "ustId": "kd3",
+              "metin": "Türkiye, dönemin Cumhurbaşkanı Turgut Özal önderliğinde Kerkük-Yumurtalık petrol boru hattını kapattı ve İncirlik Üssü'nü koalisyon güçlerinin kullanımına açtı."
+            },
+            {
+              "id": "kdh20",
+              "ustId": "kd3",
+              "metin": "Irak, Şubat 1991'de Kuveyt'ten çekilmek zorunda kaldı."
+            },
+            {
+              "id": "kdh21",
+              "ustId": "kd3",
+              "metin": "I. Körfez Savaşı sonrasında Kuzey Irak'ta, Türkiye sınırına yakın bölgede \"Çekiç Güç\" (Provide Comfort) gücü konuşlandırıldı."
+            },
+            {
+              "id": "kdh22",
+              "ustId": "kd3",
+              "metin": "ABD önderliğindeki koalisyon, Irak'ın kitle imha silahlarına sahip olduğu iddiasıyla Mart 2003'te Irak'ı işgal ederek II. Körfez Savaşı'nı başlattı."
+            },
+            {
+              "id": "kdh23",
+              "ustId": "kd3",
+              "metin": "II. Körfez Savaşı sonucunda Saddam Hüseyin yönetimi 2003'te devrildi."
+            },
+            {
+              "id": "kdh24",
+              "ustId": "kd4",
+              "metin": "Yugoslavya, lideri Mareşal Tito'nun 1980'de ölümünün ardından iç istikrarını giderek kaybetti."
+            },
+            {
+              "id": "kdh25",
+              "ustId": "kd4",
+              "metin": "Slovenya ve Hırvatistan, 1991'de bağımsızlıklarını ilan etti."
+            },
+            {
+              "id": "kdh26",
+              "ustId": "kd4",
+              "metin": "Bosna-Hersek, 1992'de bağımsızlığını ilan etti; ardından Boşnaklar, Sırplar ve Hırvatlar arasında iç savaş başladı."
+            },
+            {
+              "id": "kdh27",
+              "ustId": "kd4",
+              "metin": "Bosna Savaşı sırasında Temmuz 1995'te Srebrenitsa'da Boşnak sivillere yönelik katliam yaşandı."
+            },
+            {
+              "id": "kdh28",
+              "ustId": "kd4",
+              "metin": "Bosna Savaşı, 1995'te ABD'de imzalanan Dayton Antlaşması ile sona erdi."
+            },
+            {
+              "id": "kdh29",
+              "ustId": "kd4",
+              "metin": "Kosova'da Sırp güçleri ile Kosova Arnavutları arasındaki çatışmalar 1998-1999'da Kosova Savaşı'na dönüştü."
+            },
+            {
+              "id": "kdh30",
+              "ustId": "kd4",
+              "metin": "NATO, 1999'da Sırbistan'a hava harekâtı düzenledi."
+            },
+            {
+              "id": "kdh31",
+              "ustId": "kd4",
+              "metin": "Yugoslavya'nın dağılma süreci sonucunda Slovenya, Hırvatistan, Bosna-Hersek, Makedonya, Sırbistan ve Karadağ gibi yeni bağımsız devletler ortaya çıktı."
+            },
+            {
+              "id": "kdh32",
+              "ustId": "kd5",
+              "metin": "Türkiye ile AET arasındaki ortaklık ilişkisi, 1963'te imzalanan Ankara Antlaşması ile başlamıştı."
+            },
+            {
+              "id": "kdh33",
+              "ustId": "kd5",
+              "metin": "Türkiye, Avrupa Ekonomik Topluluğu'na tam üyelik başvurusunu 14 Nisan 1987'de yaptı."
+            },
+            {
+              "id": "kdh34",
+              "ustId": "kd5",
+              "metin": "Türkiye-AB Gümrük Birliği Anlaşması, 1 Ocak 1996'da yürürlüğe girdi."
+            },
+            {
+              "id": "kdh35",
+              "ustId": "kd5",
+              "metin": "Aralık 1999'daki Helsinki Zirvesi'nde Türkiye'ye resmen AB'ye aday ülke statüsü verildi."
+            },
+            {
+              "id": "kdh36",
+              "ustId": "kd5",
+              "metin": "Türkiye ile AB arasındaki tam üyelik müzakereleri, 3 Ekim 2005'te resmen başladı."
+            },
+            {
+              "id": "kdh37",
+              "ustId": "kd5",
+              "metin": "Avrupa Birliği, ada bölünmüş durumdayken 2004'te Güney Kıbrıs Rum Yönetimi'ni (Kıbrıs Cumhuriyeti) üye olarak kabul etti."
+            },
+            {
+              "id": "kdh38",
+              "ustId": "kd6",
+              "metin": "11 Eylül 2001'de El Kaide örgütü, ABD'de New York'taki İkiz Kuleler'e ve Washington'daki Pentagon'a kaçırılan yolcu uçaklarıyla saldırı düzenledi."
+            },
+            {
+              "id": "kdh39",
+              "ustId": "kd6",
+              "metin": "Kaçırılan dört yolcu uçağından biri, hedefine ulaşamadan Pennsylvania'da düştü."
+            },
+            {
+              "id": "kdh40",
+              "ustId": "kd6",
+              "metin": "Saldırılar sonucunda Dünya Ticaret Merkezi'ne ait İkiz Kuleler tamamen yıkıldı."
+            },
+            {
+              "id": "kdh41",
+              "ustId": "kd6",
+              "metin": "ABD, saldırıların ardından \"teröre karşı küresel savaş\" politikasını ilan etti."
+            },
+            {
+              "id": "kdh42",
+              "ustId": "kd6",
+              "metin": "ABD önderliğindeki koalisyon güçleri, El Kaide lideri Usame bin Ladin'i barındırdığı gerekçesiyle Ekim 2001'de Afganistan'a müdahale etti ve Taliban rejimini devirdi."
+            },
+            {
+              "id": "kdh43",
+              "ustId": "kd6",
+              "metin": "11 Eylül saldırıları, dünya genelinde havalimanı güvenliği ve istihbarat uygulamalarının sıkılaştırılmasına yol açtı."
+            },
+            {
+              "id": "kdh44",
+              "ustId": "kd6",
+              "metin": "ABD'de saldırılar sonrasında İç Güvenlik Bakanlığı'nın (Department of Homeland Security) kurulması kararlaştırıldı (2002)."
+            },
+            {
+              "id": "kdh45",
+              "ustId": "kd6",
+              "metin": "El Kaide lideri Usame bin Ladin, 2011'de Pakistan'da ABD güçlerince öldürüldü."
             }
           ]
         }
