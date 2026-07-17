@@ -2105,7 +2105,9 @@
           "id": "antlasmalar",
           "baslik": "Antlaşmalar ve Sonuçları",
           "kategori": "Osmanlı Devleti",
-          "mod": "havuz",
+          "mod": "cift-havuz",
+          "ustEtiket": "Antlaşmalar",
+          "altEtiket": "Sonuçları",
           "ust": [
             { "id": "at1", "metin": "Prut Antlaşması (1711)" },
             { "id": "at2", "metin": "Pasarofça Antlaşması (1718)" },

@@ -76,11 +76,24 @@
   .geri-linki .ok{ font-size:15px; line-height:1; }
 
   /* --- kapı kartları: ders / bölüm seçimi --- */
-  .bolum-grup-baslik{
-    font-family:'Cinzel', serif; font-size:13px; letter-spacing:2px; text-transform:uppercase;
-    color: var(--altin); margin: 30px 0 4px; padding-bottom:8px; border-bottom:1px solid var(--kenar);
+  .grup-baslik{
+    background: var(--zift-panel); border:1px solid var(--kenar-belirgin);
+    border-radius:10px; padding:16px 20px; margin-top:20px; cursor:pointer;
+    display:flex; justify-content:space-between; align-items:center; gap:12px;
+    transition: border-color .15s ease, background .15s ease;
   }
-  .bolum-grup-baslik:first-child{ margin-top:0; }
+  .grup-baslik:first-child{ margin-top:0; }
+  .grup-baslik:hover{ border-color: var(--altin); background: var(--panel-2); }
+  .grup-baslik-metin{
+    font-family:'Cinzel', serif; font-size:15px; letter-spacing:1px; text-transform:uppercase; color: var(--altin);
+  }
+  .grup-baslik-detay{
+    font-family:'IBM Plex Mono', monospace; font-size:11px; color: var(--fildisi-soluk);
+    text-transform:uppercase; letter-spacing:0.5px; white-space:nowrap;
+    display:flex; align-items:center; gap:10px;
+  }
+  .grup-ok{ display:inline-block; transition: transform .15s ease; font-size:10px; }
+  .grup-baslik.acik .grup-ok{ transform: rotate(180deg); }
   .kapi-listesi{ display:flex; flex-direction:column; gap:10px; margin-top:20px; }
   .kapi{
     background: var(--zift-panel); border:1px solid var(--kenar);
@@ -309,6 +322,7 @@
   let ekran = 'ders';       // 'ders' | 'bolum' | 'oyun'
   let aktifDersId = null;
   let aktifBolumId = null;
+  let acikGruplar = new Set(); // bölüm seçiminde açık olan kategori başlıkları
 
   async function veriYukle(){
     const mesaj = document.getElementById('yuklemeMesaji');
@@ -358,7 +372,15 @@
     document.getElementById('anaBaslik').textContent = ders.baslik + ' Faslı';
     document.getElementById('anaAltbaslik').textContent = 'Bir bölüm seç.';
     geriLinkiCiz('Derslere dön', dersSecimineGit);
+    bolumListesiCiz(dersId);
+  }
 
+  // Bölüm listesini kategorilere göre gruplayıp çizer. Kategorisi olan
+  // gruplar açılır/kapanır başlık olarak gösterilir (acikGruplar'da
+  // hangilerinin açık olduğu tutulur); kategorisiz bölümler (örn. Coğrafya)
+  // eskisi gibi düz liste halinde gösterilir.
+  function bolumListesiCiz(dersId){
+    const ders = dersBul(dersId);
     const disKap = document.createElement('div');
 
     const gruplar = new Map();
@@ -370,10 +392,20 @@
 
     gruplar.forEach((bolumler, kategori) => {
       if(kategori){
+        const acik = acikGruplar.has(kategori);
         const baslikEl = document.createElement('div');
-        baslikEl.className = 'bolum-grup-baslik';
-        baslikEl.textContent = kategori;
+        baslikEl.className = 'grup-baslik' + (acik ? ' acik' : '');
+        baslikEl.innerHTML = `
+          <span class="grup-baslik-metin">${kategori}</span>
+          <span class="grup-baslik-detay">${bolumler.length} bölüm <span class="grup-ok">▾</span></span>
+        `;
+        baslikEl.onclick = () => {
+          if(acikGruplar.has(kategori)) acikGruplar.delete(kategori);
+          else acikGruplar.add(kategori);
+          bolumListesiCiz(dersId);
+        };
         disKap.appendChild(baslikEl);
+        if(!acik) return;
       }
       const kap = document.createElement('div');
       kap.className = 'kapi-listesi';
