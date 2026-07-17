@@ -5682,6 +5682,134 @@
             { "id": "vhh22", "ustId": "vh4", "metin": "Anayasa hükümleri, temel hak ve hürriyetlerin yok edilmesini amaçlayan bir faaliyeti mümkün kılacak şekilde yorumlanamaz." },
             { "id": "vhh23", "ustId": "vh4", "metin": "Savaş, seferberlik veya olağanüstü hallerde hak ve hürriyetlerin kullanılması kısmen veya tamamen durdurulabilir." }
           ]
+        },
+        {
+          "id": "yasama-tbmm",
+          "baslik": "Yasama: TBMM",
+          "kategori": "Devlet Teşkilatı",
+          "mod": "havuz",
+          "ust": [
+            { "id": "tb1", "metin": "TBMM'nin Yapısı ve Seçilmesi" },
+            { "id": "tb2", "metin": "Yasama Dokunulmazlığı ve Sorumsuzluğu" },
+            { "id": "tb3", "metin": "TBMM'nin Görev ve Yetkileri" },
+            { "id": "tb4", "metin": "Kanunların Yapılması Süreci" },
+            { "id": "tb5", "metin": "TBMM'nin Toplanması" }
+          ],
+          "havuz": [
+            { "id": "tbh1", "ustId": "tb1", "metin": "TBMM, genel oyla seçilen 600 milletvekilinden oluşur." },
+            { "id": "tbh2", "ustId": "tb1", "metin": "Milletvekili seçilme yaşı 18'dir." },
+            { "id": "tbh3", "ustId": "tb1", "metin": "Milletvekili genel seçimleri beş yılda bir yapılır." },
+            { "id": "tbh4", "ustId": "tb1", "metin": "Seçimler serbest, eşit, gizli, tek dereceli, genel oy, açık sayım ve döküm esaslarına göre yapılır." },
+            { "id": "tbh5", "ustId": "tb2", "metin": "Yasama sorumsuzluğu: TBMM üyeleri, Meclis çalışmalarındaki oy ve sözlerinden, ileri sürdüğü düşüncelerden sorumlu tutulamaz." },
+            { "id": "tbh6", "ustId": "tb2", "metin": "Yasama dokunulmazlığı: Suç işlediği ileri sürülen milletvekili, Meclisin kararı olmadıkça tutulamaz, sorguya çekilemez, tutuklanamaz ve yargılanamaz." },
+            { "id": "tbh7", "ustId": "tb2", "metin": "Dokunulmazlığın kaldırılmasına Meclis Genel Kurulu karar verir." },
+            { "id": "tbh8", "ustId": "tb3", "metin": "Kanun koymak, değiştirmek ve kaldırmak." },
+            { "id": "tbh9", "ustId": "tb3", "metin": "Bütçe ve kesin hesap kanun tekliflerini görüşmek ve kabul etmek." },
+            { "id": "tbh10", "ustId": "tb3", "metin": "Para basılmasına ve savaş ilanına karar vermek." },
+            { "id": "tbh11", "ustId": "tb3", "metin": "Milletlerarası antlaşmaların onaylanmasını uygun bulmak." },
+            { "id": "tbh12", "ustId": "tb3", "metin": "Genel ve özel af ilanına karar vermek." },
+            { "id": "tbh13", "ustId": "tb4", "metin": "Kanun teklif etme yetkisi milletvekillerine aittir." },
+            { "id": "tbh14", "ustId": "tb4", "metin": "Kanun teklifleri Genel Kurulda görüşülüp kabul edildikten sonra Cumhurbaşkanına gönderilir." },
+            { "id": "tbh15", "ustId": "tb4", "metin": "Cumhurbaşkanı kanunu on beş gün içinde yayımlar veya bir daha görüşülmek üzere TBMM'ye geri gönderebilir." },
+            { "id": "tbh16", "ustId": "tb4", "metin": "TBMM, geri gönderilen kanunu aynen kabul ederse kanun Cumhurbaşkanınca yayımlanmak zorundadır." },
+            { "id": "tbh17", "ustId": "tb5", "metin": "TBMM, her yıl Ekim ayının ilk günü kendiliğinden toplanır." },
+            { "id": "tbh18", "ustId": "tb5", "metin": "Meclis, bir yasama yılında en çok üç ay tatil yapabilir." }
+          ]
+        },
+        {
+          "id": "yurutme-cumhurbaskanligi",
+          "baslik": "Yürütme: Cumhurbaşkanlığı",
+          "kategori": "Devlet Teşkilatı",
+          "mod": "havuz",
+          "ust": [
+            { "id": "cb1", "metin": "Cumhurbaşkanının Seçilmesi" },
+            { "id": "cb2", "metin": "Cumhurbaşkanının Görev ve Yetkileri" },
+            { "id": "cb3", "metin": "Cumhurbaşkanı Yardımcıları ve Bakanlar" },
+            { "id": "cb4", "metin": "Cumhurbaşkanlığı Kararnamesi" },
+            { "id": "cb5", "metin": "Cumhurbaşkanının Cezai Sorumluluğu" }
+          ],
+          "havuz": [
+            { "id": "cbh1", "ustId": "cb1", "metin": "Cumhurbaşkanı, kırk yaşını doldurmuş, yükseköğrenim yapmış Türk vatandaşları arasından halk tarafından seçilir." },
+            { "id": "cbh2", "ustId": "cb1", "metin": "Cumhurbaşkanının görev süresi beş yıldır; bir kişi en fazla iki defa seçilebilir." },
+            { "id": "cbh3", "ustId": "cb1", "metin": "Cumhurbaşkanlığına, siyasi parti grupları ile en az yüz bin seçmen aday gösterebilir." },
+            { "id": "cbh4", "ustId": "cb1", "metin": "İlk oylamada gerekli çoğunluk sağlanamazsa ikinci oylamaya gidilir." },
+            { "id": "cbh5", "ustId": "cb2", "metin": "Gerekli gördüğü takdirde yasama yılının ilk günü TBMM'de açılış konuşmasını yapmak." },
+            { "id": "cbh6", "ustId": "cb2", "metin": "Milletlerarası antlaşmaları onaylamak ve yayımlamak." },
+            { "id": "cbh7", "ustId": "cb2", "metin": "TBMM seçimlerinin yenilenmesine karar vermek." },
+            { "id": "cbh8", "ustId": "cb2", "metin": "Üst kademe kamu yöneticilerini atamak, atamalarına ilişkin usul ve esasları kararnameyle düzenlemek." },
+            { "id": "cbh9", "ustId": "cb2", "metin": "Yabancı devletlere Türk Devletinin temsilcilerini göndermek, yabancı devlet temsilcilerini kabul etmek." },
+            { "id": "cbh10", "ustId": "cb3", "metin": "Cumhurbaşkanı, seçildikten sonra gerekli gördüğü takdirde bir veya daha fazla Cumhurbaşkanı yardımcısı atayabilir." },
+            { "id": "cbh11", "ustId": "cb3", "metin": "Bakanlar, Cumhurbaşkanınca atanır ve görevden alınır." },
+            { "id": "cbh12", "ustId": "cb3", "metin": "Bakanlar, Cumhurbaşkanına karşı sorumludur." },
+            { "id": "cbh13", "ustId": "cb4", "metin": "Cumhurbaşkanı, yürütme yetkisine ilişkin konularda Cumhurbaşkanlığı kararnamesi çıkarabilir." },
+            { "id": "cbh14", "ustId": "cb4", "metin": "Temel haklar, kişi hakları ve siyasi haklar Cumhurbaşkanlığı kararnamesiyle düzenlenemez." },
+            { "id": "cbh15", "ustId": "cb4", "metin": "Kanunda açıkça düzenlenen konularda Cumhurbaşkanlığı kararnamesi çıkarılamaz." },
+            { "id": "cbh16", "ustId": "cb4", "metin": "Kararname ile kanun aynı konuda farklı hükümler içeriyorsa kanun hükümleri uygulanır." },
+            { "id": "cbh17", "ustId": "cb5", "metin": "Cumhurbaşkanı hakkında, TBMM üye tam sayısının salt çoğunluğunun önergesiyle Meclis soruşturması açılması istenebilir." },
+            { "id": "cbh18", "ustId": "cb5", "metin": "Meclis soruşturması sonucunda üye tam sayısının üçte iki çoğunluğuyla Yüce Divana sevk kararı alınabilir." },
+            { "id": "cbh19", "ustId": "cb5", "metin": "Yüce Divan sıfatıyla yargılama Anayasa Mahkemesince yapılır." }
+          ]
+        },
+        {
+          "id": "yargi-organlari",
+          "baslik": "Yargı Organları",
+          "kategori": "Devlet Teşkilatı",
+          "mod": "cift-havuz",
+          "ustEtiket": "Yargı Organları",
+          "altEtiket": "Görevleri",
+          "ust": [
+            { "id": "yo1", "metin": "Anayasa Mahkemesi" },
+            { "id": "yo2", "metin": "Yargıtay" },
+            { "id": "yo3", "metin": "Danıştay" },
+            { "id": "yo4", "metin": "Sayıştay" },
+            { "id": "yo5", "metin": "Hâkimler ve Savcılar Kurulu (HSK)" },
+            { "id": "yo6", "metin": "Uyuşmazlık Mahkemesi" }
+          ],
+          "havuz": [
+            { "id": "yoh1", "ustId": "yo1", "metin": "Kanunların, Cumhurbaşkanlığı kararnamelerinin ve TBMM İçtüzüğünün Anayasaya uygunluğunu denetler." },
+            { "id": "yoh2", "ustId": "yo1", "metin": "Bireysel başvuruları (anayasa şikâyeti) inceler." },
+            { "id": "yoh3", "ustId": "yo1", "metin": "Cumhurbaşkanını, TBMM Başkanını ve bakanları Yüce Divan sıfatıyla yargılar." },
+            { "id": "yoh4", "ustId": "yo1", "metin": "Siyasi partilerin kapatılması davalarına bakar." },
+            { "id": "yoh5", "ustId": "yo2", "metin": "Adli yargının en yüksek mahkemesidir; temyiz mercii olarak görev yapar." },
+            { "id": "yoh6", "ustId": "yo2", "metin": "Bölge adliye mahkemelerinden (istinaf) gelen kararları inceler." },
+            { "id": "yoh7", "ustId": "yo3", "metin": "İdari yargının en yüksek mahkemesidir." },
+            { "id": "yoh8", "ustId": "yo3", "metin": "İdari uyuşmazlıkları ve davaları görür, yönetmelikleri inceler." },
+            { "id": "yoh9", "ustId": "yo3", "metin": "Cumhurbaşkanınca gönderilen kanun tasarıları hakkında düşüncesini bildirir." },
+            { "id": "yoh10", "ustId": "yo4", "metin": "Genel ve özel bütçeli idarelerin gelir ve giderleriyle mallarını TBMM adına denetler." },
+            { "id": "yoh11", "ustId": "yo4", "metin": "Sorumluların hesap ve işlemlerini kesin hükme bağlar." },
+            { "id": "yoh12", "ustId": "yo4", "metin": "Kararlarına karşı ilgililer bir kereye mahsus karar düzeltilmesi isteminde bulunabilir." },
+            { "id": "yoh13", "ustId": "yo5", "metin": "Hâkim ve savcıların mesleğe kabul, atama, nakil, disiplin gibi özlük işlerini yürütür." },
+            { "id": "yoh14", "ustId": "yo5", "metin": "Adalet Bakanı Kurulun Başkanıdır; Bakanlık Müsteşarı tabii üyedir." },
+            { "id": "yoh15", "ustId": "yo6", "metin": "Adli, idari ve askeri yargı mercileri arasındaki görev ve hüküm uyuşmazlıklarını kesin olarak çözümler." }
+          ]
+        },
+        {
+          "id": "idare-teskilati-vatandaslik",
+          "baslik": "İdare Teşkilatı: Merkezi ve Yerinden Yönetim",
+          "kategori": "Devlet Teşkilatı",
+          "mod": "havuz",
+          "ust": [
+            { "id": "it1", "metin": "Merkezi İdare (Başkent ve Taşra Teşkilatı)" },
+            { "id": "it2", "metin": "İl Özel İdaresi" },
+            { "id": "it3", "metin": "Belediye" },
+            { "id": "it4", "metin": "Köy ve Muhtarlık" },
+            { "id": "it5", "metin": "Kamu Kurumu Niteliğindeki Meslek Kuruluşları" }
+          ],
+          "havuz": [
+            { "id": "ith1", "ustId": "it1", "metin": "Türkiye, merkezi idare kuruluşu bakımından coğrafya durumuna ve kamu hizmetlerinin gereklerine göre illere ayrılır." },
+            { "id": "ith2", "ustId": "it1", "metin": "İllerin idaresi yetki genişliği esasına dayanır." },
+            { "id": "ith3", "ustId": "it1", "metin": "İlin başında vali bulunur; vali, Cumhurbaşkanı tarafından atanır ve devletin/hükûmetin temsilcisidir." },
+            { "id": "ith4", "ustId": "it2", "metin": "İl özel idaresi, il halkının mahalli müşterek ihtiyaçlarını karşılamak üzere kurulan kamu tüzel kişisidir." },
+            { "id": "ith5", "ustId": "it2", "metin": "Karar organı il genel meclisi, yürütme organı validir." },
+            { "id": "ith6", "ustId": "it3", "metin": "Belde sakinlerinin mahalli müşterek ihtiyaçlarını karşılamak üzere kurulan kamu tüzel kişisidir." },
+            { "id": "ith7", "ustId": "it3", "metin": "Belediye başkanı ve belediye meclisi halk tarafından seçilir." },
+            { "id": "ith8", "ustId": "it3", "metin": "Büyükşehir belediyeleri, nüfusu ve yasada belirtilen ölçütleri sağlayan illerde kurulur." },
+            { "id": "ith9", "ustId": "it4", "metin": "Köy, sınırları içinde bulunan yerleşim biriminin en küçük yerleşim ve yönetim birimidir." },
+            { "id": "ith10", "ustId": "it4", "metin": "Köyün karar organı köy derneği, yürütme organı muhtar ve ihtiyar meclisidir." },
+            { "id": "ith11", "ustId": "it4", "metin": "Muhtar, köy halkı tarafından seçilir." },
+            { "id": "ith12", "ustId": "it5", "metin": "Belli bir mesleğe mensup olanların ortak ihtiyaçlarını karşılamak amacıyla kanunla kurulan kamu tüzel kişileridir (örn. barolar, TTB, TMMOB, ticaret ve sanayi odaları)." },
+            { "id": "ith13", "ustId": "it5", "metin": "Organları, üyeleri tarafından kanunda gösterilen usullere göre gizli oyla seçilir." }
+          ]
         }
       ]
     }
