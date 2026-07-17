@@ -5584,7 +5584,106 @@
       "id": "vatandaslik",
       "baslik": "Vatandaşlık",
       "aktif": false,
-      "bolumler": []
+      "bolumler": [
+        {
+          "id": "anayasal-temel-ilkeler",
+          "baslik": "Anayasal Temel İlkeler ve Değiştirilemez Maddeler",
+          "kategori": "Anayasa Hukuku",
+          "mod": "havuz",
+          "ust": [
+            { "id": "va1", "metin": "Madde 1 — Devlet Şekli" },
+            { "id": "va2", "metin": "Madde 2 — Cumhuriyetin Nitelikleri" },
+            { "id": "va3", "metin": "Madde 3 — Devletin Bütünlüğü, Dili, Bayrağı, Marşı, Başkenti" },
+            { "id": "va4", "metin": "Madde 4 — Değiştirilemeyecek Hükümler" },
+            { "id": "va5", "metin": "Madde 5 — Devletin Temel Amaç ve Görevleri" },
+            { "id": "va6", "metin": "Madde 6 — Egemenlik" }
+          ],
+          "havuz": [
+            { "id": "vah1", "ustId": "va1", "metin": "Türkiye Devleti bir Cumhuriyettir." },
+            { "id": "vah2", "ustId": "va2", "metin": "Toplumun huzuru, millî dayanışma ve adalet anlayışı içinde, insan haklarına saygılı bir devlettir." },
+            { "id": "vah3", "ustId": "va2", "metin": "Atatürk milliyetçiliğine bağlı, başlangıçtaki temel ilkelere dayanan bir devlettir." },
+            { "id": "vah4", "ustId": "va2", "metin": "Demokratik, laik ve sosyal bir hukuk devletidir." },
+            { "id": "vah5", "ustId": "va3", "metin": "Türkiye Devleti, ülkesi ve milletiyle bölünmez bir bütündür; dili Türkçedir." },
+            { "id": "vah6", "ustId": "va3", "metin": "Bayrağı, şekli kanununda belirtilen, beyaz ay yıldızlı al bayraktır." },
+            { "id": "vah7", "ustId": "va3", "metin": "Millî marşı İstiklal Marşı'dır." },
+            { "id": "vah8", "ustId": "va3", "metin": "Başkenti Ankara'dır." },
+            { "id": "vah9", "ustId": "va4", "metin": "1, 2 ve 3. maddeler ile 4. maddenin değiştirilemeyeceği hükmü değiştirilemez, değiştirilmesi teklif dahi edilemez." },
+            { "id": "vah10", "ustId": "va5", "metin": "Milletin bağımsızlığını ve bütünlüğünü, ülkenin bölünmezliğini korumak." },
+            { "id": "vah11", "ustId": "va5", "metin": "Kişinin temel hak ve hürriyetlerini, sosyal hukuk devleti ve adalet ilkeleriyle bağdaşmayacak surette sınırlayan engelleri kaldırmaya çalışmak." },
+            { "id": "vah12", "ustId": "va6", "metin": "Egemenlik, kayıtsız şartsız Milletindir." },
+            { "id": "vah13", "ustId": "va6", "metin": "Türk Milleti, egemenliğini, Anayasanın koyduğu esaslara göre, yetkili organları eliyle kullanır." },
+            { "id": "vah14", "ustId": "va6", "metin": "Egemenliğin kullanılması hiçbir surette bir kişiye, zümreye veya sınıfa bırakılamaz." }
+          ]
+        },
+        {
+          "id": "anayasalarimizin-tarihcesi",
+          "baslik": "Anayasalarımızın Tarihçesi: 1921 - 1924 - 1961 - 1982",
+          "kategori": "Anayasa Hukuku",
+          "mod": "havuz",
+          "ust": [
+            { "id": "vt1", "metin": "1921 Anayasası (Teşkilat-ı Esasiye)" },
+            { "id": "vt2", "metin": "1924 Anayasası" },
+            { "id": "vt3", "metin": "1961 Anayasası" },
+            { "id": "vt4", "metin": "1982 Anayasası" }
+          ],
+          "havuz": [
+            { "id": "vth1", "ustId": "vt1", "metin": "Kısa ve sert bir anayasadır, olağanüstü şartlarda hazırlanmıştır (23 madde)." },
+            { "id": "vth2", "ustId": "vt1", "metin": "Güçler birliği ilkesini benimsemiştir; yasama ve yürütme yetkisi TBMM'de toplanmıştır." },
+            { "id": "vth3", "ustId": "vt1", "metin": "Egemenliğin kayıtsız şartsız millete ait olduğunu ilk kez belirtmiştir." },
+            { "id": "vth4", "ustId": "vt1", "metin": "1923'te yapılan değişiklikle devletin şeklinin Cumhuriyet olduğu eklenmiştir." },
+            { "id": "vth5", "ustId": "vt2", "metin": "Cumhuriyet döneminin ilk kapsamlı anayasasıdır; en uzun süre yürürlükte kalan anayasamızdır." },
+            { "id": "vth6", "ustId": "vt2", "metin": "Güçler birliği ve görevler ayrılığı ilkesini benimsemiştir (yasama üstünlüğü)." },
+            { "id": "vth7", "ustId": "vt2", "metin": "1937'de Atatürk ilkeleri (Cumhuriyetçilik, Milliyetçilik, Halkçılık, Devletçilik, Laiklik, İnkılapçılık) anayasaya eklenmiştir." },
+            { "id": "vth8", "ustId": "vt2", "metin": "Sert bir anayasadır; TBMM üye tam sayısının üçte iki çoğunluğuyla değiştirilebilir." },
+            { "id": "vth9", "ustId": "vt3", "metin": "27 Mayıs 1960 müdahalesinin ardından hazırlanmış, halkoyuyla kabul edilen ilk anayasamızdır." },
+            { "id": "vth10", "ustId": "vt3", "metin": "Kurucu Meclis tarafından hazırlanmıştır." },
+            { "id": "vth11", "ustId": "vt3", "metin": "Çoğulcu demokrasi anlayışını getirmiş, temel hak ve özgürlükleri genişletmiştir." },
+            { "id": "vth12", "ustId": "vt3", "metin": "Anayasa Mahkemesi ilk kez bu anayasayla kurulmuştur." },
+            { "id": "vth13", "ustId": "vt3", "metin": "Çift meclisli yapı (Millet Meclisi + Cumhuriyet Senatosu) getirilmiştir." },
+            { "id": "vth14", "ustId": "vt4", "metin": "12 Eylül 1980 müdahalesinin ardından hazırlanmış, halkoylamasıyla kabul edilen hâlen yürürlükteki anayasamızdır." },
+            { "id": "vth15", "ustId": "vt4", "metin": "Danışma Meclisi ve Millî Güvenlik Konseyi tarafından hazırlanmıştır." },
+            { "id": "vth16", "ustId": "vt4", "metin": "Cumhuriyet Senatosu kaldırılmış, tek meclisli (TBMM) yapıya geçilmiştir." },
+            { "id": "vth17", "ustId": "vt4", "metin": "2017 halkoylamasıyla parlamenter sistemden Cumhurbaşkanlığı hükûmet sistemine geçilmiştir; en çok değişikliğe uğrayan anayasamızdır." }
+          ]
+        },
+        {
+          "id": "temel-hak-ve-ozgurlukler",
+          "baslik": "Temel Hak ve Özgürlükler",
+          "kategori": "Anayasa Hukuku",
+          "mod": "havuz",
+          "ust": [
+            { "id": "vh1", "metin": "Kişi Hakları ve Ödevleri" },
+            { "id": "vh2", "metin": "Sosyal ve Ekonomik Haklar ve Ödevler" },
+            { "id": "vh3", "metin": "Siyasi Haklar ve Ödevler" },
+            { "id": "vh4", "metin": "Hakların Sınırlanması" }
+          ],
+          "havuz": [
+            { "id": "vhh1", "ustId": "vh1", "metin": "Yaşama hakkı, maddi ve manevi varlığın korunması ve geliştirilmesi" },
+            { "id": "vhh2", "ustId": "vh1", "metin": "Kişi hürriyeti ve güvenliği" },
+            { "id": "vhh3", "ustId": "vh1", "metin": "Özel hayatın gizliliği ve konut dokunulmazlığı" },
+            { "id": "vhh4", "ustId": "vh1", "metin": "Haberleşme hürriyeti" },
+            { "id": "vhh5", "ustId": "vh1", "metin": "Yerleşme ve seyahat hürriyeti" },
+            { "id": "vhh6", "ustId": "vh1", "metin": "Din ve vicdan hürriyeti" },
+            { "id": "vhh7", "ustId": "vh1", "metin": "Düşünceyi açıklama ve yayma hürriyeti" },
+            { "id": "vhh8", "ustId": "vh2", "metin": "Ailenin korunması ve çocuk hakları" },
+            { "id": "vhh9", "ustId": "vh2", "metin": "Eğitim ve öğrenim hakkı ve ödevi" },
+            { "id": "vhh10", "ustId": "vh2", "metin": "Çalışma ve sözleşme hürriyeti" },
+            { "id": "vhh11", "ustId": "vh2", "metin": "Sendika kurma hakkı" },
+            { "id": "vhh12", "ustId": "vh2", "metin": "Sağlıklı ve dengeli bir çevrede yaşama hakkı" },
+            { "id": "vhh13", "ustId": "vh2", "metin": "Sosyal güvenlik hakkı" },
+            { "id": "vhh14", "ustId": "vh3", "metin": "Türk vatandaşlığı" },
+            { "id": "vhh15", "ustId": "vh3", "metin": "Seçme, seçilme ve siyasi faaliyette bulunma hakları" },
+            { "id": "vhh16", "ustId": "vh3", "metin": "Parti kurma, partilere girme ve partiden ayrılma hakkı" },
+            { "id": "vhh17", "ustId": "vh3", "metin": "Kamu hizmetlerine girme hakkı" },
+            { "id": "vhh18", "ustId": "vh3", "metin": "Vatan hizmeti (askerlik ödevi) ve vergi ödevi" },
+            { "id": "vhh19", "ustId": "vh3", "metin": "Dilekçe, bilgi edinme ve kamu denetçisine (ombudsman) başvurma hakkı" },
+            { "id": "vhh20", "ustId": "vh4", "metin": "Temel hak ve hürriyetler, Anayasanın ilgili maddelerinde belirtilen sebeplere bağlı olarak ve ancak kanunla sınırlanabilir." },
+            { "id": "vhh21", "ustId": "vh4", "metin": "Sınırlamalar, Anayasanın sözüne ve ruhuna, demokratik toplum düzeninin gereklerine ve ölçülülük ilkesine aykırı olamaz." },
+            { "id": "vhh22", "ustId": "vh4", "metin": "Anayasa hükümleri, temel hak ve hürriyetlerin yok edilmesini amaçlayan bir faaliyeti mümkün kılacak şekilde yorumlanamaz." },
+            { "id": "vhh23", "ustId": "vh4", "metin": "Savaş, seferberlik veya olağanüstü hallerde hak ve hürriyetlerin kullanılması kısmen veya tamamen durdurulabilir." }
+          ]
+        }
+      ]
     }
   ]
 }
